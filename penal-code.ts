@@ -305,7 +305,7 @@ const PenalCode: PenalCode[] = [
         id: 2007,
         months: 25,
         fine: 1000,
-        description: "A person who, alone or in concert with others, takes property from the person or immediate presence of another, against their will, by means of force or fear, including but not limited to criminal threats, assault, or battery, is guilty under this code section.",
+        description: "A person who, acting alone or in concert with others, unlawfully takes personal property belonging to an individual or business from another person or their immediate presence, against their will, by means of force, intimidation, or fear, is guilty under this code section.",
       },
       8: {
         title: "Accessory to Robbery",
@@ -313,7 +313,7 @@ const PenalCode: PenalCode[] = [
         id: 2008,
         months: 12,
         fine: 200,
-        description: "A person who, without directly committing the act of robbery, knowingly aids, assists, encourages, or facilitates the commission of a robbery by another person is guilty under this code section.",
+        description: "A person who, without directly committing the act of robbery, knowingly aids, assists, abets, or facilitates the commission of a robbery by another person is guilty under this code section.",
       },
       9: {
         title: "Attempted Robbery",
@@ -321,7 +321,7 @@ const PenalCode: PenalCode[] = [
         id: 2009,
         months: 15,
         fine: 300,
-        description: "A person who, alone or in concert with others, attempts to take property from the person or immediate presence of another, against their will, by means of force or fear, including but not limited to criminal threats, assault, or battery, is guilty under this code section.",
+        description: "A person who, acting alone or in concert with others, attempts to unlawfully takes personal property belonging to an individual or business from another person or their immediate presence, against their will, by means of force, intimidation, or fear, is guilty under this code section.",
       },
       10: {
         title: "Armed Robbery",
@@ -329,7 +329,7 @@ const PenalCode: PenalCode[] = [
         id: 2010,
         months: 25,
         fine: 1500,
-        description: "A person who, alone or in concert with others, takes property from the person or immediate presence of another, against their will, by means of force or fear while using or brandishing a firearm or other deadly weapon, is guilty under this code section.",
+        description: "A person who, alone or in concert with others, takes property from the person or immediate presence of another, against their will, by means of force or fear, while using or brandishing a firearm or other deadly weapon, is guilty under this code section.",
       },
       11: {
         title: "Accessory to Armed Robbery",
@@ -345,7 +345,7 @@ const PenalCode: PenalCode[] = [
         id: 2012,
         months: 25,
         fine: 300,
-        description: "A person who, alone or in concert with others, attempts to take property from the person or immediate presence of another, against their will, by means of force or fear while using or brandishing a firearm or other deadly weapon, is guilty under this code section.",
+        description: "A person who, alone or in concert with others, attempts to take property from the person or immediate presence of another, against their will, by means of force or fear, while using or brandishing a firearm or other deadly weapon, is guilty under this code section.",
       },
       13: {
         title: "Grand Larceny",
