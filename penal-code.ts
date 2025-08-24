@@ -313,7 +313,8 @@ const PenalCode: PenalCode[] = [
         id: 2008,
         months: 12,
         fine: 200,
-        description: "A person who, without direct role in the commission of the act, knowingly assists in the avoidance of arrest and prosecution of a person comitting robbery is guilty under this code section.",
+        description: "A person who, without directly committing the act of robbery, knowingly aids, assists, encourages, or facilitates the commission of a robbery by another person is guilty under this code section.",
+
       },
       9: {
         title: "Attempted Robbery",
@@ -337,7 +338,7 @@ const PenalCode: PenalCode[] = [
         id: 2011,
         months: 12,
         fine: 300,
-        description: "A person who, without direct role in the commission of the act, knowingly assists in the avoidance of arrest and prosecution of a person comitting armed robbery is guilty under this code section.",
+        description: "A person who, without directly committing the act of armed robbery, knowingly aids, assists, encourages, or facilitates the commission of armed robbery by another person, is guilty under this code section.",
       },
       12: {
         title: "Attempted Armed Robbery",
