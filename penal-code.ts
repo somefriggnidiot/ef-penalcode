@@ -1204,15 +1204,15 @@ const PenalCode: PenalCode[] = [
         class: "Misdemeanor",
         id: 9002,
         months: 10,
-        fine: 200,
+        fine: 350,
         description: "A person who, while operating a vehicle on land, sea, or in air, or while operating a bicycle, willfully flees or otherwise attempts to elude or avoid a pursuing peace officer who communicates visually or audibly their request to pull over or stop is guilty under this code.",
       },
       3: {
         title: "Reckless Evading",
         class: "Felony",
         id: 9003,
-        months: 15,
-        fine: 750,
+        months: 20,
+        fine: 1500,
         description: "A person who, while operating a vehicle on land, sea, or in air, or while operating a bicycle, willfully flees or otherwise attempts to elude or avoid a pursuing peace officer in a reckless or dangerous manner, defined as failure to maintain correct lanes of travel, excessive variability in rates of speed (ie. brake checking), or shows an imminent threat to the wellbeing of the general public, is guilty under this code section.",
       },
       4: {
