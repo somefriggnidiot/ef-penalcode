@@ -1423,6 +1423,14 @@ const PenalCode: PenalCode[] = [
         fine: 350,
         description: "Individuals who use a motor vehicle in a way that causes public disturbance are guilty under this code section. Examples of public disturbance include excessive burnouts, repeated revving of engine, loud music, and improper use of a horn.",
       },
+      26: {
+        title: "Commercial Vehicle Violation",
+        class: "Infraction",
+        id: 9026,
+        months: 0,
+        fine: 1000,
+        description: "An owner or driver of a commercial vehicle who fails a San Andreas Department of Transportation inspection is in violation of this code section.",
+      },
     },
   },
 
