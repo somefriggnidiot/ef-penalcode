@@ -63,7 +63,17 @@
                                               "operation":  "multiply",
                                               "value":  1.25
                                           }
-                                      ]
+                                      ],
+                          "sourceCodes":  [
+                                              "PC-1029",
+                                              "PC-1014",
+                                              "PC-1023"
+                                          ],
+                          "sourceTitles":  [
+                                               "Battery on a Public Servant or Peace Officer",
+                                               "Murder of a Public Servant or Peace Officer",
+                                               "Unlawful Imprisonment of a Public Servant or Peace Officer."
+                                           ]
                       },
                       {
                           "id":  "cooperation",
@@ -112,7 +122,15 @@
                                               "operation":  "multiply",
                                               "value":  1.35
                                           }
-                                      ]
+                                      ],
+                          "sourceCodes":  [
+                                              "PC-1004",
+                                              "PC-2010"
+                                          ],
+                          "sourceTitles":  [
+                                               "Assault with a Deadly Weapon",
+                                               "Armed Robbery"
+                                           ]
                       },
                       {
                           "id":  "multiple-victims",
@@ -339,7 +357,7 @@
                                             "PC-1003",
                                             "PC-1004"
                                         ],
-                        "migrationNotes":  "Clear severity family from simple assault through deadly-weapon assault.",
+                        "migrationNotes":  "Assault with a Deadly Weapon was converted to weapon-used modifier eligibility; source PC-1004 is preserved on the modifier.",
                         "degrees":  [
                                         {
                                             "id":  "simple-assault",
@@ -445,34 +463,6 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ]
-                                        },
-                                        {
-                                            "id":  "assault-with-a-deadly-weapon",
-                                            "label":  "Assault with a Deadly Weapon",
-                                            "sourceCode":  "PC-1004",
-                                            "sourceTitle":  "Assault with a Deadly Weapon",
-                                            "description":  "A person who attempts to cause or threaten immediate harm to another while using a weapon, tool, or other dangerous item to communicate that threat is guilty under this code section.",
-                                            "classification":  "felony",
-                                            "baseFine":  475,
-                                            "baseTime":  20,
-                                            "liabilityOptions":  [
-                                                                     {
-                                                                         "id":  "principal",
-                                                                         "label":  "Principal Actor",
-                                                                         "fineMultiplier":  1,
-                                                                         "timeMultiplier":  1
-                                                                     }
-                                                                 ],
-                                            "modifierIds":  [
-                                                                "public-servant-victim",
-                                                                "cooperation",
-                                                                "multiple-victims",
-                                                                "medical-aid-rendered",
-                                                                "prior-conviction",
-                                                                "minimal-participation",
-                                                                "voluntary-surrender",
-                                                                "first-offense"
-                                                            ]
                                         }
                                     ]
                     },
@@ -487,7 +477,7 @@
                                             "PC-1006",
                                             "PC-1029"
                                         ],
-                        "migrationNotes":  "Public-servant battery remains a degree in this pass; charge/modifier overlap is deferred.",
+                        "migrationNotes":  "Battery on a Public Servant or Peace Officer was converted to public-servant-victim modifier eligibility; source PC-1029 is preserved on the modifier.",
                         "degrees":  [
                                         {
                                             "id":  "battery",
@@ -537,33 +527,6 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "public-servant-victim",
-                                                                "cooperation",
-                                                                "multiple-victims",
-                                                                "medical-aid-rendered",
-                                                                "prior-conviction",
-                                                                "minimal-participation",
-                                                                "voluntary-surrender",
-                                                                "first-offense"
-                                                            ]
-                                        },
-                                        {
-                                            "id":  "battery-on-a-public-servant-or-peace-officer",
-                                            "label":  "Battery on a Public Servant or Peace Officer",
-                                            "sourceCode":  "PC-1029",
-                                            "sourceTitle":  "Battery on a Public Servant or Peace Officer",
-                                            "description":  "A person who intentionally and unlawfully applies force directly or indirectly upon a public servant or peace officer, while in the execution of their duties, is guilty under this code section.",
-                                            "classification":  "felony",
-                                            "baseFine":  1250,
-                                            "baseTime":  25,
-                                            "liabilityOptions":  [
-                                                                     {
-                                                                         "id":  "principal",
-                                                                         "label":  "Principal Actor",
-                                                                         "fineMultiplier":  1,
-                                                                         "timeMultiplier":  1
-                                                                     }
-                                                                 ],
-                                            "modifierIds":  [
                                                                 "cooperation",
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
@@ -659,7 +622,7 @@
                                             "PC-1015",
                                             "PC-1016"
                                         ],
-                        "migrationNotes":  "Attempted/accessory murder charges become liability options tied to the relevant murder degree during migration.",
+                        "migrationNotes":  "Murder of a Public Servant or Peace Officer was converted to public-servant-victim modifier eligibility; source PC-1014 is preserved on the modifier. Public-servant attempted/accessory source options remain attached to First Degree Murder.",
                         "degrees":  [
                                         {
                                             "id":  "second-degree-murder",
@@ -728,53 +691,26 @@
                                                                          "sourceTitle":  "Accessory to First Degree Murder",
                                                                          "fineMultiplier":  0.6,
                                                                          "timeMultiplier":  0.7
-                                                                     }
-                                                                 ],
-                                            "modifierIds":  [
-                                                                "public-servant-victim",
-                                                                "cooperation",
-                                                                "multiple-victims",
-                                                                "medical-aid-rendered",
-                                                                "prior-conviction",
-                                                                "minimal-participation",
-                                                                "voluntary-surrender",
-                                                                "first-offense"
-                                                            ]
-                                        },
-                                        {
-                                            "id":  "murder-of-a-public-servant-or-peace-officer",
-                                            "label":  "Murder of a Public Servant or Peace Officer",
-                                            "sourceCode":  "PC-1014",
-                                            "sourceTitle":  "Murder of a Public Servant or Peace Officer",
-                                            "description":  "A person who commits the intentional killing of a public servant or peace officer, while in the execution of their duties, in a way that is willful, deliberate and premeditated is guilty under this code section.",
-                                            "classification":  "felony",
-                                            "baseFine":  12000,
-                                            "baseTime":  120,
-                                            "liabilityOptions":  [
-                                                                     {
-                                                                         "id":  "principal",
-                                                                         "label":  "Principal Actor",
-                                                                         "fineMultiplier":  1,
-                                                                         "timeMultiplier":  1
                                                                      },
                                                                      {
                                                                          "id":  "accessory-to-the-murder-of-a-public-servant-or-peace-officer",
                                                                          "label":  "Accessory to the Murder of a Public Servant or Peace Officer",
                                                                          "sourceCode":  "PC-1016",
                                                                          "sourceTitle":  "Accessory to the Murder of a Public Servant or Peace Officer",
-                                                                         "fineMultiplier":  0.4167,
-                                                                         "timeMultiplier":  0.4167
+                                                                         "fineMultiplier":  2,
+                                                                         "timeMultiplier":  1
                                                                      },
                                                                      {
                                                                          "id":  "attempted-murder-of-a-public-servant-or-peace-officer",
                                                                          "label":  "Attempted Murder of a Public Servant or Peace Officer",
                                                                          "sourceCode":  "PC-1015",
                                                                          "sourceTitle":  "Attempted Murder of a Public Servant or Peace Officer",
-                                                                         "fineMultiplier":  0.7917,
-                                                                         "timeMultiplier":  0.6667
+                                                                         "fineMultiplier":  3.8,
+                                                                         "timeMultiplier":  1.6
                                                                      }
                                                                  ],
                                             "modifierIds":  [
+                                                                "public-servant-victim",
                                                                 "cooperation",
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
@@ -796,7 +732,7 @@
                                             "PC-1017",
                                             "PC-1023"
                                         ],
-                        "migrationNotes":  "Public-servant victim variant remains a degree in this pass.",
+                        "migrationNotes":  "Unlawful Imprisonment of a Public Servant or Peace Officer was converted to public-servant-victim modifier eligibility; source PC-1023 is preserved on the modifier.",
                         "degrees":  [
                                         {
                                             "id":  "unlawful-imprisonment",
@@ -824,32 +760,6 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "citation-discretion"
-                                                            ]
-                                        },
-                                        {
-                                            "id":  "unlawful-imprisonment-of-a-public-servant-or-peace-officer",
-                                            "label":  "Unlawful Imprisonment of a Public Servant or Peace Officer.",
-                                            "sourceCode":  "PC-1023",
-                                            "sourceTitle":  "Unlawful Imprisonment of a Public Servant or Peace Officer.",
-                                            "description":  "A person who intentionally restricts a public servant or peace officers freedom of movement without their consent is guilty under this code section",
-                                            "classification":  "felony",
-                                            "baseFine":  750,
-                                            "baseTime":  25,
-                                            "liabilityOptions":  [
-                                                                     {
-                                                                         "id":  "principal",
-                                                                         "label":  "Principal Actor",
-                                                                         "fineMultiplier":  1,
-                                                                         "timeMultiplier":  1
-                                                                     }
-                                                                 ],
-                                            "modifierIds":  [
-                                                                "cooperation",
-                                                                "multiple-victims",
-                                                                "prior-conviction",
-                                                                "minimal-participation",
-                                                                "voluntary-surrender",
-                                                                "first-offense"
                                                             ]
                                         }
                                     ]
@@ -1428,7 +1338,7 @@
                                             "PC-2011",
                                             "PC-2012"
                                         ],
-                        "migrationNotes":  "Attempt/accessory variants become liability options; armed robbery remains a degree.",
+                        "migrationNotes":  "Armed Robbery was converted to weapon-used modifier eligibility; source PC-2010 is preserved on the modifier. Armed robbery attempted/accessory source options remain attached to Robbery.",
                         "degrees":  [
                                         {
                                             "id":  "robbery",
@@ -1461,6 +1371,22 @@
                                                                          "sourceTitle":  "Accessory to Robbery",
                                                                          "fineMultiplier":  0.2,
                                                                          "timeMultiplier":  0.48
+                                                                     },
+                                                                     {
+                                                                         "id":  "accessory-to-armed-robbery",
+                                                                         "label":  "Accessory to Armed Robbery",
+                                                                         "sourceCode":  "PC-2011",
+                                                                         "sourceTitle":  "Accessory to Armed Robbery",
+                                                                         "fineMultiplier":  0.3,
+                                                                         "timeMultiplier":  0.48
+                                                                     },
+                                                                     {
+                                                                         "id":  "attempted-armed-robbery",
+                                                                         "label":  "Attempted Armed Robbery",
+                                                                         "sourceCode":  "PC-2012",
+                                                                         "sourceTitle":  "Attempted Armed Robbery",
+                                                                         "fineMultiplier":  0.3,
+                                                                         "timeMultiplier":  1
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -1469,53 +1395,6 @@
                                                                 "restitution-made",
                                                                 "organized-activity",
                                                                 "weapon-used",
-                                                                "multiple-victims",
-                                                                "medical-aid-rendered",
-                                                                "prior-conviction",
-                                                                "minimal-participation",
-                                                                "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
-                                                            ]
-                                        },
-                                        {
-                                            "id":  "armed-robbery",
-                                            "label":  "Armed Robbery",
-                                            "sourceCode":  "PC-2010",
-                                            "sourceTitle":  "Armed Robbery",
-                                            "description":  "A person who, acting alone or in concert with others, unlawfully takes personal property belonging to an individual or business from another person or their immediate presence, against their will, by means of force, intimidation, or fear, while using, displaying, or brandishing a firearm or other deadly weapon, is guilty under this code section.",
-                                            "classification":  "felony",
-                                            "baseFine":  1500,
-                                            "baseTime":  25,
-                                            "liabilityOptions":  [
-                                                                     {
-                                                                         "id":  "principal",
-                                                                         "label":  "Principal Actor",
-                                                                         "fineMultiplier":  1,
-                                                                         "timeMultiplier":  1
-                                                                     },
-                                                                     {
-                                                                         "id":  "accessory-to-armed-robbery",
-                                                                         "label":  "Accessory to Armed Robbery",
-                                                                         "sourceCode":  "PC-2011",
-                                                                         "sourceTitle":  "Accessory to Armed Robbery",
-                                                                         "fineMultiplier":  0.2,
-                                                                         "timeMultiplier":  0.48
-                                                                     },
-                                                                     {
-                                                                         "id":  "attempted-armed-robbery",
-                                                                         "label":  "Attempted Armed Robbery",
-                                                                         "sourceCode":  "PC-2012",
-                                                                         "sourceTitle":  "Attempted Armed Robbery",
-                                                                         "fineMultiplier":  0.2,
-                                                                         "timeMultiplier":  1
-                                                                     }
-                                                                 ],
-                                            "modifierIds":  [
-                                                                "public-servant-victim",
-                                                                "cooperation",
-                                                                "restitution-made",
-                                                                "organized-activity",
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
