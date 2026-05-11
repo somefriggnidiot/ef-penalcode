@@ -3205,7 +3205,7 @@
                         "code":  "EF-PC-06-001",
                         "title":  "Peace Officer Compliance",
                         "categoryId":  "offenses-against-public-order",
-                        "description":  "Grouped charge family for Peace Officer Compliance.",
+                        "description":  "Failures to comply with lawful peace officer commands or lawful identification requirements during detentions, investigations, arrests, or controlled scenes.",
                         "sourceCodes":  [
                                             "PC-6001",
                                             "PC-6013"
@@ -3217,7 +3217,7 @@
                                             "label":  "Disobeying a Peace Officer",
                                             "sourceCode":  "PC-6001",
                                             "sourceTitle":  "Disobeying a Peace Officer",
-                                            "description":  "A person who fails to comply with a lawful order given from an on duty peace officer or public servant is guilty under this code section.",
+                                            "description":  "A person commits Disobeying a Peace Officer when they knowingly fail or refuse to comply with a clear, lawful, and reasonably necessary order given by an on-duty peace officer or authorized public servant during an investigation, detention, arrest, emergency response, traffic control, or controlled public-safety scene.",
                                             "classification":  "infraction",
                                             "baseFine":  175,
                                             "baseTime":  0,
@@ -3231,14 +3231,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This infraction is about noncompliance with a lawful public-safety command, not punishing disagreement or questions by themselves.",
+                                                                    "principles":  [
+                                                                                       "The order should be clear, lawful, and connected to an official duty such as safety, investigation, traffic control, detention, or scene management.",
+                                                                                       "The suspect must have a reasonable opportunity to hear, understand, and comply with the order before enforcement when circumstances allow.",
+                                                                                       "Reports should document the exact command, who gave it, why it was lawful and necessary, the suspect\u0027s response, warnings, and any scene risk created."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "failure-to-provide-identification",
                                             "label":  "Failure to Provide Identification",
                                             "sourceCode":  "PC-6013",
                                             "sourceTitle":  "Failure to Provide Identification",
-                                            "description":  "A person who fails to identify when lawfully ordered to by a Law Enforcement Officer is guilty under this code section.",
+                                            "description":  "A person commits Failure to Provide Identification when they knowingly refuse to identify themselves or provide required identifying information after a peace officer lawfully orders identification during a detention, arrest, citation, booking, lawful traffic stop, or other legally supported investigation.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  350,
                                             "baseTime":  1,
@@ -3256,7 +3264,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Failure to provide identification requires a lawful basis for the identification demand and a knowing refusal or materially false evasion.",
+                                                                    "principles":  [
+                                                                                       "The officer should have a lawful detention, arrest, citation, traffic stop, booking, or other legal basis requiring identification.",
+                                                                                       "The suspect must refuse, conceal identity, provide materially incomplete identifying information, or otherwise prevent reasonable identification after a clear request.",
+                                                                                       "Reports should document the lawful basis, the identification request, warnings, the suspect\u0027s answer or refusal, and any later identification evidence."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -3265,7 +3281,7 @@
                         "code":  "EF-PC-06-002",
                         "title":  "Public Disorder",
                         "categoryId":  "offenses-against-public-order",
-                        "description":  "Grouped charge family for Public Disorder.",
+                        "description":  "Public conduct that creates violence, immediate risk, substantial disturbance, or group disorder beyond ordinary disagreement, speech, or inconvenience.",
                         "sourceCodes":  [
                                             "PC-6002",
                                             "PC-6003",
@@ -3279,7 +3295,7 @@
                                             "label":  "Disorderly Conduct",
                                             "sourceCode":  "PC-6002",
                                             "sourceTitle":  "Disorderly Conduct",
-                                            "description":  "A person who commits such acts that are of a nature to corrupt the public morals, or outrage the sense of public decency, or affect the peace and quiet of persons who may witness them, or engages in brawling or fighting, or engages in such conduct as to constitute a breach of the peace is guilty under this code section.",
+                                            "description":  "A person commits Disorderly Conduct when they engage in fighting, violent or threatening behavior, public intoxication causing a safety risk, lewd or disruptive conduct, or other conduct in public that creates a substantial disturbance, breach of peace, or immediate risk to persons or property.",
                                             "classification":  "infraction",
                                             "baseFine":  125,
                                             "baseTime":  0,
@@ -3293,14 +3309,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Disorderly conduct should be tied to concrete disruptive behavior and actual public impact, not merely unpopular speech, style, or presence.",
+                                                                    "principles":  [
+                                                                                       "The conduct should involve fighting, threats, dangerous behavior, lewd conduct, intoxication-related risk, or a substantial disturbance in a public or publicly accessible place.",
+                                                                                       "Offensive words alone should not be enough unless they are paired with threats, fighting words, incitement, or conduct likely to produce immediate disorder.",
+                                                                                       "Reports should document the conduct observed, location, witnesses, warnings, victim or public impact, safety risk, and any refusal to stop."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "disturbing-the-peace",
                                             "label":  "Disturbing the Peace",
                                             "sourceCode":  "PC-6003",
                                             "sourceTitle":  "Disturbing the Peace",
-                                            "description":  "A person who violates a reasonable expectation of peace in a public area is guilty under this code section.",
+                                            "description":  "A person commits Disturbing the Peace when they knowingly create unreasonable noise, disruption, confrontation, or interference in a public or residential area after notice or under circumstances where the conduct substantially disturbs others\u0027 lawful peace, sleep, work, travel, or use of public space.",
                                             "classification":  "infraction",
                                             "baseFine":  100,
                                             "baseTime":  0,
@@ -3314,14 +3338,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Disturbing the peace is a low-level public-order offense focused on unreasonable disturbance after notice or clear impact.",
+                                                                    "principles":  [
+                                                                                       "The disturbance should be more than ordinary conversation, protest, vehicle movement, or brief inconvenience.",
+                                                                                       "When practical, officers should give a warning or document why the disturbance was already substantial enough to cite without warning.",
+                                                                                       "Reports should document noise level or conduct, time, place, complaints, witnesses, warnings, duration, and how the peace was disturbed."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "inciting-a-riot",
                                             "label":  "Inciting a Riot",
                                             "sourceCode":  "PC-6008",
                                             "sourceTitle":  "Inciting a Riot",
-                                            "description":  " A person who with the intent to cause a riot does an act or engages in conduct that urges a riot, or urges others to commit acts of force or violence, or the burning or destroying of property, and at a time and place and under circumstances that produce a clear and present and immediate danger of acts of force or violence or the burning or destroying of property is guilty under this code section.",
+                                            "description":  "A person commits Inciting a Riot when, with intent to cause a riot or immediate violence, they urge, direct, provoke, or coordinate others to commit force, violence, burning, destruction of property, or other riotous acts under circumstances creating an immediate and realistic danger those acts will occur.",
                                             "classification":  "felony",
                                             "baseFine":  500,
                                             "baseTime":  25,
@@ -3341,14 +3373,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Inciting a riot requires intentional encouragement of imminent group violence or destruction, not protected criticism or generalized angry speech.",
+                                                                    "principles":  [
+                                                                                       "The suspect must intend to cause or help trigger a riot, force, violence, burning, or property destruction.",
+                                                                                       "The words or conduct should occur at a time and place where immediate disorder is realistically likely, such as an agitated crowd or active confrontation.",
+                                                                                       "Reports should document the statements or acts, crowd conditions, timing, response by others, threats, weapons, property damage, and officer efforts to de-escalate."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "unlawful-assembly",
                                             "label":  "Unlawful Assembly",
                                             "sourceCode":  "PC-6015",
                                             "sourceTitle":  "Unlawful Assembly",
-                                            "description":  "Whenever two or more persons, assembled and acting together, make any attempt or advance toward the commission of an act which would be a riot if actually committed. Whenever two or more persons assemble together to do an unlawful act, or do a lawful act in a violent, boisterous, or tumultuous manner is guilty under this code section.",
+                                            "description":  "A person commits Unlawful Assembly when two or more people assemble and act together to commit an unlawful act, prepare for riotous conduct, or carry out otherwise lawful activity in a violent, threatening, or tumultuous manner that creates a clear risk to public safety or property.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  750,
                                             "baseTime":  10,
@@ -3368,7 +3408,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Unlawful assembly targets coordinated group conduct that has moved toward unlawful or violent action, not peaceful gathering by itself.",
+                                                                    "principles":  [
+                                                                                       "There must be at least two people acting together with a shared unlawful purpose or violent, threatening, or tumultuous conduct.",
+                                                                                       "Peaceful protest, observation, or presence in a crowd should not qualify without evidence of coordinated unlawful action or immediate risk.",
+                                                                                       "Reports should document group size, shared conduct, commands to disperse if given, threats or violence, property risk, participant roles, and evidence tying the suspect to the unlawful group conduct."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -3377,7 +3425,7 @@
                         "code":  "EF-PC-06-003",
                         "title":  "False Reporting",
                         "categoryId":  "offenses-against-public-order",
-                        "description":  "Grouped charge family for False Reporting.",
+                        "description":  "Knowingly false reports of criminal activity to peace officers or law-enforcement agencies.",
                         "sourceCodes":  [
                                             "PC-6004"
                                         ],
@@ -3388,7 +3436,7 @@
                                             "label":  "False Reporting",
                                             "sourceCode":  "PC-6004",
                                             "sourceTitle":  "False Reporting",
-                                            "description":  "A person who reports to any peace officer that a felony or misdemeanor has been committed knowing the report to be false is guilty under this code section.",
+                                            "description":  "A person commits False Reporting when they knowingly report, cause to be reported, or materially confirm a felony, misdemeanor, emergency, suspect, victim, or criminal fact to a peace officer or law-enforcement agency while knowing the report is false.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  175,
                                             "baseTime":  10,
@@ -3407,7 +3455,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "False reporting requires knowledge of falsity; mistaken reports made in good faith should not be charged.",
+                                                                    "principles":  [
+                                                                                       "The report must be made to law enforcement or intended to cause law-enforcement action.",
+                                                                                       "The suspect must know the reported crime or material fact is false when making or causing the report.",
+                                                                                       "Reports should preserve the original report, caller identity, statements, dispatch logs, investigative resources used, and evidence showing the suspect knew the truth."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -3416,7 +3472,7 @@
                         "code":  "EF-PC-06-004",
                         "title":  "Harassment and Stalking",
                         "categoryId":  "offenses-against-public-order",
-                        "description":  "Grouped charge family for Harassment and Stalking.",
+                        "description":  "Repeated unwanted contact, following, threats, surveillance, or conduct that seriously alarms, annoys, harasses, or places another person in reasonable fear.",
                         "sourceCodes":  [
                                             "PC-6005",
                                             "PC-6017"
@@ -3428,7 +3484,7 @@
                                             "label":  "Harassment",
                                             "sourceCode":  "PC-6005",
                                             "sourceTitle":  "Harassment",
-                                            "description":  "A person who makes communication, whether in person or by means of internet, phone, or other devices (may also apply to circumventing a block on a phone number) with the repeated intent to cause annoyance.",
+                                            "description":  "A person commits Harassment when they knowingly engage in repeated unwanted contact, messages, approaches, insults, threats, monitoring, or other conduct directed at a specific person after notice that the contact is unwanted, with no legitimate purpose and in a manner likely to seriously annoy, alarm, torment, or harass that person.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  250,
                                             "baseTime":  10,
@@ -3449,14 +3505,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Harassment is based on repeated unwanted targeted conduct, not a single rude interaction or ordinary disagreement.",
+                                                                    "principles":  [
+                                                                                       "There should be repeated contact or a pattern of conduct directed at a specific person or protected group.",
+                                                                                       "The suspect should know the contact is unwanted through direct notice, blocking, prior warnings, context, or the nature of the conduct.",
+                                                                                       "Reports should document dates, messages, calls, in-person contacts, blocked-number circumvention, warnings, victim impact, and any legitimate purpose claimed."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "stalking",
                                             "label":  "Stalking",
                                             "sourceCode":  "PC-6017",
                                             "sourceTitle":  "Stalking",
-                                            "description":  "A person who intentionally and maliciously follows or harasses another person who has made it known that they do not consent to such following or harassment is guilty under this code section. A person whose actions cause another person to reasonably fear for their safety, or the safety of any person is guilty under this code section.",
+                                            "description":  "A person commits Stalking when they intentionally and maliciously follow, surveil, contact, threaten, harass, or repeatedly appear near another person after notice the conduct is unwanted, causing that person to reasonably fear for their safety or the safety of another.",
                                             "classification":  "felony",
                                             "baseFine":  350,
                                             "baseTime":  30,
@@ -3476,7 +3540,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Stalking is a more serious pattern offense because the conduct creates reasonable fear for safety, not merely annoyance.",
+                                                                    "principles":  [
+                                                                                       "There should be a pattern of following, surveillance, unwanted contact, threats, or repeated presence connected to the victim.",
+                                                                                       "The victim\u0027s fear must be reasonable under the circumstances, based on threats, persistence, proximity, prior incidents, weapons, or escalation.",
+                                                                                       "Reports should document timelines, locations, messages, witness observations, protective orders or warnings, victim fear, and evidence linking the suspect to the pattern."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -3485,7 +3557,7 @@
                         "code":  "EF-PC-06-005",
                         "title":  "Obstruction of Justice",
                         "categoryId":  "offenses-against-public-order",
-                        "description":  "Grouped charge family for Obstruction of Justice.",
+                        "description":  "Intentional interference with lawful justice-system functions, with misdemeanor treatment for field-duty interference and felony treatment reserved for court proceedings, warrant service, subpoenas, and comparable formal legal operations.",
                         "sourceCodes":  [
                                             "PC-6006",
                                             "PC-6007"
@@ -3497,7 +3569,7 @@
                                             "label":  "Misdemeanor Obstruction of Justice",
                                             "sourceCode":  "PC-6006",
                                             "sourceTitle":  "Misdemeanor Obstruction of Justice",
-                                            "description":  "A person who shows a clear and motivated attempt to prevent a peace officer from conducting their duties or completing an investigation is guilty under this code section.",
+                                            "description":  "A person commits Misdemeanor Obstruction of Justice when they knowingly delay, hinder, mislead, interfere with, or obstruct a peace officer performing lawful duties or conducting a lawful investigation, without creating the elevated interference required for felony obstruction.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  500,
                                             "baseTime":  10,
@@ -3516,14 +3588,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Misdemeanor obstruction covers intentional interference with an officer or investigation that is meaningful but not directed at a formal proceeding or major government function.",
+                                                                    "principles":  [
+                                                                                       "The officer should be performing a lawful duty or investigation, and the suspect should know or reasonably understand that fact.",
+                                                                                       "The interference should materially delay, hinder, mislead, or obstruct official work; passive observation or verbal criticism alone should be handled cautiously.",
+                                                                                       "Reports should document the lawful duty, the suspect\u0027s specific interference, warnings, delay caused, false statements if any, and how the investigation or duty was affected."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "felony-obstruction-of-justice",
                                             "label":  "Felony Obstruction of Justice",
                                             "sourceCode":  "PC-6007",
                                             "sourceTitle":  "Felony Obstruction of Justice",
-                                            "description":  "A person who shows a clear and motivated attempt to prevent an official government proceeding or government officer from completing their assigned duties is guilty under this code section.",
+                                            "description":  "A person commits Felony Obstruction of Justice when they knowingly and materially interfere with a court proceeding, judicial order, subpoena, warrant service, court-authorized search or seizure, prisoner transport, or comparable formal legal process in a way that substantially delays, compromises, corrupts, or prevents that process.",
                                             "classification":  "felony",
                                             "baseFine":  900,
                                             "baseTime":  15,
@@ -3542,7 +3622,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Felony obstruction is reserved for serious interference with formal justice-system processes, not ordinary interference with daily patrol duties or routine field investigations.",
+                                                                    "principles":  [
+                                                                                       "The obstructed function should be a court proceeding, judicial order, subpoena, warrant service, court-authorized search or seizure, prisoner transport, or similarly formal legal process.",
+                                                                                       "The suspect\u0027s conduct should substantially delay, compromise, corrupt, prevent, or endanger that formal process, not merely frustrate an officer during ordinary daily duties.",
+                                                                                       "Reports should document the legal process involved, the suspect\u0027s specific obstructive conduct, how the process was affected, warnings or commands given, witnesses, recordings, and any coordination with others."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -3551,7 +3639,7 @@
                         "code":  "EF-PC-06-006",
                         "title":  "Loitering on Government Properties",
                         "categoryId":  "offenses-against-public-order",
-                        "description":  "Grouped charge family for Loitering on Government Properties.",
+                        "description":  "Remaining around government property without lawful purpose under circumstances showing intent to commit, assist, or conceal criminal activity.",
                         "sourceCodes":  [
                                             "PC-6009"
                                         ],
@@ -3562,7 +3650,7 @@
                                             "label":  "Loitering on Government Properties",
                                             "sourceCode":  "PC-6009",
                                             "sourceTitle":  "Loitering on Government Properties",
-                                            "description":  "Criminal loitering refers to anyone who is lingering or hanging around in a public or private area, with the intent to commit criminal activity, or who is assisting and/or aiding another with a crime",
+                                            "description":  "A person commits Loitering on Government Properties when they remain, linger, or repeatedly return around a government building, restricted area, service entrance, vehicle yard, emergency facility, or controlled public property without lawful purpose under circumstances showing intent to commit, assist, conceal, or facilitate criminal activity.",
                                             "classification":  "infraction",
                                             "baseFine":  100,
                                             "baseTime":  0,
@@ -3576,7 +3664,15 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Loitering on government property should require suspicious purpose or criminal context, not merely standing in a public place.",
+                                                                    "principles":  [
+                                                                                       "The location should be government property or a government-controlled area where lingering can affect security, access, emergency response, or operations.",
+                                                                                       "There should be facts showing criminal purpose or facilitation, such as casing, acting as lookout, concealing tools, evading staff, repeated returns, or coordinating with others.",
+                                                                                       "Reports should document location, duration, warnings, suspicious conduct, tools or communications, restricted signs, staff complaints, and why no lawful purpose was apparent."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -3585,7 +3681,7 @@
                         "code":  "EF-PC-06-007",
                         "title":  "Vehicle Tampering",
                         "categoryId":  "offenses-against-public-order",
-                        "description":  "Grouped charge family for Vehicle Tampering.",
+                        "description":  "Unauthorized interference with, entry into, manipulation of, or damage to a vehicle without consent of the owner or lawful possessor.",
                         "sourceCodes":  [
                                             "PC-6010"
                                         ],
@@ -3596,7 +3692,7 @@
                                             "label":  "Vehicle Tampering",
                                             "sourceCode":  "PC-6010",
                                             "sourceTitle":  "Vehicle Tampering",
-                                            "description":  "A person who intentionally tampers or damages a vehicle without the consent of the owner is guilty under this code section.",
+                                            "description":  "A person commits Vehicle Tampering when they knowingly enter, manipulate, damage, disable, remove parts from, interfere with, or attempt to operate a vehicle without consent of the owner or lawful possessor, where the conduct falls short of completed vehicle theft.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  175,
                                             "baseTime":  15,
@@ -3616,7 +3712,15 @@
                                                                 "first-offense",
                                                                 "citation-discretion",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Vehicle tampering addresses unauthorized interference with a vehicle that does not necessarily prove intent to permanently or substantially deprive the owner.",
+                                                                    "principles":  [
+                                                                                       "The vehicle should belong to another person, business, or agency, and the suspect should lack permission or lawful authority.",
+                                                                                       "The conduct can include pulling handles, entering, hotwiring attempts, disabling, damaging, removing parts, or manipulating controls.",
+                                                                                       "Reports should document ownership, consent, damage, tools, fingerprints or surveillance, suspect statements, and why the facts support tampering rather than simple presence."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -3625,7 +3729,7 @@
                         "code":  "EF-PC-06-008",
                         "title":  "Tampering",
                         "categoryId":  "offenses-against-public-order",
-                        "description":  "Grouped charge family for Tampering.",
+                        "description":  "Interference with evidence, witnesses, victims, or testimony connected to an investigation, proceeding, or lawful inquiry.",
                         "sourceCodes":  [
                                             "PC-6011",
                                             "PC-6012"
@@ -3637,7 +3741,7 @@
                                             "label":  "Evidence Tampering",
                                             "sourceCode":  "PC-6011",
                                             "sourceTitle":  "Evidence Tampering",
-                                            "description":  "A person who willfully and intentionally destroys or attempts to destroy, creates or attempts to create false evidence, conceal, or alter any evidence that can later potentially be used in a Criminal investigation or court proceeding is guilty under this code section.",
+                                            "description":  "A person commits Evidence Tampering when they knowingly destroy, alter, conceal, plant, fabricate, move, contaminate, or attempt to affect evidence that they know or reasonably should know may be used in a criminal investigation, official inquiry, arrest, prosecution, or court proceeding.",
                                             "classification":  "felony",
                                             "baseFine":  150,
                                             "baseTime":  20,
@@ -3656,14 +3760,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Evidence tampering protects the integrity of investigations and proceedings by targeting intentional interference with actual or potential evidence.",
+                                                                    "principles":  [
+                                                                                       "The item, record, scene, body camera, weapon, document, substance, or digital data should have potential evidentiary value.",
+                                                                                       "The suspect must know or reasonably understand the evidence may matter to an investigation or proceeding and intentionally affect it.",
+                                                                                       "Reports should document what evidence was affected, how it was altered or concealed, chain of custody, timing, suspect knowledge, and impact on the investigation."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "witness-tampering",
                                             "label":  "Witness Tampering",
                                             "sourceCode":  "PC-6012",
                                             "sourceTitle":  "Witness Tampering",
-                                            "description":  "This pertains to a person who knowingly and maliciously prevents or encourages any witness or victim from attending or giving testimony at any trial, proceeding, or inquiry authorized by law with the use of bribery, fear, or other tactics.",
+                                            "description":  "A person commits Witness Tampering when they knowingly use threats, intimidation, force, bribery, coercion, deception, pressure, or improper influence to prevent, delay, alter, or discourage a witness or victim from reporting, attending, cooperating, or giving truthful testimony in a lawful investigation, proceeding, or inquiry.",
                                             "classification":  "felony",
                                             "baseFine":  1000,
                                             "baseTime":  25,
@@ -3684,7 +3796,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Witness tampering focuses on improper influence over a witness or victim connected to official fact-finding.",
+                                                                    "principles":  [
+                                                                                       "The target should be a witness, victim, reporting party, or person with information relevant to an investigation, proceeding, or inquiry.",
+                                                                                       "The suspect must attempt to affect reporting, cooperation, attendance, testimony, or truthful statements through improper pressure or benefit.",
+                                                                                       "Reports should preserve messages, calls, threats, offers, witness statements, timing relative to the case, and any change in cooperation or testimony."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -3693,7 +3813,7 @@
                         "code":  "EF-PC-06-009",
                         "title":  "Vigilantism",
                         "categoryId":  "offenses-against-public-order",
-                        "description":  "Grouped charge family for Vigilantism.",
+                        "description":  "Unauthorized attempts to exercise law-enforcement authority, conduct enforcement actions, detain people, or punish suspected offenders outside lawful authority.",
                         "sourceCodes":  [
                                             "PC-6014"
                                         ],
@@ -3704,7 +3824,7 @@
                                             "label":  "Vigilantism",
                                             "sourceCode":  "PC-6014",
                                             "sourceTitle":  "Vigilantism",
-                                            "description":  "A person who unlawfully attempts to enforce law, or act as law enforcement, is guilty under this code section.",
+                                            "description":  "A person commits Vigilantism when they knowingly attempt to enforce criminal law, detain, punish, search, seize, interrogate, or use force against another person as if acting with law-enforcement authority, while lacking lawful authority or an immediate legal justification such as defense of self or others.",
                                             "classification":  "felony",
                                             "baseFine":  150,
                                             "baseTime":  30,
@@ -3725,7 +3845,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Vigilantism is aimed at unauthorized law-enforcement behavior, while preserving lawful self-defense, citizen safety actions, and reporting crime.",
+                                                                    "principles":  [
+                                                                                       "The suspect should act as though they have enforcement authority, such as detaining, punishing, searching, interrogating, or coercing a suspected offender.",
+                                                                                       "Good-faith reporting, observing, rendering aid, or immediate defense of self or others should be distinguished from unauthorized enforcement.",
+                                                                                       "Reports should document the claimed authority, commands, detention or force used, target, suspect motive, weapons or restraints, and why no lawful justification applied."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -3734,7 +3862,7 @@
                         "code":  "EF-PC-06-010",
                         "title":  "Government Corruption",
                         "categoryId":  "offenses-against-public-order",
-                        "description":  "Grouped charge family for Government Corruption.",
+                        "description":  "Abuse of public office or government authority for personal, financial, political, organizational, or retaliatory benefit.",
                         "sourceCodes":  [
                                             "PC-6016"
                                         ],
@@ -3745,7 +3873,7 @@
                                             "label":  "Government Corruption",
                                             "sourceCode":  "PC-6016",
                                             "sourceTitle":  "Government Corruption",
-                                            "description":  "The deliberate abuse of authority by any public official, government employee, or elected representative for personal, financial, political, or organizational gain. This includes, but is not limited to: accepting bribes, engaging in quid pro quo arrangements, falsifying official records, misappropriating public resources, interfering with law enforcement investigations, or using official status to shield oneself or others from lawful accountability.",
+                                            "description":  "A person commits Government Corruption when, while holding public office, government employment, contracted public authority, or official access, they knowingly abuse that position to obtain personal, financial, political, organizational, or retaliatory benefit, or to shield themselves or another from lawful accountability.",
                                             "classification":  "felony",
                                             "baseFine":  2000,
                                             "baseTime":  40,
@@ -3766,7 +3894,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Government corruption is a high-level abuse-of-authority offense and should be supported by a clear official-power nexus and improper benefit or protection.",
+                                                                    "principles":  [
+                                                                                       "The suspect should have public authority, government employment, official access, or practical control over a public function.",
+                                                                                       "The abuse should involve official power or resources, such as falsifying records, misusing assets, steering decisions, interfering with investigations, accepting benefits, or shielding misconduct.",
+                                                                                       "Reports should document the official role, act of abuse, benefit or protected interest, records altered or resources used, communications, and harm to the public function."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -3775,7 +3911,7 @@
                         "code":  "EF-PC-06-011",
                         "title":  "Aiding and Harboring",
                         "categoryId":  "offenses-against-public-order",
-                        "description":  "Grouped charge family for Aiding and Harboring.",
+                        "description":  "Knowing assistance to criminal conduct, escape, concealment, or avoidance of lawful arrest or prosecution.",
                         "sourceCodes":  [
                                             "PC-6018",
                                             "PC-6019"
@@ -3787,7 +3923,7 @@
                                             "label":  "Aiding and Abetting",
                                             "sourceCode":  "PC-6018",
                                             "sourceTitle":  "Aiding and Abetting",
-                                            "description":  "A person who assists in the committing of a crime, or assists in the fleeing of a wanted person is guilty under this code section.",
+                                            "description":  "A person commits Aiding and Abetting when they knowingly assist, encourage, facilitate, provide tools or information for, act as lookout for, transport, or help another person commit a crime or flee from a crime, with knowledge of the criminal purpose.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  140,
                                             "baseTime":  15,
@@ -3806,14 +3942,28 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Aiding and abetting requires knowing assistance to a crime or escape, not accidental help or mere presence near offenders.",
+                                                                    "principles":  [
+                                                                                       "The suspect should know the criminal purpose or know they are helping someone evade consequences from a crime.",
+                                                                                       "Assistance can include planning, lookout activity, tools, transport, information, distraction, shelter, or help during flight.",
+                                                                                       "Reports should document the underlying crime, the suspect\u0027s knowledge, specific assistance, timing, communications, and why the assistance was intentional."
+                                                                                   ],
+                                                                    "cases":  [
+
+                                                                              ],
+                                                                    "resources":  [
+
+                                                                                  ]
+                                                                }
                                         },
                                         {
                                             "id":  "harboring-a-fugitive",
                                             "label":  "Harboring a Fugitive",
                                             "sourceCode":  "PC-6019",
                                             "sourceTitle":  "Harboring a Fugitive",
-                                            "description":  "A person who knowingly and intentionally hides, harbours or prevents law enforcement from finding a wanted felon is guilty under this code section.",
+                                            "description":  "A person commits Harboring a Fugitive when they knowingly hide, shelter, transport, warn, financially support, conceal, or otherwise help a wanted felon avoid discovery, detention, arrest, or prosecution by law enforcement.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  375,
                                             "baseTime":  20,
@@ -3832,7 +3982,21 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Harboring a fugitive is narrower than general assistance: it requires knowledge that the person is wanted and conduct that helps them avoid law enforcement.",
+                                                                    "principles":  [
+                                                                                       "The person being helped should be wanted for a felony, subject to arrest, or actively sought by law enforcement.",
+                                                                                       "The suspect must know or have strong reason to know the person is wanted and intentionally help them avoid discovery or arrest.",
+                                                                                       "Reports should document the fugitive status, how the suspect knew, shelter or transport provided, warnings sent, concealment steps, and law-enforcement efforts impeded."
+                                                                                   ],
+                                                                    "cases":  [
+
+                                                                              ],
+                                                                    "resources":  [
+
+                                                                                  ]
+                                                                }
                                         }
                                     ]
                     },
