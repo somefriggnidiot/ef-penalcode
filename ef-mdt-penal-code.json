@@ -1018,7 +1018,7 @@
                         "code":  "EF-PC-02-001",
                         "title":  "Theft by Property Value",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Grouped charge family for Theft by Property Value.",
+                        "description":  "Theft offenses based on the value or protected class of personal property taken without consent.",
                         "sourceCodes":  [
                                             "PC-2001",
                                             "PC-2002",
@@ -1031,7 +1031,7 @@
                                             "label":  "Petty Theft",
                                             "sourceCode":  "PC-2001",
                                             "sourceTitle":  "Petty Theft",
-                                            "description":  "A person who steals or takes the personal property of another worth $2000 or less is guilty under this code section.",
+                                            "description":  "A person commits Petty Theft when they knowingly take, steal, carry away, or exercise control over another person\u0027s personal property valued at $2,000 or less without consent and with intent to deprive the owner of its use or value.",
                                             "classification":  "infraction",
                                             "baseFine":  400,
                                             "baseTime":  0,
@@ -1046,14 +1046,22 @@
                                             "modifierIds":  [
                                                                 "restitution-made",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Petty Theft covers lower-value property takings where consent and intent to deprive are the key facts.",
+                                                                    "principles":  [
+                                                                                       "The property must belong to another person, business, or entity.",
+                                                                                       "The value must be $2,000 or less based on available receipts, market value, or reasonable estimate.",
+                                                                                       "Reports should document ownership, lack of consent, property value, recovery status, and suspect intent."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "grand-theft",
                                             "label":  "Grand Theft",
                                             "sourceCode":  "PC-2002",
                                             "sourceTitle":  "Grand Theft",
-                                            "description":  "A person who steals or takes the personal property of another worth more than $2,000 but less than $15,000 or a firearm of any value is guilty under this code section.",
+                                            "description":  "A person commits Grand Theft when they knowingly take, steal, carry away, or exercise control over another person\u0027s personal property valued at more than $2,000 but less than $15,000, or a firearm of any value, without consent and with intent to deprive the owner of its use or value.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  850,
                                             "baseTime":  10,
@@ -1072,14 +1080,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Grand Theft applies to mid-value property takings and firearm theft regardless of firearm value.",
+                                                                    "principles":  [
+                                                                                       "The value threshold must be supported by evidence such as receipts, market comparisons, or owner statements.",
+                                                                                       "A stolen firearm qualifies even when its value is below the ordinary grand-theft threshold.",
+                                                                                       "Reports should distinguish simple property taking from robbery, burglary, or vehicle theft when those elements are present."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "grand-larceny",
                                             "label":  "Grand Larceny",
                                             "sourceCode":  "PC-2013",
                                             "sourceTitle":  "Grand Larceny",
-                                            "description":  "A person who steals or takes the personal property of another worth more than $15000 is guilty under this code section.",
+                                            "description":  "A person commits Grand Larceny when they knowingly take, steal, carry away, or exercise control over another person\u0027s personal property valued at more than $15,000 without consent and with intent to deprive the owner of its use or value.",
                                             "classification":  "felony",
                                             "baseFine":  1000,
                                             "baseTime":  30,
@@ -1098,7 +1114,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Grand Larceny is the highest ordinary property-value theft tier.",
+                                                                    "principles":  [
+                                                                                       "The property value must exceed $15,000.",
+                                                                                       "Use the best available valuation evidence and document how value was calculated.",
+                                                                                       "If the taking involved force, entry into a structure, or a vehicle, consider whether another theft-family offense better fits the conduct."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -1107,7 +1131,7 @@
                         "code":  "EF-PC-02-002",
                         "title":  "Vehicle Theft",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Grouped charge family for Vehicle Theft.",
+                        "description":  "Vehicle theft offenses involving unlawful taking or control of motor vehicles, aircraft, or protected government vehicles.",
                         "sourceCodes":  [
                                             "PC-2003",
                                             "PC-2004",
@@ -1122,7 +1146,7 @@
                                             "label":  "Grand Theft Auto A",
                                             "sourceCode":  "PC-2003",
                                             "sourceTitle":  "Grand Theft Auto A",
-                                            "description":  "A person who commits the theft of any motor vehicle, no matter the value is guilty under this code section.",
+                                            "description":  "A person commits Grand Theft Auto A when they knowingly take, drive, operate, move, or exercise control over another person\u0027s motor vehicle without consent and with intent to temporarily or permanently deprive the owner of possession or use.",
                                             "classification":  "felony",
                                             "baseFine":  120,
                                             "baseTime":  10,
@@ -1141,14 +1165,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Grand Theft Auto A covers unlawful taking or control of a motor vehicle without aggravating circumstances.",
+                                                                    "principles":  [
+                                                                                       "Vehicle value is not required for this degree.",
+                                                                                       "The suspect must lack consent from the owner or lawful possessor.",
+                                                                                       "Reports should document vehicle ownership, how control was taken, location recovered, damage, and any statements showing intent."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "grand-theft-auto-b",
                                             "label":  "Grand Theft Auto B",
                                             "sourceCode":  "PC-2004",
                                             "sourceTitle":  "Grand Theft Auto B",
-                                            "description":  "A person who commits the theft of any motor vehicle, no matter the value, while armed or committing another felony, is guilty under this code section.",
+                                            "description":  "A person commits Grand Theft Auto B when they commit motor vehicle theft while armed, while committing another felony, or while using the stolen vehicle to facilitate another felony offense.",
                                             "classification":  "felony",
                                             "baseFine":  400,
                                             "baseTime":  15,
@@ -1167,14 +1199,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Grand Theft Auto B is the aggravated motor-vehicle theft tier.",
+                                                                    "principles":  [
+                                                                                       "The vehicle theft elements must be satisfied first.",
+                                                                                       "The aggravating fact must be tied to the theft event, such as being armed or committing another felony.",
+                                                                                       "Reports should document the separate felony or weapon facts instead of relying only on the vehicle theft."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "carjacking",
                                             "label":  "Carjacking",
                                             "sourceCode":  "PC-2005",
                                             "sourceTitle":  "Carjacking",
-                                            "description":  "A person who commits the theft of a motor vehicle from another person while it is being operated is guilty under this code section.",
+                                            "description":  "A person commits Carjacking when they unlawfully take or attempt to take a motor vehicle from another person or the person\u0027s immediate presence while the vehicle is occupied, controlled, or being operated.",
                                             "classification":  "felony",
                                             "baseFine":  400,
                                             "baseTime":  20,
@@ -1197,14 +1237,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Carjacking focuses on vehicle theft from a person rather than unattended vehicle theft.",
+                                                                    "principles":  [
+                                                                                       "The vehicle must be taken from a person, their immediate presence, or while being operated.",
+                                                                                       "Force, intimidation, or threats should be documented when present, even if not required by the short title.",
+                                                                                       "Reports should identify the occupant, driver, or person in immediate control of the vehicle."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "theft-of-an-aircraft",
                                             "label":  "Theft of an Aircraft",
                                             "sourceCode":  "PC-2019",
                                             "sourceTitle":  "Theft of an Aircraft",
-                                            "description":  "A person who commits the theft of an aircraft is guilty under this code section.",
+                                            "description":  "A person commits Theft of an Aircraft when they knowingly take, operate, move, or exercise control over an aircraft without consent of the owner or lawful operator and with intent to deprive the owner or operator of possession or use.",
                                             "classification":  "felony",
                                             "baseFine":  5000,
                                             "baseTime":  40,
@@ -1225,14 +1273,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Theft of an Aircraft is a protected vehicle-theft degree for aircraft.",
+                                                                    "principles":  [
+                                                                                       "Aircraft status should be documented by registration, ownership, or operational control.",
+                                                                                       "Consent from the owner or authorized operator is the central issue.",
+                                                                                       "Reports should document flight, attempted flight, movement, damage, recovery, and safety risks created by the theft."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "theft-of-a-law-enforcement-vehicle",
                                             "label":  "Theft of a Law Enforcement Vehicle",
                                             "sourceCode":  "PC-2021",
                                             "sourceTitle":  "Theft of a Law Enforcement Vehicle",
-                                            "description":  "A person who commits the theft of any motor vehicle owned by a law enforcement agency is guilty under this code section.",
+                                            "description":  "A person commits Theft of a Law Enforcement Vehicle when they knowingly take, operate, move, or exercise control over a motor vehicle owned, assigned, or operated by a law enforcement agency without authorization.",
                                             "classification":  "felony",
                                             "baseFine":  10000,
                                             "baseTime":  60,
@@ -1253,7 +1309,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Theft of a Law Enforcement Vehicle is a protected vehicle-theft degree based on agency ownership or use.",
+                                                                    "principles":  [
+                                                                                       "The vehicle must be tied to a law enforcement agency by ownership, assignment, or official use.",
+                                                                                       "The suspect must lack authorization to possess or operate it.",
+                                                                                       "Reports should document agency ownership, equipment present, recovery status, and any public-safety risk."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -1262,7 +1326,7 @@
                         "code":  "EF-PC-02-003",
                         "title":  "Burglary",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Grouped charge family for Burglary.",
+                        "description":  "Unlawful entry into a structure with intent to commit a criminal offense or remain without permission.",
                         "sourceCodes":  [
                                             "PC-2006"
                                         ],
@@ -1273,7 +1337,7 @@
                                             "label":  "Burglary",
                                             "sourceCode":  "PC-2006",
                                             "sourceTitle":  "Burglary",
-                                            "description":  "A person who enters a structure without the permission of the owner or agent of the owner, typically with the intention of committing a criminal offense, is guilty under this code section.",
+                                            "description":  "A person commits Burglary when they enter or remain in a structure, room, secured area, or enclosed property without permission and with intent to commit a criminal offense inside.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  500,
                                             "baseTime":  10,
@@ -1294,7 +1358,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Burglary focuses on unlawful entry or remaining with criminal intent.",
+                                                                    "principles":  [
+                                                                                       "Unlawful entry alone is not enough; document the intended or completed offense.",
+                                                                                       "Permission may be limited by time, place, purpose, or revocation.",
+                                                                                       "Reports should document entry method, owner or agent statements, security footage, tools, stolen property, and suspect intent."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -1303,7 +1375,7 @@
                         "code":  "EF-PC-02-004",
                         "title":  "Robbery",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Grouped charge family for Robbery.",
+                        "description":  "Theft from a person or immediate presence by force, intimidation, fear, or threat.",
                         "sourceCodes":  [
                                             "PC-2007",
                                             "PC-2010",
@@ -1319,7 +1391,7 @@
                                             "label":  "Robbery",
                                             "sourceCode":  "PC-2007",
                                             "sourceTitle":  "Robbery",
-                                            "description":  "A person who, acting alone or in concert with others, unlawfully takes personal property belonging to an individual or business from another person or their immediate presence, against their will, by means of force, intimidation, or fear, is guilty under this code section.",
+                                            "description":  "A person commits Robbery when they unlawfully take or attempt to take personal property from another person, business, or the person\u0027s immediate presence against their will by force, intimidation, fear, or threat.",
                                             "classification":  "felony",
                                             "baseFine":  1000,
                                             "baseTime":  25,
@@ -1376,7 +1448,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Robbery is theft elevated by force, intimidation, fear, or taking from immediate presence.",
+                                                                    "principles":  [
+                                                                                       "The property must be taken from a person, business, or immediate presence against the victim\u0027s will.",
+                                                                                       "Force or intimidation must be connected to the taking, escape, or retention of property.",
+                                                                                       "If a weapon or dangerous instrument was used, apply the weapon-used modifier rather than creating a separate armed degree."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -1385,7 +1465,7 @@
                         "code":  "EF-PC-02-005",
                         "title":  "Leaving Without Paying",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Grouped charge family for Leaving Without Paying.",
+                        "description":  "Leaving a billed premises without paying for goods or services received.",
                         "sourceCodes":  [
                                             "PC-2014"
                                         ],
@@ -1396,7 +1476,7 @@
                                             "label":  "Leaving Without Paying",
                                             "sourceCode":  "PC-2014",
                                             "sourceTitle":  "Leaving Without Paying",
-                                            "description":  "A person who leaves a billed premises without paying the total amount of their bill is guilty under this code section.",
+                                            "description":  "A person commits Leaving Without Paying when they receive goods, services, food, lodging, transport, or another billed benefit and knowingly leave or attempt to leave without paying the amount due.",
                                             "classification":  "infraction",
                                             "baseFine":  300,
                                             "baseTime":  0,
@@ -1411,7 +1491,15 @@
                                             "modifierIds":  [
                                                                 "restitution-made",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Leaving Without Paying covers low-level theft of billed goods or services.",
+                                                                    "principles":  [
+                                                                                       "The person must have received or accepted a billed good or service.",
+                                                                                       "The nonpayment must be knowing rather than a good-faith billing dispute.",
+                                                                                       "Reports should document the bill, amount due, opportunity to pay, suspect departure, and any statements showing intent."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -1420,7 +1508,7 @@
                         "code":  "EF-PC-02-006",
                         "title":  "Possession of Nonlegal Currency",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Grouped charge family for Possession of Nonlegal Currency.",
+                        "description":  "Possession, use, or attempted use of fraudulent currency represented as lawful money.",
                         "sourceCodes":  [
                                             "PC-2015"
                                         ],
@@ -1431,7 +1519,7 @@
                                             "label":  "Possession of Nonlegal Currency",
                                             "sourceCode":  "PC-2015",
                                             "sourceTitle":  "Possession of Nonlegal Currency",
-                                            "description":  "A person who is in possession of, or attempts to use a fraudulent currency in the attempt to pass it off as legal tender is guilty under this code section. The fraudulent currency is subject to confiscation.",
+                                            "description":  "A person commits Possession of Nonlegal Currency when they knowingly possess, pass, attempt to pass, create, or use fraudulent currency while representing it as lawful tender.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  750,
                                             "baseTime":  10,
@@ -1450,7 +1538,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree covers counterfeit or fraudulent currency handled as if it were legal money.",
+                                                                    "principles":  [
+                                                                                       "The item must be represented or intended to be used as lawful currency.",
+                                                                                       "Mere accidental receipt may not be enough without knowledge or attempted use.",
+                                                                                       "Reports should document the currency, transaction context, suspect statements, and any additional counterfeit items or tools."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -1459,7 +1555,7 @@
                         "code":  "EF-PC-02-007",
                         "title":  "Possession of Government-Issued Items",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Grouped charge family for Possession of Government-Issued Items.",
+                        "description":  "Unauthorized possession of government-issued property, equipment, vehicles, weapons, or identification-like items.",
                         "sourceCodes":  [
                                             "PC-2016"
                                         ],
@@ -1470,7 +1566,7 @@
                                             "label":  "Possession of Government-Issued Items",
                                             "sourceCode":  "PC-2016",
                                             "sourceTitle":  "Possession of Government-Issued Items",
-                                            "description":  "A person who is unlawfully in possession of a goverment issued firearm, vehicle, or other item is guilty under this code section.",
+                                            "description":  "A person commits Possession of Government-Issued Items when they knowingly possess a government-issued firearm, vehicle, equipment item, credential, or other official property without lawful authority or permission.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  1000,
                                             "baseTime":  20,
@@ -1489,7 +1585,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree covers unauthorized possession of official government property.",
+                                                                    "principles":  [
+                                                                                       "The item must be government-issued, government-owned, or restricted to official use.",
+                                                                                       "The suspect must lack permission, assignment, or lawful authority to possess it.",
+                                                                                       "Reports should document the item type, issuing agency, how possession was discovered, and whether the item was recovered."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -1498,7 +1602,7 @@
                         "code":  "EF-PC-02-008",
                         "title":  "Items Used in the Commission of a Crime",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Grouped charge family for Items Used in the Commission of a Crime.",
+                        "description":  "Possession or sale of tools, equipment, or items intended for use in committing criminal offenses.",
                         "sourceCodes":  [
                                             "PC-2017",
                                             "PC-2018"
@@ -1510,7 +1614,7 @@
                                             "label":  "Possession of Items Used in the Commission of a Crime",
                                             "sourceCode":  "PC-2017",
                                             "sourceTitle":  "Possession of Items Used in the Commission of a Crime",
-                                            "description":  "A person in possession of tools used by that person to commit another crime, such as a firearm or burglary tools, is guilty under this code section.",
+                                            "description":  "A person commits Possession of Items Used in the Commission of a Crime when they knowingly possess tools, equipment, weapons, devices, or materials intended for use in committing, attempting, or facilitating a criminal offense.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  500,
                                             "baseTime":  10,
@@ -1530,14 +1634,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree covers possession of tools or equipment tied to criminal conduct.",
+                                                                    "principles":  [
+                                                                                       "Possession should be connected to an intended, attempted, or completed offense.",
+                                                                                       "Ordinary items require contextual evidence showing criminal use or intent.",
+                                                                                       "Reports should document the item, location, related offense, suspect statements, and why lawful use is unlikely."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "sale-of-items-used-in-the-commission-of-a-crime",
                                             "label":  "Sale of Items Used in the Commission of a Crime",
                                             "sourceCode":  "PC-2018",
                                             "sourceTitle":  "Sale of Items Used in the Commission of a Crime",
-                                            "description":  "A person who is in possession of, or attempts to use a fraudulent currency in the attempt to pass it off as legal tender is guilty under this code section. The fraudulent currency is subject to confiscation.",
+                                            "description":  "A person commits Sale of Items Used in the Commission of a Crime when they knowingly sell, offer, transfer, or distribute tools, equipment, weapons, devices, or materials with knowledge or reason to know they will be used to commit or facilitate a criminal offense.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  100,
                                             "baseTime":  15,
@@ -1556,7 +1668,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree covers trafficking or distribution of crime-facilitating items.",
+                                                                    "principles":  [
+                                                                                       "The item must be connected to criminal use, not merely capable of lawful use.",
+                                                                                       "Knowledge may be shown by statements, packaging, context, repeated transactions, or the nature of the item.",
+                                                                                       "Reports should document the sale or transfer, buyer/seller roles, communications, item function, and related offense."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -1565,7 +1685,7 @@
                         "code":  "EF-PC-02-009",
                         "title":  "Criminal Possession of Stolen Property",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Grouped charge family for Criminal Possession of Stolen Property.",
+                        "description":  "Possession or control of property known to be stolen.",
                         "sourceCodes":  [
                                             "PC-2020"
                                         ],
@@ -1576,7 +1696,7 @@
                                             "label":  "Criminal Possession of Stolen Property",
                                             "sourceCode":  "PC-2020",
                                             "sourceTitle":  "Criminal Possession of Stolen Property",
-                                            "description":  "A person who has possession of stolen items, with knowledge that the item is stolen, is guilty under this code section.",
+                                            "description":  "A person commits Criminal Possession of Stolen Property when they knowingly possess, receive, conceal, transport, sell, or control property while knowing or reasonably believing the property was stolen.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  200,
                                             "baseTime":  10,
@@ -1595,7 +1715,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree focuses on knowing possession or control of stolen property after the theft.",
+                                                                    "principles":  [
+                                                                                       "The state must show the property was stolen and the suspect knew or should reasonably have known it.",
+                                                                                       "Possession may be physical, constructive, shared, or through control over storage or transport.",
+                                                                                       "Reports should document theft reports, serial numbers, owner identification, recovery location, and suspect explanation."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -1604,7 +1732,7 @@
                         "code":  "EF-PC-02-010",
                         "title":  "Customs and Smuggling Offenses",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Grouped charge family for Customs and Smuggling Offenses.",
+                        "description":  "Import, export, transport, concealment, or misrepresentation of goods in violation of customs or licensing requirements.",
                         "sourceCodes":  [
                                             "PC-2022",
                                             "PC-2023",
@@ -1620,7 +1748,7 @@
                                             "label":  "Smuggling of Contraband",
                                             "sourceCode":  "PC-2022",
                                             "sourceTitle":  "Smuggling of Contraband",
-                                            "description":  "A person who, acting alone or in concert with others, unlawfully transports, imports, exports, or conceals valuable goods, luxury items, electronics, art, or other contraband materials across jurisdictional boundaries without proper documentation, licensing, or declaration to customs authorities is guilty under this code section.",
+                                            "description":  "A person commits Smuggling of Contraband when they knowingly transport, import, export, conceal, or move contraband goods across a jurisdictional boundary or customs-controlled area without required documentation, licensing, declaration, or authorization.",
                                             "classification":  "felony",
                                             "baseFine":  4000,
                                             "baseTime":  5,
@@ -1649,14 +1777,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree covers general contraband smuggling across customs or jurisdictional controls.",
+                                                                    "principles":  [
+                                                                                       "The goods must be contraband or otherwise subject to declaration, licensing, or customs control.",
+                                                                                       "The conduct must involve transport, import, export, concealment, or movement through a controlled boundary.",
+                                                                                       "Reports should document the goods, route, concealment method, missing paperwork, declarations made, and all involved parties."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "smuggling-of-precious-gemstones",
                                             "label":  "Smuggling of Precious Gemstones",
                                             "sourceCode":  "PC-2023",
                                             "sourceTitle":  "Smuggling of Precious Gemstones",
-                                            "description":  "A person who, acting alone or in concert with others, unlawfully transports, imports, exports, or conceals precious gemstones including but not limited to diamonds, emeralds, rubies, sapphires, and other valuable stones across jurisdictional boundaries without proper documentation, licensing, or declaration to customs authorities is guilty under this code section.",
+                                            "description":  "A person commits Smuggling of Precious Gemstones when they knowingly transport, import, export, conceal, or move precious gemstones across a jurisdictional boundary or customs-controlled area without required documentation, licensing, declaration, or authorization.",
                                             "classification":  "felony",
                                             "baseFine":  5000,
                                             "baseTime":  10,
@@ -1676,14 +1812,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree is the gemstone-specific smuggling tier.",
+                                                                    "principles":  [
+                                                                                       "Covered gemstones include diamonds, emeralds, rubies, sapphires, and other valuable stones.",
+                                                                                       "Documentation should establish the type, quantity, value, and lack of lawful declaration.",
+                                                                                       "Reports should document packaging, concealment, valuation, route, ownership claims, and associated business records."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "smuggling-of-precious-metals",
                                             "label":  "Smuggling of Precious Metals",
                                             "sourceCode":  "PC-2024",
                                             "sourceTitle":  "Smuggling of Precious Metals",
-                                            "description":  "A person who, acting alone or in concert with others, unlawfully transports, imports, exports, or conceals precious metals including but not limited to gold, silver, platinum, and other valuable metals across jurisdictional boundaries without proper documentation, licensing, or declaration to customs authorities is guilty under this code section.",
+                                            "description":  "A person commits Smuggling of Precious Metals when they knowingly transport, import, export, conceal, or move precious metals across a jurisdictional boundary or customs-controlled area without required documentation, licensing, declaration, or authorization.",
                                             "classification":  "felony",
                                             "baseFine":  6000,
                                             "baseTime":  15,
@@ -1703,14 +1847,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree is the precious-metal-specific smuggling tier.",
+                                                                    "principles":  [
+                                                                                       "Covered metals include gold, silver, platinum, and comparable valuable metals.",
+                                                                                       "Documentation should establish the type, quantity, value, and lack of lawful declaration.",
+                                                                                       "Reports should document weight, purity if known, concealment method, route, ownership claims, and associated business records."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "customs-fraud",
                                             "label":  "Customs Fraud",
                                             "sourceCode":  "PC-2025",
                                             "sourceTitle":  "Customs Fraud",
-                                            "description":  "A person who knowingly provides false information, false documentation, or misrepresents the nature, value, or quantity of goods to customs or other government authorities for the purpose of evading duties, taxes, or regulations is guilty under this code section.",
+                                            "description":  "A person commits Customs Fraud when they knowingly provide false information, false documentation, false valuation, false quantity, or other material misrepresentation to customs or government authorities to evade duties, taxes, licensing, declaration, inspection, or regulatory requirements.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  1500,
                                             "baseTime":  1,
@@ -1730,14 +1882,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Customs Fraud focuses on false statements or documents used to evade customs or regulatory controls.",
+                                                                    "principles":  [
+                                                                                       "The false statement or document must be material to customs, tax, licensing, or inspection decisions.",
+                                                                                       "The suspect must know or intend that the information is false or misleading.",
+                                                                                       "Reports should preserve forms, invoices, manifests, declarations, communications, valuation evidence, and officer observations."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "operating-an-unlicensed-import-export-business",
                                             "label":  "Operating an Unlicensed Import/Export Business",
                                             "sourceCode":  "PC-2026",
                                             "sourceTitle":  "Operating an Unlicensed Import/Export Business",
-                                            "description":  "A person who operates a commercial import or export business without proper licensing, permits, or registration required by government authorities, or who conducts import/export activities on a commercial scale while evading regulatory oversight, is guilty under this code section. Transportation personnel including drivers, pilots, or vessel operators who knowingly participate in unlicensed commercial import/export operations are also guilty under this code section. Commercial scale is defined as: (1) importing/exporting goods valued at $100,000+ per transaction or $250,000+ aggregate over one month, (2) conducting 4+ import/export transactions within one month, (3) importing/exporting goods exceeding 200 kg per shipment, (4) operating with dedicated business infrastructure or commercial documentation, or (5) clear evidence of conducting activities for financial gain as a business venture.",
+                                            "description":  "A person commits Operating an Unlicensed Import/Export Business when they conduct commercial import or export activity without required licensing, permits, registration, or regulatory authorization, including repeated or high-value shipments, dedicated business infrastructure, or transport personnel knowingly participating in the operation.",
                                             "classification":  "felony",
                                             "baseFine":  20000,
                                             "baseTime":  50,
@@ -1757,7 +1917,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree covers commercial-scale import/export activity conducted outside required licensing or regulatory oversight.",
+                                                                    "principles":  [
+                                                                                       "Commercial scale may be shown by high-value goods, repeated transactions, large shipment weight, business infrastructure, or profit-driven operations.",
+                                                                                       "Transportation personnel are included when they knowingly participate in the unlicensed operation.",
+                                                                                       "Reports should document licenses checked, shipment values, transaction frequency, business records, transport roles, and regulatory notices."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
