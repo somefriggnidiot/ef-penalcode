@@ -5821,7 +5821,7 @@
                         "code":  "EF-PC-09-001",
                         "title":  "Driving While Intoxicated",
                         "categoryId":  "offenses-involving-the-operation-of-a-vehicle",
-                        "description":  "Grouped charge family for Driving While Intoxicated.",
+                        "description":  "Alcohol-impaired operation or actual physical control of a motor vehicle.",
                         "sourceCodes":  [
                                             "PC-9001"
                                         ],
@@ -5832,7 +5832,7 @@
                                             "label":  "Driving While Intoxicated",
                                             "sourceCode":  "PC-9001",
                                             "sourceTitle":  "Driving While Intoxicated",
-                                            "description":  "A person who operates a motor vehicle while under the influence of alcohol with a BAC over 0.08 is guilty under this code section.",
+                                            "description":  "A person commits Driving While Intoxicated when they operate or are in actual physical control of a motor vehicle while under the influence of alcohol or with a blood alcohol concentration over 0.08.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  100,
                                             "baseTime":  5,
@@ -5853,7 +5853,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Driving while intoxicated focuses on alcohol-impaired operation or actual physical control of a motor vehicle.",
+                                                                    "principles":  [
+                                                                                       "The suspect must operate or be in actual physical control of a motor vehicle.",
+                                                                                       "Impairment may be shown by a BAC over 0.08, driving behavior, field observations, admissions, odor of alcohol, or testing.",
+                                                                                       "Reports should document operation or control, roadway or location, impairment signs, BAC or test results, statements, and any collision or injury facts."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -5862,7 +5870,7 @@
                         "code":  "EF-PC-09-002",
                         "title":  "Evading",
                         "categoryId":  "offenses-involving-the-operation-of-a-vehicle",
-                        "description":  "Grouped charge family for Evading.",
+                        "description":  "Willful flight from a pursuing peace officer after a visual or audible stop command, with elevated treatment for reckless or dangerous flight.",
                         "sourceCodes":  [
                                             "PC-9002",
                                             "PC-9003"
@@ -5874,7 +5882,7 @@
                                             "label":  "Evading",
                                             "sourceCode":  "PC-9002",
                                             "sourceTitle":  "Evading",
-                                            "description":  "A person who, while operating a vehicle on land, sea, or in air, or while operating a bicycle, willfully flees or otherwise attempts to elude or avoid a pursuing peace officer who communicates visually or audibly their request to pull over or stop is guilty under this code.",
+                                            "description":  "A person commits Evading when, while operating a vehicle, vessel, aircraft, or bicycle, they willfully flee, elude, or attempt to avoid a pursuing peace officer after the officer communicates a visual or audible command to stop.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  350,
                                             "baseTime":  10,
@@ -5894,14 +5902,22 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Evading focuses on willful failure to stop for a pursuing peace officer after a clear stop command.",
+                                                                    "principles":  [
+                                                                                       "The officer must communicate the stop request visually or audibly, such as lights, siren, horn, PA, hand signal, or direct verbal command.",
+                                                                                       "The suspect must know or reasonably understand that a peace officer is attempting to stop them and then willfully flee or avoid the stop.",
+                                                                                       "Reports should document the vehicle or craft, officer signal, pursuit start, suspect response, route, duration, and any statements or dashcam/bodycam evidence."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "reckless-evading",
                                             "label":  "Reckless Evading",
                                             "sourceCode":  "PC-9003",
                                             "sourceTitle":  "Reckless Evading",
-                                            "description":  "A person who, while operating a vehicle on land, sea, or in air, or while operating a bicycle, willfully flees or otherwise attempts to elude or avoid a pursuing peace officer in a reckless or dangerous manner, defined as failure to maintain correct lanes of travel, excessive variability in rates of speed (ie. brake checking), or shows an imminent threat to the wellbeing of the general public, is guilty under this code section.",
+                                            "description":  "A person commits Reckless Evading when, while evading a pursuing peace officer, they operate a vehicle, vessel, aircraft, or bicycle in a reckless or dangerous manner that creates an imminent risk to the public, officers, passengers, or property.",
                                             "classification":  "felony",
                                             "baseFine":  1500,
                                             "baseTime":  20,
@@ -5921,7 +5937,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Reckless evading is evading elevated by dangerous operation during the flight.",
+                                                                    "principles":  [
+                                                                                       "The basic evading elements should be satisfied before applying this felony degree.",
+                                                                                       "Recklessness may include unsafe speed, brake checking, wrong-way travel, failure to maintain lanes, collisions, near misses, or disregard for pedestrians and traffic controls.",
+                                                                                       "Reports should document the stop command, pursuit route, specific dangerous acts, speeds, traffic and pedestrian conditions, collisions, injuries, and public-safety risks."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -5930,7 +5954,7 @@
                         "code":  "EF-PC-09-003",
                         "title":  "Emergency and Traffic Control Compliance",
                         "categoryId":  "offenses-involving-the-operation-of-a-vehicle",
-                        "description":  "Grouped charge family for Emergency and Traffic Control Compliance.",
+                        "description":  "Failure to yield to emergency vehicles or obey traffic control devices.",
                         "sourceCodes":  [
                                             "PC-9004",
                                             "PC-9005"
@@ -5942,7 +5966,7 @@
                                             "label":  "Failure to Yield to Emergency Vehicle",
                                             "sourceCode":  "PC-9004",
                                             "sourceTitle":  "Failure to Yield to Emergency Vehicle",
-                                            "description":  "A person who, while operating a motor vehicle, fails to yeild when signalled to by emergency services lights and sirens is guilty under this code section.",
+                                            "description":  "A person commits Failure to Yield to Emergency Vehicle when, while operating a motor vehicle, they fail to yield or safely clear the way after an emergency vehicle signals with lights, siren, horn, or other authorized warning equipment.",
                                             "classification":  "infraction",
                                             "baseFine":  120,
                                             "baseTime":  0,
@@ -5959,14 +5983,22 @@
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Failure to yield to an emergency vehicle focuses on not safely yielding after an authorized emergency warning signal.",
+                                                                    "principles":  [
+                                                                                       "The emergency vehicle should use lights, siren, horn, or other authorized warning equipment sufficient to alert a reasonable driver.",
+                                                                                       "Drivers should safely move aside, slow, stop, or otherwise clear the path when conditions permit.",
+                                                                                       "Reports should document the emergency signal, driver location, traffic conditions, available opportunity to yield, driver response, and any delay or hazard created."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "failure-to-obey-traffic-control-device",
                                             "label":  "Failure to Obey Traffic Control Device",
                                             "sourceCode":  "PC-9005",
                                             "sourceTitle":  "Failure to Obey Traffic Control Device",
-                                            "description":  "A person who fails to obey a traffic control device, such as a stop sign, traffic lights, or yield sign is guilty under this code section.",
+                                            "description":  "A person commits Failure to Obey Traffic Control Device when they fail to comply with a lawful traffic sign, signal, lane marking, stop sign, traffic light, yield sign, or officer-directed traffic control.",
                                             "classification":  "infraction",
                                             "baseFine":  150,
                                             "baseTime":  0,
@@ -5980,7 +6012,15 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Failure to obey a traffic control device covers noncompliance with lawful signs, signals, markings, and directed traffic controls.",
+                                                                    "principles":  [
+                                                                                       "The traffic control device or officer direction should be visible, applicable, and lawful for the driver's movement.",
+                                                                                       "This offense is for ordinary traffic-control violations unless the conduct is dangerous enough to fit negligent or reckless driving.",
+                                                                                       "Reports should document the device or direction, location, driver action, visibility, traffic conditions, and any safety risk or collision."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -5989,7 +6029,7 @@
                         "code":  "EF-PC-09-004",
                         "title":  "Vehicle Roadworthiness and Equipment",
                         "categoryId":  "offenses-involving-the-operation-of-a-vehicle",
-                        "description":  "Grouped charge family for Vehicle Roadworthiness and Equipment.",
+                        "description":  "Operation of vehicles that are not roadworthy, improperly equipped, unlawfully modified, or noncompliant with commercial inspection requirements.",
                         "sourceCodes":  [
                                             "PC-9006",
                                             "PC-9021",
@@ -6003,7 +6043,7 @@
                                             "label":  "Unroadworthy Vehicle",
                                             "sourceCode":  "PC-9006",
                                             "sourceTitle":  "Unroadworthy Vehicle",
-                                            "description":  "A person who operates a motor vehicle on a public roadway that is not permitted for legal road use is guilty under this code section. Vehicles such as dirtbikes, tracked vehicles, racecars, golf carts, fall under this section. Additionally, vehicles that are not equipped with indicators, brake lights, or have excessive damage are also guilty under this section.",
+                                            "description":  "A person commits Unroadworthy Vehicle when they operate a motor vehicle on a public roadway that is not permitted or safe for legal road use, including off-road vehicles, tracked vehicles, race cars, golf carts, or vehicles with excessive damage affecting safe operation.",
                                             "classification":  "infraction",
                                             "baseFine":  450,
                                             "baseTime":  0,
@@ -6017,14 +6057,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Unroadworthy vehicle focuses on public-road operation of vehicles that are not lawful or safe for road use.",
+                                                                    "principles":  [
+                                                                                       "The vehicle should be operated on a public roadway and be unapproved, unsafe, or missing required equipment for lawful road use.",
+                                                                                       "Examples include off-road vehicles, tracked vehicles, race-only vehicles, golf carts, or damage that materially affects safe operation.",
+                                                                                       "Reports should document roadway location, vehicle type, missing equipment or damage, registration or road-use status, photos, and any safety risk observed."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "driving-without-headlights-or-signals",
                                             "label":  "Driving without Headlights or Signals",
                                             "sourceCode":  "PC-9021",
                                             "sourceTitle":  "Driving without Headlights or Signals",
-                                            "description":  "A person who operates a motor vehicle in low light conditions or inclement weather conditions without their headlights switched on is guilty under this code section.",
+                                            "description":  "A person commits Driving without Headlights or Signals when they operate a motor vehicle without required headlights, brake lights, turn signals, or hazard signals during low light, darkness, inclement weather, or other conditions requiring their use.",
                                             "classification":  "infraction",
                                             "baseFine":  100,
                                             "baseTime":  0,
@@ -6038,14 +6086,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Driving without headlights or signals focuses on failure to use required vehicle lighting or signaling equipment when conditions require it.",
+                                                                    "principles":  [
+                                                                                       "The lighting or signal requirement may arise from darkness, low visibility, inclement weather, turning, stopping, lane changes, or hazard conditions.",
+                                                                                       "Equipment failure may still support the charge when the vehicle is operated despite the defect, but officer discretion may apply for minor or newly discovered issues.",
+                                                                                       "Reports should document conditions, missing or unused equipment, driver maneuver, visibility, officer observations, and any warning or citation discretion."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "illegal-vehicle-modifications",
                                             "label":  "Illegal Vehicle Modifications",
                                             "sourceCode":  "PC-9024",
                                             "sourceTitle":  "Illegal Vehicle Modifications",
-                                            "description":  "Owners and drivers of vehicles on public streets with upgrades that are not legal for street use, are guilty under this code section. Upgrades that are not legal for street use, but are legal for off-road or track use include: Engines that are Tier 4 or 5, Transmission 3 or 4, NOS, and bulletproof tires.",
+                                            "description":  "A person commits Illegal Vehicle Modifications when they own or operate a vehicle on a public street with modifications not lawful for street use, including Tier 4 or 5 engines, Transmission 3 or 4, nitrous systems, bulletproof tires, or comparable off-road or track-only upgrades.",
                                             "classification":  "infraction",
                                             "baseFine":  650,
                                             "baseTime":  0,
@@ -6059,14 +6115,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Illegal vehicle modifications focuses on public-road use of vehicles with upgrades restricted to off-road, track, or non-street use.",
+                                                                    "principles":  [
+                                                                                       "The vehicle should be on a public street or roadway and have a modification prohibited for street use.",
+                                                                                       "Covered modifications include Tier 4 or 5 engines, Transmission 3 or 4, nitrous systems, bulletproof tires, or comparable performance or armor upgrades.",
+                                                                                       "Reports should document the vehicle, public-road location, observed or inspected modifications, owner or driver connection, photos, and any safety or enforcement basis."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "commercial-vehicle-violation",
                                             "label":  "Commercial Vehicle Violation",
                                             "sourceCode":  "PC-9026",
                                             "sourceTitle":  "Commercial Vehicle Violation",
-                                            "description":  "An owner or driver of a commercial vehicle who fails a San Andreas Department of Transportation inspection is in violation of this code section.",
+                                            "description":  "A person commits Commercial Vehicle Violation when, as the owner or driver of a commercial vehicle, they operate or allow operation of a vehicle that fails a San Andreas Department of Transportation inspection or violates applicable commercial vehicle requirements.",
                                             "classification":  "infraction",
                                             "baseFine":  1000,
                                             "baseTime":  0,
@@ -6080,7 +6144,15 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Commercial vehicle violation focuses on commercial vehicles that fail inspection or violate commercial operation requirements.",
+                                                                    "principles":  [
+                                                                                       "The vehicle should be used as a commercial vehicle or subject to commercial inspection requirements.",
+                                                                                       "The violation may be based on failed inspection, unsafe condition, missing required documents, overweight load, or other commercial compliance defect.",
+                                                                                       "Reports should document vehicle and business identifiers, driver or owner role, inspection results, specific defect, paperwork, load facts, and any out-of-service order."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -6089,7 +6161,7 @@
                         "code":  "EF-PC-09-005",
                         "title":  "Unsafe Vehicle Operation",
                         "categoryId":  "offenses-involving-the-operation-of-a-vehicle",
-                        "description":  "Grouped charge family for Unsafe Vehicle Operation.",
+                        "description":  "Unsafe, negligent, reckless, competitive, or disruptive operation of motor vehicles.",
                         "sourceCodes":  [
                                             "PC-9007",
                                             "PC-9008",
@@ -6103,7 +6175,7 @@
                                             "label":  "Negligent Driving",
                                             "sourceCode":  "PC-9007",
                                             "sourceTitle":  "Negligent Driving",
-                                            "description":  "A person who, while operating a motor vehicle, displays behavior that endangers the safety of other drivers or pedestrians, due to negligence, is guilty under this code section. Negligent driving includes, but is not limited to, using a cellular device while driving on a public road or highway; and failing to move over or slow down for stationary emergency and service vehicles with warning lights flashing.",
+                                            "description":  "A person commits Negligent Driving when they operate a motor vehicle without reasonable care in a way that endangers or could endanger other drivers, pedestrians, emergency workers, service workers, passengers, or property.",
                                             "classification":  "infraction",
                                             "baseFine":  500,
                                             "baseTime":  0,
@@ -6121,14 +6193,22 @@
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Negligent driving focuses on unsafe driving caused by lack of reasonable care rather than intentional or highly reckless conduct.",
+                                                                    "principles":  [
+                                                                                       "Examples include distracted driving, unsafe lane movement, failure to slow or move over for stationary emergency or service vehicles, or other careless operation.",
+                                                                                       "This infraction should be distinguished from reckless driving when the conduct shows conscious disregard for safety.",
+                                                                                       "Reports should document driving behavior, traffic and pedestrian conditions, risk created, witnesses, road conditions, and any warning or citation discretion."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "reckless-driving",
                                             "label":  "Reckless Driving",
                                             "sourceCode":  "PC-9008",
                                             "sourceTitle":  "Reckless Driving",
-                                            "description":  "A person who, while operating a motor vehicle, displays behavior that endangers the safety of other drivers or pedestrians, due to recklessness, defined as failure to maintain correct lanes of travel, excessive variability in rates of speed (ie. brake checking), or shows an imminent threat to the wellbeing of the general public, is guilty under this code section.",
+                                            "description":  "A person commits Reckless Driving when they operate a motor vehicle with willful or wanton disregard for the safety of people or property, including dangerous speed changes, brake checking, unsafe lane use, wrong-way travel, near misses, or other conduct creating an imminent public safety risk.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  725,
                                             "baseTime":  10,
@@ -6149,14 +6229,22 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Reckless driving is unsafe operation elevated by conscious disregard for safety.",
+                                                                    "principles":  [
+                                                                                       "Recklessness requires more than ordinary negligence and should involve dangerous conduct that the driver knew or should have known created a serious risk.",
+                                                                                       "Examples include brake checking, high-risk speed changes, wrong-way travel, repeated unsafe lane changes, near collisions, or disregard for pedestrians and traffic controls.",
+                                                                                       "Reports should document the specific maneuvers, speeds, traffic and pedestrian conditions, near misses or collisions, witness observations, and why the conduct was reckless."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "motor-vehicle-contest",
                                             "label":  "Motor Vehicle Contest",
                                             "sourceCode":  "PC-9022",
                                             "sourceTitle":  "Motor Vehicle Contest",
-                                            "description":  "A person who attempts to or engages in racing or vehicular contest on public roadways is guilty under this code section.",
+                                            "description":  "A person commits Motor Vehicle Contest when they organize, attempt, or participate in a race, speed contest, exhibition of speed, or timed vehicle competition on a public roadway without lawful authorization.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  1000,
                                             "baseTime":  10,
@@ -6177,14 +6265,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Motor vehicle contest focuses on unauthorized racing or competitive driving on public roadways.",
+                                                                    "principles":  [
+                                                                                       "The contest may be shown by side-by-side acceleration, coordinated start points, timing, spectators, callouts, wagers, or communications arranging a race.",
+                                                                                       "A completed race is not required if the suspect attempts, organizes, or begins a public-road contest.",
+                                                                                       "Reports should document participants, vehicles, route, start or finish point, speeds, spectators, communications, and any safety risks or road closures."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "public-disturbance-by-motor-vehicle",
                                             "label":  "Public Disturbance by Motor Vehicle",
                                             "sourceCode":  "PC-9025",
                                             "sourceTitle":  "Public Disturbance by Motor Vehicle",
-                                            "description":  "Individuals who use a motor vehicle in a way that causes public disturbance are guilty under this code section. Examples of public disturbance include excessive burnouts, repeated revving of engine, loud music, and improper use of a horn.",
+                                            "description":  "A person commits Public Disturbance by Motor Vehicle when they use a motor vehicle in a way that unreasonably disturbs the public, including excessive burnouts, repeated engine revving, loud amplified sound, or improper horn use.",
                                             "classification":  "infraction",
                                             "baseFine":  350,
                                             "baseTime":  0,
@@ -6199,7 +6295,15 @@
                                             "modifierIds":  [
                                                                 "multiple-victims",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Public disturbance by motor vehicle focuses on vehicle-related noise, smoke, or conduct that unreasonably disrupts public peace.",
+                                                                    "principles":  [
+                                                                                       "The conduct should be more than momentary ordinary vehicle noise and should unreasonably disturb nearby people or public spaces.",
+                                                                                       "Examples include excessive burnouts, repeated revving, loud music, horn misuse, smoke, or similar disruptive vehicle conduct.",
+                                                                                       "Reports should document location, duration, conduct, noise or smoke level, witnesses or complaints, warnings given, and any citation discretion."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -6208,7 +6312,7 @@
                         "code":  "EF-PC-09-006",
                         "title":  "Speeding",
                         "categoryId":  "offenses-involving-the-operation-of-a-vehicle",
-                        "description":  "Grouped charge family for Speeding.",
+                        "description":  "Vehicle operation above the posted speed limit, with elevated treatment for excessive speed.",
                         "sourceCodes":  [
                                             "PC-9009",
                                             "PC-9010",
@@ -6222,7 +6326,7 @@
                                             "label":  "Speeding 1-10",
                                             "sourceCode":  "PC-9009",
                                             "sourceTitle":  "Speeding 1-10",
-                                            "description":  "A person who drives up to 10 mph over the posted speed limit is guilty under this code section.",
+                                            "description":  "A person commits Speeding 1-10 when they drive more than 0 mph and up to 10 mph over the posted speed limit.",
                                             "classification":  "infraction",
                                             "baseFine":  100,
                                             "baseTime":  0,
@@ -6236,14 +6340,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Speeding 1-10 covers the lowest speed tier above the posted limit.",
+                                                                    "principles":  [
+                                                                                       "The measured speed should exceed the posted speed limit by no more than 10 mph.",
+                                                                                       "Speed should be based on radar, pacing, aircraft observation, reliable speed display, or other reasonable measurement.",
+                                                                                       "Reports should document posted limit, measured speed, method used, location, traffic and weather conditions, and any citation discretion."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "speeding-11-25",
                                             "label":  "Speeding 11-25",
                                             "sourceCode":  "PC-9010",
                                             "sourceTitle":  "Speeding 11-25",
-                                            "description":  "A person who drives greater than 11 mph but less than 25 mph over the posted speed limit is guilty under this code section.",
+                                            "description":  "A person commits Speeding 11-25 when they drive 11 mph through 25 mph over the posted speed limit.",
                                             "classification":  "infraction",
                                             "baseFine":  500,
                                             "baseTime":  0,
@@ -6257,14 +6369,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Speeding 11-25 covers moderate speeding above the posted limit.",
+                                                                    "principles":  [
+                                                                                       "The measured speed should be at least 11 mph and no more than 25 mph over the posted speed limit.",
+                                                                                       "Speed should be based on radar, pacing, aircraft observation, reliable speed display, or other reasonable measurement.",
+                                                                                       "Reports should document posted limit, measured speed, method used, location, traffic and weather conditions, and any citation discretion."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "speeding-26-39",
                                             "label":  "Speeding 26-39",
                                             "sourceCode":  "PC-9011",
                                             "sourceTitle":  "Speeding 26-39",
-                                            "description":  "A person who drives greater than 26 mph but less than 39 mph over the posted speed limit is guilty under this code section.",
+                                            "description":  "A person commits Speeding 26-39 when they drive 26 mph through 39 mph over the posted speed limit.",
                                             "classification":  "infraction",
                                             "baseFine":  700,
                                             "baseTime":  0,
@@ -6278,14 +6398,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Speeding 26-39 covers high-speed operation below the reckless-speeding tier.",
+                                                                    "principles":  [
+                                                                                       "The measured speed should be at least 26 mph and no more than 39 mph over the posted speed limit.",
+                                                                                       "Speed should be based on radar, pacing, aircraft observation, reliable speed display, or other reasonable measurement.",
+                                                                                       "Reports should document posted limit, measured speed, method used, location, traffic and weather conditions, and any safety risk observed."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "reckless-speeding-40",
                                             "label":  "Reckless Speeding (40+)",
                                             "sourceCode":  "PC-9012",
                                             "sourceTitle":  "Reckless Speeding (40+)",
-                                            "description":  "A person who drives more than 40 mph over the posted speed limit is guilty of reckless speeding under this code section. This crime is a misdemeanor as defined, but does not inherently carry any jail penalty.",
+                                            "description":  "A person commits Reckless Speeding (40+) when they drive 40 mph or more over the posted speed limit.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  1100,
                                             "baseTime":  0,
@@ -6306,7 +6434,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Reckless speeding is the highest speeding tier and is based on extreme speed over the posted limit.",
+                                                                    "principles":  [
+                                                                                       "The measured speed should be at least 40 mph over the posted speed limit.",
+                                                                                       "This degree is based on speed alone, but separate reckless driving may apply when the facts include additional dangerous operation.",
+                                                                                       "Reports should document posted limit, measured speed, method used, location, traffic and weather conditions, and any collision, near miss, or public-safety risk."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -6315,7 +6451,7 @@
                         "code":  "EF-PC-09-007",
                         "title":  "Operator Licensing and Presentation",
                         "categoryId":  "offenses-involving-the-operation-of-a-vehicle",
-                        "description":  "Grouped charge family for Operator Licensing and Presentation.",
+                        "description":  "Operation of vehicles or aircraft without proper licensing, or failure to present required driver licensing on request.",
                         "sourceCodes":  [
                                             "PC-9013",
                                             "PC-9014",
@@ -6328,7 +6464,7 @@
                                             "label":  "Unlicensed Operation of Vehicle",
                                             "sourceCode":  "PC-9013",
                                             "sourceTitle":  "Unlicensed Operation of Vehicle",
-                                            "description":  "A person who operates a motor vehicle on a public roadway without the proper licenses for that vehicle class is guilty under this section.",
+                                            "description":  "A person commits Unlicensed Operation of Vehicle when they operate a motor vehicle on a public roadway without a valid license for that vehicle class.",
                                             "classification":  "infraction",
                                             "baseFine":  350,
                                             "baseTime":  0,
@@ -6342,14 +6478,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Unlicensed operation of vehicle focuses on driving without the required license class or valid driving privilege.",
+                                                                    "principles":  [
+                                                                                       "The vehicle should be operated on a public roadway and require a license class the driver does not hold or that is suspended, revoked, or invalid.",
+                                                                                       "This offense is distinct from failing to present a license when the driver is licensed but cannot or will not display it.",
+                                                                                       "Reports should document vehicle class, roadway location, driver identity, license check results, suspension or revocation status, and any citation discretion."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "failing-to-present-a-driver-s-license",
                                             "label":  "Failing to Present a Driver\u0027s License",
                                             "sourceCode":  "PC-9014",
                                             "sourceTitle":  "Failing to Present a Driver\u0027s License",
-                                            "description":  "A person who operates a motor vehicle on a public roadway who fails to display upon the request of an officer a valid driver\u0027s license is guilty under this section.",
+                                            "description":  "A person commits Failing to Present a Driver's License when, while operating a motor vehicle on a public roadway, they fail or refuse to display a valid driver's license upon lawful request by an officer.",
                                             "classification":  "infraction",
                                             "baseFine":  200,
                                             "baseTime":  0,
@@ -6363,14 +6507,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Failing to present a driver's license focuses on not displaying proof of driving privilege upon lawful request.",
+                                                                    "principles":  [
+                                                                                       "The person should be operating a motor vehicle and receive a lawful officer request to present a driver's license.",
+                                                                                       "If the person has no valid license for the vehicle class, unlicensed operation may better fit or may also apply depending on policy.",
+                                                                                       "Reports should document the stop basis, request made, response, license check results, identification provided, and any citation discretion."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "piloting-without-proper-licensing",
                                             "label":  "Piloting without Proper Licensing",
                                             "sourceCode":  "PC-9023",
                                             "sourceTitle":  "Piloting without Proper Licensing",
-                                            "description":  "A person who operates an aircraft without the appropriate licenses is guilty under this code section.",
+                                            "description":  "A person commits Piloting without Proper Licensing when they operate or attempt to operate an aircraft without the required pilot license, rating, endorsement, or authorization for that aircraft or flight operation.",
                                             "classification":  "felony",
                                             "baseFine":  1500,
                                             "baseTime":  20,
@@ -6389,7 +6541,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Piloting without proper licensing focuses on aircraft operation without required aviation credentials or authorization.",
+                                                                    "principles":  [
+                                                                                       "The person should operate, taxi, take off, land, or attempt to operate an aircraft requiring a license, rating, or authorization they do not hold.",
+                                                                                       "Emergency operation or instruction under authorized supervision may mitigate or defeat the charge depending on the facts.",
+                                                                                       "Reports should document aircraft type, operation performed, pilot identity, license or rating check, flight plan or authorization, air-control communications, and safety risks."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -6398,7 +6558,7 @@
                         "code":  "EF-PC-09-008",
                         "title":  "Traffic Movement and Parking Violations",
                         "categoryId":  "offenses-involving-the-operation-of-a-vehicle",
-                        "description":  "Grouped charge family for Traffic Movement and Parking Violations.",
+                        "description":  "Improper vehicle movement, lane use, turning, passing, and parking violations.",
                         "sourceCodes":  [
                                             "PC-9015",
                                             "PC-9016",
@@ -6413,7 +6573,7 @@
                                             "label":  "Illegal U-Turn",
                                             "sourceCode":  "PC-9015",
                                             "sourceTitle":  "Illegal U-Turn",
-                                            "description":  "A person who turns around on a roadway where the markings do not permit it is guilty under this code section.",
+                                            "description":  "A person commits Illegal U-Turn when they turn a vehicle around on a roadway where signs, markings, traffic conditions, or roadway configuration do not permit a U-turn.",
                                             "classification":  "infraction",
                                             "baseFine":  100,
                                             "baseTime":  0,
@@ -6427,14 +6587,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Illegal U-turn focuses on turning around where roadway controls or conditions prohibit it.",
+                                                                    "principles":  [
+                                                                                       "The U-turn should occur where signs, lane markings, median design, traffic controls, or safety conditions prohibit the maneuver.",
+                                                                                       "Officer discretion may apply where markings are unclear and the turn creates no traffic hazard.",
+                                                                                       "Reports should document location, signs or markings, traffic conditions, maneuver observed, hazard created, and any citation discretion."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "illegal-passing",
                                             "label":  "Illegal Passing",
                                             "sourceCode":  "PC-9016",
                                             "sourceTitle":  "Illegal Passing",
-                                            "description":  "A person who passes traffic illegally, unsafely, or where the markings do not permit it is guilty under this code section.",
+                                            "description":  "A person commits Illegal Passing when they pass another vehicle where passing is prohibited, unsafe, or not permitted by lane markings, signs, traffic controls, or roadway conditions.",
                                             "classification":  "infraction",
                                             "baseFine":  100,
                                             "baseTime":  0,
@@ -6448,14 +6616,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Illegal passing focuses on passing another vehicle where the maneuver is prohibited or unsafe.",
+                                                                    "principles":  [
+                                                                                       "The passing maneuver may be unlawful because of lane markings, signs, oncoming traffic, intersections, visibility, shoulders, or other roadway conditions.",
+                                                                                       "Unsafe passing that creates a serious danger may also support negligent or reckless driving depending on the facts.",
+                                                                                       "Reports should document the passing location, markings or signs, traffic conditions, vehicles involved, hazard created, and any witness or video evidence."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "failure-to-maintain-lane",
                                             "label":  "Failure to Maintain Lane",
                                             "sourceCode":  "PC-9017",
                                             "sourceTitle":  "Failure to Maintain Lane",
-                                            "description":  "A person who crosses over lane markings where they do not permit passing, or when passing in an unsafe manner, is guilty under this code section.",
+                                            "description":  "A person commits Failure to Maintain Lane when they fail to remain within a lawful lane of travel, cross lane markings where not permitted, or change lanes without reasonable safety.",
                                             "classification":  "infraction",
                                             "baseFine":  100,
                                             "baseTime":  0,
@@ -6469,14 +6645,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Failure to maintain lane focuses on unsafe or prohibited lane departure.",
+                                                                    "principles":  [
+                                                                                       "The vehicle should leave its lane, cross prohibited markings, drift, or change lanes without reasonable safety.",
+                                                                                       "Brief lane movement caused by road hazards, emergency vehicles, or lawful avoidance may mitigate or defeat the charge.",
+                                                                                       "Reports should document lane markings, vehicle movement, traffic conditions, duration or repetition, hazard created, and any video or witness evidence."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "illegal-turn",
                                             "label":  "Illegal Turn",
                                             "sourceCode":  "PC-9018",
                                             "sourceTitle":  "Illegal Turn",
-                                            "description":  "A person who makes a turn from the wrong lane, or where signs disallow it, is guilty under this code section.",
+                                            "description":  "A person commits Illegal Turn when they turn from an improper lane, turn where signs or traffic controls prohibit it, or make a turn in a manner unsafe for traffic conditions.",
                                             "classification":  "infraction",
                                             "baseFine":  100,
                                             "baseTime":  0,
@@ -6490,14 +6674,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Illegal turn focuses on prohibited, improperly positioned, or unsafe turning movements.",
+                                                                    "principles":  [
+                                                                                       "The turn may be unlawful because of signs, signals, lane arrows, wrong-lane positioning, roadway design, or unsafe traffic conditions.",
+                                                                                       "Unsafe turning that creates a serious danger may also support negligent or reckless driving depending on the facts.",
+                                                                                       "Reports should document the intersection or roadway, signs or markings, lane position, turn made, traffic conditions, and any hazard or collision."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "unauthorized-parking",
                                             "label":  "Unauthorized Parking",
                                             "sourceCode":  "PC-9019",
                                             "sourceTitle":  "Unauthorized Parking",
-                                            "description":  "A person who parks their vehicle while blocking the roadway, on a red curb, on a pedestrian walkway, or in a marked no parking zone is guilty under this code section.",
+                                            "description":  "A person commits Unauthorized Parking when they park, stop, or leave a vehicle blocking a roadway, on a red curb, on a pedestrian walkway, in a marked no-parking zone, or in another location where parking is prohibited.",
                                             "classification":  "infraction",
                                             "baseFine":  100,
                                             "baseTime":  0,
@@ -6511,7 +6703,15 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Unauthorized parking focuses on stopping or leaving a vehicle where parking is prohibited or obstructive.",
+                                                                    "principles":  [
+                                                                                       "The vehicle should be parked, stopped, or left in a prohibited place or in a way that obstructs traffic, pedestrians, emergency access, or marked restrictions.",
+                                                                                       "Temporary emergency stopping, officer direction, or unavoidable vehicle failure may mitigate or defeat the charge depending on the facts.",
+                                                                                       "Reports should document vehicle location, posted signs or curb markings, obstruction created, duration if known, owner or driver connection, and any tow or citation discretion."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -6520,7 +6720,7 @@
                         "code":  "EF-PC-09-009",
                         "title":  "Hit and Run",
                         "categoryId":  "offenses-involving-the-operation-of-a-vehicle",
-                        "description":  "Grouped charge family for Hit and Run.",
+                        "description":  "Leaving the scene of a motor vehicle collision without stopping, identifying oneself, or exchanging required information.",
                         "sourceCodes":  [
                                             "PC-9020"
                                         ],
@@ -6531,7 +6731,7 @@
                                             "label":  "Hit and Run",
                                             "sourceCode":  "PC-9020",
                                             "sourceTitle":  "Hit and Run",
-                                            "description":  "A person who is involved in a motor vehicle accident, and does not stop to exchange license or insurance information is guilty under this code section.",
+                                            "description":  "A person commits Hit and Run when they are involved in a motor vehicle collision and knowingly fail to stop, identify themselves, exchange required license or insurance information, or render reasonable aid when needed.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  500,
                                             "baseTime":  10,
@@ -6553,7 +6753,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Hit and run focuses on leaving or failing to meet duties after involvement in a motor vehicle collision.",
+                                                                    "principles":  [
+                                                                                       "The person should know or reasonably know they were involved in a collision causing property damage, injury, or a need to exchange information.",
+                                                                                       "Required conduct includes stopping, identifying oneself, exchanging required license or insurance information, and rendering or summoning reasonable aid when needed.",
+                                                                                       "Reports should document the collision, driver knowledge, departure or failure to exchange information, victim or property damage, injuries, witness statements, and any later contact or surrender."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -6641,9 +6849,9 @@
                                         },
                                         {
                                             "id":  "hunting-outside-of-hunting-hours",
-                                            "label":  "Hunting outside of hunting hours",
+                                            "label":  "Hunting outside of Hunting Hours",
                                             "sourceCode":  "PC-10005",
-                                            "sourceTitle":  "Hunting outside of hunting hours",
+                                            "sourceTitle":  "Hunting outside of Hunting Hours",
                                             "description":  "A person who hunts game outside of the legal hours for hunting in that area is guilty under this code section. Legal hunting hours are from dawn to dusk in all legal hunting zones.",
                                             "classification":  "infraction",
                                             "baseFine":  450,
