@@ -6770,7 +6770,7 @@
                         "code":  "EF-PC-10-001",
                         "title":  "Hunting Violations",
                         "categoryId":  "offenses-involving-the-well-being-of-wildlife",
-                        "description":  "Grouped charge family for Hunting Violations.",
+                        "description":  "Unlawful hunting based on location, license status, weapon type, time of day, harvest limits, or protected species.",
                         "sourceCodes":  [
                                             "PC-10001",
                                             "PC-10002",
@@ -6786,7 +6786,7 @@
                                             "label":  "Hunting in Restricted Areas",
                                             "sourceCode":  "PC-10001",
                                             "sourceTitle":  "Hunting in Restricted Areas",
-                                            "description":  "A person who hunts for game outside of allocated hunting areas is guilty under this code section.",
+                                            "description":  "A person commits Hunting in Restricted Areas when they hunt, attempt to hunt, trap, kill, harvest, or pursue game outside an authorized hunting area.",
                                             "classification":  "infraction",
                                             "baseFine":  450,
                                             "baseTime":  0,
@@ -6800,14 +6800,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Hunting in restricted areas focuses on hunting activity outside designated lawful hunting zones.",
+                                                                    "principles":  [
+                                                                                       "Hunting includes taking, attempting to take, pursuing, trapping, killing, or harvesting game animals.",
+                                                                                       "The location must be outside an allocated hunting area or inside an area closed to hunting.",
+                                                                                       "Reports should document location, map or zone reference, animal or tracks observed, weapon or equipment used, harvest evidence, and suspect statements."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "unlicensed-hunting",
                                             "label":  "Unlicensed Hunting",
                                             "sourceCode":  "PC-10002",
                                             "sourceTitle":  "Unlicensed Hunting",
-                                            "description":  "A person who hunts for game without the appropriate license is guilty under this code section.",
+                                            "description":  "A person commits Unlicensed Hunting when they hunt, attempt to hunt, trap, kill, harvest, or pursue game without the required hunting license, tag, permit, or authorization.",
                                             "classification":  "infraction",
                                             "baseFine":  450,
                                             "baseTime":  0,
@@ -6821,14 +6829,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Unlicensed hunting focuses on hunting activity without required licensing or authorization.",
+                                                                    "principles":  [
+                                                                                       "The suspect must engage in hunting conduct and lack the required license, tag, permit, or authorization for that activity.",
+                                                                                       "Possessing hunting equipment alone is not enough unless the facts show hunting or attempted hunting.",
+                                                                                       "Reports should document the hunting conduct, species or game involved, license check results, location, equipment, harvested items, and suspect statements."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "hunting-with-a-non-hunting-weapon",
                                             "label":  "Hunting with a Non-Hunting Weapon",
                                             "sourceCode":  "PC-10004",
                                             "sourceTitle":  "Hunting with a Non-Hunting Weapon",
-                                            "description":  "A person who hunts game with a weapon that is not a legal licensed hunting weapon is guilty under this code section. Legal licensed hunting weapons are defined as weapons that are sold direct-to-consumer by official hunting stores, with weapons being automatically registered to the individual who purchases the weapon.",
+                                            "description":  "A person commits Hunting with a Non-Hunting Weapon when they hunt, attempt to hunt, trap, kill, harvest, or pursue game using a weapon that is not lawful or registered for hunting use. Lawful hunting weapons are weapons sold by official hunting stores and registered to the purchaser for hunting.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  450,
                                             "baseTime":  10,
@@ -6845,14 +6861,22 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Hunting with a non-hunting weapon focuses on use of weapons not authorized for lawful hunting.",
+                                                                    "principles":  [
+                                                                                       "The suspect must use or attempt to use the weapon in hunting activity, not merely possess it while outdoors.",
+                                                                                       "The weapon should be unregistered for hunting, not sold or authorized as a hunting weapon, or otherwise unlawful for the species or area.",
+                                                                                       "Reports should document the weapon, registration or store source, hunting conduct, species, location, shots or wounds, harvested items, and suspect statements."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "hunting-outside-of-hunting-hours",
                                             "label":  "Hunting outside of Hunting Hours",
                                             "sourceCode":  "PC-10005",
                                             "sourceTitle":  "Hunting outside of Hunting Hours",
-                                            "description":  "A person who hunts game outside of the legal hours for hunting in that area is guilty under this code section. Legal hunting hours are from dawn to dusk in all legal hunting zones.",
+                                            "description":  "A person commits Hunting outside of Hunting Hours when they hunt, attempt to hunt, trap, kill, harvest, or pursue game outside the legal hunting hours for that area. Legal hunting hours are dawn to dusk in all legal hunting zones unless otherwise specified.",
                                             "classification":  "infraction",
                                             "baseFine":  450,
                                             "baseTime":  0,
@@ -6866,14 +6890,22 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Hunting outside of hunting hours focuses on hunting activity outside the lawful time window for the area.",
+                                                                    "principles":  [
+                                                                                       "The hunting activity must occur before dawn, after dusk, or outside any special hours set for the area.",
+                                                                                       "Traveling through a hunting area with equipment is not enough unless the facts show hunting or attempted hunting during prohibited hours.",
+                                                                                       "Reports should document time, lighting conditions, location, observed hunting conduct, weapon or equipment, harvested items, and any applicable posted hours."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "overhunting",
                                             "label":  "Overhunting",
                                             "sourceCode":  "PC-10006",
                                             "sourceTitle":  "Overhunting",
-                                            "description":  "A person who hunts over the amount allowed in a given hunting area is guilty under this code section. The current amount legally allowed by a single individual is defined as 200 kg of combined animal meat and skins, fur, tusks, or other animal by-products.",
+                                            "description":  "A person commits Overhunting when they hunt, possess, transport, or harvest more than the allowed amount of game or animal by-products for a hunting area. The current individual limit is 200 kg of combined animal meat, skins, fur, tusks, or other animal by-products.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  110,
                                             "baseTime":  10,
@@ -6892,14 +6924,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Overhunting focuses on exceeding lawful harvest or possession limits for game and animal by-products.",
+                                                                    "principles":  [
+                                                                                       "The current limit is 200 kg per individual unless the active hunting area sets a different limit.",
+                                                                                       "The weight may include combined meat, skins, fur, tusks, and other animal by-products tied to the suspect.",
+                                                                                       "Reports should document weights, itemized animal products, location, group or individual ownership, scales or estimates used, and any seized items."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "animal-poaching",
                                             "label":  "Animal Poaching",
                                             "sourceCode":  "PC-10007",
                                             "sourceTitle":  "Animal Poaching",
-                                            "description":  "A person who hunts for an endangered or protected species in the state of San Andreas is guilty under this code section. Current endangered and protected species include the following: Mountain Lions, Bears, Seagulls, and Capybara.",
+                                            "description":  "A person commits Animal Poaching when they hunt, attempt to hunt, trap, kill, harvest, possess, transport, or sell an endangered or protected species in the State of San Andreas. Protected species include mountain lions, bears, seagulls, capybara, and any species designated by Fish and Wildlife.",
                                             "classification":  "felony",
                                             "baseFine":  1250,
                                             "baseTime":  20,
@@ -6919,7 +6959,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Animal poaching focuses on unlawful taking or trafficking of protected or endangered species.",
+                                                                    "principles":  [
+                                                                                       "Protected species include mountain lions, bears, seagulls, capybara, and any other species designated by Fish and Wildlife.",
+                                                                                       "The offense may be based on hunting, attempted hunting, possession, transport, sale, or harvest of the protected animal or its by-products.",
+                                                                                       "Reports should document species identification, location, animal remains or by-products, weapon or trap, sale or transport facts, and any Fish and Wildlife confirmation."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -6928,7 +6976,7 @@
                         "code":  "EF-PC-10-002",
                         "title":  "Animal Cruelty",
                         "categoryId":  "offenses-involving-the-well-being-of-wildlife",
-                        "description":  "Grouped charge family for Animal Cruelty.",
+                        "description":  "Malicious or unjustified harm to animals.",
                         "sourceCodes":  [
                                             "PC-10003"
                                         ],
@@ -6939,7 +6987,7 @@
                                             "label":  "Animal Cruelty",
                                             "sourceCode":  "PC-10003",
                                             "sourceTitle":  "Animal Cruelty",
-                                            "description":  "A person who causes harm to an animal with malicious intent, with no cause for self defence, is guilty under this code section.",
+                                            "description":  "A person commits Animal Cruelty when they maliciously, intentionally, or recklessly harm, injure, torture, neglect, or kill an animal without lawful justification, necessity, or valid self-defense.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  450,
                                             "baseTime":  10,
@@ -6959,7 +7007,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Animal cruelty focuses on unjustified harm to animals through malicious, intentional, reckless, or neglectful conduct.",
+                                                                    "principles":  [
+                                                                                       "The conduct should cause or risk meaningful injury, suffering, neglect, or death to an animal.",
+                                                                                       "Valid self-defense, defense of others, humane euthanasia, lawful hunting, or other legal justification may defeat the charge.",
+                                                                                       "Reports should document the animal, injury or condition, suspect conduct, intent or recklessness, veterinary or witness evidence, and any claimed justification."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -6968,7 +7024,7 @@
                         "code":  "EF-PC-10-003",
                         "title":  "Fishing Violations",
                         "categoryId":  "offenses-involving-the-well-being-of-wildlife",
-                        "description":  "Grouped charge family for Fishing Violations.",
+                        "description":  "Unlawful fishing based on location, gear, prohibited species, size limits, possession, transport, sale, or daily catch limits.",
                         "sourceCodes":  [
                                             "PC-10008",
                                             "PC-10009",
@@ -6981,7 +7037,7 @@
                                             "label":  "Fishing in an Unauthorized Zone",
                                             "sourceCode":  "PC-10008",
                                             "sourceTitle":  "Fishing in an Unauthorized Zone",
-                                            "description":  "Unless otherwise specified, fishing for sport and game may be conducted on public waterways in the State of Los Santos. The following areas are prohibited fishing grounds: Zancudo River, Lago Zancudo Wetlands, Land Act Reservoir, and the Port of Los Santos",
+                                            "description":  "A person commits Fishing in an Unauthorized Zone when they fish, attempt to fish, harvest, possess, transport, or sell fish taken from prohibited fishing grounds. Prohibited fishing grounds include Zancudo River, Lago Zancudo Wetlands, Land Act Reservoir, and the Port of Los Santos unless otherwise authorized.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  3275,
                                             "baseTime":  5,
@@ -7000,14 +7056,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Fishing in an unauthorized zone focuses on fishing activity in waterways closed to sport or game fishing.",
+                                                                    "principles":  [
+                                                                                       "Prohibited fishing grounds include Zancudo River, Lago Zancudo Wetlands, Land Act Reservoir, and the Port of Los Santos unless otherwise authorized.",
+                                                                                       "The offense may be based on fishing, attempted fishing, harvest, possession, transport, or sale of fish tied to the prohibited zone.",
+                                                                                       "Reports should document location, waterway, fishing gear, fish or catch, officer observations, statements, and any map or Fish and Wildlife confirmation."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "illegal-fishing",
                                             "label":  "Illegal Fishing",
                                             "sourceCode":  "PC-10009",
                                             "sourceTitle":  "Illegal Fishing",
-                                            "description":  "Illegal fishing is defined as fishing using illegal hooks or possessing, transporting, or selling fish of prohibited lengths or species. Species that are prohibited from possession include: whales, sharks, arapaima, giant snakehead, goliath tigerfish, devil rays, kraken, megalodon, giant coelacanth, and golden fish. These fish, however, may be caught for sport and then immediately released. The minimum and maximum lengths for fish that may be caught, transported and sold are as follows (in inches): Salmon |30 - 40|, Trout |20 - 30|, Bass |20 - 30|, Catfish |18 - 30|, Perch |5 - 10|, Pike |22 -38 in|, Carp |15 - 30|, Bluegill |7 - 14 in|, Cod |30 - 45|, Herring |7 - 13|, Walleye |26 - 38|, Bream |12 - 22|, Zander |22 - 38|, Sturgeon |100 - 130|, Swordfish |65 - 95|, Tuna |50 - 75|, Muskellunge |32 - 48|, Tarpon |75 - 110|, Giant Catfish |85 - 115|. Individuals found to be illegally possessing, transporting, or selling these species are subject to confiscation of the fish and subject to the penalties outlined herein. ",
+                                            "description":  "A person commits Illegal Fishing when they fish using illegal hooks or knowingly possess, transport, or sell fish of prohibited species or prohibited lengths. Prohibited species include whales, sharks, arapaima, giant snakehead, coelacanth, and golden trout, except when caught for sport and immediately released. Lawful possession, transport, or sale must comply with posted species and size limits.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  6250,
                                             "baseTime":  15,
@@ -7027,14 +7091,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Illegal fishing focuses on prohibited gear, prohibited species, and fish outside lawful size limits.",
+                                                                    "principles":  [
+                                                                                       "Prohibited species may be caught for sport only if immediately released and not possessed, transported, or sold.",
+                                                                                       "Lawful fish must meet the active size limits for the species; illegal hooks or other prohibited gear independently support the charge.",
+                                                                                       "Reports should document species, length, quantity, gear, possession or sale facts, measurement method, release or retention, and any Fish and Wildlife confirmation."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "overfishing",
                                             "label":  "Overfishing",
                                             "sourceCode":  "PC-10010",
                                             "sourceTitle":  "Overfishing",
-                                            "description":  "Daily catch limit is 30 fish per person per day. Violations of the catch limit are punishable by up to $600 per fish above the allotted amount. All fishing vessels and subjects who are engaged in fishing are subject to random inspections by Fish \u0026 Wildlife Officers for the stated purpose of monitoring fishing equipment, fish length, and all other duties.",
+                                            "description":  "A person commits Overfishing when they catch, possess, transport, or retain more than 30 fish per person per day. Fish and Wildlife Officers may inspect fishing vessels, equipment, catch, and fish length to monitor compliance.",
                                             "classification":  "infraction",
                                             "baseFine":  600,
                                             "baseTime":  0,
@@ -7051,7 +7123,15 @@
                                                                 "high-value-loss",
                                                                 "citation-discretion",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Overfishing focuses on exceeding the daily catch limit for fish.",
+                                                                    "principles":  [
+                                                                                       "The daily catch limit is 30 fish per person per day unless a more specific active limit applies.",
+                                                                                       "Fish tied to a group should be attributed to individuals based on possession, control, admissions, containers, vessel assignments, or other facts.",
+                                                                                       "Reports should document fish count, persons involved, vessel or container location, inspection basis, species if relevant, and any fish above the limit."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -7060,7 +7140,7 @@
                         "code":  "EF-PC-10-004",
                         "title":  "Police Working Dog Murder",
                         "categoryId":  "offenses-involving-the-well-being-of-wildlife",
-                        "description":  "Grouped charge family for Police Working Dog Murder.",
+                        "description":  "Intentional killing, attempted killing, or accessory conduct involving a police working dog acting in the line of duty.",
                         "sourceCodes":  [
                                             "PC-10012",
                                             "PC-10011",
@@ -7073,7 +7153,7 @@
                                             "label":  "Murder of a Police Working Dog",
                                             "sourceCode":  "PC-10012",
                                             "sourceTitle":  "Murder of a Police Working Dog",
-                                            "description":  "A person who commits the intentional killing of a police working dog, while in the execution of their duties, in a way that is willful, deliberate and premeditated is guilty under this code section.",
+                                            "description":  "A person commits Murder of a Police Working Dog when they willfully, deliberately, and with premeditation kill a police working dog while the dog is deployed, assigned, or acting in the execution of its duties.",
                                             "classification":  "felony",
                                             "baseFine":  4000,
                                             "baseTime":  45,
@@ -7109,7 +7189,15 @@
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Murder of a police working dog focuses on intentional and premeditated killing of a law-enforcement working dog in the line of duty.",
+                                                                    "principles":  [
+                                                                                       "The dog should be a police working dog that is deployed, assigned, training, assisting officers, or otherwise acting under law-enforcement control.",
+                                                                                       "The principal offense requires willful, deliberate, and premeditated killing; attempted and accessory conduct should use the listed liability options when appropriate.",
+                                                                                       "Reports should document the dog's duty status, handler or agency, suspect conduct, weapon or method, intent evidence, veterinary or death findings, and any attempt or accessory facts."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     }
