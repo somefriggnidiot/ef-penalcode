@@ -650,6 +650,14 @@
                                                                          "sourceTitle":  "Attempted Murder of a Civilian",
                                                                          "fineMultiplier":  0.8571,
                                                                          "timeMultiplier":  0.75
+                                                                     },
+                                                                     {
+                                                                         "id":  "conspiracy",
+                                                                         "label":  "Conspiracy",
+                                                                         "fineMultiplier":  0.5,
+                                                                         "timeMultiplier":  0.5,
+                                                                         "sourceCode":  "PC-5013",
+                                                                         "sourceTitle":  "Conspiracy"
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -702,6 +710,14 @@
                                                                          "sourceTitle":  "Attempted Murder of a Public Servant or Peace Officer",
                                                                          "fineMultiplier":  3.8,
                                                                          "timeMultiplier":  1.6
+                                                                     },
+                                                                     {
+                                                                         "id":  "conspiracy",
+                                                                         "label":  "Conspiracy",
+                                                                         "fineMultiplier":  0.5,
+                                                                         "timeMultiplier":  0.5,
+                                                                         "sourceCode":  "PC-5013",
+                                                                         "sourceTitle":  "Conspiracy"
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -804,6 +820,14 @@
                                                                          "sourceTitle":  "Accessory to Kidnapping",
                                                                          "fineMultiplier":  0.3,
                                                                          "timeMultiplier":  0.4667
+                                                                     },
+                                                                     {
+                                                                         "id":  "conspiracy",
+                                                                         "label":  "Conspiracy",
+                                                                         "fineMultiplier":  0.5,
+                                                                         "timeMultiplier":  0.5,
+                                                                         "sourceCode":  "PC-5013",
+                                                                         "sourceTitle":  "Conspiracy"
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -840,6 +864,14 @@
                                                                          "sourceTitle":  "Accessory to Hostage Taking",
                                                                          "fineMultiplier":  0.2,
                                                                          "timeMultiplier":  0.5
+                                                                     },
+                                                                     {
+                                                                         "id":  "conspiracy",
+                                                                         "label":  "Conspiracy",
+                                                                         "fineMultiplier":  0.5,
+                                                                         "timeMultiplier":  0.5,
+                                                                         "sourceCode":  "PC-5013",
+                                                                         "sourceTitle":  "Conspiracy"
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -1433,6 +1465,14 @@
                                                                          "sourceTitle":  "Attempted Armed Robbery",
                                                                          "fineMultiplier":  0.3,
                                                                          "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "conspiracy",
+                                                                         "label":  "Conspiracy",
+                                                                         "fineMultiplier":  0.5,
+                                                                         "timeMultiplier":  0.5,
+                                                                         "sourceCode":  "PC-5013",
+                                                                         "sourceTitle":  "Conspiracy"
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -3109,59 +3149,6 @@
                                                                                        "Good-faith calls based on mistaken but reasonable fear, confusion, injury, or developing danger should not be charged as misuse.",
                                                                                        "Reports should document the call or activation, dispatch logs, caller statements, known facts at the time, units diverted, and whether warnings were given."
                                                                                    ]
-                                                                }
-                                        }
-                                    ]
-                    },
-                    {
-                        "id":  "conspiracy",
-                        "code":  "EF-PC-05-010",
-                        "title":  "Conspiracy",
-                        "categoryId":  "offenses-against-public-administration",
-                        "description":  "Agreement or coordinated planning to commit a criminal offense, supported by conduct showing the plan moved beyond idle discussion.",
-                        "sourceCodes":  [
-                                            "PC-5013"
-                                        ],
-                        "migrationNotes":  "",
-                        "degrees":  [
-                                        {
-                                            "id":  "conspiracy",
-                                            "label":  "Conspiracy",
-                                            "sourceCode":  "PC-5013",
-                                            "sourceTitle":  "Conspiracy",
-                                            "description":  "A person commits Conspiracy when they agree with one or more persons to commit a criminal offense and at least one participant takes a concrete step toward planning, preparing, enabling, or carrying out that offense.",
-                                            "classification":  "misdemeanor",
-                                            "baseFine":  0,
-                                            "baseTime":  0,
-                                            "liabilityOptions":  [
-                                                                     {
-                                                                         "id":  "principal",
-                                                                         "label":  "Principal Actor",
-                                                                         "fineMultiplier":  1,
-                                                                         "timeMultiplier":  1
-                                                                     }
-                                                                 ],
-                                            "modifierIds":  [
-                                                                "cooperation",
-                                                                "organized-activity",
-                                                                "prior-conviction",
-                                                                "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
-                                                            ],
-                                            "legalPrinciples":  {
-                                                                    "overview":  "Conspiracy should be based on an agreement plus conduct showing movement toward the planned crime, not loose talk, fantasy, or mere association.",
-                                                                    "principles":  [
-                                                                                       "There should be evidence of an agreement, shared plan, or coordinated intent to commit a specific criminal offense.",
-                                                                                       "At least one participant should take an overt step, such as acquiring tools, scouting, assigning roles, moving money, obtaining weapons, or traveling to the target.",
-                                                                                       "Reports should document communications, participant roles, planned offense, overt acts, timelines, seized items, and why the suspect knowingly joined the plan."
-                                                                                   ],
-                                                                    "cases":  [
-
-                                                                              ],
-                                                                    "resources":  [
-
-                                                                                  ]
                                                                 }
                                         }
                                     ]
