@@ -1934,7 +1934,7 @@
                         "code":  "EF-PC-03-001",
                         "title":  "Impersonation",
                         "categoryId":  "offenses-involving-fraud",
-                        "description":  "Grouped charge family for Impersonation.",
+                        "description":  "False identity or false official authority offenses involving impersonation of another person, public servant, peace officer, or judicial officer.",
                         "sourceCodes":  [
                                             "PC-3001",
                                             "PC-3002",
@@ -1947,7 +1947,7 @@
                                             "label":  "Impersonating",
                                             "sourceCode":  "PC-3001",
                                             "sourceTitle":  "Impersonating",
-                                            "description":  "A person who attempts to assume the identity of someone else is guilty under this code section.",
+                                            "description":  "A person commits Impersonating when they knowingly assume, use, or present another person\u0027s identity, name, credentials, or identifying information without permission in a manner reasonably likely to mislead another person, business, officer, or agency.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  1250,
                                             "baseTime":  25,
@@ -1966,14 +1966,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Impersonating focuses on the knowing use of another identity in a way that would reasonably mislead someone or affect an official, business, or personal interaction.",
+                                                                    "principles":  [
+                                                                                       "The conduct must involve a false or unauthorized identity claim, not merely a nickname, roleplay statement, or unclear misunderstanding.",
+                                                                                       "The suspect must know they lack permission or authority to use the identity or identifying information.",
+                                                                                       "Reports should document the claimed identity, how it was presented, who was misled or targeted, and any benefit sought or accountability avoided."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "impersonating-a-peace-officer-or-public-servant",
                                             "label":  "Impersonating a Peace Officer or Public Servant",
                                             "sourceCode":  "PC-3002",
                                             "sourceTitle":  "Impersonating a Peace Officer or Public Servant",
-                                            "description":  "A person who attempts to assume the identity, or state that they are a peace officer or public servant, when they are not, are guilty under this code section.",
+                                            "description":  "A person commits Impersonating a Peace Officer or Public Servant when they knowingly claim, imply, or exercise peace officer or public servant authority without authorization through words, clothing, insignia, credentials, vehicle markings, commands, or official conduct.",
                                             "classification":  "felony",
                                             "baseFine":  2050,
                                             "baseTime":  30,
@@ -1992,14 +2000,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree applies when a false claim of government or law-enforcement authority is used in a way that could cause others to comply, grant access, or believe the suspect is acting under official power.",
+                                                                    "principles":  [
+                                                                                       "The key issue is the false assertion or use of official authority, not merely wearing similar clothing without deceptive conduct.",
+                                                                                       "Evidence should show the suspect knowingly lacked the claimed status or authority.",
+                                                                                       "Reports should document badges, uniforms, marked vehicles, commands, statements, credentials, victim reliance, and any access or compliance obtained."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "impersonating-a-judge",
                                             "label":  "Impersonating a Judge",
                                             "sourceCode":  "PC-3003",
                                             "sourceTitle":  "Impersonating a Judge",
-                                            "description":  "A person who attempts to assume the identity, or state that they are a judge, when they are not, are guilty under this code section.",
+                                            "description":  "A person commits Impersonating a Judge when they knowingly claim to be, act as, or issue purported authority from a judge or judicial officer without authorization, including false court orders, rulings, warrants, or judicial instructions.",
                                             "classification":  "felony",
                                             "baseFine":  3500,
                                             "baseTime":  45,
@@ -2018,7 +2034,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree is reserved for false judicial authority because court power can alter liberty, property, custody, and official decision-making.",
+                                                                    "principles":  [
+                                                                                       "The conduct must involve a false judicial role or false use of judicial authority, not ordinary argument about what the law requires.",
+                                                                                       "False documents, orders, warrants, or instructions should be preserved as evidence when involved.",
+                                                                                       "Reports should explain who received the false judicial claim, what action it was meant to compel, and how the suspect represented their authority."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2027,7 +2051,7 @@
                         "code":  "EF-PC-03-002",
                         "title":  "Possession of Stolen Government Identification",
                         "categoryId":  "offenses-involving-fraud",
-                        "description":  "Grouped charge family for Possession of Stolen Government Identification.",
+                        "description":  "Unauthorized possession of government-issued identification or credentials belonging to another person.",
                         "sourceCodes":  [
                                             "PC-3005"
                                         ],
@@ -2038,7 +2062,7 @@
                                             "label":  "Possession of Stolen Government Identification",
                                             "sourceCode":  "PC-3005",
                                             "sourceTitle":  "Possession of Stolen Government Identification",
-                                            "description":  "A person who is in possession of a piece of government identification that does not belong to them, who has not made any attempt to dispose of the item, is guilty under this section.",
+                                            "description":  "A person commits Possession of Stolen Government Identification when they knowingly possess government-issued identification, credentials, or access documents belonging to another person without permission or lawful reason and do not promptly return, surrender, or report the item.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  200,
                                             "baseTime":  20,
@@ -2057,7 +2081,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This offense targets possession of another person\u0027s official identification where the circumstances show knowledge and lack of lawful authority.",
+                                                                    "principles":  [
+                                                                                       "The item should be government-issued identification, credentials, or an access document that belongs to another person.",
+                                                                                       "The suspect must know or reasonably understand that they are not authorized to possess it.",
+                                                                                       "Reports should document the issuing agency, named owner, how the suspect obtained or used it, and whether they attempted to return or surrender it."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2066,7 +2098,7 @@
                         "code":  "EF-PC-03-003",
                         "title":  "Extortion",
                         "categoryId":  "offenses-involving-fraud",
-                        "description":  "Grouped charge family for Extortion.",
+                        "description":  "Coercive demands for property, services, action, or inaction through threats, intimidation, or misuse of authority.",
                         "sourceCodes":  [
                                             "PC-3006"
                                         ],
@@ -2077,7 +2109,7 @@
                                             "label":  "Extortion",
                                             "sourceCode":  "PC-3006",
                                             "sourceTitle":  "Extortion",
-                                            "description":  "A person who intimidates or influences another to provide or hand over properties or services is guilty under this code section. A person who utilizes or threatens their power or authority with demonstrated malice aforethought in order to compel action by another is guilty under this code section",
+                                            "description":  "A person commits Extortion when they use threats, intimidation, coercion, or misuse of actual or apparent authority to compel another person to provide property, services, money, access, action, or inaction.",
                                             "classification":  "felony",
                                             "baseFine":  1500,
                                             "baseTime":  30,
@@ -2100,7 +2132,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Extortion focuses on coercive pressure that converts a demand into forced compliance or attempted forced compliance.",
+                                                                    "principles":  [
+                                                                                       "There must be a demand or desired outcome tied to a threat, intimidation, coercion, or abuse of authority.",
+                                                                                       "The threatened harm can involve violence, property, reputation, official action, or another consequence that would reasonably pressure the target.",
+                                                                                       "Reports should preserve messages, recordings, witness statements, the exact demand, the threatened consequence, and any property or service sought."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2109,7 +2149,7 @@
                         "code":  "EF-PC-03-004",
                         "title":  "Fraud and Forgery",
                         "categoryId":  "offenses-involving-fraud",
-                        "description":  "Grouped charge family for Fraud and Forgery.",
+                        "description":  "Deceptive conduct involving material false statements, altered records, false documents, or unauthorized signatures used to obtain a benefit or cause a loss.",
                         "sourceCodes":  [
                                             "PC-3007",
                                             "PC-3008"
@@ -2121,7 +2161,7 @@
                                             "label":  "Fraud",
                                             "sourceCode":  "PC-3007",
                                             "sourceTitle":  "Fraud",
-                                            "description":  "A person who knowingly alters, creates, or uses a written document with the intent to defraud or deceive another is guilty under this code section. ",
+                                            "description":  "A person commits Fraud when they knowingly make a material false statement, conceal a material fact, or use deceptive conduct with the intent to obtain money, property, services, access, official action, or another benefit, or to cause another person a loss.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  150,
                                             "baseTime":  10,
@@ -2142,14 +2182,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Fraud turns on intentional deception about something important enough to influence a person, business, or agency decision.",
+                                                                    "principles":  [
+                                                                                       "The false statement, omission, or deceptive act must be material, meaning it could reasonably affect the target\u0027s decision.",
+                                                                                       "The suspect must act with intent to deceive for a benefit, access, official action, or another person\u0027s loss.",
+                                                                                       "Reports should document the deception, the target\u0027s reliance or attempted reliance, the records involved, and the benefit or loss at issue."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "forgery",
                                             "label":  "Forgery",
                                             "sourceCode":  "PC-3008",
                                             "sourceTitle":  "Forgery",
-                                            "description":  "A person who knowingly signs a document or agreement, electronic or otherwise, without the consent or authority of whom they are signing for is guilty under this code section. A person who creates fake government documents is guilty under this code section.",
+                                            "description":  "A person commits Forgery when they knowingly create, alter, sign, pass, possess, or use a false writing, document, record, credential, or electronic record with intent to defraud or deceive another person, business, officer, or agency.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  650,
                                             "baseTime":  15,
@@ -2171,7 +2219,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Forgery focuses on false or unauthorized documents and records, including electronic records, used or prepared for deceptive purposes.",
+                                                                    "principles":  [
+                                                                                       "The evidence should identify the writing, document, record, signature, credential, or electronic entry that was false or unauthorized.",
+                                                                                       "The suspect must know the item is false, altered, or unauthorized and intend that it be accepted as genuine or relied upon.",
+                                                                                       "Reports should preserve the document or image, identify the true authority or signer, and explain how the forged item was used or intended to be used."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2180,7 +2236,7 @@
                         "code":  "EF-PC-03-005",
                         "title":  "Money Laundering",
                         "categoryId":  "offenses-involving-fraud",
-                        "description":  "Grouped charge family for Money Laundering.",
+                        "description":  "Handling, moving, concealing, or operating through criminal proceeds in a way that disguises their source, ownership, location, or control.",
                         "sourceCodes":  [
                                             "PC-3009"
                                         ],
@@ -2191,7 +2247,7 @@
                                             "label":  "Money Laundering",
                                             "sourceCode":  "PC-3009",
                                             "sourceTitle":  "Money Laundering",
-                                            "description":  "A person who possesses, hides, transfers, receives, or maintains the storage of funds earned through comprehensive criminal activities is guilty under this code. A person who maintains an establishment with a purpose to launder funds collected through comprehensive criminal activities is guilty under this code.",
+                                            "description":  "A person commits Money Laundering when they knowingly possess, receive, transfer, conceal, store, spend, invest, or operate a business with proceeds of criminal activity in a manner intended to hide or disguise the source, ownership, location, movement, or control of those proceeds.",
                                             "classification":  "felony",
                                             "baseFine":  4000,
                                             "baseTime":  25,
@@ -2212,7 +2268,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Money laundering addresses criminal proceeds and the steps taken to make those proceeds appear legitimate or harder to trace.",
+                                                                    "principles":  [
+                                                                                       "The funds, goods, or assets should be tied to suspected criminal activity rather than ordinary unexplained wealth alone.",
+                                                                                       "The conduct should show concealment, movement, storage, conversion, or business use that helps disguise source, ownership, or control.",
+                                                                                       "Reports should document transaction records, cash or asset movement, business involvement, communications, and the suspected underlying criminal activity."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2221,7 +2285,7 @@
                         "code":  "EF-PC-04-001",
                         "title":  "Trespassing",
                         "categoryId":  "offenses-involving-damage-to-property",
-                        "description":  "Grouped charge family for Trespassing.",
+                        "description":  "Unauthorized entry onto, remaining on, or return to property after notice, exclusion, or obvious restricted access, with elevated treatment for secured government facilities.",
                         "sourceCodes":  [
                                             "PC-4001",
                                             "PC-4002"
@@ -2233,7 +2297,7 @@
                                             "label":  "Trespassing",
                                             "sourceCode":  "PC-4001",
                                             "sourceTitle":  "Trespassing",
-                                            "description":  "A person who remains on a property after being told to leave by the property owner, an agent of the property owner, or a peace officer, or returns to a property after having been previously trespassed from the property is guilty under this code section.",
+                                            "description":  "A person commits Trespassing when they knowingly enter, remain on, or return to property without consent after notice to leave, a prior trespass warning, posted or secured boundaries, or direction from the property owner, the owner\u0027s authorized agent, or a peace officer acting with lawful authority.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  455,
                                             "baseTime":  5,
@@ -2252,14 +2316,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Trespassing focuses on notice and lack of consent: the suspect must know or reasonably understand they are not allowed to be on the property.",
+                                                                    "principles":  [
+                                                                                       "The property owner, authorized agent, lawful occupant, or peace officer should have authority to exclude the suspect.",
+                                                                                       "Notice can come from direct instruction, prior warning, posted signs, locked or secured boundaries, or other clear restricted-access facts.",
+                                                                                       "Reports should document who gave notice, what was said or posted, the suspect\u0027s opportunity to leave, and whether they remained or returned."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "felony-trespassing",
                                             "label":  "Felony Trespassing",
                                             "sourceCode":  "PC-4002",
                                             "sourceTitle":  "Felony Trespassing",
-                                            "description":  "A person who, without proper authorization, enters any government-owned or managed facility that is secured with the intent of keeping ordinary citizens outside is guilty under this code section.",
+                                            "description":  "A person commits Felony Trespassing when they knowingly enter, remain in, or bypass access controls for a secured government-owned or government-managed facility, restricted area, or operational site without authorization.",
                                             "classification":  "felony",
                                             "baseFine":  1500,
                                             "baseTime":  15,
@@ -2278,7 +2350,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Felony trespassing is reserved for secured or restricted government spaces where unauthorized entry creates an elevated risk to public operations, safety, evidence, detention, or infrastructure.",
+                                                                    "principles":  [
+                                                                                       "The location should be government-owned, government-managed, or clearly restricted for official operations.",
+                                                                                       "The suspect must know or reasonably understand the area is secured or restricted and that they lack authorization.",
+                                                                                       "Reports should document fences, locks, keycards, guards, restricted signs, verbal warnings, bypassed barriers, and the suspect\u0027s purpose or conduct inside."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2287,7 +2367,7 @@
                         "code":  "EF-PC-04-002",
                         "title":  "Arson",
                         "categoryId":  "offenses-involving-damage-to-property",
-                        "description":  "Grouped charge family for Arson.",
+                        "description":  "Intentional or malicious burning, ignition, explosive fire damage, or facilitation of burning to structures, land, vehicles, or other property without authorization.",
                         "sourceCodes":  [
                                             "PC-4003"
                                         ],
@@ -2298,7 +2378,7 @@
                                             "label":  "Arson",
                                             "sourceCode":  "PC-4003",
                                             "sourceTitle":  "Arson",
-                                            "description":  "A person who intentionally and maliciously sets fire to or burns any structure, forest land, or property without prior authorization is guilty under this code section. A person who intentionally aids, counsels, or helps facilitate the burning of any structure, forest land, or property without proper authorization is guilty under this code section.",
+                                            "description":  "A person commits Arson when they intentionally or maliciously set fire to, burn, cause incendiary or explosive fire damage to, or aid the burning of any structure, forest land, vehicle, or property without authorization.",
                                             "classification":  "felony",
                                             "baseFine":  2500,
                                             "baseTime":  15,
@@ -2322,7 +2402,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Arson focuses on intentional ignition or facilitation of fire damage, even when the resulting damage is limited or firefighters contain the fire quickly.",
+                                                                    "principles":  [
+                                                                                       "The evidence should support intentional, malicious, or knowing fire-setting rather than accidental ignition alone.",
+                                                                                       "The affected property may include structures, land, vehicles, personal property, or government property, with risk to people and spread relevant to charging decisions.",
+                                                                                       "Reports should document ignition source, accelerants, burn patterns, witness observations, surveillance, suspect statements, damage, injuries, evacuation, and fire response."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2331,7 +2419,7 @@
                         "code":  "EF-PC-04-003",
                         "title":  "Vandalism",
                         "categoryId":  "offenses-involving-damage-to-property",
-                        "description":  "Grouped charge family for Vandalism.",
+                        "description":  "Defacing, damaging, destroying, or tampering with property without consent, including elevated treatment for government-owned or government-controlled property.",
                         "sourceCodes":  [
                                             "PC-4004",
                                             "PC-4005"
@@ -2343,7 +2431,7 @@
                                             "label":  "Vandalism",
                                             "sourceCode":  "PC-4004",
                                             "sourceTitle":  "Vandalism",
-                                            "description":  "A person that defaces, damages, or destroys property which belongs to another is guilty under this code section.",
+                                            "description":  "A person commits Vandalism when they knowingly deface, damage, destroy, mark, impair, or tamper with property belonging to another person or entity without consent.",
                                             "classification":  "infraction",
                                             "baseFine":  100,
                                             "baseTime":  0,
@@ -2360,14 +2448,22 @@
                                                                 "high-value-loss",
                                                                 "citation-discretion",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Vandalism focuses on unauthorized physical damage, defacement, or impairment of property, even when repair costs are low.",
+                                                                    "principles":  [
+                                                                                       "The property should belong to someone other than the suspect or be jointly owned in a way that does not give the suspect consent to damage it.",
+                                                                                       "The conduct must cause defacement, damage, destruction, impairment, or unauthorized alteration beyond ordinary use or accidental wear.",
+                                                                                       "Reports should include photographs, owner statements, repair or cleanup estimates, tools or materials used, and any admissions or surveillance."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "vandalism-of-government-property",
                                             "label":  "Vandalism of Government Property",
                                             "sourceCode":  "PC-4005",
                                             "sourceTitle":  "Vandalism of Government Property",
-                                            "description":  "A person that defaces, damages, or destroys property which belongs to a government agency is guilty under this code section.",
+                                            "description":  "A person commits Vandalism of Government Property when they knowingly deface, damage, destroy, mark, impair, or tamper with property owned, leased, operated, or controlled by a government agency without authorization.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  350,
                                             "baseTime":  10,
@@ -2388,7 +2484,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree applies when vandalism targets government property, public infrastructure, emergency resources, official vehicles, public buildings, or other agency-controlled assets.",
+                                                                    "principles":  [
+                                                                                       "The government connection should be documented through agency ownership, lease, operation, control, markings, location, or official use.",
+                                                                                       "The conduct should involve unauthorized damage, defacement, destruction, impairment, or tampering, not merely criticism, presence, or lawful use of public space.",
+                                                                                       "Reports should document the agency property interest, photographs, repair needs, service disruption, safety impact, and evidence tying the suspect to the damage."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2397,7 +2501,7 @@
                         "code":  "EF-PC-04-004",
                         "title":  "Littering",
                         "categoryId":  "offenses-involving-damage-to-property",
-                        "description":  "Grouped charge family for Littering.",
+                        "description":  "Improper dumping, abandoning, or placing of trash, waste, debris, or foreign substances outside approved containers or disposal areas.",
                         "sourceCodes":  [
                                             "PC-4006"
                                         ],
@@ -2408,7 +2512,7 @@
                                             "label":  "Littering",
                                             "sourceCode":  "PC-4006",
                                             "sourceTitle":  "Littering",
-                                            "description":  "As used in this section, \"litter\" means garbage, trash, waste, ashes, cans, bottles, wire, paper, cartons, vessel parts, vehicle parts, furniture, glass, or anything else of an unsightly or unsanitary nature. No person shall place any waste, refuse, litter or foreign substance in any area or receptacle except those provided for that purpose.",
+                                            "description":  "A person commits Littering when they knowingly dump, place, abandon, throw, or leave trash, waste, debris, vehicle parts, furniture, containers, hazardous residue, or another foreign substance outside an approved receptacle or lawful disposal area.",
                                             "classification":  "infraction",
                                             "baseFine":  150,
                                             "baseTime":  0,
@@ -2422,7 +2526,15 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Littering is a citation-level property and public-cleanliness offense focused on improper disposal rather than ownership of the land alone.",
+                                                                    "principles":  [
+                                                                                       "The item should be waste, debris, discarded property, or a foreign substance left somewhere other than an approved container or disposal site.",
+                                                                                       "The suspect should knowingly place, abandon, or leave the item, though identity can be shown through direct observation, admissions, records, or distinctive discarded material.",
+                                                                                       "Reports should document the location, type and amount of litter, photographs, cleanup or safety concerns, and the evidence connecting the suspect to the disposal."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
