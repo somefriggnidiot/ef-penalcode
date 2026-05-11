@@ -350,7 +350,7 @@
                         "code":  "EF-PC-01-001",
                         "title":  "Assault",
                         "categoryId":  "offenses-against-persons",
-                        "description":  "Grouped charge family for Assault.",
+                        "description":  "Threatening conduct, attempted force, or unlawful force creating fear of harm or causing physical harm.",
                         "sourceCodes":  [
                                             "PC-1001",
                                             "PC-1002",
@@ -364,7 +364,7 @@
                                             "label":  "Simple Assault",
                                             "sourceCode":  "PC-1001",
                                             "sourceTitle":  "Simple Assault",
-                                            "description":  "A person who intentionally puts another in the reasonable belief of imminent physical harm or offensive contact is guilty under this code section.",
+                                            "description":  "A person commits Simple Assault when they intentionally cause another person to reasonably fear imminent physical harm or offensive contact.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  150,
                                             "baseTime":  1,
@@ -387,11 +387,11 @@
                                                                 "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Simple assault focuses on whether the suspect intentionally created a reasonable fear of imminent physical harm or offensive contact.",
+                                                                    "overview":  "Simple assault focuses on intentional conduct that creates reasonable fear of imminent physical harm or offensive contact.",
                                                                     "principles":  [
                                                                                        "Physical contact is not required if the victim reasonably believed harm was imminent.",
-                                                                                       "The threat must be more than vague or future-facing.",
-                                                                                       "Officer reports should document words, gestures, distance, weapons, and victim reaction."
+                                                                                       "The threat must be immediate rather than vague, conditional, or only future-facing.",
+                                                                                       "Reports should document words, gestures, distance, weapons, victim reaction, and why the fear was reasonable."
                                                                                    ],
                                                                     "cases":  [
                                                                                   {
@@ -414,7 +414,7 @@
                                             "label":  "Assault",
                                             "sourceCode":  "PC-1002",
                                             "sourceTitle":  "Assault",
-                                            "description":  "A person who intentionally puts another in the reasonable belief of imminent serious physical harm or offensive contact is guilty under this code section.",
+                                            "description":  "A person commits Assault when they intentionally cause another person to reasonably fear imminent serious physical harm or offensive contact.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  285,
                                             "baseTime":  10,
@@ -434,14 +434,22 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Assault focuses on intentional conduct that creates reasonable fear of imminent serious physical harm.",
+                                                                    "principles":  [
+                                                                                       "Physical contact is not required if the victim reasonably believed serious harm was imminent.",
+                                                                                       "The conduct should involve a more serious threatened harm than simple assault based on words, gestures, weapon presence, proximity, or circumstances.",
+                                                                                       "Reports should document the threat, victim reaction, distance, ability to carry out the threat, weapons or dangerous instruments, and why serious harm was reasonably feared."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "aggravated-assault",
                                             "label":  "Aggravated Assault",
                                             "sourceCode":  "PC-1003",
                                             "sourceTitle":  "Aggravated Assault",
-                                            "description":  "A person who uses intentional and unlawful force or violence to cause physical harm to another person is guilty under this code section.",
+                                            "description":  "A person commits Aggravated Assault when they intentionally and unlawfully use force or violence that causes physical harm to another person.",
                                             "classification":  "felony",
                                             "baseFine":  325,
                                             "baseTime":  15,
@@ -461,7 +469,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Aggravated assault focuses on intentional unlawful force or violence that actually causes physical harm.",
+                                                                    "principles":  [
+                                                                                       "This degree requires physical harm or injury, not only fear of future harm.",
+                                                                                       "Use of a weapon or dangerous instrument should be documented and may support the weapon-used modifier when applicable.",
+                                                                                       "Reports should document the force used, injuries, medical treatment, weapon or instrument, witness accounts, and any self-defense or consent claim."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -470,7 +486,7 @@
                         "code":  "EF-PC-01-002",
                         "title":  "Battery",
                         "categoryId":  "offenses-against-persons",
-                        "description":  "Grouped charge family for Battery.",
+                        "description":  "Unlawful physical contact, force, or violence causing bodily injury or offensive contact.",
                         "sourceCodes":  [
                                             "PC-1005",
                                             "PC-1006",
@@ -483,7 +499,7 @@
                                             "label":  "Battery",
                                             "sourceCode":  "PC-1005",
                                             "sourceTitle":  "Battery",
-                                            "description":  "A person who unlawfully applies force directly or indirectly upon another person or their personal belongings, causing bodily injury or offensive contact is guilty under this code section.",
+                                            "description":  "A person commits Battery when they unlawfully apply force directly or indirectly to another person, or to items closely connected to that person, causing bodily injury or offensive contact.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  275,
                                             "baseTime":  15,
@@ -504,14 +520,22 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Battery focuses on unlawful physical contact or force that causes injury or offensive contact.",
+                                                                    "principles":  [
+                                                                                       "The contact may be direct or indirect, including contact through an object or item closely connected to the victim.",
+                                                                                       "Battery requires actual contact or force, unlike assault which may be based on reasonable fear without contact.",
+                                                                                       "Reports should document the contact, injury or offensive nature, victim reaction, physical evidence, witnesses, and any self-defense or consent claim."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "aggravated-battery",
                                             "label":  "Aggravated Battery",
                                             "sourceCode":  "PC-1006",
                                             "sourceTitle":  "Aggravated Battery",
-                                            "description":  "A person who intentionally and unlawfully applies force directly or indirectly upon another person or their personal belongings, causing bodily injury or offensive contact is guilty under this code section.",
+                                            "description":  "A person commits Aggravated Battery when they intentionally and unlawfully apply force directly or indirectly to another person, causing bodily injury, significant pain, or harmful offensive contact.",
                                             "classification":  "felony",
                                             "baseFine":  375,
                                             "baseTime":  20,
@@ -531,7 +555,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Aggravated battery focuses on intentional unlawful force that causes more serious bodily injury or harmful contact.",
+                                                                    "principles":  [
+                                                                                       "The conduct should involve intentional force and actual injury, significant pain, or harmful offensive contact.",
+                                                                                       "Use of a weapon, multiple victims, protected public-servant status, or lack of aid should be documented for applicable modifiers.",
+                                                                                       "Reports should document injuries, medical treatment, force used, weapon or instrument, witness accounts, victim statements, and any justification claimed."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -540,7 +572,7 @@
                         "code":  "EF-PC-01-003",
                         "title":  "Manslaughter",
                         "categoryId":  "offenses-against-persons",
-                        "description":  "Grouped charge family for Manslaughter.",
+                        "description":  "Unlawful killings caused without murder-level malice, including criminal negligence and vehicle-related negligent killings.",
                         "sourceCodes":  [
                                             "PC-1007",
                                             "PC-1008"
@@ -552,7 +584,7 @@
                                             "label":  "Involuntary Manslaughter",
                                             "sourceCode":  "PC-1007",
                                             "sourceTitle":  "Involuntary Manslaughter",
-                                            "description":  " A person who unintentionally kills another, with or without a quarrel or heat of passion is guilty under this code section. A person who, through a criminal accident or negligence, causes someones death is guilty under this code section.",
+                                            "description":  "A person commits Involuntary Manslaughter when they unintentionally cause another person's death through criminal negligence, a criminal accident, or an unlawful act that does not rise to murder.",
                                             "classification":  "felony",
                                             "baseFine":  750,
                                             "baseTime":  20,
@@ -571,14 +603,22 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Involuntary manslaughter focuses on an unintentional killing caused by criminal negligence or a non-murder unlawful act.",
+                                                                    "principles":  [
+                                                                                       "The death must be caused by the suspect's criminally negligent conduct, criminal accident, or unlawful act.",
+                                                                                       "This degree should be distinguished from murder when facts show malice, intent to kill, or extreme reckless disregard for life.",
+                                                                                       "Reports should document cause of death, suspect conduct, negligence facts, timeline, witnesses, medical findings, and why murder-level intent or malice is absent."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "vehicular-manslaughter",
                                             "label":  "Vehicular Manslaughter",
                                             "sourceCode":  "PC-1008",
                                             "sourceTitle":  "Vehicular Manslaughter",
-                                            "description":  "A person who, while operating a vehicle, through a criminal accident or negligence, causes someones death is guilty under this code section.",
+                                            "description":  "A person commits Vehicular Manslaughter when, while operating a vehicle, they cause another person's death through criminal negligence, unlawful vehicle operation, or a criminal accident that does not rise to murder.",
                                             "classification":  "felony",
                                             "baseFine":  750,
                                             "baseTime":  25,
@@ -597,7 +637,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Vehicular manslaughter focuses on a death caused by negligent or unlawful vehicle operation.",
+                                                                    "principles":  [
+                                                                                       "The suspect must be operating or in actual physical control of a vehicle and that operation must cause the death.",
+                                                                                       "This degree should be distinguished from ordinary traffic offenses and from murder when facts show intentional killing or extreme disregard for life.",
+                                                                                       "Reports should document vehicle operation, collision facts, traffic violations, speed, impairment if any, cause of death, witnesses, and crash reconstruction or scene evidence."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -606,7 +654,7 @@
                         "code":  "EF-PC-01-004",
                         "title":  "Murder",
                         "categoryId":  "offenses-against-persons",
-                        "description":  "Grouped charge family for Murder.",
+                        "description":  "Unlawful killings committed with malice, intent, premeditation, felony-murder circumstances, or related attempt and accessory liability.",
                         "sourceCodes":  [
                                             "PC-1010",
                                             "PC-1012",
@@ -624,7 +672,7 @@
                                             "label":  "Second Degree Murder",
                                             "sourceCode":  "PC-1010",
                                             "sourceTitle":  "Second Degree Murder",
-                                            "description":  "A person who unlawfully kills another person either by intentional malice or reckless disregard that occurs in the spur of the moment is guilty under this code section.",
+                                            "description":  "A person commits Second Degree Murder when they unlawfully kill another person with malice, intent to kill, or conscious reckless disregard for human life, without the premeditation required for first degree murder.",
                                             "classification":  "felony",
                                             "baseFine":  1750,
                                             "baseTime":  40,
@@ -669,14 +717,22 @@
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Second degree murder focuses on unlawful killing with malice or extreme reckless disregard without premeditation.",
+                                                                    "principles":  [
+                                                                                       "The killing may be intentional or based on conscious disregard for human life, but it lacks the planning or deliberation required for first degree murder.",
+                                                                                       "Attempted murder and accessory liability should use the listed liability options when the facts support those roles.",
+                                                                                       "Reports should document cause of death, suspect intent or reckless disregard, weapon or method, timeline, statements, witnesses, and why first degree premeditation is not established."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "first-degree-murder",
                                             "label":  "First Degree Murder",
                                             "sourceCode":  "PC-1012",
                                             "sourceTitle":  "First Degree Murder",
-                                            "description":  "A person who commits the intentional killing which is done in a way that is willful, deliberate and premeditated is guilty under this code section. Additionally, a person who kills another individual while engaging in a felony offense, that has been proved to be a premeditated act, is guilty under this code section.",
+                                            "description":  "A person commits First Degree Murder when they unlawfully kill another person willfully, deliberately, and with premeditation, or when a killing occurs during a qualifying felony under circumstances supporting first degree murder.",
                                             "classification":  "felony",
                                             "baseFine":  2500,
                                             "baseTime":  50,
@@ -729,7 +785,15 @@
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "First degree murder is reserved for premeditated killings and qualifying felony-murder circumstances.",
+                                                                    "principles":  [
+                                                                                       "Premeditation may be shown by planning, motive, preparation, manner of killing, prior threats, or other facts showing reflection before the act.",
+                                                                                       "Public-servant murder, attempted murder of a public servant, accessory liability, and conspiracy should use the listed liability options and modifiers when supported.",
+                                                                                       "Reports should document cause of death, planning evidence, timeline, weapon or method, felony connection if any, victim status, statements, witnesses, and each participant's role."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -738,7 +802,7 @@
                         "code":  "EF-PC-01-005",
                         "title":  "Unlawful Imprisonment",
                         "categoryId":  "offenses-against-persons",
-                        "description":  "Grouped charge family for Unlawful Imprisonment.",
+                        "description":  "Intentional restraint or confinement of another person without consent or lawful authority.",
                         "sourceCodes":  [
                                             "PC-1017",
                                             "PC-1023"
@@ -750,7 +814,7 @@
                                             "label":  "Unlawful Imprisonment",
                                             "sourceCode":  "PC-1017",
                                             "sourceTitle":  "Unlawful Imprisonment",
-                                            "description":  "A person who intentionally restricts anothers freedom of movement without their consent is guilty under this code section",
+                                            "description":  "A person commits Unlawful Imprisonment when they intentionally restrain, confine, detain, or restrict another person's freedom of movement without consent or lawful authority.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  300,
                                             "baseTime":  1,
@@ -770,7 +834,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Unlawful imprisonment focuses on intentional restriction of another person's movement without consent or lawful authority.",
+                                                                    "principles":  [
+                                                                                       "The restraint may be physical, by threat, by locked space, by blocking exits, or by other conduct that prevents free movement.",
+                                                                                       "Brief obstruction or ordinary argument should not be charged unless the facts show meaningful restraint or detention.",
+                                                                                       "Reports should document how movement was restricted, duration, location, victim statements, threats or force, exits available, and any claimed legal authority."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -779,7 +851,7 @@
                         "code":  "EF-PC-01-006",
                         "title":  "Kidnapping and Hostage Taking",
                         "categoryId":  "offenses-against-persons",
-                        "description":  "Grouped charge family for Kidnapping and Hostage Taking.",
+                        "description":  "Abduction, confinement, movement, or holding of a person against their will, including leverage-based hostage conduct.",
                         "sourceCodes":  [
                                             "PC-1018",
                                             "PC-1021",
@@ -794,7 +866,7 @@
                                             "label":  "Kidnapping",
                                             "sourceCode":  "PC-1018",
                                             "sourceTitle":  "Kidnapping",
-                                            "description":  "A person who abducts or confines another individual against their will by force, threat, or deception, is guilty under this code section. ",
+                                            "description":  "A person commits Kidnapping when they abduct, move, carry away, or confine another person against that person's will by force, threat, deception, or other unlawful means.",
                                             "classification":  "felony",
                                             "baseFine":  500,
                                             "baseTime":  15,
@@ -839,14 +911,22 @@
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Kidnapping focuses on unlawful abduction, movement, or confinement against the victim's will.",
+                                                                    "principles":  [
+                                                                                       "The taking or confinement may be accomplished by force, threat, deception, intimidation, or other unlawful means.",
+                                                                                       "Attempted kidnapping and accessory conduct should use the listed liability options when the victim is not fully moved or confined or when the suspect's role is secondary.",
+                                                                                       "Reports should document victim identity, movement or confinement, lack of consent, force or deception, duration, location, communications, and each participant's role."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "hostage-taking",
                                             "label":  "Hostage Taking",
                                             "sourceCode":  "PC-1021",
                                             "sourceTitle":  "Hostage Taking",
-                                            "description":  "A person who kidnaps someone in an attempt to gain the power to attain something, with threat of their life is guilty under this code section.",
+                                            "description":  "A person commits Hostage Taking when they seize, confine, hold, or threaten a person to compel another person, group, business, or government entity to act, refrain from acting, provide value, or meet a demand.",
                                             "classification":  "felony",
                                             "baseFine":  750,
                                             "baseTime":  20,
@@ -883,7 +963,15 @@
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Hostage taking is kidnapping or confinement used as leverage to compel a demand.",
+                                                                    "principles":  [
+                                                                                       "The suspect must hold, threaten, or control a victim to force another person or entity to act, refrain from acting, pay, release someone, provide property, or meet another demand.",
+                                                                                       "A threat to kill or harm the hostage is strongly aggravating but the core issue is using the victim as leverage.",
+                                                                                       "Reports should document the hostage, demand, target of the demand, threats, weapons, communications, duration, rescue or release facts, and each participant's role."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -892,7 +980,7 @@
                         "code":  "EF-PC-01-007",
                         "title":  "Criminal Threats",
                         "categoryId":  "offenses-against-persons",
-                        "description":  "Grouped charge family for Criminal Threats.",
+                        "description":  "Threats of physical harm or death that place another person in reasonable fear for safety.",
                         "sourceCodes":  [
                                             "PC-1024"
                                         ],
@@ -903,7 +991,7 @@
                                             "label":  "Criminal Threats",
                                             "sourceCode":  "PC-1024",
                                             "sourceTitle":  "Criminal Threats",
-                                            "description":  "A person who communicates to another that they will physically harm or kill such other, placing such other in a reasonable state of fear for their own safety is guilty under this code section. Such communication can be not just verbal, but also in writing or transmitted through other media is guilty under this code section.",
+                                            "description":  "A person commits Criminal Threats when they communicate a threat to physically harm or kill another person, by words, writing, electronic message, gesture, or other medium, and the threat places that person in reasonable fear for their safety.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  200,
                                             "baseTime":  1,
@@ -924,7 +1012,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Criminal threats focuses on communicated threats that create reasonable fear of harm or death.",
+                                                                    "principles":  [
+                                                                                       "The threat may be verbal, written, electronic, gestural, or communicated through another medium.",
+                                                                                       "The threat should be specific or immediate enough to create reasonable fear, not mere insult, joke, vague anger, or protected expression.",
+                                                                                       "Reports should document exact words or messages, context, recipient reaction, relationship history, ability to carry out the threat, witnesses, and screenshots or recordings."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -933,7 +1029,7 @@
                         "code":  "EF-PC-01-008",
                         "title":  "Reckless Endangerment",
                         "categoryId":  "offenses-against-persons",
-                        "description":  "Grouped charge family for Reckless Endangerment.",
+                        "description":  "Reckless conduct creating a substantial risk of serious physical injury to another person.",
                         "sourceCodes":  [
                                             "PC-1025"
                                         ],
@@ -944,7 +1040,7 @@
                                             "label":  "Reckless Endangerment",
                                             "sourceCode":  "PC-1025",
                                             "sourceTitle":  "Reckless Endangerment",
-                                            "description":  "A person who consciously disregards the potential risks or dangers of their actions which create a substantial serious risk of injury to another person is guilty under this code section.",
+                                            "description":  "A person commits Reckless Endangerment when they consciously disregard a substantial and unjustifiable risk that their conduct could cause serious physical injury to another person.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  175,
                                             "baseTime":  10,
@@ -965,7 +1061,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Reckless endangerment focuses on dangerous conduct that creates a serious risk of injury even if no injury occurs.",
+                                                                    "principles":  [
+                                                                                       "The risk must be substantial, unjustifiable, and directed at or likely to affect another person.",
+                                                                                       "If actual injury occurs, assault, battery, or homicide-family charges may better fit or may apply in addition depending on policy.",
+                                                                                       "Reports should document the dangerous act, people placed at risk, distance and circumstances, warnings ignored, injuries if any, and why the conduct was reckless."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -974,7 +1078,7 @@
                         "code":  "EF-PC-01-010",
                         "title":  "Desecration of a Human Corpse",
                         "categoryId":  "offenses-against-persons",
-                        "description":  "Grouped charge family for Desecration of a Human Corpse.",
+                        "description":  "Mutilation, concealment, destruction, or degrading treatment of a human corpse after death.",
                         "sourceCodes":  [
                                             "PC-1027"
                                         ],
@@ -985,7 +1089,7 @@
                                             "label":  "Desecration of a Human Corpse",
                                             "sourceCode":  "PC-1027",
                                             "sourceTitle":  "Desecration of a Human Corpse",
-                                            "description":  "Any act committed after the death of a human being including, but not limited to, dismemberment, disfigurement, mutilation, burning, or any act committed to cause the dead body to be devoured, scattered or dissipated",
+                                            "description":  "A person commits Desecration of a Human Corpse when, after a human being's death, they knowingly dismember, disfigure, mutilate, burn, conceal, scatter, destroy, or otherwise treat the body in a degrading or unlawful manner.",
                                             "classification":  "felony",
                                             "baseFine":  1000,
                                             "baseTime":  30,
@@ -1002,7 +1106,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Desecration of a human corpse focuses on unlawful or degrading treatment of a body after death.",
+                                                                    "principles":  [
+                                                                                       "The conduct must occur after death and involve mutilation, destruction, concealment, scattering, burning, disfigurement, or comparable degradation.",
+                                                                                       "Lawful medical, emergency, coroner, funeral, or recovery activity should not be charged when performed within authorized duties.",
+                                                                                       "Reports should document condition of the body, act committed, timing relative to death, location, evidence of concealment or destruction, and any lawful authority claimed."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -1011,7 +1123,7 @@
                         "code":  "EF-PC-01-011",
                         "title":  "Torture",
                         "categoryId":  "offenses-against-persons",
-                        "description":  "Grouped charge family for Torture.",
+                        "description":  "Intentional infliction of extreme pain or suffering for punishment, coercion, revenge, extortion, interrogation, or sadistic purpose.",
                         "sourceCodes":  [
                                             "PC-1028"
                                         ],
@@ -1022,7 +1134,7 @@
                                             "label":  "Torture",
                                             "sourceCode":  "PC-1028",
                                             "sourceTitle":  "Torture",
-                                            "description":  "A person who intentionally causes extreme pain and suffering to someone for reasons such as punishment, extracting a confession, interrogation, revenge, extortion, or any sadistic purpose, is guilty under this code section.",
+                                            "description":  "A person commits Torture when they intentionally cause extreme physical or mental pain and suffering to another person for punishment, coercion, interrogation, revenge, extortion, intimidation, or sadistic purpose.",
                                             "classification":  "felony",
                                             "baseFine":  1500,
                                             "baseTime":  20,
@@ -1041,7 +1153,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Torture focuses on intentional infliction of extreme pain or suffering for a prohibited purpose.",
+                                                                    "principles":  [
+                                                                                       "The pain or suffering should be extreme and intentionally inflicted, not merely incidental to a lesser assault or battery.",
+                                                                                       "The purpose may include punishment, coercion, interrogation, revenge, extortion, intimidation, or sadistic gratification.",
+                                                                                       "Reports should document the acts causing pain, duration, injuries, restraint or threats, statements showing purpose, medical evidence, and victim or witness accounts."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
