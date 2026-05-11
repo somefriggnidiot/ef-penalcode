@@ -1,4 +1,4 @@
-﻿{
+{
     "version":  "ef-mdt-2026.2",
     "sentencingGuidelines":  {
                                  "maxFine":  100000,
@@ -3949,13 +3949,7 @@
                                                                                        "The suspect should know the criminal purpose or know they are helping someone evade consequences from a crime.",
                                                                                        "Assistance can include planning, lookout activity, tools, transport, information, distraction, shelter, or help during flight.",
                                                                                        "Reports should document the underlying crime, the suspect\u0027s knowledge, specific assistance, timing, communications, and why the assistance was intentional."
-                                                                                   ],
-                                                                    "cases":  [
-
-                                                                              ],
-                                                                    "resources":  [
-
-                                                                                  ]
+                                                                                   ]
                                                                 }
                                         },
                                         {
@@ -3989,13 +3983,7 @@
                                                                                        "The person being helped should be wanted for a felony, subject to arrest, or actively sought by law enforcement.",
                                                                                        "The suspect must know or have strong reason to know the person is wanted and intentionally help them avoid discovery or arrest.",
                                                                                        "Reports should document the fugitive status, how the suspect knew, shelter or transport provided, warnings sent, concealment steps, and law-enforcement efforts impeded."
-                                                                                   ],
-                                                                    "cases":  [
-
-                                                                              ],
-                                                                    "resources":  [
-
-                                                                                  ]
+                                                                                   ]
                                                                 }
                                         }
                                     ]
@@ -4005,7 +3993,7 @@
                         "code":  "EF-PC-07-001",
                         "title":  "Marijuana Offenses",
                         "categoryId":  "offenses-against-health-and-morals",
-                        "description":  "Grouped charge family for Marijuana Offenses.",
+                        "description":  "Unlawful marijuana cultivation, possession, and possession with intent to distribute based on plant count, location, quantity, packaging, and distribution indicators.",
                         "sourceCodes":  [
                                             "PC-7001",
                                             "PC-7002",
@@ -4019,7 +4007,7 @@
                                             "label":  "Illegal Cultivation of Marijuana",
                                             "sourceCode":  "PC-7001",
                                             "sourceTitle":  "Illegal Cultivation of Marijuana",
-                                            "description":  "Any individual who is found to be cultivating marijuana in an amount greater than 6 marijuana plants or is cultivating marijuana on public property is in violation of this code. Cultivation of marijuana plants for personal use is restricted to private property, and no greater than 6 plants per property/owner. Plants can be confiscated and/or destroyed by police upon receipt of warrant (for private property) for seizure.",
+                                            "description":  "A person commits Illegal Cultivation of Marijuana when they knowingly cultivate more than 6 marijuana plants on private property, cultivate any marijuana on public property, or cultivate marijuana on property they do not lawfully control.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  2500,
                                             "baseTime":  5,
@@ -4038,14 +4026,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Illegal cultivation of marijuana focuses on whether the suspect knowingly grew marijuana plants outside the permitted personal-use limits or on property where cultivation is not lawful.",
+                                                                    "principles":  [
+                                                                                       "Personal cultivation is limited to no more than 6 plants per property or owner on private property.",
+                                                                                       "Cultivation includes planting, growing, harvesting, drying, or otherwise tending marijuana plants.",
+                                                                                       "Officers may seize or destroy unlawful plants on public property or, for private property, under lawful warrant authority."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "illegal-cultivation-of-marijuana-pc-7002",
                                             "label":  "Illegal Cultivation of Marijuana",
                                             "sourceCode":  "PC-7002",
                                             "sourceTitle":  "Illegal Cultivation of Marijuana",
-                                            "description":  "Any individual who is found to be cultivating marijuana in an amount greater than 6 marijuana plants under the following conditions is classified as a felony: If the individual has two or more prior convictions for cultivating more than six marijuana plants, if the individual has a prior conviction for a serious violent felony, and or the cultivation activity involves violation of environmental laws. Cultivation of marijuana plants for personal use is restricted to private property, and no greater than 6 plants per property/owner. Plants can be confiscated and/or destroyed by police upon receipt of a warrant (private property) for seizure.",
+                                            "description":  "A person commits Felony Illegal Cultivation of Marijuana when they knowingly cultivate more than 6 marijuana plants and at least one aggravating condition is present: two or more prior unlawful cultivation convictions, a prior serious violent felony conviction, or cultivation that creates unlawful environmental damage or contamination.",
                                             "classification":  "felony",
                                             "baseFine":  5000,
                                             "baseTime":  10,
@@ -4063,14 +4059,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Felony illegal cultivation of marijuana requires unlawful cultivation plus a listed aggravating condition that elevates the offense beyond the misdemeanor degree.",
+                                                                    "principles":  [
+                                                                                       "Ordinary over-limit cultivation remains a misdemeanor unless the aggravating condition can be identified and documented.",
+                                                                                       "The felony degree requires at least one aggravating fact: two qualifying cultivation priors, a prior serious violent felony, or environmental damage or contamination tied to the cultivation.",
+                                                                                       "Reports should document plant count, cultivation location, the specific aggravating condition, prior-conviction basis if used, and lawful warrant authority for any private-property seizure."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "possession-of-marijuana",
                                             "label":  "Possession of Marijuana",
                                             "sourceCode":  "PC-7003",
                                             "sourceTitle":  "Possession of Marijuana",
-                                            "description":  "A person who is in possession of illegal marijuana that weighs more than 10 kg, but less than 100 kg is guilty under this code section.",
+                                            "description":  "A person commits Possession of Marijuana when they knowingly possess more than 10 kg but less than 100 kg of unlawful marijuana without lawful authorization.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  200,
                                             "baseTime":  15,
@@ -4090,14 +4094,22 @@
                                                                 "first-offense",
                                                                 "citation-discretion",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Possession of marijuana focuses on knowing possession of an unlawful marijuana quantity above the misdemeanor threshold and below the distribution threshold.",
+                                                                    "principles":  [
+                                                                                       "Possession may be actual or constructive, but officers must be able to connect the person to dominion or control over the marijuana.",
+                                                                                       "The marijuana must meet the charged weight threshold and be unlawful or outside any permitted authorization.",
+                                                                                       "Reports should document the amount, packaging, location, ownership or control facts, statements, and why the possession was not lawful personal use."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "possession-of-marijuana-with-intent-to-distribute",
                                             "label":  "Possession of Marijuana with Intent to Distribute",
                                             "sourceCode":  "PC-7004",
                                             "sourceTitle":  "Possession of Marijuana with Intent to Distribute",
-                                            "description":  "A person found in possession of over 100 kg of illegal marijuana, with more than 30 kg of marijuana individually packaged for sale (e.g., in joints, baggies, or bricks), and/or also possesses items commonly used in drug distribution (such as scales, empty baggies, etc.), weighing more than 50 kg, is guilty under this code section.",
+                                            "description":  "A person commits Possession of Marijuana with Intent to Distribute when they knowingly possess 100 kg or more of unlawful marijuana, more than 30 kg individually packaged for sale, or marijuana together with distribution materials such as scales, empty bags, ledgers, or packaging supplies where the controlled substance and distribution materials together exceed 50 kg.",
                                             "classification":  "felony",
                                             "baseFine":  500,
                                             "baseTime":  20,
@@ -4117,7 +4129,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Possession of marijuana with intent to distribute focuses on knowing possession of distribution-level marijuana or marijuana accompanied by distribution indicators.",
+                                                                    "principles":  [
+                                                                                       "Intent to distribute may be inferred from quantity, individual packaging, scales, empty bags, ledgers, cash, communications, or transaction conduct.",
+                                                                                       "A completed sale is not required if the facts show the marijuana was possessed for transfer, furnishing, or sale.",
+                                                                                       "Reports should document weight, packaging, distribution materials, observed handoffs, messages, money, and the suspect's control over the marijuana."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -4126,7 +4146,7 @@
                         "code":  "EF-PC-07-002",
                         "title":  "Cocaine Possession and Distribution",
                         "categoryId":  "offenses-against-health-and-morals",
-                        "description":  "Grouped charge family for Cocaine Possession and Distribution.",
+                        "description":  "Unlawful cocaine possession and possession with intent to distribute, including powder cocaine and crack cocaine, based on quantity and distribution indicators.",
                         "sourceCodes":  [
                                             "PC-7005",
                                             "PC-7006",
@@ -4139,7 +4159,7 @@
                                             "label":  "Misdemeanor Possession of Cocaine",
                                             "sourceCode":  "PC-7005",
                                             "sourceTitle":  "Misdemeanor Possession of Cocaine",
-                                            "description":  "A person who is in possession of cocaine, either in powder or crack formulations, under 10 kg is guilty under this code section.",
+                                            "description":  "A person commits Misdemeanor Possession of Cocaine when they knowingly possess any amount of cocaine, including powder or crack cocaine, up to and including 10 kg without lawful authorization.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  500,
                                             "baseTime":  0,
@@ -4159,14 +4179,22 @@
                                                                 "first-offense",
                                                                 "citation-discretion",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Misdemeanor possession of cocaine focuses on knowing possession of a smaller cocaine quantity without lawful authorization.",
+                                                                    "principles":  [
+                                                                                       "Possession may be actual or constructive, but officers must be able to connect the person to knowledge and control of the cocaine.",
+                                                                                       "This misdemeanor degree applies at or below 10 kg unless packaging, sales tools, communications, or transaction conduct support a distribution charge.",
+                                                                                       "Reports should document the cocaine form, weight, location, packaging, access or control facts, statements, and any distribution indicators."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "felony-possession-of-cocaine",
                                             "label":  "Felony Possession of Cocaine",
                                             "sourceCode":  "PC-7006",
                                             "sourceTitle":  "Felony Possession of Cocaine",
-                                            "description":  "A person who is in possession of cocaine, either in powder or crack formulations, greater than 10kg but less than 100kg is guilty under this code section.",
+                                            "description":  "A person commits Felony Possession of Cocaine when they knowingly possess more than 10 kg but less than 100 kg of cocaine, including powder or crack cocaine, without lawful authorization.",
                                             "classification":  "felony",
                                             "baseFine":  750,
                                             "baseTime":  15,
@@ -4185,14 +4213,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Felony possession of cocaine focuses on knowing possession of a higher cocaine quantity without lawful authorization.",
+                                                                    "principles":  [
+                                                                                       "The felony degree is based on the controlled substance type and weight, separate from any proof of intent to sell.",
+                                                                                       "Possession may be actual or constructive if the suspect knowingly controls the cocaine or the place where it is found.",
+                                                                                       "Reports should document weight, form of cocaine, access or control facts, statements, and why the facts fit possession rather than sale or trafficking."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "possession-of-cocaine-with-intent-to-distribute",
                                             "label":  "Possession of Cocaine with Intent to Distribute",
                                             "sourceCode":  "PC-7007",
                                             "sourceTitle":  "Possession of Cocaine with Intent to Distribute",
-                                            "description":  "A person who is in possession of cocaine, either in powder or crack formulations, that exceeds 100 kg in weight, or is packaged individually for sale, and possesses items used in the distribution of drugs (ie. scale, empty baggies, etc.) and weighs more than 50 kg, is guilty under this code section.",
+                                            "description":  "A person commits Possession of Cocaine with Intent to Distribute when they knowingly possess 100 kg or more of cocaine, cocaine individually packaged for sale, or cocaine together with distribution materials such as scales, empty bags, ledgers, or packaging supplies where the controlled substance and distribution materials together exceed 50 kg.",
                                             "classification":  "felony",
                                             "baseFine":  1300,
                                             "baseTime":  20,
@@ -4212,7 +4248,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Possession of cocaine with intent to distribute focuses on knowing possession of distribution-level cocaine or cocaine accompanied by distribution indicators.",
+                                                                    "principles":  [
+                                                                                       "Intent to distribute may be inferred from quantity, individual packaging, sales tools, communications, or transaction conduct.",
+                                                                                       "A completed sale is not required if the facts show the cocaine was possessed for transfer, furnishing, or sale.",
+                                                                                       "Reports should document weight, packaging, scales or ledgers, cash, messages, observed handoffs, and the suspect's control over the cocaine."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -4221,7 +4265,7 @@
                         "code":  "EF-PC-07-003",
                         "title":  "Amphetamine Possession and Distribution",
                         "categoryId":  "offenses-against-health-and-morals",
-                        "description":  "Grouped charge family for Amphetamine Possession and Distribution.",
+                        "description":  "Unlawful possession and possession with intent to distribute amphetamine-type drugs, including methamphetamine and amphetamine-based pills.",
                         "sourceCodes":  [
                                             "PC-7008",
                                             "PC-7009",
@@ -4234,7 +4278,7 @@
                                             "label":  "Misdemeanor Possession of Amphetamines",
                                             "sourceCode":  "PC-7008",
                                             "sourceTitle":  "Misdemeanor Possession of Amphetamines",
-                                            "description":  "A person who is in possession of amphetamines, including but not limited to methamphetamine and adderall, under 10 kg is guilty under this code section.",
+                                            "description":  "A person commits Misdemeanor Possession of Amphetamines when they knowingly possess any amount of amphetamines, including methamphetamine or amphetamine-based pills, up to and including 10 kg without lawful authorization.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  300,
                                             "baseTime":  0,
@@ -4254,14 +4298,22 @@
                                                                 "first-offense",
                                                                 "citation-discretion",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Misdemeanor possession of amphetamines focuses on knowing possession of a smaller amphetamine quantity without lawful authorization.",
+                                                                    "principles":  [
+                                                                                       "Possession may be actual or constructive, but officers must be able to connect the person to knowledge and control of the amphetamines.",
+                                                                                       "This misdemeanor degree applies at or below 10 kg unless packaging, sales tools, communications, or transaction conduct support a distribution charge.",
+                                                                                       "Reports should document the drug type, weight, location, packaging, access or control facts, statements, and any distribution indicators."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "felony-possession-of-amphetamines",
                                             "label":  "Felony Possession of Amphetamines",
                                             "sourceCode":  "PC-7009",
                                             "sourceTitle":  "Felony Possession of Amphetamines",
-                                            "description":  "A person who is in possession of amphetamines, including but not limited to methamphetamine and adderall, greater than 10kg but less than 100kg is guilty under this code section.",
+                                            "description":  "A person commits Felony Possession of Amphetamines when they knowingly possess more than 10 kg but less than 100 kg of amphetamines, including methamphetamine or amphetamine-based pills, without lawful authorization.",
                                             "classification":  "felony",
                                             "baseFine":  750,
                                             "baseTime":  15,
@@ -4280,14 +4332,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Felony possession of amphetamines focuses on knowing possession of a higher amphetamine quantity without lawful authorization.",
+                                                                    "principles":  [
+                                                                                       "The felony degree is based on the controlled substance type and weight, separate from any proof of intent to sell.",
+                                                                                       "Possession may be actual or constructive if the suspect knowingly controls the amphetamines or the place where they are found.",
+                                                                                       "Reports should document weight, drug type, access or control facts, statements, and why the facts fit possession rather than sale or trafficking."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "possession-of-amphetamines-with-intent-to-distribute",
                                             "label":  "Possession of Amphetamines with Intent to Distribute",
                                             "sourceCode":  "PC-7010",
                                             "sourceTitle":  "Possession of Amphetamines with Intent to Distribute",
-                                            "description":  "A person who is in possession of amphetamines, including but not limited to methamphetamine and adderall, that exceeds 100 kg in weight, or is packaged individually for sale, and possesses items used in the distribution of drugs (ie. scale, empty baggies, etc.) and weighs more than 50 kg, is guilty under this code section.",
+                                            "description":  "A person commits Possession of Amphetamines with Intent to Distribute when they knowingly possess 100 kg or more of amphetamines, amphetamines individually packaged for sale, or amphetamines together with distribution materials such as scales, empty bags, ledgers, or packaging supplies where the controlled substance and distribution materials together exceed 50 kg.",
                                             "classification":  "felony",
                                             "baseFine":  1500,
                                             "baseTime":  20,
@@ -4307,7 +4367,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Possession of amphetamines with intent to distribute focuses on knowing possession of distribution-level amphetamines or amphetamines accompanied by distribution indicators.",
+                                                                    "principles":  [
+                                                                                       "Intent to distribute may be inferred from quantity, individual packaging, sales tools, communications, or transaction conduct.",
+                                                                                       "A completed sale is not required if the facts show the amphetamines were possessed for transfer, furnishing, or sale.",
+                                                                                       "Reports should document weight, packaging, scales or ledgers, cash, messages, observed handoffs, and the suspect's control over the amphetamines."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -4316,7 +4384,7 @@
                         "code":  "EF-PC-07-004",
                         "title":  "Opioid Possession and Distribution",
                         "categoryId":  "offenses-against-health-and-morals",
-                        "description":  "Grouped charge family for Opioid Possession and Distribution.",
+                        "description":  "Unlawful possession and possession with intent to distribute opioids, including heroin, fentanyl, morphine, hydrocodone, oxycodone, and comparable narcotic pain medication.",
                         "sourceCodes":  [
                                             "PC-7011",
                                             "PC-7012",
@@ -4329,7 +4397,7 @@
                                             "label":  "Misdemeanor Possession of Opioids",
                                             "sourceCode":  "PC-7011",
                                             "sourceTitle":  "Misdemeanor Possession of Opioids",
-                                            "description":  "A person who is in possession of opioids, including but not limited to morphine, heroin, hydrocodone, oxycodone, under 10 kg is guilty under this code section.",
+                                            "description":  "A person commits Misdemeanor Possession of Opioids when they knowingly possess any amount of opioids, including heroin, fentanyl, morphine, hydrocodone, oxycodone, or comparable narcotic pain medication, up to and including 10 kg without lawful authorization.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  350,
                                             "baseTime":  0,
@@ -4349,14 +4417,22 @@
                                                                 "first-offense",
                                                                 "citation-discretion",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Misdemeanor possession of opioids focuses on knowing possession of a smaller opioid quantity without lawful authorization.",
+                                                                    "principles":  [
+                                                                                       "Possession may be actual or constructive, but officers must be able to connect the person to knowledge and control of the opioids.",
+                                                                                       "This misdemeanor degree applies at or below 10 kg unless packaging, sales tools, communications, or transaction conduct support a distribution charge.",
+                                                                                       "Reports should document the opioid type, weight, location, packaging, access or control facts, statements, and any distribution indicators."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "felony-possession-of-opioids",
                                             "label":  "Felony Possession of Opioids",
                                             "sourceCode":  "PC-7012",
                                             "sourceTitle":  "Felony Possession of Opioids",
-                                            "description":  "A person who is in possession of opioids, including but not limited to morphine, heroin, hydrocodone, oxycodone, greater than 10kg but less than 100kg is guilty under this code section",
+                                            "description":  "A person commits Felony Possession of Opioids when they knowingly possess more than 10 kg but less than 100 kg of opioids, including heroin, fentanyl, morphine, hydrocodone, oxycodone, or comparable narcotic pain medication, without lawful authorization.",
                                             "classification":  "felony",
                                             "baseFine":  450,
                                             "baseTime":  15,
@@ -4375,14 +4451,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Felony possession of opioids focuses on knowing possession of a higher opioid quantity without lawful authorization.",
+                                                                    "principles":  [
+                                                                                       "The felony degree is based on the controlled substance type and weight, separate from any proof of intent to sell.",
+                                                                                       "Possession may be actual or constructive if the suspect knowingly controls the opioids or the place where they are found.",
+                                                                                       "Reports should document weight, opioid type, access or control facts, statements, and why the facts fit possession rather than sale or trafficking."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "possession-of-opioids-with-intent-to-distribute",
                                             "label":  "Possession of Opioids with Intent to Distribute",
                                             "sourceCode":  "PC-7013",
                                             "sourceTitle":  "Possession of Opioids with Intent to Distribute",
-                                            "description":  "A person who is in possession of amphetamines, including but not limited to opioids, including but not limited to morphine, heroin, hydrocodone, oxycodone, or is packaged individually for sale, and possesses items used in the distribution of drugs (ie. scale, empty baggies, etc.) and weighs more than 50 kg, is guilty under this code section.",
+                                            "description":  "A person commits Possession of Opioids with Intent to Distribute when they knowingly possess 100 kg or more of opioids, including heroin, fentanyl, morphine, hydrocodone, oxycodone, or comparable narcotic pain medication, possess opioids individually packaged for sale, or possess opioids together with distribution materials such as scales, empty bags, ledgers, or packaging supplies where the controlled substance and distribution materials together exceed 50 kg.",
                                             "classification":  "felony",
                                             "baseFine":  1450,
                                             "baseTime":  20,
@@ -4402,7 +4486,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Possession of opioids with intent to distribute focuses on knowing possession of distribution-level opioids or opioids accompanied by distribution indicators.",
+                                                                    "principles":  [
+                                                                                       "Intent to distribute may be inferred from quantity, individual packaging, sales tools, communications, or transaction conduct.",
+                                                                                       "A completed sale is not required if the facts show the opioids were possessed for transfer, furnishing, or sale.",
+                                                                                       "Reports should document weight, packaging, scales or ledgers, cash, messages, observed handoffs, and the suspect's control over the opioids."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -4411,7 +4503,7 @@
                         "code":  "EF-PC-07-005",
                         "title":  "Possession of Drug Paraphernalia",
                         "categoryId":  "offenses-against-health-and-morals",
-                        "description":  "Grouped charge family for Possession of Drug Paraphernalia.",
+                        "description":  "Knowing possession of equipment, products, or materials primarily intended or designed for controlled-substance use.",
                         "sourceCodes":  [
                                             "PC-7014"
                                         ],
@@ -4422,7 +4514,7 @@
                                             "label":  "Possession of Drug Paraphernalia",
                                             "sourceCode":  "PC-7014",
                                             "sourceTitle":  "Possession of Drug Paraphernalia",
-                                            "description":  "A person who is in possession of any equipment, product or material of any kind which is primarily intended or designed for use in injecting, ingesting, inhaling, or otherwise introducing into the human body a controlled substance.",
+                                            "description":  "A person commits Possession of Drug Paraphernalia when they knowingly possess equipment, products, or materials primarily intended or designed to inject, ingest, inhale, smoke, or otherwise introduce a controlled substance into the human body.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  350,
                                             "baseTime":  5,
@@ -4440,7 +4532,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Possession of drug paraphernalia focuses on knowing possession of items connected to controlled-substance consumption.",
+                                                                    "principles":  [
+                                                                                       "The item must be primarily intended or designed for controlled-substance use, not merely capable of an innocent use.",
+                                                                                       "Common innocent items require surrounding facts showing drug-related use, such as residue, statements, packaging, proximity to controlled substances, or observed use.",
+                                                                                       "Reports should document the item, where it was found, residue or drug proximity, suspect statements, observed use, and why the item qualifies as paraphernalia."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -4449,7 +4549,7 @@
                         "code":  "EF-PC-07-006",
                         "title":  "Possession of Drug Manufacturing Materials",
                         "categoryId":  "offenses-against-health-and-morals",
-                        "description":  "Grouped charge family for Possession of Drug Manufacturing Materials.",
+                        "description":  "Knowing possession of equipment, chemicals, products, or materials intended or configured for controlled-substance production.",
                         "sourceCodes":  [
                                             "PC-7015"
                                         ],
@@ -4460,7 +4560,7 @@
                                             "label":  "Possession of Drug Manufacturing Materials",
                                             "sourceCode":  "PC-7015",
                                             "sourceTitle":  "Possession of Drug Manufacturing Materials",
-                                            "description":  "A person who is in possession of any equipment, product or material of any kind which could be used in manufacturing, compounding, converting, concealing, producing, processing, preparing a controlled substance.",
+                                            "description":  "A person commits Possession of Drug Manufacturing Materials when they knowingly possess equipment, products, chemicals, or materials intended or reasonably configured for manufacturing, compounding, converting, producing, processing, preparing, or concealing a controlled substance.",
                                             "classification":  "felony",
                                             "baseFine":  750,
                                             "baseTime":  7,
@@ -4479,7 +4579,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Possession of drug manufacturing materials focuses on knowing possession of items connected to controlled-substance production.",
+                                                                    "principles":  [
+                                                                                       "The materials must be tied to drug production by context, combination, residue, instructions, statements, or other facts beyond mere possession of ordinary household goods.",
+                                                                                       "Manufacturing materials may include precursor chemicals, lab equipment, heat sources, recipes, protective gear, or partially processed controlled substances.",
+                                                                                       "Reports should document the setup, materials, residue or product, safety hazards, location, statements, and how the items collectively show production intent."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -4488,7 +4596,7 @@
                         "code":  "EF-PC-07-007",
                         "title":  "Controlled Substance Sale and Trafficking",
                         "categoryId":  "offenses-against-health-and-morals",
-                        "description":  "Grouped charge family for Controlled Substance Sale and Trafficking.",
+                        "description":  "Unlawful controlled-substance sales, offers, furnishing, transport for transfer, and large-scale trafficking activity.",
                         "sourceCodes":  [
                                             "PC-7016",
                                             "PC-7017"
@@ -4500,7 +4608,7 @@
                                             "label":  "Sale of a controlled substance",
                                             "sourceCode":  "PC-7016",
                                             "sourceTitle":  "Sale of a controlled substance",
-                                            "description":  "A person who sells, offers to sell, transports with the intent to sell, or gives away a controlled substance to another person, regardless of whether or not they possess that controlled substance is guilty under this code section.",
+                                            "description":  "A person commits Sale of a Controlled Substance when they knowingly sell, offer to sell, furnish, give away, broker, or transport a controlled substance with intent to transfer it to another person.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  800,
                                             "baseTime":  10,
@@ -4521,14 +4629,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Sale of a controlled substance focuses on knowing participation in the sale, furnishing, brokering, or transfer of an unlawful controlled substance.",
+                                                                    "principles":  [
+                                                                                       "The offense may be proven by an attempted or negotiated sale even if officers do not recover the full quantity.",
+                                                                                       "There must be evidence the person knowingly participated in the transfer, furnishing, brokering, or sale of an unlawful controlled substance.",
+                                                                                       "Reports should document the substance, transaction terms, communications, money or barter, observed handoff, transport facts, and each participant's role."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "drug-trafficking",
                                             "label":  "Drug Trafficking",
                                             "sourceCode":  "PC-7017",
                                             "sourceTitle":  "Drug Trafficking",
-                                            "description":  "A person who unlawfully transports a large quantity of a controlled substance, defined as greater than 250 kg, across, into, or out of the state is guilty under this section.",
+                                            "description":  "A person commits Drug Trafficking when they knowingly transport, coordinate, or cause the transport of more than 250 kg of a controlled substance across, into, out of, or through the state without lawful authorization.",
                                             "classification":  "felony",
                                             "baseFine":  5000,
                                             "baseTime":  60,
@@ -4549,7 +4665,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Drug trafficking focuses on large-scale movement or logistics involving controlled substances.",
+                                                                    "principles":  [
+                                                                                       "The person need not personally carry the substance if they knowingly direct, guard, load, pilot, drive, or otherwise materially assist the transport.",
+                                                                                       "The trafficking degree requires large-scale movement across, into, out of, or through the state and a quantity greater than 250 kg.",
+                                                                                       "Reports should document route, origin and destination, border or state-line facts, weight, vehicle or container control, communications, and coordinated transport roles."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -4558,7 +4682,7 @@
                         "code":  "EF-PC-07-008",
                         "title":  "Driving Under the Influence of Narcotics",
                         "categoryId":  "offenses-against-health-and-morals",
-                        "description":  "Grouped charge family for Driving Under the Influence of Narcotics.",
+                        "description":  "Impaired operation or actual physical control of a motor vehicle on a public roadway while under the influence of narcotics, controlled substances, or impairing medication.",
                         "sourceCodes":  [
                                             "PC-7018"
                                         ],
@@ -4569,7 +4693,7 @@
                                             "label":  "Driving Under the Influence of Narcotics",
                                             "sourceCode":  "PC-7018",
                                             "sourceTitle":  "Driving Under the Influence of Narcotics",
-                                            "description":  "A person who operates a motor vehicle on a public roadway while under the influence of narcotics, or other medicine that inhibits your ability to drive safely is guilty under this code section.",
+                                            "description":  "A person commits Driving Under the Influence of Narcotics when they operate or are in actual physical control of a motor vehicle on a public roadway while under the influence of narcotics, controlled substances, or medication to a degree that impairs safe driving.",
                                             "classification":  "felony",
                                             "baseFine":  300,
                                             "baseTime":  20,
@@ -4590,7 +4714,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Driving under the influence of narcotics focuses on impaired operation or actual physical control of a motor vehicle on a public roadway.",
+                                                                    "principles":  [
+                                                                                       "Impairment may be shown by driving behavior, field observations, admissions, drug evidence, medical indicators, or testing.",
+                                                                                       "Lawful prescription use is not a defense when the person is impaired to the degree they cannot drive safely.",
+                                                                                       "Reports should document operation or actual physical control, roadway location, driving pattern, impairment signs, statements, drug or medication evidence, and any tests performed."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -4599,7 +4731,7 @@
                         "code":  "EF-PC-07-009",
                         "title":  "Public Intoxication",
                         "categoryId":  "offenses-against-health-and-morals",
-                        "description":  "Grouped charge family for Public Intoxication.",
+                        "description":  "Intoxication in a public place that causes disruptive, obstructive, unsafe, or incapacitated conduct.",
                         "sourceCodes":  [
                                             "PC-7019"
                                         ],
@@ -4610,7 +4742,7 @@
                                             "label":  "Public Intoxication",
                                             "sourceCode":  "PC-7019",
                                             "sourceTitle":  "Public Intoxication",
-                                            "description":  "A person who is under the influence of alcohol in a public place, and disturbing the natural expectation of peace, is guilty under this code section.",
+                                            "description":  "A person commits Public Intoxication when they are under the influence of alcohol or drugs in a public place and, because of that condition, disturb the peace, obstruct public ways, endanger themselves or others, or are unable to care for their own safety.",
                                             "classification":  "infraction",
                                             "baseFine":  150,
                                             "baseTime":  0,
@@ -4625,7 +4757,15 @@
                                             "modifierIds":  [
                                                                 "minor-injury",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Public intoxication focuses on intoxication in a public place plus disruptive, unsafe, obstructive, or incapacitated conduct.",
+                                                                    "principles":  [
+                                                                                       "Intoxication alone is insufficient; officers should identify public location plus disruptive, unsafe, obstructive, or incapacitated conduct.",
+                                                                                       "Public places include streets, sidewalks, parks, businesses open to the public, and other areas where the public may reasonably be present.",
+                                                                                       "Reports should document signs of intoxication, the specific public conduct, witness concerns, warnings given, safety risks, and whether medical assistance was needed."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -4634,7 +4774,7 @@
                         "code":  "EF-PC-07-010",
                         "title":  "Public Indecency",
                         "categoryId":  "offenses-against-health-and-morals",
-                        "description":  "Grouped charge family for Public Indecency.",
+                        "description":  "Intentional public exposure, unclothed display, or sexualized conduct visible to nonconsenting persons.",
                         "sourceCodes":  [
                                             "PC-7020"
                                         ],
@@ -4645,7 +4785,7 @@
                                             "label":  "Public Indecency",
                                             "sourceCode":  "PC-7020",
                                             "sourceTitle":  "Public Indecency",
-                                            "description":  "A person who fails to appropriately dress themselves in a public place, or displays themselves to unconsenting parties in public areas, is guilty under this code section.",
+                                            "description":  "A person commits Public Indecency when they intentionally expose private body parts, engage in sexual conduct, or remain unclothed in a public place or in view of nonconsenting persons where the conduct is likely to offend or alarm a reasonable person.",
                                             "classification":  "infraction",
                                             "baseFine":  200,
                                             "baseTime":  0,
@@ -4659,7 +4799,15 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Public indecency focuses on intentional public exposure, unclothed display, or sexualized conduct visible to nonconsenting persons.",
+                                                                    "principles":  [
+                                                                                       "The offense requires intentional public exposure, unclothed display, or sexualized conduct visible to nonconsenting persons.",
+                                                                                       "Accidental exposure, medical necessity, or conduct in a location where privacy is reasonably expected should not be charged under this section.",
+                                                                                       "Reports should document the conduct in neutral terms, location, visibility to the public or witnesses, lack of consent, warnings, and evidence of intent."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -4668,7 +4816,7 @@
                         "code":  "EF-PC-07-011",
                         "title":  "Moonshine Offenses",
                         "categoryId":  "offenses-against-health-and-morals",
-                        "description":  "Grouped charge family for Moonshine Offenses.",
+                        "description":  "Unlicensed moonshine production, transport for distribution, furnishing, sale, and distribution.",
                         "sourceCodes":  [
                                             "PC-7021",
                                             "PC-7022"
@@ -4680,7 +4828,7 @@
                                             "label":  "Unlawful Production of Moonshine",
                                             "sourceCode":  "PC-7021",
                                             "sourceTitle":  "Unlawful Production of Moonshine",
-                                            "description":  "The act of manufacturing, distilling, or fermenting alcoholic beverages, such as moonshine, without proper licensing or permits as required by law.",
+                                            "description":  "A person commits Unlawful Production of Moonshine when they knowingly manufacture, distill, ferment, bottle, or operate equipment to produce alcoholic beverages without the license, permit, or lawful authorization required for that production.",
                                             "classification":  "felony",
                                             "baseFine":  750,
                                             "baseTime":  7,
@@ -4700,14 +4848,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Unlawful production of moonshine focuses on unlicensed production of alcoholic beverages or operation of equipment used for that production.",
+                                                                    "principles":  [
+                                                                                       "The offense may be proven by active production, operational stills, mash, fermenting alcohol, bottling materials, or other production equipment.",
+                                                                                       "A completed sale is not required if the evidence shows unlicensed manufacturing, distilling, fermenting, bottling, or operation of production equipment.",
+                                                                                       "Reports should document equipment, ingredients, product, location, lack of license or permit, safety hazards, volume, and any organized production indicators."
+                                                                                   ]
+                                                                }
                                         },
                                         {
-                                            "id":  "possession-or-distribution-of-illegal-moonshine",
-                                            "label":  "Possession or Distribution of Illegal Moonshine",
+                                            "id":  "distribution-of-illegal-moonshine",
+                                            "label":  "Distribution of Illegal Moonshine",
                                             "sourceCode":  "PC-7022",
-                                            "sourceTitle":  "Possession or Distribution of Illegal Moonshine",
-                                            "description":  "The act of possessing, transporting, or distributing unlicensed alcoholic beverages, such as moonshine, with the intent to sell or consume.",
+                                            "sourceTitle":  "Distribution of Illegal Moonshine",
+                                            "description":  "A person commits Distribution of Illegal Moonshine when they knowingly sell, furnish, distribute, offer to sell, transport for distribution, or possess with intent to distribute unlicensed alcoholic beverages produced outside lawful licensing requirements.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  350,
                                             "baseTime":  5,
@@ -4727,7 +4883,15 @@
                                                                 "first-offense",
                                                                 "citation-discretion",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Distribution of illegal moonshine focuses on distribution conduct involving unlicensed alcoholic beverages, not mere personal possession.",
+                                                                    "principles":  [
+                                                                                       "Mere personal possession is not enough without facts showing sale, furnishing, distribution, transport for distribution, or intent to distribute.",
+                                                                                       "Intent to distribute may be inferred from quantity, packaging, sales tools, delivery conduct, transaction communications, pricing, or customer lists.",
+                                                                                       "Reports should document containers, volume, labels or lack of licensing, source if known, transport route, sale or furnishing facts, distribution indicators, and any connection to an illicit still."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
