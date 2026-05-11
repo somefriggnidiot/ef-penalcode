@@ -2543,7 +2543,7 @@
                         "code":  "EF-PC-05-001",
                         "title":  "Bribery of a Government Official",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Grouped charge family for Bribery of a Government Official.",
+                        "description":  "Corrupt offers, payments, gifts, benefits, or promises intended to influence the official duties or judgment of a government official, government employee, or peace officer.",
                         "sourceCodes":  [
                                             "PC-5001"
                                         ],
@@ -2554,7 +2554,7 @@
                                             "label":  "Bribery of a Government Official",
                                             "sourceCode":  "PC-5001",
                                             "sourceTitle":  "Bribery of a Government Official",
-                                            "description":  "A person who offers or gives a monetary gift, gratuity, valuable goods, or other reward to a public official, a government employee, or peace officer in an attempt to influence their duties or actions is guilty under this code section.",
+                                            "description":  "A person commits Bribery of a Government Official when they offer, give, promise, request, or provide money, gifts, services, favors, or anything of value to a government official, government employee, or peace officer with intent to influence an official decision, duty, action, omission, or exercise of discretion.",
                                             "classification":  "felony",
                                             "baseFine":  200,
                                             "baseTime":  20,
@@ -2574,7 +2574,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Bribery focuses on corrupt intent: the thing of value must be connected to influencing official conduct, not merely ordinary gratitude or a lawful fee.",
+                                                                    "principles":  [
+                                                                                       "The recipient should be a government official, government employee, peace officer, or someone the suspect believes can influence official action.",
+                                                                                       "The offer or benefit must be tied to a requested official act, omission, decision, discretion, access, or favorable treatment.",
+                                                                                       "Reports should document the exact offer, the requested official action, timing, communications, witnesses, money or property involved, and any response by the official."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2583,7 +2591,7 @@
                         "code":  "EF-PC-05-002",
                         "title":  "Anti-Mask Law",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Grouped charge family for Anti-Mask Law.",
+                        "description":  "Mask or face-covering conduct that interferes with identification during a crime or after a lawful removal request inside a government facility.",
                         "sourceCodes":  [
                                             "PC-5002"
                                         ],
@@ -2594,7 +2602,7 @@
                                             "label":  "Anti-Mask Law",
                                             "sourceCode":  "PC-5002",
                                             "sourceTitle":  "Anti-Mask Law",
-                                            "description":  "A person who wears a mask or face covering while committing a crime is guilty under this code section. A person who wears a mask in a government facility, after being asked to remove it, is guilty under this code section.",
+                                            "description":  "A person commits Anti-Mask Law when they wear a mask or face covering to conceal their identity while committing a crime, or knowingly refuse a lawful request to remove a mask or face covering inside a government facility when identification or facility security requires it.",
                                             "classification":  "infraction",
                                             "baseFine":  150,
                                             "baseTime":  0,
@@ -2608,7 +2616,15 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This offense should be applied to concealment that affects identification, crime investigation, or secure government operations, not ordinary face coverings without suspicious or obstructive conduct.",
+                                                                    "principles":  [
+                                                                                       "For crime-related masking, the mask should reasonably conceal identity during or immediately connected to another offense.",
+                                                                                       "For government facilities, there should be a lawful identification, safety, or security reason for the removal request and the suspect should be given a clear opportunity to comply.",
+                                                                                       "Reports should document the underlying offense or facility rule, the removal request, the suspect\u0027s response, surveillance, and why identification mattered."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2617,7 +2633,7 @@
                         "code":  "EF-PC-05-003",
                         "title":  "Possession of Contraband in a Government Facility",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Grouped charge family for Possession of Contraband in a Government Facility.",
+                        "description":  "Possession of prohibited weapons, controlled substances, escape tools, or other contraband inside a government facility or controlled government area.",
                         "sourceCodes":  [
                                             "PC-5003"
                                         ],
@@ -2628,7 +2644,7 @@
                                             "label":  "Possession of Contraband in a Government Facility",
                                             "sourceCode":  "PC-5003",
                                             "sourceTitle":  "Possession of Contraband in a Government Facility",
-                                            "description":  "A person who possesses a controlled substance, illegal firearm, or any other illegal item while on the premesis of a government facility is guilty under this code section.",
+                                            "description":  "A person commits Possession of Contraband in a Government Facility when they knowingly possess a controlled substance, illegal weapon, unauthorized firearm, escape tool, stolen item, or other prohibited item inside a government facility or controlled government area without lawful authorization.",
                                             "classification":  "felony",
                                             "baseFine":  200,
                                             "baseTime":  5,
@@ -2647,7 +2663,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This offense protects secure government spaces by penalizing knowing possession of items that are illegal or prohibited in that setting.",
+                                                                    "principles":  [
+                                                                                       "The location should be a government facility, detention area, courthouse, station, secured office, or controlled operational area.",
+                                                                                       "The item should be illegal generally or prohibited by the facility because it creates safety, escape, evidence, or operational risks.",
+                                                                                       "Reports should document the item, where it was found, the suspect\u0027s possession or control, facility rules or signage, and any lawful authorization claim."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2656,7 +2680,7 @@
                         "code":  "EF-PC-05-004",
                         "title":  "Escape and Jailbreak",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Grouped charge family for Escape and Jailbreak.",
+                        "description":  "Unlawful departure from lawful custody or assisting another person in escaping custody, detention, or a correctional facility.",
                         "sourceCodes":  [
                                             "PC-5004",
                                             "PC-5005",
@@ -2670,7 +2694,7 @@
                                             "label":  "Escaping",
                                             "sourceCode":  "PC-5004",
                                             "sourceTitle":  "Escaping",
-                                            "description":  "Any person arrested, detained, booked, charged, or convicted of any crime who thereafter escapes from a county or city jail, prison, community service, or custody of a Correctional or Parole Officer, Peace Officer, Police Officer, or Federal Agent is guilty under this code section.",
+                                            "description":  "A person commits Escaping when they knowingly leave, flee, or remain absent from lawful custody, detention, arrest, booking, confinement, transport, work detail, community service custody, or supervision by a peace officer, correctional officer, parole officer, or authorized federal agent.",
                                             "classification":  "felony",
                                             "baseFine":  1005,
                                             "baseTime":  10,
@@ -2689,14 +2713,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Escaping focuses on unlawful departure from lawful custody or detention after the suspect knows they are not free to leave.",
+                                                                    "principles":  [
+                                                                                       "There must be lawful custody, detention, confinement, transport, or supervised placement at the time of departure or absence.",
+                                                                                       "The suspect must know or reasonably understand they are in custody or under official supervision and are not free to leave.",
+                                                                                       "Reports should document the custody status, officer or facility authority, warnings or restraints, method of escape, timeline, and recovery or continued absence."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "jailbreak",
                                             "label":  "Jailbreak",
                                             "sourceCode":  "PC-5005",
                                             "sourceTitle":  "Jailbreak",
-                                            "description":  "A person who breaks out a prisoner from a correctional facility without authorization is guilty under this code section.",
+                                            "description":  "A person commits Jailbreak when they knowingly help, enable, force, smuggle, breach, transport, conceal, or otherwise assist a detained or incarcerated person in escaping from a jail, prison, transport, courtroom holding area, hospital guard detail, or other lawful custody.",
                                             "classification":  "felony",
                                             "baseFine":  2500,
                                             "baseTime":  30,
@@ -2733,7 +2765,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Jailbreak applies to outside or inside assistance that helps another person escape lawful custody, including planning, tools, force, transport, or concealment.",
+                                                                    "principles":  [
+                                                                                       "The person being assisted should be under lawful detention, arrest, incarceration, transport, or official guard at the time.",
+                                                                                       "The suspect must knowingly assist the escape or attempted escape, not merely be present or unaware of the custody status.",
+                                                                                       "Reports should document the assisted person\u0027s custody status, the suspect\u0027s role, tools or vehicles used, force or threats, communications, and the escape route."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2742,7 +2782,7 @@
                         "code":  "EF-PC-05-005",
                         "title":  "Perjury",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Grouped charge family for Perjury.",
+                        "description":  "Knowingly false material statements made under oath, in sworn testimony, or in documents submitted to a court or judicial proceeding.",
                         "sourceCodes":  [
                                             "PC-5008"
                                         ],
@@ -2753,7 +2793,7 @@
                                             "label":  "Perjury",
                                             "sourceCode":  "PC-5008",
                                             "sourceTitle":  "Perjury",
-                                            "description":  "A person who willfully gives false information while testifying in court, during a deposition, or on a signed document presented to a court is guilty under this section.",
+                                            "description":  "A person commits Perjury when they knowingly and willfully make a false material statement under oath, in sworn testimony, during a deposition, or in a signed or sworn document submitted to a court or judicial proceeding.",
                                             "classification":  "felony",
                                             "baseFine":  4000,
                                             "baseTime":  20,
@@ -2772,7 +2812,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Perjury requires a knowingly false statement about a material fact in a sworn or court-connected setting.",
+                                                                    "principles":  [
+                                                                                       "The statement must be made under oath, sworn certification, deposition, court testimony, or a signed court document that carries a truth requirement.",
+                                                                                       "The falsehood must be material, meaning it could affect a judicial decision, proceeding, warrant, order, or fact-finding issue.",
+                                                                                       "Reports should preserve the exact statement, proof of oath or certification, evidence showing falsity, and why the statement mattered to the proceeding."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2781,7 +2829,7 @@
                         "code":  "EF-PC-05-006",
                         "title":  "Court Order and Appearance Violations",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Grouped charge family for Court Order and Appearance Violations.",
+                        "description":  "Knowingly violating lawful court orders, restraining orders, summonses, appearance requirements, or direct courtroom commands.",
                         "sourceCodes":  [
                                             "PC-5009",
                                             "PC-5014",
@@ -2795,7 +2843,7 @@
                                             "label":  "Violation of a Restraining Order",
                                             "sourceCode":  "PC-5009",
                                             "sourceTitle":  "Violation of a Restraining Order",
-                                            "description":  "A person who knowingly and intentionally violates the parameters of a restraining order against them is guilty under this code section.",
+                                            "description":  "A person commits Violation of a Restraining Order when they knowingly and intentionally contact, approach, harass, threaten, surveil, enter a prohibited place, or otherwise violate a valid restraining order after receiving notice of its terms.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  525,
                                             "baseTime":  20,
@@ -2813,14 +2861,22 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree turns on notice and specific order terms: the suspect must know the order exists and then violate a condition it actually contains.",
+                                                                    "principles":  [
+                                                                                       "Officers should confirm the order is active, valid, and applicable to the suspect and protected person or location.",
+                                                                                       "The suspect must have notice of the order through service, court appearance, acknowledgment, prior enforcement, or another reliable source.",
+                                                                                       "Reports should document the order terms, notice, prohibited conduct, victim statements, messages, distance, locations, and any threats or repeated contacts."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "violating-a-court-order",
                                             "label":  "Violating a Court Order",
                                             "sourceCode":  "PC-5014",
                                             "sourceTitle":  "Violating a Court Order",
-                                            "description":  "A person who fails to abide by a court order ruled by a judge of San Andreas is guilty under this code section.",
+                                            "description":  "A person commits Violating a Court Order when they knowingly fail to obey a lawful order issued by a judge or court, including orders requiring action, prohibiting conduct, preserving evidence, paying court-ordered obligations, or complying with release or probation conditions.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  800,
                                             "baseTime":  10,
@@ -2837,14 +2893,22 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This degree applies when a lawful court order is clear enough to obey and the suspect knowingly violates it.",
+                                                                    "principles":  [
+                                                                                       "The order should be active, lawful, and sufficiently specific for the suspect to understand what is required or prohibited.",
+                                                                                       "The suspect must have notice of the order and a meaningful ability to comply before criminal enforcement is appropriate.",
+                                                                                       "Reports should include the court order, notice or service history, the violated term, evidence of noncompliance, and any explanation offered by the suspect."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "failure-to-appear",
                                             "label":  "Failure to Appear",
                                             "sourceCode":  "PC-5015",
                                             "sourceTitle":  "Failure to Appear",
-                                            "description":  "A person who fails to appear to a lawfully binding court summons or order for appearance is guilty under this code section.",
+                                            "description":  "A person commits Failure to Appear when they knowingly fail to appear at a required court date, hearing, summons, subpoena, or ordered appearance after receiving lawful notice and having no accepted excuse or continuance.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  650,
                                             "baseTime":  10,
@@ -2862,14 +2926,22 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Failure to Appear focuses on a missed required appearance after valid notice, not confusion, lack of service, or a continued hearing.",
+                                                                    "principles":  [
+                                                                                       "There should be a valid summons, subpoena, notice, release condition, or court order requiring appearance at a specific time and place.",
+                                                                                       "The suspect must have actual or legally sufficient notice and no approved continuance, cancellation, or documented lawful excuse.",
+                                                                                       "Reports should document the appearance notice, service or acknowledgment, scheduled date and time, court record of nonappearance, and any later explanation."
+                                                                                   ]
+                                                                }
                                         },
                                         {
                                             "id":  "contempt-of-court",
                                             "label":  "Contempt of Court",
                                             "sourceCode":  "PC-5016",
                                             "sourceTitle":  "Contempt of Court",
-                                            "description":  "A person who is disrespectful of the court process, such as being excessively loud or belligerent, refusing to be sworn in as a witness, refusing to comply with a judges request, is guilty under this code section. Repeated offenses can result in multiplication of the maximum fine and sentence.",
+                                            "description":  "A person commits Contempt of Court when they knowingly disrupt court proceedings, refuse a lawful court command, refuse to be sworn when legally required, disobey courtroom rules after warning, or engage in conduct that obstructs the court\u0027s ability to conduct business.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  300,
                                             "baseTime":  5,
@@ -2887,7 +2959,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Contempt protects the court process and should be based on obstruction or disobedience of a lawful court command, not mere frustration, criticism, or poor manners by itself.",
+                                                                    "principles":  [
+                                                                                       "The conduct should occur in or directly affect a court proceeding, court order, courtroom function, or judicial command.",
+                                                                                       "When practical, the person should receive a clear warning or direct instruction before enforcement, unless the disruption or refusal is severe or immediate.",
+                                                                                       "Reports should document the judge\u0027s command, the warning given, the disruptive conduct, effect on proceedings, witnesses, and any repeated refusal to comply."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2896,7 +2976,7 @@
                         "code":  "EF-PC-05-007",
                         "title":  "Embezzlement",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Grouped charge family for Embezzlement.",
+                        "description":  "Misappropriation of money, property, or assets entrusted to a person through employment, office, agency, or another position of trust.",
                         "sourceCodes":  [
                                             "PC-5010"
                                         ],
@@ -2907,7 +2987,7 @@
                                             "label":  "Embezzlement",
                                             "sourceCode":  "PC-5010",
                                             "sourceTitle":  "Embezzlement",
-                                            "description":  "A person who steals or misappropriates funds in their trust or belonging to their employer is guilty under this code section.",
+                                            "description":  "A person commits Embezzlement when they knowingly and fraudulently take, convert, use, transfer, or withhold money, property, funds, or assets entrusted to them through employment, office, agency, fiduciary duty, or another position of trust.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  1000,
                                             "baseTime":  20,
@@ -2929,7 +3009,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Embezzlement differs from ordinary theft because the suspect initially has lawful access or control, then misuses the entrusted property.",
+                                                                    "principles":  [
+                                                                                       "The property or funds should be entrusted to the suspect through work, office, agency, account access, storage, management, or another relationship of trust.",
+                                                                                       "The suspect must intentionally convert, withhold, divert, or use the property for an unauthorized purpose.",
+                                                                                       "Reports should document the trust relationship, account or inventory records, authorization limits, transfers or withdrawals, communications, and the amount or property involved."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2938,7 +3026,7 @@
                         "code":  "EF-PC-05-008",
                         "title":  "Unlawful Practice",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Grouped charge family for Unlawful Practice.",
+                        "description":  "Providing medical, legal, or similarly regulated professional services without required authorization, license, certification, or lawful permission.",
                         "sourceCodes":  [
                                             "PC-5011"
                                         ],
@@ -2949,7 +3037,7 @@
                                             "label":  "Unlawful Practice",
                                             "sourceCode":  "PC-5011",
                                             "sourceTitle":  "Unlawful Practice",
-                                            "description":  "A person who practices medical procedures that they are not licenced or lawfully allowed to practice is guilty under this code section.",
+                                            "description":  "A person commits Unlawful Practice when they knowingly perform, advertise, or offer medical, legal, emergency, or similarly regulated professional services without the license, certification, authorization, or lawful permission required for that practice.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  1500,
                                             "baseTime":  15,
@@ -2970,7 +3058,15 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Unlawful Practice targets regulated services where unlicensed work can expose others to medical, legal, safety, or official-process harm.",
+                                                                    "principles":  [
+                                                                                       "The service should be one that reasonably requires a license, certification, government authorization, or official appointment in the simulation setting.",
+                                                                                       "The suspect must perform, offer, advertise, or hold themselves out as authorized to provide the regulated service without required authority.",
+                                                                                       "Reports should document the service offered or performed, any claimed credential, victim reliance, payment or benefit, records, and verification that no valid authorization existed."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -2979,7 +3075,7 @@
                         "code":  "EF-PC-05-009",
                         "title":  "Misuse of Emergency Systems",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Grouped charge family for Misuse of Emergency Systems.",
+                        "description":  "Knowingly false, abusive, or non-emergency use of emergency reporting systems, panic alarms, or dispatch resources.",
                         "sourceCodes":  [
                                             "PC-5012"
                                         ],
@@ -2990,7 +3086,7 @@
                                             "label":  "Misuse of Emergency Systems",
                                             "sourceCode":  "PC-5012",
                                             "sourceTitle":  "Misuse of Emergency Systems",
-                                            "description":  "A person who misuses an emergency system, such as 911 or panic buttons, to waste police time or resources, is guilty under this code section",
+                                            "description":  "A person commits Misuse of Emergency Systems when they knowingly make a false, frivolous, abusive, or non-emergency report through 911, panic buttons, emergency radios, alarms, or dispatch channels in a manner that wastes or diverts emergency resources.",
                                             "classification":  "infraction",
                                             "baseFine":  600,
                                             "baseTime":  0,
@@ -3005,7 +3101,15 @@
                                             "modifierIds":  [
                                                                 "multiple-victims",
                                                                 "citation-discretion"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "This infraction addresses misuse of emergency reporting tools while preserving room for good-faith mistakes during stressful or uncertain situations.",
+                                                                    "principles":  [
+                                                                                       "The report or activation should be knowingly false, abusive, frivolous, or unrelated to a reasonable emergency need.",
+                                                                                       "Good-faith calls based on mistaken but reasonable fear, confusion, injury, or developing danger should not be charged as misuse.",
+                                                                                       "Reports should document the call or activation, dispatch logs, caller statements, known facts at the time, units diverted, and whether warnings were given."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
@@ -3014,7 +3118,7 @@
                         "code":  "EF-PC-05-010",
                         "title":  "Conspiracy",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Grouped charge family for Conspiracy.",
+                        "description":  "Agreement or coordinated planning to commit a criminal offense, supported by conduct showing the plan moved beyond idle discussion.",
                         "sourceCodes":  [
                                             "PC-5013"
                                         ],
@@ -3025,7 +3129,7 @@
                                             "label":  "Conspiracy",
                                             "sourceCode":  "PC-5013",
                                             "sourceTitle":  "Conspiracy",
-                                            "description":  "A person who conspires to commit a crime, either alone or with a group, is guilty under this section. A person charged with this can be charged up to half of the fine and sentence of the conspired crime.",
+                                            "description":  "A person commits Conspiracy when they agree with one or more persons to commit a criminal offense and at least one participant takes a concrete step toward planning, preparing, enabling, or carrying out that offense.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  0,
                                             "baseTime":  0,
@@ -3044,7 +3148,21 @@
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Conspiracy should be based on an agreement plus conduct showing movement toward the planned crime, not loose talk, fantasy, or mere association.",
+                                                                    "principles":  [
+                                                                                       "There should be evidence of an agreement, shared plan, or coordinated intent to commit a specific criminal offense.",
+                                                                                       "At least one participant should take an overt step, such as acquiring tools, scouting, assigning roles, moving money, obtaining weapons, or traveling to the target.",
+                                                                                       "Reports should document communications, participant roles, planned offense, overt acts, timelines, seized items, and why the suspect knowingly joined the plan."
+                                                                                   ],
+                                                                    "cases":  [
+
+                                                                              ],
+                                                                    "resources":  [
+
+                                                                                  ]
+                                                                }
                                         }
                                     ]
                     },
@@ -3053,7 +3171,7 @@
                         "code":  "EF-PC-05-011",
                         "title":  "Resisting Arrest",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Grouped charge family for Resisting Arrest.",
+                        "description":  "Knowingly resisting, delaying, obstructing, or evading a peace officer during a lawful arrest, detention, or attempt to take custody by non-vehicular means.",
                         "sourceCodes":  [
                                             "PC-5017"
                                         ],
@@ -3064,7 +3182,7 @@
                                             "label":  "Resisting Arrest",
                                             "sourceCode":  "PC-5017",
                                             "sourceTitle":  "Resisting Arrest",
-                                            "description":  "A person who avoids apprehension from an officer by non-vehicular means or resists apprehension by any physical means is guilty under this code section is guilty under this code section.",
+                                            "description":  "A person commits Resisting Arrest when they knowingly resist, delay, obstruct, pull away from, fight, flee on foot from, hide from, or otherwise evade a peace officer who is lawfully detaining, arresting, or taking the person into custody by non-vehicular means.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  750,
                                             "baseTime":  10,
@@ -3083,7 +3201,15 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
-                                                            ]
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Resisting Arrest focuses on knowing interference with a lawful detention or arrest, especially physical resistance or foot flight after a clear command.",
+                                                                    "principles":  [
+                                                                                       "The officer should be acting under lawful authority and should communicate a detention, arrest, command to stop, or custody instruction when practical.",
+                                                                                       "The suspect\u0027s conduct should materially delay, obstruct, or resist custody; mere questions, confusion, or passive verbal disagreement should be handled carefully.",
+                                                                                       "Reports should document officer commands, suspect awareness, physical resistance or flight, use of force, injuries, witnesses, body camera details, and why the encounter was lawful."
+                                                                                   ]
+                                                                }
                                         }
                                     ]
                     },
