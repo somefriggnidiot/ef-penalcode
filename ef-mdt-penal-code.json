@@ -1137,7 +1137,7 @@
                                             "label":  "Torture",
                                             "sourceCode":  "PC-1028",
                                             "sourceTitle":  "Torture",
-                                            "description":  "A person commits Torture when they intentionally cause extreme physical or mental pain and suffering to another person for punishment, coercion, interrogation, revenge, extortion, intimidation, or sadistic purpose.",
+                                            "description":  "A person commits Torture when they intentionally cause extreme physical or mental pain or suffering to another person for punishment, coercion, interrogation, revenge, extortion, intimidation, or sadistic purpose.",
                                             "classification":  "felony",
                                             "baseFine":  1500,
                                             "baseTime":  20,
@@ -1161,6 +1161,7 @@
                                                                     "overview":  "Torture focuses on intentional infliction of extreme pain or suffering for a prohibited purpose.",
                                                                     "principles":  [
                                                                                        "The pain or suffering should be extreme and intentionally inflicted, not merely incidental to a lesser assault or battery.",
+                                                                                       "Intentional and unlawful conduct causing permanent disability, disfigurement, or deprivation of a limb, organ, or other body part should be charged under torture when supported by the facts, including when the harm is inflicted for punishment, coercion, interrogation, revenge, extortion, intimidation, or sadistic gratification.",
                                                                                        "The purpose may include punishment, coercion, interrogation, revenge, extortion, intimidation, or sadistic gratification.",
                                                                                        "Reports should document the acts causing pain, duration, injuries, restraint or threats, statements showing purpose, medical evidence, and victim or witness accounts."
                                                                                    ]
