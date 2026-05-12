@@ -20,6 +20,8 @@ Columns included:
 | `degreeId` / `degreeLabel` | Degree identity |
 | `sourceCode` / `sourceTitle` | Degree-specific code and title |
 | `classification` | Infraction, misdemeanor, or felony |
+| `tags` | Semicolon-delimited attributes for filtering common charge features |
+| `severityScore` | Composite score based on base time and base fine |
 | `baseFine` / `baseTime` | Base punishment values |
 | `modifierIds` | Modifiers available to the degree |
 | `liabilityOptions` | Attempt, accessory, conspiracy, or related liability options |
@@ -27,6 +29,41 @@ Columns included:
 | `hasLegalPrinciples` | Whether the degree includes the legal principles object |
 
 Total mapped rows: 165 charge degrees.
+
+## Tags and Severity Scoring
+
+The CSV now includes a `tags` column to make cross-category filtering easier. Tags are semicolon-delimited and are intended to answer questions like whether a degree is `violent`, `commercial`, `weapon-related`, `controlled-substance`, `vehicle-related`, `government`, `property`, `regulatory`, or `justice-system` related.
+
+The CSV also includes `severityScore`, currently calculated as:
+
+```text
+severityScore = baseTime * 10 + sqrt(baseFine)
+```
+
+This formula intentionally makes custody time the main severity driver while still allowing fines to matter. The square-root fine component prevents high regulatory or commercial fines from overpowering violent offenses solely because they are expensive.
+
+Formula options considered:
+
+| Formula | Example Use | Concern |
+| --- | --- | --- |
+| `baseTime * 10 + baseFine / 100` | Easy to read; every 100 fine equals 1 severity point. | High fines can make regulatory/economic crimes outrank serious violence too easily. |
+| `baseTime * 10 + sqrt(baseFine)` | Current choice; time dominates while fine still contributes. | Fine differences are compressed, so economic harm is less visible than custody time. |
+| `baseTime * 10 + log10(baseFine + 1) * 25` | Very stable against extreme fines. | Fine contribution may feel too abstract and harder to explain to staff. |
+
+Example scores using the current formula:
+
+| Degree | Time | Fine | Severity Score |
+| --- | ---: | ---: | ---: |
+| Insurrection | 240 | 20000 | 2541.4 |
+| Criminal Sale of Weapon Class D | 60 | 12000 | 709.5 |
+| Theft of a Law Enforcement Vehicle | 60 | 10000 | 700.0 |
+| Drug Trafficking | 60 | 5000 | 670.7 |
+| First Degree Murder | 50 | 2500 | 550.0 |
+| Second Degree Murder | 40 | 1750 | 441.8 |
+| Robbery | 25 | 1000 | 281.6 |
+| Illegal Fishing | 15 | 6250 | 229.1 |
+| Battery | 15 | 275 | 166.6 |
+| Simple Assault | 1 | 150 | 22.2 |
 
 ## Overall Sentencing Shape
 
