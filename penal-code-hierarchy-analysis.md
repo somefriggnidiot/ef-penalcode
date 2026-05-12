@@ -331,6 +331,69 @@ Current pressure points:
 - Ordinary non-homicide crimes above 550 should be reviewed against First Degree Murder.
 - Any base score above 750 should either be exceptional or rebalanced.
 
+## Review Queue From Cutoff Bands
+
+This section converts the cutoff bands into a working review list. The goal is not to automatically change every item, but to force an intentional decision where classification, score, and California-style severity signals diverge.
+
+### Misdemeanors Scoring 200+
+
+These are serious-misdemeanor or wobbler candidates. Either reduce them into the ordinary misdemeanor band or make the felony/wobbler logic explicit.
+
+| Degree | Current | Severity | Tags | Review Direction |
+| --- | ---: | ---: | --- | --- |
+| Impersonating | 1250 fine / 25 time | 285.4 | `fraud;government;identity-document;commercial` | Reduce generic impersonation to 10-15, or reserve 25+ for official, financial, or custody-impacting impersonation. |
+| Embezzlement | 1000 / 20 | 231.6 | `commercial;economic;government;justice-system` | Split by value/trust role. Ordinary misdemeanor 10-15; high-value or public-office embezzlement as felony. |
+| Possession of Government-Issued Items | 1000 / 20 | 231.6 | `government;identity-document;possession;property;weapon-related` | Split harmless possession from security-sensitive items. Weapons, IDs, access cards, or vehicle equipment may justify felony/wobbler treatment. |
+| Illegal Fishing | 6250 / 15 | 229.1 | `commercial;economic;regulatory;wildlife` | Keep high fine only for commercial/protected-species/repeat conduct. Reduce ordinary illegal fishing or create an aggravated degree. |
+| Violation of a Restraining Order | 525 / 20 | 222.9 | `government;justice-system;public-order` | Ordinary violation should be 10-15; threats, stalking, violence, or repeat conduct should move to felony/wobbler. |
+| Harboring a Fugitive | 375 / 20 | 219.4 | `government;justice-system;public-order` | Split by fugitive seriousness. Harboring a violent felony suspect can remain high; minor concealment should be lower. |
+| Possession of Stolen Government Identification | 200 / 20 | 214.1 | `fraud;government;identity-document;possession` | Treat possession-only as 10-15; fraudulent use or access attempts should escalate to felony identity/government-process conduct. |
+| Criminal Use of Weapon | 4000 / 15 | 213.2 | `public-safety;weapon-related;firearm-related` | Reclassify as felony 20-25 or narrow the misdemeanor version to display/threat without injury. Active use during another crime is felony-like. |
+
+### Felonies Scoring Under 150
+
+These are low-score felony status offenses. Keep them felony only where status matters, such as firearms, prohibited locations, custody, or public-safety control.
+
+| Degree | Current | Severity | Tags | Review Direction |
+| --- | ---: | ---: | --- | --- |
+| Possession of Contraband in a Government Facility | 200 / 5 | 64.1 | `government;justice-system;possession;weapon-related;controlled-substance` | Keep felony if it covers weapons, escape tools, or controlled substances in secured facilities; otherwise create a lower contraband degree. |
+| Criminal Possession of Weapon Class A | 250 / 5 | 65.8 | `public-safety;weapon-related;possession` | Consider misdemeanor unless carried for criminal use, possessed by a prohibited person, or found in a restricted setting. |
+| Criminal Possession of Ammunition | 500 / 5 | 72.4 | `public-safety;firearm-related;possession` | Keep felony for prohibited persons or unlawful facility/security contexts; otherwise consider misdemeanor or citation-plus-confiscation. |
+| Unlawful Production of Moonshine | 750 / 7 | 97.4 | `health-morals;manufacturing-production;alcohol-intoxication` | Low felony is acceptable if production is hazardous or commercial. Otherwise misdemeanor plus fine may fit better. |
+| Possession of Drug Manufacturing Materials | 750 / 7 | 97.4 | `controlled-substance;manufacturing-production;possession` | Keep felony if materials are assembled for production; reduce if mere precursor possession is covered. |
+| Grand Theft Auto A | 120 / 10 | 111.0 | `property;theft;vehicle-related` | Raise fine/time or classify lower depending on what Class A vehicles represent. Current felony fine is unusually low. |
+| Smuggling of Contraband | 4000 / 5 | 113.2 | `commercial;economic;property;sale-transfer` | Fine-heavy felony can work for economic deterrence, but time should rise if it involves dangerous contraband or organized conduct. |
+| Flying into Restricted Airspace | 750 / 10 | 127.4 | `public-safety;vehicle-related;licensing-status` | Keep low felony only for sensitive airspace or refusal to exit; ordinary violations can be misdemeanor/infraction. |
+| Escaping | 1005 / 10 | 131.7 | `government;justice-system` | Felony status is reasonable because custody integrity matters. Add higher degree or modifier for violence, weapons, or organized escape. |
+| Criminal Possession of Weapon Class B | 2000 / 10 | 144.7 | `public-safety;firearm-related;possession` | Low felony is acceptable for unlawful firearm possession. Keep below sale, manufacturing, and trafficking. |
+
+### Non-Homicide Offenses Above First Degree Murder
+
+These ordinary non-homicide degrees currently score above First Degree Murder. If First Degree Murder is raised, some may no longer be outliers. If murder remains at 550.0, each should be reduced or narrowed.
+
+| Degree | Current | Severity | Tags | Review Direction |
+| --- | ---: | ---: | --- | --- |
+| Criminal Sale of Weapon Class D | 12000 / 60 | 709.5 | `public-safety;weapon-related;explosive-related;sale-transfer` | Keep top-tier but below murder unless the weapons are mass-casualty explosives. Target 45-55 if murder rises to 75-90. |
+| Theft of a Law Enforcement Vehicle | 10000 / 60 | 700.0 | `government;property;theft;vehicle-related` | Reduce baseline to 35-45, then use modifiers/companion charges for pursuit, injuries, weapons, or public danger. |
+| Drug Trafficking | 5000 / 60 | 670.7 | `controlled-substance;commercial;sale-transfer` | Keep serious but below murder. Target 45-55 unless death, organized activity, or large-scale trafficking is built in. |
+| Operating an Unlicensed Import/Export Business | 20000 / 50 | 641.4 | `commercial;economic;licensing-status` | Split ordinary licensing/business violations from organized contraband import/export. Ordinary licensing should not match murder. |
+| Weapon Trafficking | 11000 / 45 | 554.9 | `public-safety;firearm-related;sale-transfer` | Keep near current level if murder rises. It should sit below intentional homicide but above ordinary weapon sales. |
+
+### Exceptional Outliers Above 750
+
+| Degree | Current | Severity | Review Direction |
+| --- | ---: | ---: | --- |
+| Insurrection | 20000 fine / 240 time | 2541.4 | Treat as explicitly exceptional outside the ordinary ladder, or reduce to the global max of 120. The current base time exceeds the JSON sentencing guideline max. |
+
+### Priority Order
+
+1. Decide whether First Degree Murder and Second Degree Murder will be raised.
+2. Decide whether Insurrection is an exception to the global max or should be capped.
+3. Rebalance non-homicide 550+ offenses against the murder decision.
+4. Review misdemeanors above 200 for felony/wobbler treatment or reduction.
+5. Review felonies below 150 for intentional status-offense treatment.
+6. Split broad charges that currently cover both ordinary and aggravated conduct.
+
 ## California-Style Calibration
 
 The goal is not to copy California sentencing literally. GTA roleplay needs compressed and playable punishments. The useful California comparison is the relative ladder:
