@@ -209,6 +209,107 @@ Regulatory and wildlife tags average 128.0, but the max is 513.2 because Murder 
 
 Recommendation: reserve the highest wildlife/regulatory fines for commercial, protected-species, repeat, or organized conduct. Ordinary illegal fishing should not visually outrank too many violent misdemeanors unless deterrence is the explicit goal.
 
+## Individual Charge Recommendations
+
+These recommendations use California's relative ladder as the benchmark, not California's literal prison terms. The goal is to keep the simulation playable while making the hierarchy feel familiar: murder and torture near the top, robbery/carjacking/kidnapping below homicide but above ordinary property crime, sale/trafficking above possession, and regulatory or licensing conduct mostly fine-heavy unless it creates major public danger.
+
+### Homicide and Extreme Violence
+
+| Degree | Current | Severity | Recommendation |
+| --- | ---: | ---: | --- |
+| First Degree Murder | 2500 fine / 50 time | 550.0 | Raise to roughly 75-90 time and 3500-5000 fine. This should be the highest ordinary non-exceptional offense, below only Insurrection or true mass-casualty/state-crisis conduct. |
+| Second Degree Murder | 1750 / 40 | 441.8 | Raise to roughly 55-70 time and 2500-3500 fine. It should sit below First Degree Murder but above robbery, carjacking, most trafficking, and official impersonation. |
+| Vehicular Manslaughter | 750 / 25 | 277.4 | Keep near 25-35 if this covers gross negligence or intoxication-related conduct. If ordinary negligent death is included, split a lower negligent degree from a higher DUI/gross-negligence degree. |
+| Involuntary Manslaughter | 750 / 20 | 227.4 | Keep as a serious felony, but ensure it stays below intentional violence. A 20-30 time band is workable. |
+| Murder of a Police Working Dog | 4000 / 45 | 513.2 | Reduce to about 30-35 time or keep 45 only if intentionally treated as a special public-safety felony. It should not sit above Second Degree Murder of a human victim after homicide is rebalanced. |
+| Torture | 1500 / 20 | 238.7 | Raise substantially, roughly 45-60 time and 2500-4000 fine. California treats torture and aggravated mayhem as top-tier life-style conduct; in this code, Torture also absorbs mayhem-like permanent disability and disfigurement. |
+
+### Kidnapping, Hostage Taking, Robbery, and Carjacking
+
+| Degree | Current | Severity | Recommendation |
+| --- | ---: | ---: | --- |
+| Kidnapping | 500 / 15 | 172.4 | Raise to roughly 25-35 time. California kidnapping is a serious felony, and this should outrank ordinary aggravated assault and property theft. |
+| Hostage Taking | 750 / 20 | 227.4 | Raise to roughly 35-45 time. Holding a person to compel action or payment should sit above ordinary kidnapping and near aggravated robbery/carjacking. |
+| Robbery | 1000 / 25 | 281.6 | Keep around 25-30, or raise to 30 if Grand Larceny remains at 30. Robbery should generally outrank ordinary grand theft because it uses force or fear. |
+| Carjacking | 400 / 20 | 220.0 | Raise to roughly 30-40 time. California treats carjacking as a serious violent felony, generally comparable to or above robbery. |
+| Burglary | 500 / 10 | 122.4 | Split if possible: ordinary commercial/unoccupied burglary can remain 10-15, while residential, occupied, or home-invasion burglary should be felony 25-35. |
+
+### Assault, Battery, and Weapon Use
+
+| Degree | Current | Severity | Recommendation |
+| --- | ---: | ---: | --- |
+| Simple Assault | 150 / 1 | 22.2 | Keep low. This fits misdemeanor threat/fear conduct. |
+| Assault | 285 / 10 | 116.9 | Keep in the 5-10 misdemeanor range unless weapon or protected-victim facts are present. |
+| Aggravated Assault | 325 / 15 | 168.0 | Keep as low felony or raise slightly to 20 if it is meant to cover serious injury or deadly-weapon assault. |
+| Battery | 275 / 15 | 166.6 | Consider reducing ordinary Battery to 5-10 and relying on Aggravated Battery for injury/significant-pain cases. California simple battery is comparatively low-level. |
+| Aggravated Battery | 375 / 20 | 219.4 | Keep near 20-25. This is a good bridge between ordinary battery and major violence. |
+| Criminal Use of Weapon | 4000 / 15 | 213.2 | Reclassify as felony or reduce the fine/time if it remains misdemeanor. Because it covers using, firing, striking with, or threatening with a weapon during another crime, felony 20-25 is more coherent. |
+
+### Weapons and Public Safety
+
+| Degree | Current | Severity | Recommendation |
+| --- | ---: | ---: | --- |
+| Criminal Sale of Weapon Class D | 12000 / 60 | 709.5 | Keep top-tier but place below rebalanced First Degree Murder unless the facts involve mass-casualty weapons or explosives. A 45-55 time band works if murder rises. |
+| Weapon Trafficking | 11000 / 45 | 554.9 | Keep serious, roughly 40-50 time. It should outrank simple sale/possession but remain below intentional homicide. |
+| Illegal Manufacturing of Firearms | 5000 / 10 | 170.7 | Raise to roughly 20-30 time. Manufacturing should sit clearly above possession and closer to sale/trafficking. |
+| Criminal Sale of Weapon Class B | 5000 / 10 | 170.7 | Raise to roughly 15-25 time. Firearm sale should outrank Class B possession. |
+| Criminal Possession of Weapon Class A | 250 / 5 | 65.8 | Consider misdemeanor treatment unless the suspect is prohibited, the item is carried for criminal use, or aggravating facts apply. If felony status is retained, make clear it is status/policy-driven. |
+| Criminal Possession of Weapon Class B | 2000 / 10 | 144.7 | Low felony is acceptable for unlawful firearm possession. Keep below sale/manufacturing/trafficking. |
+| Criminal Possession of Ammunition | 500 / 5 | 72.4 | Consider misdemeanor or low felony only for prohibited persons, unlawful locations, or aggravating facts. |
+| Criminal Possession of Weapon Class D | 7500 / 20 | 286.6 | Keep as serious felony. Explosives/heavy weapons justify a sharper jump above ordinary possession. |
+
+### Drugs, Alcohol, and Health/Morals
+
+| Degree | Current | Severity | Recommendation |
+| --- | ---: | ---: | --- |
+| Misdemeanor Drug Possession | 300-500 / 0 | 17.3-22.4 | Keep low if the policy is cite-and-release or treatment-oriented simple possession. |
+| Felony Possession of Cocaine/Amphetamines/Opioids | 450-750 / 15 | 171.2-177.4 | Review whether simple felony possession should be this high. If based on quantity, keep; if not, reduce or clarify thresholds. |
+| Possession of Marijuana | 200 / 15 | 164.1 | Because this is 10-100 kg, misdemeanor classification is lenient but the time is high for a misdemeanor. Consider felony/wobbler treatment or reduce time if it is meant as possession-only. |
+| Sale of a Controlled Substance | 800 / 10 | 128.3 | Raise or reclassify. California treats sale/transport more seriously than simple possession; felony 15-25 would fit better. |
+| Drug Trafficking | 5000 / 60 | 670.7 | Keep very serious, but set below rebalanced First Degree Murder unless it involves mass harm. A 45-55 time band is enough if homicide rises. |
+| Possession of Drug Manufacturing Materials | 750 / 7 | 97.4 | Low felony is acceptable if it is preparatory conduct. If active manufacturing is involved, use a separate higher production/manufacturing charge. |
+| Unlawful Production of Moonshine | 750 / 7 | 97.4 | Keep lower than controlled-substance manufacturing unless hazardous production, distribution, or injury facts are present. |
+
+### Theft, Fraud, and Economic Crimes
+
+| Degree | Current | Severity | Recommendation |
+| --- | ---: | ---: | --- |
+| Grand Theft | 850 / 10 | 129.2 | Keep as misdemeanor or wobbler for lower value thresholds. |
+| Grand Larceny | 1000 / 30 | 331.6 | Consider reducing to 20-25 unless it is reserved for very high-value theft. It currently outranks Robbery. |
+| Robbery | 1000 / 25 | 281.6 | Should outrank ordinary Grand Larceny because of force/fear. Raise robbery or lower Grand Larceny. |
+| Grand Theft Auto A | 120 / 10 | 111.0 | Low for felony vehicle theft. Raise fine and/or time, or classify as misdemeanor if Class A vehicles are low value. |
+| Theft of a Law Enforcement Vehicle | 10000 / 60 | 700.0 | Reduce to roughly 35-45 unless the taking includes pursuit, weapon use, injury, or major public-safety danger. It should not outrank murder by default. |
+| Theft of an Aircraft | 5000 / 40 | 470.7 | Keep serious, but below intentional homicide. A 30-40 band is reasonable. |
+| Impersonating | 1250 / 25 | 285.4 | Reduce to 10-15 for generic identity impersonation. Reserve 25-35 for peace officer/public servant impersonation. |
+| Impersonating a Peace Officer or Public Servant | 2050 / 30 | 345.3 | Reasonable as a felony because official authority misuse is high-risk. Keep below violent felonies like robbery/carjacking after those are rebalanced. |
+| Impersonating a Judge | 3500 / 45 | 509.2 | Reduce to 30-35 unless it involves warrants, detention orders, or major case corruption. It currently sits near Second Degree Murder. |
+| Money Laundering | 4000 / 25 | 313.2 | Keep as serious economic felony, especially if tied to organized activity. |
+| Embezzlement | 1000 / 20 | 231.6 | Misdemeanor at 20 is high. Consider felony/wobbler treatment for high value, or reduce ordinary misdemeanor embezzlement to 10-15. |
+
+### Public Administration, Public Order, and Government Process
+
+| Degree | Current | Severity | Recommendation |
+| --- | ---: | ---: | --- |
+| Government Corruption | 2000 / 40 | 444.7 | Keep serious, but ensure it remains below homicide and torture after rebalancing. |
+| Jailbreak | 2500 / 30 | 350.0 | Keep serious felony. Violent or armed jailbreak can be handled through modifiers or companion charges. |
+| Escaping | 1005 / 10 | 131.7 | Low felony is acceptable if custody status matters. Raise only for violence, weapons, or organized escape. |
+| Felony Obstruction of Justice | 900 / 15 | 180.0 | Keep in ordinary felony range because it is limited to formal legal process. |
+| Witness Tampering | 1000 / 25 | 281.6 | Good placement as serious justice-system felony. |
+| Violation of a Restraining Order | 525 / 20 | 222.9 | High for misdemeanor. Consider 10-15 unless violence, stalking, threats, or repeat conduct are present. |
+| Harboring a Fugitive | 375 / 20 | 219.4 | High for misdemeanor. Consider felony/wobbler for serious fugitives or reduce ordinary cases to 10-15. |
+| Insurrection | 20000 / 240 | 2541.4 | Treat as exceptional outside the ordinary ladder, or reduce to the global max of 120. It currently exceeds the JSON sentencing guideline max. |
+
+### Vehicle, Traffic, Wildlife, and Regulatory
+
+| Degree | Current | Severity | Recommendation |
+| --- | ---: | ---: | --- |
+| Reckless Evading | 1500 / 20 | 238.7 | Good serious felony placement. It should stay above ordinary reckless driving but below robbery/carjacking. |
+| Driving Under the Influence of Narcotics | 300 / 20 | 217.3 | If this is simple DUI, reduce or make wobbler. If it implies injury, repeat conduct, or severe impairment, keep felony-level. |
+| Arson | 2500 / 15 | 200.0 | Raise to 25-35 or split by property/structure/injury. California treats arson as a serious felony with higher punishment when inhabited structures or injury are involved. |
+| Illegal Fishing | 6250 / 15 | 229.1 | Either reduce ordinary illegal fishing or split out commercial/protected-species fishing. High fine is acceptable for deterrence, but the current score outranks many violent misdemeanors. |
+| Fishing in Unauthorized Zone | 3275 / 5 | 107.2 | Fine-heavy regulatory treatment is acceptable. Keep below violent/property felonies. |
+| Animal Poaching | 1500 / 45 | 488.7 | Review if this is ordinary poaching. Reserve this level for protected species, organized/commercial poaching, or repeat conduct. |
+
 ## Recommended Cutoff Bands
 
 Using severity score instead of base time alone gives a cleaner review scale:
@@ -245,6 +346,7 @@ The goal is not to copy California sentencing literally. GTA roleplay needs comp
 Sources checked:
 
 - California Penal Code: [190](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=190), [193](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=193), [213](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=213), [215](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=215), [243](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=243), [245](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=245), [461](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=461), [489](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=489)
+- California Penal Code additional calibration: [205](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=205), [206](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=206), [208](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=208), [209](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=209), [451](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=451)
 - California Health and Safety Code: [11350](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=11350), [11351](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=11351), [11352](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=11352)
 - California Vehicle Code: [23152](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=23152), [23153](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=23153)
 
