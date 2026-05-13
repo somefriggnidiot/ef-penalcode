@@ -5547,7 +5547,7 @@
                         "code":  "EF-PC-08-006",
                         "title":  "Illegal Manufacturing of Firearms",
                         "categoryId":  "offenses-against-public-safety",
-                        "description":  "Unlawful manufacturing, assembly, modification, serialization, or sale of self-made firearms.",
+                        "description":  "Unlawful manufacturing, assembly, modification, completion, or serialization of firearms.",
                         "sourceCodes":  [
                                             "PC-8012"
                                         ],
@@ -5558,7 +5558,7 @@
                                             "label":  "Illegal Manufacturing of Firearms",
                                             "sourceCode":  "PC-8012",
                                             "sourceTitle":  "Illegal Manufacturing of Firearms",
-                                            "description":  "A person commits Illegal Manufacturing of Firearms when they knowingly manufacture, assemble, complete, modify, or sell a firearm without lawful eligibility, required authorization, required safety compliance, or a unique serial number registered with the State of San Andreas. This offense also applies to manufacturing or assembling prohibited firearms, including assault weapons and machine guns.",
+                                            "description":  "A person commits Illegal Manufacturing of Firearms when they knowingly manufacture, assemble, complete, convert, modify, or serialize a firearm without lawful eligibility, required authorization, required safety compliance, or a unique serial number registered with the State of San Andreas. This offense also applies to manufacturing or assembling prohibited firearms, including assault weapons and machine guns.",
                                             "classification":  "felony",
                                             "baseFine":  5000,
                                             "baseTime":  10,
@@ -5580,11 +5580,12 @@
                                                                 "gang-related-activity"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Illegal manufacturing of firearms focuses on unauthorized firearm production, assembly, modification, serialization defects, or sale of self-made firearms.",
+                                                                    "overview":  "Illegal manufacturing of firearms focuses on unauthorized firearm production, assembly, completion, conversion, modification, or serialization defects.",
                                                                     "principles":  [
                                                                                        "Manufacturing includes building, assembling, completing, converting, or materially modifying a firearm or receiver.",
-                                                                                       "The offense may be based on prohibited weapon type, lack of eligibility, missing serial registration, lack of required authorization, or unlawful sale of a self-made firearm.",
-                                                                                       "Reports should document parts, tools, unfinished receivers, completed firearms, serial numbers, registration checks, sales evidence, workshop setup, and suspect statements."
+                                                                                       "The offense may be based on prohibited weapon type, lack of eligibility, missing serial registration, lack of required authorization, or unlawful completion or conversion of a firearm.",
+                                                                                       "Unlawful transfer or attempted transfer of a completed firearm should ordinarily be charged under Criminal Sale of Weapons rather than this offense.",
+                                                                                       "Reports should document parts, tools, unfinished receivers, completed firearms, serial numbers, registration checks, workshop setup, and suspect statements."
                                                                                    ]
                                                                 }
                                         }
