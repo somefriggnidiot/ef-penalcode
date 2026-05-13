@@ -430,6 +430,7 @@
                                                                 "public-servant-victim",
                                                                 "cooperation",
                                                                 "minor-injury",
+                                                                "weapon-used",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
@@ -440,6 +441,8 @@
                                                                     "principles":  [
                                                                                        "Physical contact is not required if the victim reasonably believed serious harm was imminent.",
                                                                                        "The conduct should involve a more serious threatened harm than simple assault based on words, gestures, weapon presence, proximity, or circumstances.",
+                                                                                       "Shooting at, stabbing at, swinging a deadly weapon at, or otherwise using force likely to cause serious injury may support Assault with the weapon-used modifier even if the victim is not hit, injured, or placed into Stage 1 incapacitation.",
+                                                                                       "If reports show a specific intent to kill plus a direct step toward killing, attempted murder may apply instead of or in addition to Assault; absent that intent, weapon-based attacks that do not cause Stage 1 should ordinarily remain in Assault with the weapon-used modifier.",
                                                                                        "Reports should document the threat, victim reaction, distance, ability to carry out the threat, weapons or dangerous instruments, and why serious harm was reasonably feared."
                                                                                    ]
                                                                 }
@@ -464,6 +467,7 @@
                                             "modifierIds":  [
                                                                 "public-servant-victim",
                                                                 "cooperation",
+                                                                "weapon-used",
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
@@ -475,6 +479,8 @@
                                                                     "principles":  [
                                                                                        "This degree requires physical harm or injury, not only fear of future harm.",
                                                                                        "Use of a weapon or dangerous instrument should be documented and may support the weapon-used modifier when applicable.",
+                                                                                       "A weapon-based attack that causes injury but does not place the victim into Stage 1 incapacitation should ordinarily be charged as Aggravated Assault with the weapon-used modifier unless the facts show intent to kill.",
+                                                                                       "When a victim reaches Stage 1 incapacitation, officers should evaluate attempted murder, torture, aggravated battery, or homicide-stage charges based on intent, continued harm, and whether the victim later reaches Stage 2.",
                                                                                        "Reports should document the force used, injuries, medical treatment, weapon or instrument, witness accounts, and any self-defense or consent claim."
                                                                                    ]
                                                                 }
@@ -609,6 +615,8 @@
                                                                     "principles":  [
                                                                                        "The death must be caused by the suspect's criminally negligent conduct, criminal accident, or unlawful act.",
                                                                                        "This degree should be distinguished from murder when facts show malice, intent to kill, or extreme reckless disregard for life.",
+                                                                                       "When both Stage 1 incapacitation and Stage 2 death result from accidental, negligent, or otherwise unintentional conduct, Involuntary Manslaughter is the default homicide charge if criminal negligence or an unlawful act caused the death.",
+                                                                                       "If the suspect intentionally caused Stage 1 or knowingly allowed Stage 2 to occur after creating a life-threatening condition, officers should evaluate murder rather than manslaughter.",
                                                                                        "Reports should document cause of death, suspect conduct, negligence facts, timeline, witnesses, medical findings, and why murder-level intent or malice is absent."
                                                                                    ]
                                                                 }
@@ -643,6 +651,8 @@
                                                                     "principles":  [
                                                                                        "The suspect must be operating or in actual physical control of a vehicle and that operation must cause the death.",
                                                                                        "This degree should be distinguished from ordinary traffic offenses and from murder when facts show intentional killing or extreme disregard for life.",
+                                                                                       "When vehicle operation accidentally or negligently causes Stage 1 incapacitation and the victim later reaches Stage 2, Vehicular Manslaughter is the default charge if the death is caused by the vehicle conduct and murder-level intent is absent.",
+                                                                                       "If the vehicle is intentionally used as a weapon to cause Stage 1 or Stage 2, officers should evaluate attempted murder or murder instead of treating the case only as vehicular manslaughter.",
                                                                                        "Reports should document vehicle operation, collision facts, traffic violations, speed, impairment if any, cause of death, witnesses, and crash reconstruction or scene evidence."
                                                                                    ]
                                                                 }
@@ -722,6 +732,8 @@
                                                                     "overview":  "Second degree murder focuses on unlawful killing with malice or extreme reckless disregard without premeditation.",
                                                                     "principles":  [
                                                                                        "The killing may be intentional or based on conscious disregard for human life, but it lacks the planning or deliberation required for first degree murder.",
+                                                                                       "Intentional Stage 1 incapacitation followed by Stage 2 death through the bleed-out timer is ordinarily Second Degree Murder when the suspect created a life-threatening condition but the facts do not show premeditation, continued damage, or deliberate prevention of rescue.",
+                                                                                       "Shooting at or otherwise attacking a person with a deadly weapon without causing Stage 1 should ordinarily be charged as Assault with the weapon-used modifier unless independent facts show a specific intent to kill and a direct step toward killing.",
                                                                                        "Attempted murder and accessory liability should use the listed liability options when the facts support those roles.",
                                                                                        "Reports should document cause of death, suspect intent or reckless disregard, weapon or method, timeline, statements, witnesses, and why first degree premeditation is not established."
                                                                                    ]
@@ -781,6 +793,9 @@
                                                                     "principles":  [
                                                                                        "Premeditation may be shown by planning, motive, preparation, manner of killing, prior threats, or other facts showing reflection before the act.",
                                                                                        "Premeditation does not require advance knowledge of the victim's exact identity if the suspect deliberately targeted a specific person, identifiable group, occupied location, occupied vehicle, or other sufficiently defined target.",
+                                                                                       "In Stage 1 and Stage 2 terms, intentionally continuing to damage an already incapacitated Stage 1 victim until they reach Stage 2 should ordinarily be treated as First Degree Murder.",
+                                                                                       "A Stage 2 death caused by the bleed-out timer may support First Degree Murder when the suspect deliberately uses the delay as the killing method, including by preventing aid, delaying rescue, hiding or moving the victim, threatening responders, guarding the scene, or otherwise ensuring death after time for reflection.",
+                                                                                       "Intentional Stage 1 incapacitation may support attempted murder when reports show intent to kill through weapon choice, target area, repeated attacks, statements, pursuit of the victim, or other circumstances showing the suspect meant to cause death rather than only injury.",
                                                                                        "Qualifying felony-murder circumstances should be limited to inherently dangerous major felonies such as robbery, carjacking, kidnapping, hostage taking, arson, burglary or home-invasion conduct, criminal use of explosives, or violent escape or jailbreak.",
                                                                                        "Low-level, possession-based, regulatory, paperwork, licensing, or nonviolent status felonies should not qualify for first degree felony-murder treatment unless separate facts show premeditation or another qualifying dangerous felony.",
                                                                                        "Public-servant murder, attempted murder of a public servant, accessory liability, and conspiracy should use the listed liability options and modifiers when supported.",
