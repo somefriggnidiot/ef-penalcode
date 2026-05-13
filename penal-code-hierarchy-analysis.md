@@ -14,7 +14,7 @@ The analysis focuses on base sentencing. Modifiers, liability options, prior his
 
 ## CSV Mapping
 
-The generated CSV contains one row per charge degree. Total mapped rows: 165.
+The generated CSV contains one row per charge degree. Total mapped rows: 166.
 
 Default review columns:
 
@@ -51,13 +51,13 @@ Formula options considered:
 
 | Classification | Count | Avg Severity | Min Severity | Max Severity | Avg Time | Avg Fine |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Felony | 69 | 306.1 | 64.1 | 2541.4 | 26.1 | 2918 |
-| Misdemeanor | 61 | 119.1 | 17.3 | 285.4 | 9.3 | 889 |
+| Felony | 70 | 304.8 | 64.1 | 2541.4 | 25.9 | 2926 |
+| Misdemeanor | 61 | 118.9 | 17.3 | 285.4 | 9.3 | 873 |
 | Infraction | 35 | 16.0 | 10.0 | 31.6 | 0.0 | 293 |
 
 The broad classification ladder works: felonies average far above misdemeanors, and misdemeanors average far above infractions.
 
-The boundary is still porous. The lowest felony is 64.1, while the highest misdemeanor is 285.4. There are 47 felonies at or below the highest misdemeanor score, and 50 misdemeanors at or above the lowest felony score. Some overlap is expected because felony status can express legal seriousness beyond raw punishment, but the overlap is broad enough to create hierarchy noise.
+The boundary is still porous. The lowest felony is 64.1, while the highest misdemeanor is 285.4. There are 48 felonies at or below the highest misdemeanor score, and 50 misdemeanors at or above the lowest felony score. Some overlap is expected because felony status can express legal seriousness beyond raw punishment, but the overlap is broad enough to create hierarchy noise.
 
 ## Charge Family Trends
 
@@ -69,7 +69,7 @@ The boundary is still porous. The lowest felony is 64.1, while the highest misde
 | Offenses Against Persons | 16 | 207.8 | 550.0 | 10 | 6 | 0 |
 | Offenses Against Public Order | 19 | 164.1 | 444.7 | 7 | 8 | 4 |
 | Offenses Against Public Administration | 14 | 153.7 | 350.0 | 5 | 7 | 2 |
-| Offenses Against Health and Morals | 22 | 151.3 | 670.7 | 12 | 8 | 2 |
+| Offenses Against Health and Morals | 23 | 153.4 | 670.7 | 13 | 8 | 2 |
 | Offenses Involving the Well-Being of Wildlife | 11 | 138.7 | 513.2 | 2 | 5 | 4 |
 | Offenses Involving Damage to Property | 6 | 100.2 | 200.0 | 2 | 2 | 2 |
 | Offenses Involving the Operation of a Vehicle | 26 | 52.5 | 238.7 | 2 | 6 | 18 |
@@ -96,15 +96,15 @@ High-signal tags by average severity:
 | `government` | 46 | 237.0 | 2541.4 | 21 | 20 | 5 |
 | `homicide` | 13 | 223.6 | 550.0 | 7 | 3 | 3 |
 | `theft` | 21 | 215.8 | 700.0 | 11 | 8 | 2 |
-| `sale-transfer` | 30 | 213.1 | 709.5 | 16 | 8 | 6 |
-| `economic` | 43 | 211.5 | 709.5 | 22 | 14 | 7 |
+| `sale-transfer` | 31 | 211.3 | 709.5 | 17 | 8 | 6 |
+| `economic` | 44 | 210.3 | 709.5 | 23 | 14 | 7 |
 | `person` | 16 | 207.8 | 550.0 | 10 | 6 | 0 |
 | `violent` | 35 | 200.6 | 550.0 | 20 | 10 | 5 |
-| `commercial` | 38 | 199.3 | 709.5 | 19 | 12 | 7 |
+| `commercial` | 39 | 198.3 | 709.5 | 20 | 12 | 7 |
 | `weapon-related` | 31 | 176.4 | 709.5 | 15 | 13 | 3 |
-| `controlled-substance` | 20 | 160.7 | 670.7 | 12 | 7 | 1 |
+| `controlled-substance` | 21 | 162.4 | 670.7 | 13 | 7 | 1 |
 | `possession` | 36 | 154.8 | 470.7 | 18 | 17 | 1 |
-| `regulatory` | 12 | 128.0 | 513.2 | 2 | 5 | 5 |
+| `regulatory` | 13 | 135.1 | 513.2 | 3 | 5 | 5 |
 | `vehicle-related` | 48 | 120.6 | 700.0 | 14 | 12 | 22 |
 | `traffic` | 26 | 52.5 | 238.7 | 2 | 6 | 18 |
 
@@ -264,6 +264,9 @@ These recommendations use California's relative ladder as the benchmark, not Cal
 | --- | ---: | ---: | --- |
 | Misdemeanor Drug Possession | 300-500 / 0 | 17.3-22.4 | Keep low if the policy is cite-and-release or treatment-oriented simple possession. |
 | Felony Possession of Cocaine/Amphetamines/Opioids | 450-750 / 15 | 171.2-177.4 | Review whether simple felony possession should be this high. If based on quantity, keep; if not, reduce or clarify thresholds. |
+| Unauthorized Marijuana Cultivation | 1500 / 5 | 88.7 | Good low misdemeanor tier for ordinary over-limit or unauthorized-location cultivation below commercial scale. |
+| Commercial Marijuana Cultivation | 3500 / 10 | 159.2 | Good low felony tier for 13-25 plants or facts showing production for sale or transfer; keep below possession with intent and trafficking. |
+| Aggravated Marijuana Cultivation | 5000 / 15 | 220.7 | Good aggravated tier for more than 25 plants, protected areas, federal or secured government facilities, environmental damage, contamination, illegal water diversion, or comparable public-resource harm. |
 | Possession of Marijuana | 200 / 15 | 164.1 | Because this is 10-100 kg, misdemeanor classification is lenient but the time is high for a misdemeanor. Consider felony/wobbler treatment or reduce time if it is meant as possession-only. |
 | Sale of a Controlled Substance | 800 / 10 | 128.3 | Raise or reclassify. California treats sale/transport more seriously than simple possession; felony 15-25 would fit better. |
 | Drug Trafficking | 5000 / 60 | 670.7 | Keep very serious, but set below rebalanced First Degree Murder unless it involves mass harm. A 45-55 time band is enough if homicide rises. |
