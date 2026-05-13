@@ -685,7 +685,7 @@
                                                                      },
                                                                      {
                                                                          "id":  "accessory-to-second-degree-murder",
-                                                                         "label":  "Accessory to Second Degree Murder",
+                                                                         "label":  "Accessory",
                                                                          "sourceCode":  "PC-1011",
                                                                          "sourceTitle":  "Accessory to Second Degree Murder",
                                                                          "fineMultiplier":  0.2857,
@@ -693,7 +693,7 @@
                                                                      },
                                                                      {
                                                                          "id":  "attempted-murder-of-a-civilian",
-                                                                         "label":  "Attempted Murder of a Civilian",
+                                                                         "label":  "Attempted",
                                                                          "sourceCode":  "PC-1009",
                                                                          "sourceTitle":  "Attempted Murder of a Civilian",
                                                                          "fineMultiplier":  0.8571,
@@ -745,27 +745,17 @@
                                                                      },
                                                                      {
                                                                          "id":  "accessory-to-first-degree-murder",
-                                                                         "label":  "Accessory to First Degree Murder",
+                                                                         "label":  "Accessory",
                                                                          "sourceCode":  "PC-1013",
                                                                          "sourceTitle":  "Accessory to First Degree Murder",
                                                                          "fineMultiplier":  0.6,
                                                                          "timeMultiplier":  0.7
                                                                      },
                                                                      {
-                                                                         "id":  "accessory-to-the-murder-of-a-public-servant-or-peace-officer",
-                                                                         "label":  "Accessory to the Murder of a Public Servant or Peace Officer",
-                                                                         "sourceCode":  "PC-1016",
-                                                                         "sourceTitle":  "Accessory to the Murder of a Public Servant or Peace Officer",
-                                                                         "fineMultiplier":  2,
-                                                                         "timeMultiplier":  1
-                                                                     },
-                                                                     {
-                                                                         "id":  "attempted-murder-of-a-public-servant-or-peace-officer",
-                                                                         "label":  "Attempted Murder of a Public Servant or Peace Officer",
-                                                                         "sourceCode":  "PC-1015",
-                                                                         "sourceTitle":  "Attempted Murder of a Public Servant or Peace Officer",
-                                                                         "fineMultiplier":  3.8,
-                                                                         "timeMultiplier":  1.6
+                                                                        "id": "attempted-first-degree-murder",
+                                                                        "label": "Attempted",
+                                                                        "fineMultiplier": 0.85,
+                                                                        "timeMultiplier": 0.75
                                                                      },
                                                                      {
                                                                          "id":  "conspiracy",
@@ -882,7 +872,7 @@
                                                                      },
                                                                      {
                                                                          "id":  "attempted-kidnapping",
-                                                                         "label":  "Attempted Kidnapping",
+                                                                         "label":  "Attempted",
                                                                          "sourceCode":  "PC-1020",
                                                                          "sourceTitle":  "Attempted Kidnapping",
                                                                          "fineMultiplier":  0.3,
@@ -890,7 +880,7 @@
                                                                      },
                                                                      {
                                                                          "id":  "accessory-to-kidnapping",
-                                                                         "label":  "Accessory to Kidnapping",
+                                                                         "label":  "Accessory",
                                                                          "sourceCode":  "PC-1019",
                                                                          "sourceTitle":  "Accessory to Kidnapping",
                                                                          "fineMultiplier":  0.3,
@@ -942,7 +932,7 @@
                                                                      },
                                                                      {
                                                                          "id":  "accessory-to-hostage-taking",
-                                                                         "label":  "Accessory to Hostage Taking",
+                                                                         "label":  "Accessory",
                                                                          "sourceCode":  "PC-1022",
                                                                          "sourceTitle":  "Accessory to Hostage Taking",
                                                                          "fineMultiplier":  0.2,
@@ -2905,15 +2895,15 @@
                                                                      },
                                                                      {
                                                                          "id":  "attempted-jailbreak",
-                                                                         "label":  "Attempted Jailbreak",
+                                                                         "label":  "Attempted",
                                                                          "sourceCode":  "PC-5007",
-                                                                         "sourceTitle":  "Attempted Jailbreak",
+                                                                         "sourceTitle":  "Attempted",
                                                                          "fineMultiplier":  0.4,
                                                                          "timeMultiplier":  0.6667
                                                                      },
                                                                      {
                                                                          "id":  "accessory-to-jailbreak",
-                                                                         "label":  "Accessory to Jailbreak",
+                                                                         "label":  "Accessory",
                                                                          "sourceCode":  "PC-5006",
                                                                          "sourceTitle":  "Accessory to Jailbreak",
                                                                          "fineMultiplier":  0.2,
