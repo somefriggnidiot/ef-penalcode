@@ -14,7 +14,7 @@ The analysis focuses on base sentencing. Modifiers, liability options, prior his
 
 ## CSV Mapping
 
-The generated CSV contains one row per charge degree. Total mapped rows: 166.
+The generated CSV contains one row per charge degree. Total mapped rows: 165.
 
 Default review columns:
 
@@ -52,7 +52,7 @@ Formula options considered:
 | Classification | Count | Avg Severity | Min Severity | Max Severity | Avg Time | Avg Fine |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Felony | 70 | 304.8 | 64.1 | 2541.4 | 25.9 | 2926 |
-| Misdemeanor | 61 | 118.9 | 17.3 | 285.4 | 9.3 | 873 |
+| Misdemeanor | 60 | 119.6 | 17.3 | 285.4 | 9.4 | 883 |
 | Infraction | 35 | 16.0 | 10.0 | 31.6 | 0.0 | 293 |
 
 The broad classification ladder works: felonies average far above misdemeanors, and misdemeanors average far above infractions.
@@ -65,8 +65,8 @@ The boundary is still porous. The lowest felony is 64.1, while the highest misde
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Offenses Against Public Safety | 22 | 304.9 | 2541.4 | 14 | 7 | 0 |
 | Offenses Involving Fraud | 8 | 286.7 | 509.2 | 4 | 4 | 0 |
+| Offenses Against Persons | 15 | 216.6 | 550.0 | 10 | 5 | 0 |
 | Offenses Involving Theft | 21 | 215.8 | 700.0 | 11 | 8 | 2 |
-| Offenses Against Persons | 16 | 207.8 | 550.0 | 10 | 6 | 0 |
 | Offenses Against Public Order | 19 | 164.1 | 444.7 | 7 | 8 | 4 |
 | Offenses Against Public Administration | 14 | 153.7 | 350.0 | 5 | 7 | 2 |
 | Offenses Against Health and Morals | 23 | 153.4 | 670.7 | 13 | 8 | 2 |
@@ -78,7 +78,7 @@ Public Safety is the highest average family because it contains Insurrection, we
 
 Fraud is the second-highest average family despite having no violent conduct. That comes from high-scoring impersonation, money laundering, and extortion. This is defensible if fraud in this code means official-identity abuse and organized economic crime, but ordinary fraud should not drift too close to homicide and top-tier violence.
 
-Theft and Persons are close. Theft has higher peaks due to law-enforcement vehicle theft and aircraft theft. Persons has the most morally serious conduct, but its max is First Degree Murder at 550.0, below several theft, public-safety, and health/morals offenses.
+Persons and Theft are close. Theft has higher peaks due to law-enforcement vehicle theft and aircraft theft. Persons has the most morally serious conduct, but its max is First Degree Murder at 550.0, below several theft, public-safety, and health/morals offenses.
 
 Vehicle Operation is correctly infraction-heavy. It has a low average because most traffic charges are fine-only, with Reckless Evading as the main serious outlier.
 
@@ -98,8 +98,8 @@ High-signal tags by average severity:
 | `theft` | 21 | 215.8 | 700.0 | 11 | 8 | 2 |
 | `sale-transfer` | 31 | 211.3 | 709.5 | 17 | 8 | 6 |
 | `economic` | 44 | 210.3 | 709.5 | 23 | 14 | 7 |
-| `person` | 16 | 207.8 | 550.0 | 10 | 6 | 0 |
-| `violent` | 35 | 200.6 | 550.0 | 20 | 10 | 5 |
+| `person` | 15 | 216.6 | 550.0 | 10 | 5 | 0 |
+| `violent` | 34 | 204.3 | 550.0 | 20 | 9 | 5 |
 | `commercial` | 39 | 198.3 | 709.5 | 20 | 12 | 7 |
 | `weapon-related` | 31 | 176.4 | 709.5 | 15 | 13 | 3 |
 | `controlled-substance` | 21 | 162.4 | 670.7 | 13 | 7 | 1 |
@@ -238,9 +238,8 @@ These recommendations use California's relative ladder as the benchmark, not Cal
 
 | Degree | Current | Severity | Recommendation |
 | --- | ---: | ---: | --- |
-| Simple Assault | 150 / 1 | 22.2 | Keep low. This fits misdemeanor threat/fear conduct. |
-| Assault | 285 / 10 | 116.9 | Keep in the 5-10 misdemeanor range unless weapon or protected-victim facts are present. |
-| Aggravated Assault | 325 / 15 | 168.0 | Keep as low felony or raise slightly to 20 if it is meant to cover serious injury or deadly-weapon assault. |
+| Assault | 200 / 5 | 64.1 | Good condensed misdemeanor tier for unlawful attempt, threat, or present-ability force without deadly-weapon or serious-injury facts. |
+| Aggravated Assault | 325 / 15 | 168.0 | Good low felony for deadly weapon, firearm, dangerous instrument, or force likely to cause serious bodily injury. Injury should not be required. |
 | Battery | 275 / 15 | 166.6 | Consider reducing ordinary Battery to 5-10 and relying on Aggravated Battery for injury/significant-pain cases. California simple battery is comparatively low-level. |
 | Aggravated Battery | 375 / 20 | 219.4 | Keep near 20-25. This is a good bridge between ordinary battery and major violence. |
 | Criminal Use of Weapon | 4000 / 15 | 213.2 | Reclassify as felony or reduce the fine/time if it remains misdemeanor. Because it covers using, firing, striking with, or threatening with a weapon during another crime, felony 20-25 is more coherent. |
@@ -411,7 +410,7 @@ The goal is not to copy California sentencing literally. GTA roleplay needs comp
 
 Sources checked:
 
-- California Penal Code: [190](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=190), [193](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=193), [213](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=213), [215](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=215), [243](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=243), [245](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=245), [461](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=461), [489](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=489)
+- California Penal Code: [190](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=190), [193](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=193), [213](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=213), [215](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=215), [240](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=240), [242](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=242), [243](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=243), [245](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=245), [461](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=461), [489](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=489)
 - California Penal Code additional calibration: [205](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=205), [206](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=206), [208](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=208), [209](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=209), [451](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=451)
 - California Health and Safety Code: [11350](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=11350), [11351](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=11351), [11352](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=11352)
 - California Vehicle Code: [23152](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=23152), [23153](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=23153)

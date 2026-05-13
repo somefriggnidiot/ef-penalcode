@@ -350,74 +350,24 @@
                         "code":  "EF-PC-01-001",
                         "title":  "Assault",
                         "categoryId":  "offenses-against-persons",
-                        "description":  "Threatening conduct, attempted force, or unlawful force creating fear of harm or causing physical harm.",
+                        "description":  "Unlawful attempts, threats, or acts done with present ability to apply force to another person, with aggravated treatment for deadly weapons or force likely to cause serious injury.",
                         "sourceCodes":  [
                                             "PC-1001",
                                             "PC-1002",
                                             "PC-1003",
                                             "PC-1004"
                                         ],
-                        "migrationNotes":  "Assault with a Deadly Weapon was converted to weapon-used modifier eligibility; source PC-1004 is preserved on the modifier.",
+                        "migrationNotes":  "Simple Assault and Assault were condensed into Assault. Assault with a Deadly Weapon was converted into Aggravated Assault and weapon-used modifier eligibility; source PC-1004 is preserved on the modifier.",
                         "degrees":  [
-                                        {
-                                            "id":  "simple-assault",
-                                            "label":  "Simple Assault",
-                                            "sourceCode":  "PC-1001",
-                                            "sourceTitle":  "Simple Assault",
-                                            "description":  "A person commits Simple Assault when they intentionally cause another person to reasonably fear imminent physical harm or offensive contact.",
-                                            "classification":  "misdemeanor",
-                                            "baseFine":  150,
-                                            "baseTime":  1,
-                                            "liabilityOptions":  [
-                                                                     {
-                                                                         "id":  "principal",
-                                                                         "label":  "Principal Actor",
-                                                                         "fineMultiplier":  1,
-                                                                         "timeMultiplier":  1
-                                                                     }
-                                                                 ],
-                                            "modifierIds":  [
-                                                                "public-servant-victim",
-                                                                "cooperation",
-                                                                "minor-injury",
-                                                                "multiple-victims",
-                                                                "prior-conviction",
-                                                                "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
-                                                            ],
-                                            "legalPrinciples":  {
-                                                                    "overview":  "Simple assault focuses on intentional conduct that creates reasonable fear of imminent physical harm or offensive contact.",
-                                                                    "principles":  [
-                                                                                       "Physical contact is not required if the victim reasonably believed harm was imminent.",
-                                                                                       "The threat must be immediate rather than vague, conditional, or only future-facing.",
-                                                                                       "Reports should document words, gestures, distance, weapons, victim reaction, and why the fear was reasonable."
-                                                                                   ],
-                                                                    "cases":  [
-                                                                                  {
-                                                                                      "title":  "State v. Example",
-                                                                                      "citation":  "SA App. 2026",
-                                                                                      "summary":  "Clarifies that immediate threatening conduct can satisfy assault even without completed battery."
-                                                                                  }
-                                                                              ],
-                                                                    "resources":  [
-                                                                                      {
-                                                                                          "label":  "Assault Charging Guide",
-                                                                                          "url":  "https://www.example.com/assault-charging-guide",
-                                                                                          "note":  "Internal DOJ guidance for distinguishing assault, battery, and aggravated assault."
-                                                                                      }
-                                                                                  ]
-                                                                }
-                                        },
                                         {
                                             "id":  "assault",
                                             "label":  "Assault",
-                                            "sourceCode":  "PC-1002",
+                                            "sourceCode":  "PC-1001",
                                             "sourceTitle":  "Assault",
-                                            "description":  "A person commits Assault when they intentionally cause another person to reasonably fear imminent serious physical harm or offensive contact.",
+                                            "description":  "A person commits Assault when they unlawfully attempt, threaten, or do an act with present ability to apply force or violence to another person, causing a reasonable belief that harmful or offensive contact is imminent.",
                                             "classification":  "misdemeanor",
-                                            "baseFine":  285,
-                                            "baseTime":  10,
+                                            "baseFine":  200,
+                                            "baseTime":  5,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -437,13 +387,13 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Assault focuses on intentional conduct that creates reasonable fear of imminent serious physical harm.",
+                                                                    "overview":  "Assault focuses on unlawful attempts, threats, or acts done with present ability to apply force to another person.",
                                                                     "principles":  [
-                                                                                       "Physical contact is not required if the victim reasonably believed serious harm was imminent.",
-                                                                                       "The conduct should involve a more serious threatened harm than simple assault based on words, gestures, weapon presence, proximity, or circumstances.",
-                                                                                       "Shooting at, stabbing at, swinging a deadly weapon at, or otherwise using force likely to cause serious injury may support Assault with the weapon-used modifier even if the victim is not hit, injured, or placed into Stage 1 incapacitation.",
-                                                                                       "If reports show a specific intent to kill plus a direct step toward killing, attempted murder may apply instead of or in addition to Assault; absent that intent, weapon-based attacks that do not cause Stage 1 should ordinarily remain in Assault with the weapon-used modifier.",
-                                                                                       "Reports should document the threat, victim reaction, distance, ability to carry out the threat, weapons or dangerous instruments, and why serious harm was reasonably feared."
+                                                                                       "Physical contact or injury is not required if the suspect took a direct act or made an immediate threat with present ability to apply unlawful force.",
+                                                                                       "The threat or attempted force must be immediate rather than vague, conditional, or only future-facing.",
+                                                                                       "Pointing a firearm, drawing back to strike, lunging, chasing within striking range, or other conduct showing present ability may support assault even if no contact occurs.",
+                                                                                       "If a deadly weapon, firearm, or force likely to cause serious injury is used, evaluate Aggravated Assault rather than relying only on this degree.",
+                                                                                       "Reports should document words, gestures, distance, present ability, victim reaction, weapons or dangerous instruments, and why imminent force was reasonably feared."
                                                                                    ]
                                                                 }
                                         },
@@ -452,7 +402,7 @@
                                             "label":  "Aggravated Assault",
                                             "sourceCode":  "PC-1003",
                                             "sourceTitle":  "Aggravated Assault",
-                                            "description":  "A person commits Aggravated Assault when they intentionally and unlawfully use force or violence that causes physical harm to another person.",
+                                            "description":  "A person commits Aggravated Assault when they unlawfully attempt, threaten, or do an act with present ability to apply force to another person using a deadly weapon, firearm, dangerous instrument, or force likely to cause serious bodily injury.",
                                             "classification":  "felony",
                                             "baseFine":  325,
                                             "baseTime":  15,
@@ -475,13 +425,14 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Aggravated assault focuses on intentional unlawful force or violence that actually causes physical harm.",
+                                                                    "overview":  "Aggravated assault focuses on assaultive conduct involving a deadly weapon, firearm, dangerous instrument, or force likely to cause serious bodily injury.",
                                                                     "principles":  [
-                                                                                       "This degree requires physical harm or injury, not only fear of future harm.",
-                                                                                       "Use of a weapon or dangerous instrument should be documented and may support the weapon-used modifier when applicable.",
-                                                                                       "A weapon-based attack that causes injury but does not place the victim into Stage 1 incapacitation should ordinarily be charged as Aggravated Assault with the weapon-used modifier unless the facts show intent to kill.",
+                                                                                       "Physical contact, injury, or Stage 1 incapacitation is not required if the suspect took a direct act with present ability to apply deadly or serious-injury force.",
+                                                                                       "Shooting at, stabbing at, striking at, driving toward, or otherwise using a deadly weapon or force likely to cause serious bodily injury may support this degree even if the victim is not hit.",
+                                                                                       "Use of a weapon or dangerous instrument should be documented and may support the weapon-used modifier when the weapon materially elevated the risk of harm.",
+                                                                                       "If reports show a specific intent to kill plus a direct step toward killing, attempted murder may apply instead of or in addition to Aggravated Assault.",
                                                                                        "When a victim reaches Stage 1 incapacitation, officers should evaluate attempted murder, torture, aggravated battery, or homicide-stage charges based on intent, continued harm, and whether the victim later reaches Stage 2.",
-                                                                                       "Reports should document the force used, injuries, medical treatment, weapon or instrument, witness accounts, and any self-defense or consent claim."
+                                                                                       "Reports should document the act, present ability, weapon or force used, range and direction, victim reaction, injuries if any, witness accounts, and any self-defense or consent claim."
                                                                                    ]
                                                                 }
                                         }
