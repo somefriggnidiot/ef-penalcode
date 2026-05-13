@@ -1423,6 +1423,14 @@
                                                                          "label":  "Principal Actor",
                                                                          "fineMultiplier":  1,
                                                                          "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "attempted-theft-of-an-aircraft",
+                                                                         "label":  "Attempted",
+                                                                         "sourceCode":  "PC-2019A",
+                                                                         "sourceTitle":  "Attempted Theft of an Aircraft",
+                                                                         "fineMultiplier":  0.75,
+                                                                         "timeMultiplier":  0.6
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -1459,6 +1467,14 @@
                                                                          "label":  "Principal Actor",
                                                                          "fineMultiplier":  1,
                                                                          "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "attempted-theft-of-a-law-enforcement-vehicle",
+                                                                         "label":  "Attempted",
+                                                                         "sourceCode":  "PC-2021A",
+                                                                         "sourceTitle":  "Attempted Theft of a Law Enforcement Vehicle",
+                                                                         "fineMultiplier":  0.75,
+                                                                         "timeMultiplier":  0.6
                                                                      }
                                                                  ],
                                             "modifierIds":  [
