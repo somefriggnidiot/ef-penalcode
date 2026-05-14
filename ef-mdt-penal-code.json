@@ -133,6 +133,24 @@
                                            ]
                       },
                       {
+                          "id":  "firearm-discharged",
+                          "label":  "Firearm Discharged",
+                          "description":  "Applies when the suspect personally discharged a firearm during the offense, materially increasing the risk of death or serious injury.",
+                          "kind":  "aggravating",
+                          "effects":  [
+                                          {
+                                              "target":  "fine",
+                                              "operation":  "multiply",
+                                              "value":  1.25
+                                          },
+                                          {
+                                              "target":  "time",
+                                              "operation":  "add",
+                                              "value":  10
+                                          }
+                                      ]
+                      },
+                      {
                           "id":  "multiple-victims",
                           "label":  "Multiple Victims",
                           "description":  "Applies when the same criminal conduct involves more than one distinct victim.",
@@ -199,6 +217,24 @@
                                               "target":  "fine",
                                               "operation":  "add",
                                               "value":  1500
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  "occupied-structure-or-vehicle",
+                          "label":  "Occupied Structure or Vehicle",
+                          "description":  "Applies when the offense targets, damages, enters, burns, fires upon, or deploys a dangerous device against a structure or vehicle known or reasonably likely to be occupied.",
+                          "kind":  "aggravating",
+                          "effects":  [
+                                          {
+                                              "target":  "fine",
+                                              "operation":  "multiply",
+                                              "value":  1.15
+                                          },
+                                          {
+                                              "target":  "time",
+                                              "operation":  "add",
+                                              "value":  5
                                           }
                                       ]
                       },
@@ -276,6 +312,24 @@
                                               "target":  "time",
                                               "operation":  "multiply",
                                               "value":  0.85
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  "on-release",
+                          "label":  "Offense While Released",
+                          "description":  "Applies when the suspect commits the offense while released on bail, parole, probation, or another active court-supervised release status for a serious pending or prior matter.",
+                          "kind":  "aggravating",
+                          "effects":  [
+                                          {
+                                              "target":  "fine",
+                                              "operation":  "add",
+                                              "value":  6000
+                                          },
+                                          {
+                                              "target":  "time",
+                                              "operation":  "add",
+                                              "value":  5
                                           }
                                       ]
                       },
@@ -418,9 +472,11 @@
                                                                 "public-servant-victim",
                                                                 "cooperation",
                                                                 "weapon-used",
+                                                                "firearm-discharged",
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -511,7 +567,9 @@
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense"
+                                                                "first-offense",
+                                                                "firearm-discharged",
+                                                                "on-release"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Aggravated battery focuses on intentional unlawful force that causes more serious bodily injury or harmful contact.",
@@ -673,8 +731,10 @@
                                                                 "public-servant-victim",
                                                                 "cooperation",
                                                                 "multiple-victims",
+                                                                "firearm-discharged",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -733,8 +793,10 @@
                                                                 "public-servant-victim",
                                                                 "cooperation",
                                                                 "multiple-victims",
+                                                                "firearm-discharged",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -865,8 +927,10 @@
                                                                 "public-servant-victim",
                                                                 "cooperation",
                                                                 "multiple-victims",
+                                                                "firearm-discharged",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -917,8 +981,10 @@
                                                                 "public-servant-victim",
                                                                 "cooperation",
                                                                 "multiple-victims",
+                                                                "firearm-discharged",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -1016,6 +1082,8 @@
                                                                 "cooperation",
                                                                 "minor-injury",
                                                                 "multiple-victims",
+                                                                "firearm-discharged",
+                                                                "occupied-structure-or-vehicle",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
@@ -1111,7 +1179,8 @@
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense"
+                                                                "first-offense",
+                                                                "on-release"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Torture focuses on intentional infliction of extreme pain or suffering for a prohibited purpose.",
@@ -1344,8 +1413,10 @@
                                                                 "restitution-made",
                                                                 "organized-activity",
                                                                 "multiple-victims",
+                                                                "firearm-discharged",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
@@ -1482,6 +1553,7 @@
                                                                 "restitution-made",
                                                                 "organized-activity",
                                                                 "high-value-loss",
+                                                                "occupied-structure-or-vehicle",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
@@ -1577,10 +1649,12 @@
                                                                 "restitution-made",
                                                                 "organized-activity",
                                                                 "weapon-used",
+                                                                "firearm-discharged",
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "minimal-participation",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
@@ -2532,9 +2606,11 @@
                                                                 "restitution-made",
                                                                 "organized-activity",
                                                                 "high-value-loss",
+                                                                "occupied-structure-or-vehicle",
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
@@ -2616,6 +2692,7 @@
                                                                 "restitution-made",
                                                                 "organized-activity",
                                                                 "high-value-loss",
+                                                                "occupied-structure-or-vehicle",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
@@ -2897,6 +2974,7 @@
                                                                 "organized-activity",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
@@ -4795,6 +4873,7 @@
                                                                 "high-value-loss",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
@@ -4845,6 +4924,7 @@
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -5099,7 +5179,8 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "gang-related-activity"
+                                                                "gang-related-activity",
+                                                                "on-release"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Criminal possession of a Class B weapon focuses on unlawful possession of ordinary firearms, including handguns, revolvers, shotguns, and semi-automatic rifles.",
@@ -5133,7 +5214,8 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "gang-related-activity"
+                                                                "gang-related-activity",
+                                                                "on-release"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Criminal possession of a Class C weapon focuses on unlawful possession of automatic firearms.",
@@ -5167,7 +5249,8 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "gang-related-activity"
+                                                                "gang-related-activity",
+                                                                "on-release"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Criminal possession of a Class D weapon focuses on unlawful possession of heavy weapons, explosives, or destructive devices.",
@@ -5253,7 +5336,8 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "gang-related-activity"
+                                                                "gang-related-activity",
+                                                                "on-release"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Criminal sale of a Class B weapon focuses on unlawful transfer or attempted transfer of ordinary firearms, including handguns, revolvers, shotguns, and semi-automatic rifles.",
@@ -5288,7 +5372,8 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "gang-related-activity"
+                                                                "gang-related-activity",
+                                                                "on-release"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Criminal sale of a Class C weapon focuses on unlawful transfer or attempted transfer of automatic firearms.",
@@ -5321,6 +5406,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
@@ -5369,6 +5455,8 @@
                                                                 "public-servant-victim",
                                                                 "cooperation",
                                                                 "multiple-victims",
+                                                                "firearm-discharged",
+                                                                "occupied-structure-or-vehicle",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
@@ -5406,7 +5494,9 @@
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "high-value-loss",
+                                                                "occupied-structure-or-vehicle",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -5536,6 +5626,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
                                                                 "gang-related-activity"
@@ -6069,6 +6160,7 @@
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -7322,7 +7414,9 @@
                                                                 "prior-conviction",
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
-                                                                "first-offense"
+                                                                "first-offense",
+                                                                "firearm-discharged",
+                                                                "weapon-used"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Murder of a police working dog focuses on intentional and premeditated killing of a law-enforcement working dog in the line of duty.",

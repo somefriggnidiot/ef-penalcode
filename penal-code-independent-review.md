@@ -34,8 +34,8 @@ Range methodology:
 - `baseSeverity = baseTime * 10 + sqrt(baseFine)`.
 - `minFine`, `minTime`, and `minSeverity` apply all eligible mitigating modifiers with defined effects, in JSON modifier order.
 - `maxFine`, `maxTime`, and `maxSeverity` apply all eligible aggravating modifiers with defined effects, in JSON modifier order.
+- Tiered modifiers are included for max-range calculations by applying the highest defined tier. For `prior-conviction`, that means `four-plus-priors`.
 - Fine and time are clamped at zero for range calculations.
-- `prior-conviction` currently has no defined effects, so it does not change min or max.
 
 The min/max rows are intentionally mechanical. They are useful for stress testing, not a recommendation that every eligible modifier should stack in real cases.
 
@@ -103,8 +103,9 @@ Fine-heavy severity is appropriate for commercial and regulatory deterrence, but
 6. Liability options are mostly useful, but conspiracy is uniformly discounted even though California often punishes felony conspiracy like the target felony, and murder conspiracy especially severely.
 7. Tags need cleanup. Some rows appear to have tag bleed or overbroad tags, such as traffic infractions carrying `commercial`, `economic`, or `sale-transfer`, hunting infractions carrying `homicide` and `violent`, and unauthorized parking carrying `wildlife-animal`.
 8. `penal-code-charge-degree-map.csv` is stale for First Degree Murder liability options. The CSV lists public-servant attempted/accessory options that are not present in the current JSON.
-9. `prior-conviction` has no effects. Either give it a measured effect or treat it as a non-sentencing informational flag.
-10. The most important balancing principle is time scarcity. High fines are a better tool than long prison time for nonviolent economic, commercial, regulatory, wildlife, licensing, import/export, and contraband-market conduct.
+9. `prior-conviction` uses tiered effects rather than top-level effects. Any analysis tooling must read nested `tiers`, not only top-level `effects`.
+10. `citation-discretion` is intended to be infraction-only by policy, but the current JSON also attaches it to 19 misdemeanor degrees. Decide whether those are intentional cite-and-release misdemeanors or remove the modifier from misdemeanor rows.
+11. The most important balancing principle is time scarcity. High fines are a better tool than long prison time for nonviolent economic, commercial, regulatory, wildlife, licensing, import/export, and contraband-market conduct.
 
 ## Punishment Recommendations
 
@@ -142,15 +143,43 @@ Fine-heavy severity is appropriate for commercial and regulatory deterrence, but
 
 | Modifier Issue | Recommendation | Playability | California Alignment |
 | --- | --- | --- | --- |
-| `prior-conviction` has no effects | Prefer a fine-heavy effect, such as fine x1.15-1.25 and time x1.05-1.10, or convert it to a display-only sentencing factor for judges. | Players and judges should see predictable consequences without repeated cases automatically eating the prison-time ceiling. | Recidivism commonly affects charging, bail, probation, and sentencing exposure. |
+| `prior-conviction` is tiered | Keep the tiered model. The current shape is good for playability: 1 prior adds fine only, 2-3 priors adds modest fine plus time x1.1, and 4+ priors adds larger fine plus time x1.25. Update tooling and documentation to read `tiers`. | Escalates repeated conduct without making one prior conviction automatically inflate prison time. | Recidivism commonly affects charging, bail, probation, and sentencing exposure. |
 | `prior-conviction` and `first-offense` can both be eligible | Enforce mutual exclusivity in UI or sentencing logic. | Prevents contradictory stacking. | A first offense and prior conviction are legally incompatible for the same defendant/context. |
-| `citation-discretion` only reduces fine | If it means cite-and-release, consider also setting time to 0 or multiplying time by 0. | Makes citations actually feel like citations. | Citation treatment usually avoids custody on the charged offense. |
+| `citation-discretion` policy mismatch | If policy is infraction-only, remove it from the 19 misdemeanor degrees currently carrying it. If misdemeanor cite-and-release is intended, rename it to `cite-and-release-discretion` and add clear eligibility notes. | Prevents officers from seeing a citation modifier on misdemeanor charges where custody may still be expected. | Citation treatment usually avoids custody on the charged offense, but some misdemeanors may still be cited under policy. |
 | `minor-injury` on threat-only or no-contact charges | Remove from Criminal Threats and similar no-injury offenses; keep for assault, battery, traffic, animal, and weapon-risk offenses where injury is possible. | Avoids confusing "no lasting injury" on conduct that has no physical injury element. | Injury mitigation belongs to physical-force or accident offenses, not pure communication offenses. |
 | `public-servant-victim` on non-victim or property offenses | Rename to `public-servant-target` or apply only when a public servant is personally victimized or targeted. | Reduces argument over property/government process cases. | California enhancements and special rules usually depend on victim status, duty status, knowledge, or official target. |
-| `weapon-used` on Aggravated Assault | Consider removing if the degree already requires a weapon/dangerous-force basis, or keep only when a weapon is optional and materially aggravating. | Prevents double-counting the same weapon fact. | Sentencing enhancements should not duplicate an element unless intentionally designed that way. |
+| `weapon-used` on Aggravated Assault | Consider removing if the degree already requires a weapon/dangerous-force basis, or keep only when a weapon is optional and materially aggravating. The new `firearm-discharged` modifier gives a cleaner escalation path for actual gunfire. | Prevents double-counting the same weapon fact. | Sentencing enhancements should not duplicate an element unless intentionally designed that way. |
 | `medical-aid-rendered` on homicide | Keep only where aid plausibly mitigates culpability before death, or rename to `aid-rendered-after-injury`. | Rewards RP triage without making completed homicide look too lenient. | Aid after injury can matter, but completed homicide severity mainly turns on mental state and causation. |
 | `organized-activity` and `gang-related-activity` on ordinary traffic/regulatory rows | Review and remove from minor infractions unless organized conduct is a real scenario. | Keeps modifier menus tidy during routine stops. | Organization/gang facts should aggravate crimes where coordinated criminal purpose matters. |
+| `organized-activity` vs `gang-related-activity` | They are not identical, but they overlap. Keep both only if `organized-activity` means coordinated enterprise/planning and `gang-related-activity` requires gang association plus gang-purpose facts. Add mutual-exclusion or anti-double-counting rules unless both facts are independently important. | Lets prosecutors distinguish a smuggling ring from a street-gang benefit case without stacking two broad "group crime" enhancements by default. | California gang enhancement law is narrower than generic organized crime; it focuses on criminal street gang benefit/direction/association and specific intent. |
 | `high-value-loss` on fixed high-value charges | Avoid stacking on charges already defined by high value unless there is a higher value threshold. | Prevents runaway fines for the same value fact. | Value thresholds generally define a degree or enhance above the threshold, not both without a separate tier. |
+
+### Implemented Modifier Additions
+
+Three California-style modifiers have been added to `ef-mdt-penal-code.json` and applied narrowly:
+
+| Modifier | Effect | Current Application |
+| --- | --- | --- |
+| `firearm-discharged` | Fine x1.25 and time +10 | Assault, Aggravated Assault, Second Degree Murder, First Degree Murder, Kidnapping, Hostage Taking, Reckless Endangerment, Carjacking, Robbery, Criminal Use of Weapon |
+| `on-release` | Fine +500 and time +5 | Aggravated Assault, Second Degree Murder, First Degree Murder, Kidnapping, Hostage Taking, Carjacking, Robbery, Arson, Drug Trafficking, Class D weapon sale, Criminal Use of Explosives, DUI Narcotics, Jailbreak, Reckless Evading, Weapon Trafficking |
+| `occupied-structure-or-vehicle` | Fine x1.15 and time +5 | Reckless Endangerment, Burglary, Arson, Vandalism of Government Property, Criminal Use of Weapon, Criminal Use of Explosives |
+
+The effects use fixed time additions rather than broad time multipliers so they stay predictable under the 120-minute cap.
+
+### Potential Modifier Additions
+
+These would fit California-style escalation and GTA RP gameplay. They should be applied narrowly, with anti-double-counting rules when the fact is already an element of the charge.
+
+| Proposed Modifier | Suggested Effect | Best Fits | Why It Helps |
+| --- | --- | --- | --- |
+| `great-bodily-injury` | Time +5 to +10, fine x1.1-1.25 | Battery, assault, robbery, carjacking, arson, reckless evading, DUI, animal cruelty where serious injury is possible | California has a dedicated great bodily injury enhancement. In RP terms, this distinguishes bruises/minor wounds from Stage 1 incapacitation, coma-like injury, permanent impairment, or severe trauma. |
+| `firearm-personally-used` | Time +5 to +10, fine x1.15; mutually exclusive with `weapon-used` or treated as a higher tier | Robbery, carjacking, kidnapping, assault, threats, burglary, drug trafficking | California distinguishes being armed from personally using a firearm. A separate firearm-use tier lets knives/blunt weapons stay under firearms without creating many new charges. |
+| `vulnerable-victim` | Time +5 or fine x1.25, depending on offense | Assault, battery, theft/fraud, kidnapping, robbery, elder/dependent adult abuse analogues | California separately treats elder/dependent adult victimization as serious. This can cover elderly, disabled, medically helpless, or otherwise vulnerable victims without adding many standalone crimes. |
+| `hate-motivated` | Fine x1.25 and time +5, limited to person/property/public-order crimes | Assault, battery, threats, vandalism, harassment, arson, robbery | California has hate-crime enhancements. It adds motive-based seriousness while keeping the base offense intact. |
+| `large-scale-loss` | Fine +2500 to +10000, little or no time | Fraud, embezzlement, money laundering, smuggling, import/export, theft | California has an aggravated white-collar-crime enhancement. This is a better fine-heavy tool than raising prison time for nonviolent economic scale. |
+| `school-or-sensitive-location` | Fine x1.25 or time +5, charge-limited | Weapons, drug sale, threats, reckless endangerment, public safety | California often treats sensitive places differently. Use sparingly for schools, hospitals, courthouses, jails, police stations, and critical infrastructure. |
+
+Lowest-friction remaining additions: `great-bodily-injury`, `firearm-personally-used` or a tiered replacement for `weapon-used`, `hate-motivated`, and `large-scale-loss`.
 
 ## Liability Option Recommendations
 
@@ -180,7 +209,7 @@ Fine-heavy severity is appropriate for commercial and regulatory deterrence, but
 
 ## Additional Data Cleanup
 
-- Regenerate `penal-code-charge-degree-map.csv` from JSON after deciding the First Degree Murder liability model.
+- Keep regenerating `penal-code-charge-degree-map.csv` from JSON whenever modifier or liability options change. As of this pass, the CSV modifier and liability columns match the current JSON.
 - Audit tags for false positives, especially `commercial`, `economic`, and `sale-transfer` on traffic infractions; `homicide` and `violent` on routine hunting violations; and `wildlife-animal` on unauthorized parking.
 - Decide whether `baseTime` may exceed `sentencingGuidelines.maxTime`. If yes, add an explicit exception field for Insurrection.
 - Consider adding modifier conflict metadata, such as `mutuallyExclusiveWith`, for `first-offense` vs `prior-conviction`.
@@ -199,5 +228,12 @@ Primary California sources checked:
 - [California Penal Code section 182](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=182): conspiracy punishment.
 - [California Penal Code section 32](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=32): accessory after the fact.
 - [California Penal Code section 451](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=451): arson tiers.
+- [California Penal Code section 12022.7](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=12022.7): great bodily injury enhancement.
+- [California Penal Code section 12022.5](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=12022.5) and [section 12022.53](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=12022.53): firearm use and discharge enhancements.
+- [California Penal Code section 186.22](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=186.22): criminal street gang enhancement concepts.
+- [California Penal Code section 422.75](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=422.75): hate-crime enhancement.
+- [California Penal Code section 12022.1](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=12022.1): felony conduct while released on bail or own recognizance.
+- [California Penal Code section 186.11](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=186.11): aggravated white-collar crime enhancement.
+- [California Penal Code section 368](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=368): elder and dependent adult victimization.
 - [California Health and Safety Code section 11350](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=11350) and [section 11352](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=11352): controlled-substance possession versus sale/transport.
 - [California Vehicle Code section 23152](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=23152) and [section 2800.2](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=2800.2): DUI and reckless evading.
