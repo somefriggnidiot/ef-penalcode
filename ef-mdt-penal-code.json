@@ -135,7 +135,7 @@
                       {
                           "id":  "firearm-discharged",
                           "label":  "Firearm Discharged",
-                          "description":  "Applies when the suspect personally discharged a firearm during the offense, materially increasing the risk of death or serious injury.",
+                          "description":  "Applies when the suspect personally fires a firearm during the offense, including intentional, reckless, warning, suppressive, or negligent shots that materially increase the risk of death or serious injury. Do not apply for mere possession, brandishing without discharge, shots fired by another person unless separately charged to this suspect, or discharge unrelated to the offense.",
                           "kind":  "aggravating",
                           "effects":  [
                                           {
@@ -153,7 +153,7 @@
                       {
                           "id":  "multiple-victims",
                           "label":  "Multiple Victims",
-                          "description":  "Applies when the same criminal conduct involves more than one distinct victim.",
+                          "description":  "Applies when the same course of criminal conduct directly harms, threatens, restrains, defrauds, or endangers more than one distinct person, owner, business, agency, or protected victim. Do not apply for multiple injuries to the same victim, duplicate reporting parties, witnesses who were not targeted or endangered, or generalized public impact without identifiable additional victims.",
                           "kind":  "aggravating",
                           "effects":  [
                                           {
@@ -179,7 +179,7 @@
                       {
                           "id":  "restitution-made",
                           "label":  "Restitution Made",
-                          "description":  "Applies when the victim is reimbursed or property is returned before disposition.",
+                          "description":  "Applies when stolen, damaged, or lost property is returned, repaired, replaced, or reimbursed before disposition in a way that meaningfully restores the victim. Do not apply for unsupported promises, token payments, coerced return after seizure, partial restitution unless accepted or substantial, or restitution funded by further criminal conduct.",
                           "kind":  "mitigating",
                           "effects":  [
                                           {
@@ -192,7 +192,7 @@
                       {
                           "id":  "organized-activity",
                           "label":  "Organized or Gang-Related Criminal Activity",
-                          "description":  "Applies when the offense is coordinated with, directed by, intended to benefit, or materially connected to an organized criminal group, gang, crew, or planned criminal enterprise.",
+                          "description":  "Applies when the offense is coordinated with, directed by, intended to benefit, or materially connected to an organized criminal group, gang, crew, or planned criminal enterprise, including shared planning, roles, communications, resources, proceeds, or retaliation/benefit motives. Do not apply for mere friendship, shared location, spontaneous group presence, unrelated gang status, or two-person conduct without evidence of organized purpose.",
                           "kind":  "aggravating",
                           "effects":  [
                                           {
@@ -216,7 +216,7 @@
                       {
                           "id":  "high-value-loss",
                           "label":  "High Value Loss",
-                          "description":  "Applies when the offense involves $100,000 or more in loss, damage, proceeds, property value, or other measurable economic impact.",
+                          "description":  "Applies when reliable evidence shows the offense involves $100,000 or more in actual or intended loss, damage, proceeds, property value, or other measurable economic impact, including reasonably aggregated losses from one scheme. Do not apply for speculative value, sentimental value alone, unsupported estimates, ordinary fines or fees, or unrelated losses outside the charged conduct.",
                           "kind":  "aggravating",
                           "effects":  [
                                           {
@@ -229,7 +229,7 @@
                       {
                           "id":  "occupied-structure-or-vehicle",
                           "label":  "Occupied Structure or Vehicle",
-                          "description":  "Applies when the offense targets, damages, enters, burns, fires upon, or deploys a dangerous device against a structure or vehicle known or reasonably likely to be occupied.",
+                          "description":  "Applies when the offense targets, damages, enters, burns, fires upon, rams, or deploys a dangerous device against a structure or vehicle that is actually occupied or reasonably likely to be occupied at the time. Do not apply to abandoned, vacant, disabled, or clearly unoccupied property unless the suspect knew or should have known someone was inside or immediately at risk.",
                           "kind":  "aggravating",
                           "effects":  [
                                           {
@@ -247,13 +247,13 @@
                       {
                           "id":  "prior-conviction",
                           "label":  "Prior Conviction",
-                          "description":  "Applies when the person has prior relevant convictions or a documented history of similar criminal conduct.",
+                          "description":  "Applies when verified records show prior convictions or comparable documented findings that are relevant to the current offense type, victim class, conduct pattern, or sentencing concern. Do not apply for arrests without disposition, rumors, sealed or expunged matters, unrelated minor history, or incidents already being charged as part of the same case.",
                           "kind":  "aggravating",
                           "tiers":  [
                                         {
                                             "id":  "one-prior",
                                             "label":  "1 Prior Conviction",
-                                            "description":  "Use when the person has one prior relevant conviction or similar documented criminal finding.",
+                                            "description":  "Use when verified records show exactly one prior relevant conviction or comparable documented finding. Do not use for unproven allegations or current-case conduct.",
                                             "minPriorSimilarIncidents":  1,
                                             "maxPriorSimilarIncidents":  1,
                                             "effects":  [
@@ -267,7 +267,7 @@
                                         {
                                             "id":  "two-to-three-priors",
                                             "label":  "2-3 Prior Convictions",
-                                            "description":  "Use when the person\u0027s prior convictions or similar documented findings show a pattern but have not reached the highest escalation tier.",
+                                            "description":  "Use when verified records show two or three prior relevant convictions or comparable documented findings forming a pattern. Do not use when the history is unrelated, unverified, or already reaches the four-plus tier.",
                                             "minPriorSimilarIncidents":  2,
                                             "maxPriorSimilarIncidents":  3,
                                             "effects":  [
@@ -286,7 +286,7 @@
                                         {
                                             "id":  "four-plus-priors",
                                             "label":  "4+ Prior Convictions",
-                                            "description":  "Use when the person has an established repeated pattern of prior relevant convictions or similar documented findings.",
+                                            "description":  "Use when verified records show four or more prior relevant convictions or comparable documented findings establishing a repeated pattern. Do not count unproven allegations or duplicate records for the same incident.",
                                             "minPriorSimilarIncidents":  4,
                                             "effects":  [
                                                             {
@@ -306,7 +306,7 @@
                       {
                           "id":  "minimal-participation",
                           "label":  "Minimal Participation",
-                          "description":  "Applies when the person\u0027s role in the offense was minor, limited, or substantially less culpable than other involved parties.",
+                          "description":  "Applies when the person's role was minor, limited, replaceable, or substantially less culpable than other participants, such as a peripheral lookout, reluctant helper, low-level courier, or person with little planning authority or benefit. Do not apply to organizers, leaders, armed participants, direct perpetrators, people who escalated the offense, or solo offenders.",
                           "kind":  "mitigating",
                           "effects":  [
                                           {
@@ -324,7 +324,7 @@
                       {
                           "id":  "on-release",
                           "label":  "Offense While Released",
-                          "description":  "Applies when the suspect commits the offense while released on bail, parole, probation, or another active court-supervised release status for a serious pending or prior matter.",
+                          "description":  "Applies when verified records show the suspect committed the offense while on bail, bond, parole, probation, supervised release, pretrial release, or another active court-supervised status for a serious pending or prior matter. Do not apply when release status is expired, unverified, or based only on an officer's assumption.",
                           "kind":  "aggravating",
                           "effects":  [
                                           {
@@ -342,7 +342,7 @@
                       {
                           "id":  "voluntary-surrender",
                           "label":  "Voluntary Surrender",
-                          "description":  "Applies when the person voluntarily surrenders, self-reports, or otherwise submits to lawful custody without requiring pursuit or force.",
+                          "description":  "Applies when the person voluntarily self-reports, surrenders, remains at the scene, or submits to lawful custody before pursuit, force, standoff, or concealment becomes necessary. Do not apply after flight, hiding, evidence destruction, hostage-taking, resistance, or surrender only after containment leaves no realistic alternative.",
                           "kind":  "mitigating",
                           "effects":  [
                                           {
@@ -355,7 +355,7 @@
                       {
                           "id":  "first-offense",
                           "label":  "First Offense",
-                          "description":  "Applies when the person has no relevant prior convictions or comparable documented criminal history.",
+                          "description":  "Applies when available records show the person has no relevant prior convictions, comparable documented findings, or recent similar criminal history for the current offense type. Do not apply when any prior-conviction tier applies, when history is unknown or unverified, or when the current case involves a repeated course of conduct.",
                           "kind":  "mitigating",
                           "effects":  [
                                           {
@@ -373,7 +373,7 @@
                       {
                           "id":  "citation-discretion",
                           "label":  "Citation Discretion",
-                          "description":  "Applies when officer discretion or policy makes a reduced citation appropriate.",
+                          "description":  "Applies when law, policy, and incident facts make citation or reduced citation treatment appropriate for a low-level offense, such as minor regulatory conduct, low public-safety risk, verified identity, and no need for custodial booking. Do not apply to felonies, violent offenses, serious flight risk, active warrants, mandatory arrest situations, or cases requiring evidence preservation through booking.",
                           "kind":  "mitigating",
                           "effects":  [
                                           {
