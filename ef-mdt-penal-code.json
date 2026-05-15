@@ -689,18 +689,18 @@
                                                                          "timeMultiplier":  1
                                                                      },
                                                                      {
-                                                                         "id":  "accessory-to-second-degree-murder",
+                                                                         "id":  "accessory",
                                                                          "label":  "Accessory",
                                                                          "sourceCode":  "PC-1011",
-                                                                         "sourceTitle":  "Accessory to Second Degree Murder",
+                                                                         "sourceTitle":  "Accessory",
                                                                          "fineMultiplier":  0.2857,
                                                                          "timeMultiplier":  0.625
                                                                      },
                                                                      {
-                                                                         "id":  "attempted-murder-of-a-civilian",
+                                                                         "id":  "attempted",
                                                                          "label":  "Attempted",
                                                                          "sourceCode":  "PC-1009",
-                                                                         "sourceTitle":  "Attempted Murder of a Civilian",
+                                                                         "sourceTitle":  "Attempted",
                                                                          "fineMultiplier":  0.8571,
                                                                          "timeMultiplier":  0.75
                                                                      },
@@ -753,7 +753,7 @@
                                                                          "timeMultiplier":  1
                                                                      },
                                                                      {
-                                                                         "id":  "accessory-to-first-degree-murder",
+                                                                         "id":  "accessory",
                                                                          "label":  "Accessory",
                                                                          "sourceCode":  "PC-1013",
                                                                          "sourceTitle":  "Accessory to First Degree Murder",
@@ -761,7 +761,7 @@
                                                                          "timeMultiplier":  0.7
                                                                      },
                                                                      {
-                                                                        "id": "attempted-first-degree-murder",
+                                                                        "id": "attempted",
                                                                         "label": "Attempted",
                                                                         "fineMultiplier": 0.85,
                                                                         "timeMultiplier": 0.75
@@ -885,7 +885,7 @@
                                                                          "timeMultiplier":  1
                                                                      },
                                                                      {
-                                                                         "id":  "attempted-kidnapping",
+                                                                         "id":  "attempted",
                                                                          "label":  "Attempted",
                                                                          "sourceCode":  "PC-1020",
                                                                          "sourceTitle":  "Attempted Kidnapping",
@@ -893,7 +893,7 @@
                                                                          "timeMultiplier":  0.6667
                                                                      },
                                                                      {
-                                                                         "id":  "accessory-to-kidnapping",
+                                                                         "id":  "accessory",
                                                                          "label":  "Accessory",
                                                                          "sourceCode":  "PC-1019",
                                                                          "sourceTitle":  "Accessory to Kidnapping",
@@ -947,7 +947,15 @@
                                                                          "timeMultiplier":  1
                                                                      },
                                                                      {
-                                                                         "id":  "accessory-to-hostage-taking",
+                                                                         "id":  "attempted",
+                                                                         "label":  "Attempted",
+                                                                         "sourceCode":  "PC-1020",
+                                                                         "sourceTitle":  "Attempted Hostage Taking",
+                                                                         "fineMultiplier":  0.3,
+                                                                         "timeMultiplier":  0.6667
+                                                                     },
+                                                                     {
+                                                                         "id":  "accessory",
                                                                          "label":  "Accessory",
                                                                          "sourceCode":  "PC-1022",
                                                                          "sourceTitle":  "Accessory to Hostage Taking",
@@ -1428,7 +1436,7 @@
                                                                          "timeMultiplier":  1
                                                                      },
                                                                      {
-                                                                         "id":  "attempted-theft-of-an-aircraft",
+                                                                         "id":  "attempted",
                                                                          "label":  "Attempted",
                                                                          "sourceCode":  "PC-2019A",
                                                                          "sourceTitle":  "Attempted Theft of an Aircraft",
@@ -1471,7 +1479,7 @@
                                                                          "timeMultiplier":  1
                                                                      },
                                                                      {
-                                                                         "id":  "attempted-theft-of-a-law-enforcement-vehicle",
+                                                                         "id":  "attempted",
                                                                          "label":  "Attempted",
                                                                          "sourceCode":  "PC-2021A",
                                                                          "sourceTitle":  "Attempted Theft of a Law Enforcement Vehicle",
@@ -1581,36 +1589,20 @@
                                                                          "timeMultiplier":  1
                                                                      },
                                                                      {
-                                                                         "id":  "attempted-robbery",
-                                                                         "label":  "Attempted Robbery",
+                                                                         "id":  "attempted",
+                                                                         "label":  "Attempted",
                                                                          "sourceCode":  "PC-2009",
                                                                          "sourceTitle":  "Attempted Robbery",
                                                                          "fineMultiplier":  0.3,
                                                                          "timeMultiplier":  0.6
                                                                      },
                                                                      {
-                                                                         "id":  "accessory-to-robbery",
-                                                                         "label":  "Accessory to Robbery",
+                                                                         "id":  "accessory",
+                                                                         "label":  "Accessory",
                                                                          "sourceCode":  "PC-2008",
                                                                          "sourceTitle":  "Accessory to Robbery",
                                                                          "fineMultiplier":  0.2,
                                                                          "timeMultiplier":  0.48
-                                                                     },
-                                                                     {
-                                                                         "id":  "accessory-to-armed-robbery",
-                                                                         "label":  "Accessory to Armed Robbery",
-                                                                         "sourceCode":  "PC-2011",
-                                                                         "sourceTitle":  "Accessory to Armed Robbery",
-                                                                         "fineMultiplier":  0.3,
-                                                                         "timeMultiplier":  0.48
-                                                                     },
-                                                                     {
-                                                                         "id":  "attempted-armed-robbery",
-                                                                         "label":  "Attempted Armed Robbery",
-                                                                         "sourceCode":  "PC-2012",
-                                                                         "sourceTitle":  "Attempted Armed Robbery",
-                                                                         "fineMultiplier":  0.3,
-                                                                         "timeMultiplier":  1
                                                                      },
                                                                      {
                                                                          "id":  "conspiracy",
@@ -1942,8 +1934,8 @@
                                                                          "timeMultiplier":  1
                                                                      },
                                                                      {
-                                                                         "id":  "accessory-to-smuggling",
-                                                                         "label":  "Accessory to Smuggling",
+                                                                         "id":  "accessory",
+                                                                         "label":  "Accessory",
                                                                          "sourceCode":  "PC-2027",
                                                                          "sourceTitle":  "Accessory to Smuggling",
                                                                          "fineMultiplier":  0.25,
@@ -2905,7 +2897,7 @@
                                                                          "timeMultiplier":  1
                                                                      },
                                                                      {
-                                                                         "id":  "attempted-jailbreak",
+                                                                         "id":  "attempted",
                                                                          "label":  "Attempted",
                                                                          "sourceCode":  "PC-5007",
                                                                          "sourceTitle":  "Attempted",
@@ -2913,7 +2905,7 @@
                                                                          "timeMultiplier":  0.6667
                                                                      },
                                                                      {
-                                                                         "id":  "accessory-to-jailbreak",
+                                                                         "id":  "accessory",
                                                                          "label":  "Accessory",
                                                                          "sourceCode":  "PC-5006",
                                                                          "sourceTitle":  "Accessory to Jailbreak",
@@ -7290,16 +7282,16 @@
                                                                          "timeMultiplier":  1
                                                                      },
                                                                      {
-                                                                         "id":  "attempted-murder-of-a-police-working-dog",
-                                                                         "label":  "Attempted Murder of a Police Working Dog",
+                                                                         "id":  "attempted",
+                                                                         "label":  "Attempted",
                                                                          "sourceCode":  "PC-10011",
                                                                          "sourceTitle":  "Attempted Murder of a Police Working Dog",
                                                                          "fineMultiplier":  0.75,
                                                                          "timeMultiplier":  0.6667
                                                                      },
                                                                      {
-                                                                         "id":  "accessory-to-the-murder-of-a-police-working-dog",
-                                                                         "label":  "Accessory to the Murder of a Police Working Dog",
+                                                                         "id":  "accessory",
+                                                                         "label":  "Accessory",
                                                                          "sourceCode":  "PC-10013",
                                                                          "sourceTitle":  "Accessory to the Murder of a Police Working Dog",
                                                                          "fineMultiplier":  0.4375,
