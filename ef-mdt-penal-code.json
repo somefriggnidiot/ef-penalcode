@@ -50,13 +50,13 @@
                       {
                           "id":  "public-servant-victim",
                           "label":  "Protected Public Servant Victim",
-                          "description":  "Applies when the victim is acting within a protected public service role during the incident.",
+                          "description":  "Applies when the victim is a peace officer, public servant, emergency responder, judge, prosecutor, or comparable protected official acting within official duties, targeted because of those duties, or victimized because of a prior official act. Do not apply solely because government property or an agency is affected, or when the person's public role is unrelated to the offense.",
                           "kind":  "aggravating",
                           "effects":  [
                                           {
                                               "target":  "fine",
                                               "operation":  "multiply",
-                                              "value":  1.25
+                                              "value":  2
                                           },
                                           {
                                               "target":  "time",
@@ -78,7 +78,7 @@
                       {
                           "id":  "cooperation",
                           "label":  "Substantial Cooperation",
-                          "description":  "Applies when the defendant materially assists officers or investigators after the offense.",
+                          "description":  "Applies when the defendant voluntarily provides meaningful help after the offense, such as truthful information, evidence recovery, victim location, accomplice identification, or restitution logistics that materially advances the case. Do not apply for ordinary compliance, silence, minimal courtesy, legally required paperwork, or admissions that do not materially help investigators.",
                           "kind":  "mitigating",
                           "effects":  [
                                           {
@@ -96,7 +96,7 @@
                       {
                           "id":  "minor-injury",
                           "label":  "No Lasting Injury",
-                          "description":  "Applies when the conduct did not cause lasting physical injury or medical complications.",
+                          "description":  "Applies when an offense capable of causing bodily harm results in no lasting injury, no Stage 1 incapacitation, no hospital-level treatment, and no continuing medical complications. Do not apply to death, serious injury, lasting impairment, or offenses that have no physical-injury risk to mitigate.",
                           "kind":  "mitigating",
                           "effects":  [
                                           {
@@ -109,18 +109,18 @@
                       {
                           "id":  "weapon-used",
                           "label":  "Weapon or Dangerous Instrument Used",
-                          "description":  "Applies when a weapon or dangerous instrument materially elevated the risk of harm.",
+                          "description":  "Applies when a weapon or dangerous instrument is used, displayed, brandished, carried for immediate use, or otherwise employed to facilitate the offense, threaten force, injure, restrain, damage property, force entry, or materially increase danger. Do not apply for incidental ownership, a weapon merely nearby, or ordinary objects not used or intended as weapons during the offense.",
                           "kind":  "aggravating",
                           "effects":  [
                                           {
                                               "target":  "fine",
                                               "operation":  "multiply",
-                                              "value":  1.35
+                                              "value":  1.25
                                           },
                                           {
                                               "target":  "time",
                                               "operation":  "multiply",
-                                              "value":  1.35
+                                              "value":  1.25
                                           }
                                       ],
                           "sourceCodes":  [
@@ -166,7 +166,7 @@
                       {
                           "id":  "medical-aid-rendered",
                           "label":  "Aid Rendered After Incident",
-                          "description":  "Applies when the defendant took meaningful steps to summon or provide aid after the incident.",
+                          "description":  "Applies when the defendant promptly takes meaningful steps to preserve life, reduce injury, or summon medical or emergency help after causing or discovering harm, such as calling responders, rendering first aid, transporting the victim safely, or staying to guide aid. Do not apply for token gestures, delayed aid after flight or concealment, aid given only after being compelled, or conduct that worsens the victim's risk.",
                           "kind":  "mitigating",
                           "effects":  [
                                           {
@@ -191,8 +191,8 @@
                       },
                       {
                           "id":  "organized-activity",
-                          "label":  "Organized Criminal Activity",
-                          "description":  "Applies when the offense is coordinated with an organized criminal group or planned enterprise.",
+                          "label":  "Organized or Gang-Related Criminal Activity",
+                          "description":  "Applies when the offense is coordinated with, directed by, intended to benefit, or materially connected to an organized criminal group, gang, crew, or planned criminal enterprise.",
                           "kind":  "aggravating",
                           "effects":  [
                                           {
@@ -205,18 +205,24 @@
                                               "operation":  "multiply",
                                               "value":  1.5
                                           }
-                                      ]
+                                      ],
+                          "sourceCodes":  [
+                                              "PC-1026"
+                                          ],
+                          "sourceTitles":  [
+                                               "Gang Related Enhancement"
+                                           ]
                       },
                       {
                           "id":  "high-value-loss",
                           "label":  "High Value Loss",
-                          "description":  "Applies when the offense involves a high-value loss threshold set by the active penal code.",
+                          "description":  "Applies when the offense involves $100,000 or more in loss, damage, proceeds, property value, or other measurable economic impact.",
                           "kind":  "aggravating",
                           "effects":  [
                                           {
                                               "target":  "fine",
                                               "operation":  "add",
-                                              "value":  1500
+                                              "value":  2500
                                           }
                                       ]
                       },
@@ -324,12 +330,12 @@
                                           {
                                               "target":  "fine",
                                               "operation":  "add",
-                                              "value":  6000
+                                              "value":  500
                                           },
                                           {
                                               "target":  "time",
                                               "operation":  "add",
-                                              "value":  5
+                                              "value":  2
                                           }
                                       ]
                       },
@@ -355,12 +361,12 @@
                                           {
                                               "target":  "fine",
                                               "operation":  "multiply",
-                                              "value":  0.85
+                                              "value":  0.75
                                           },
                                           {
                                               "target":  "time",
                                               "operation":  "multiply",
-                                              "value":  0.85
+                                              "value":  0.75
                                           }
                                       ]
                       },
@@ -374,26 +380,6 @@
                                               "target":  "fine",
                                               "operation":  "multiply",
                                               "value":  0.5
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  "gang-related-activity",
-                          "label":  "Gang Related Activity",
-                          "sourceCode":  "PC-1026",
-                          "sourceTitle":  "Gang Related Enhancement",
-                          "description":  "Applies when the offense is connected to or motivated by gang activity associated with the defendant.",
-                          "kind":  "aggravating",
-                          "effects":  [
-                                          {
-                                              "target":  "fine",
-                                              "operation":  "add",
-                                              "value":  500
-                                          },
-                                          {
-                                              "target":  "time",
-                                              "operation":  "add",
-                                              "value":  10
                                           }
                                       ]
                       }
@@ -1259,8 +1245,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Grand Theft applies to mid-value property takings and firearm theft regardless of firearm value.",
@@ -1293,8 +1278,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Grand Larceny is the highest ordinary property-value theft tier.",
@@ -1344,8 +1328,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Grand Theft Auto A covers unlawful taking or control of a motor vehicle without aggravating circumstances.",
@@ -1378,8 +1361,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Grand Theft Auto B is the aggravated motor-vehicle theft tier.",
@@ -1418,8 +1400,7 @@
                                                                 "prior-conviction",
                                                                 "on-release",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Carjacking focuses on vehicle theft from a person rather than unattended vehicle theft.",
@@ -1462,8 +1443,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Theft of an Aircraft is a protected vehicle-theft degree for aircraft.",
@@ -1506,8 +1486,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Theft of a Law Enforcement Vehicle is a protected vehicle-theft degree based on agency ownership or use.",
@@ -1556,8 +1535,7 @@
                                                                 "occupied-structure-or-vehicle",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Burglary focuses on unlawful entry or remaining with criminal intent.",
@@ -1656,8 +1634,7 @@
                                                                 "minimal-participation",
                                                                 "on-release",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Robbery is theft elevated by force, intimidation, fear, or taking from immediate presence.",
@@ -1746,8 +1723,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This degree covers counterfeit or fraudulent currency handled as if it were legal money.",
@@ -1793,8 +1769,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This degree covers unauthorized possession of official government property.",
@@ -1842,8 +1817,7 @@
                                                                 "weapon-used",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This degree covers possession of tools or equipment tied to criminal conduct.",
@@ -1876,8 +1850,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This degree covers trafficking or distribution of crime-facilitating items.",
@@ -1923,8 +1896,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This degree focuses on knowing possession or control of stolen property after the theft.",
@@ -1985,8 +1957,7 @@
                                                                 "prior-conviction",
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This degree covers general contraband smuggling across customs or jurisdictional controls.",
@@ -2020,8 +1991,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This degree is the gemstone-specific smuggling tier.",
@@ -2055,8 +2025,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This degree is the precious-metal-specific smuggling tier.",
@@ -2090,8 +2059,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Customs Fraud focuses on false statements or documents used to evade customs or regulatory controls.",
@@ -2125,8 +2093,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This degree covers commercial-scale import/export activity conducted outside required licensing or regulatory oversight.",
@@ -2174,8 +2141,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Impersonating focuses on the knowing use of another identity in a way that would reasonably mislead someone or affect an official, business, or personal interaction.",
@@ -2208,8 +2174,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This degree applies when a false claim of government or law-enforcement authority is used in a way that could cause others to comply, grant access, or believe the suspect is acting under official power.",
@@ -2242,8 +2207,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This degree is reserved for false judicial authority because court power can alter liberty, property, custody, and official decision-making.",
@@ -2289,8 +2253,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This offense targets possession of another person\u0027s official identification where the circumstances show knowledge and lack of lawful authority.",
@@ -2340,8 +2303,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Extortion focuses on coercive pressure that converts a demand into forced compliance or attempted forced compliance.",
@@ -2390,8 +2352,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Fraud turns on intentional deception about something important enough to influence a person, business, or agency decision.",
@@ -2427,8 +2388,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Forgery focuses on false or unauthorized documents and records, including electronic records, used or prepared for deceptive purposes.",
@@ -2476,8 +2436,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Money laundering addresses criminal proceeds and the steps taken to make those proceeds appear legitimate or harder to trace.",
@@ -2558,8 +2517,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Felony trespassing is reserved for secured or restricted government spaces where unauthorized entry creates an elevated risk to public operations, safety, evidence, detention, or infrastructure.",
@@ -2612,8 +2570,7 @@
                                                                 "prior-conviction",
                                                                 "on-release",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Arson focuses on intentional ignition or facilitation of fire damage, even when the resulting damage is limited or firefighters contain the fire quickly.",
@@ -2658,8 +2615,7 @@
                                             "modifierIds":  [
                                                                 "organized-activity",
                                                                 "high-value-loss",
-                                                                "citation-discretion",
-                                                                "gang-related-activity"
+                                                                "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Vandalism focuses on unauthorized physical damage, defacement, or impairment of property, even when repair costs are low.",
@@ -2695,8 +2651,7 @@
                                                                 "occupied-structure-or-vehicle",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This degree applies when vandalism targets government property, public infrastructure, emergency resources, official vehicles, public buildings, or other agency-controlled assets.",
@@ -2785,8 +2740,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Bribery focuses on corrupt intent: the thing of value must be connected to influencing official conduct, not merely ordinary gratitude or a lawful fee.",
@@ -2874,8 +2828,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This offense protects secure government spaces by penalizing knowing possession of items that are illegal or prohibited in that setting.",
@@ -2924,8 +2877,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Escaping focuses on unlawful departure from lawful custody or detention after the suspect knows they are not free to leave.",
@@ -2977,8 +2929,7 @@
                                                                 "on-release",
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Jailbreak applies to outside or inside assistance that helps another person escape lawful custody, including planning, tools, force, transport, or concealment.",
@@ -3024,8 +2975,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Perjury requires a knowingly false statement about a material fact in a sworn or court-connected setting.",
@@ -3221,8 +3171,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Embezzlement differs from ordinary theft because the suspect initially has lawful access or control, then misuses the entrusted property.",
@@ -3270,8 +3219,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Unlawful Practice targets regulated services where unlicensed work can expose others to medical, legal, safety, or official-process harm.",
@@ -3545,8 +3493,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Inciting a riot requires intentional encouragement of imminent group violence or destruction, not protected criticism or generalized angry speech.",
@@ -3580,8 +3527,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Unlawful assembly targets coordinated group conduct that has moved toward unlawful or violent action, not peaceful gathering by itself.",
@@ -3760,8 +3706,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Misdemeanor obstruction covers intentional interference with an officer or investigation that is meaningful but not directed at a formal proceeding or major government function.",
@@ -3794,8 +3739,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Felony obstruction is reserved for serious interference with formal justice-system processes, not ordinary interference with daily patrol duties or routine field investigations.",
@@ -3884,8 +3828,7 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "citation-discretion",
-                                                                "gang-related-activity"
+                                                                "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Vehicle tampering addresses unauthorized interference with a vehicle that does not necessarily prove intent to permanently or substantially deprive the owner.",
@@ -3932,8 +3875,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Evidence tampering protects the integrity of investigations and proceedings by targeting intentional interference with actual or potential evidence.",
@@ -3968,8 +3910,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Witness tampering focuses on improper influence over a witness or victim connected to official fact-finding.",
@@ -4066,8 +4007,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Government corruption is a high-level abuse-of-authority offense and should be supported by a clear official-power nexus and improper benefit or protection.",
@@ -4114,8 +4054,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Aiding and abetting requires knowing assistance to a crime or escape, not accidental help or mere presence near offenders.",
@@ -4148,8 +4087,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Harboring a fugitive is narrower than general assistance: it requires knowledge that the person is wanted and conduct that helps them avoid law enforcement.",
@@ -4199,8 +4137,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Unauthorized marijuana cultivation focuses on lower-tier unlawful cultivation outside personal-use limits or on property where cultivation is not authorized.",
@@ -4233,8 +4170,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Commercial marijuana cultivation focuses on mid-scale grows and cultivation facts showing production for sale or transfer.",
@@ -4267,8 +4203,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Aggravated marijuana cultivation focuses on large-scale cultivation, protected-location cultivation, and cultivation that damages protected public resources.",
@@ -4303,8 +4238,7 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "citation-discretion",
-                                                                "gang-related-activity"
+                                                                "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Possession of marijuana focuses on knowing possession of an unlawful marijuana quantity above the misdemeanor threshold and below the distribution threshold.",
@@ -4338,8 +4272,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Possession of marijuana with intent to distribute focuses on knowing possession of distribution-level marijuana or marijuana accompanied by distribution indicators.",
@@ -4388,8 +4321,7 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "citation-discretion",
-                                                                "gang-related-activity"
+                                                                "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Misdemeanor possession of cocaine focuses on knowing possession of a smaller cocaine quantity without lawful authorization.",
@@ -4422,8 +4354,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Felony possession of cocaine focuses on knowing possession of a higher cocaine quantity without lawful authorization.",
@@ -4457,8 +4388,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Possession of cocaine with intent to distribute focuses on knowing possession of distribution-level cocaine or cocaine accompanied by distribution indicators.",
@@ -4507,8 +4437,7 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "citation-discretion",
-                                                                "gang-related-activity"
+                                                                "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Misdemeanor possession of amphetamines focuses on knowing possession of a smaller amphetamine quantity without lawful authorization.",
@@ -4541,8 +4470,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Felony possession of amphetamines focuses on knowing possession of a higher amphetamine quantity without lawful authorization.",
@@ -4576,8 +4504,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Possession of amphetamines with intent to distribute focuses on knowing possession of distribution-level amphetamines or amphetamines accompanied by distribution indicators.",
@@ -4626,8 +4553,7 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "citation-discretion",
-                                                                "gang-related-activity"
+                                                                "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Misdemeanor possession of opioids focuses on knowing possession of a smaller opioid quantity without lawful authorization.",
@@ -4660,8 +4586,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Felony possession of opioids focuses on knowing possession of a higher opioid quantity without lawful authorization.",
@@ -4695,8 +4620,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Possession of opioids with intent to distribute focuses on knowing possession of distribution-level opioids or opioids accompanied by distribution indicators.",
@@ -4788,8 +4712,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Possession of drug manufacturing materials focuses on knowing possession of items connected to controlled-substance production.",
@@ -4838,8 +4761,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Sale of a controlled substance focuses on knowing participation in the sale, furnishing, brokering, or transfer of an unlawful controlled substance.",
@@ -4875,8 +4797,7 @@
                                                                 "prior-conviction",
                                                                 "on-release",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Drug trafficking focuses on large-scale movement or logistics involving controlled substances.",
@@ -5059,8 +4980,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Unlawful production of moonshine focuses on unlicensed production of alcoholic beverages or operation of equipment used for that production.",
@@ -5094,8 +5014,7 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "citation-discretion",
-                                                                "gang-related-activity"
+                                                                "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Distribution of illegal moonshine focuses on distribution conduct involving unlicensed alcoholic beverages, not mere personal possession.",
@@ -5144,8 +5063,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Criminal possession of a Class A weapon focuses on unlawful possession of restricted melee or blunt weapons.",
@@ -5179,7 +5097,6 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "gang-related-activity",
                                                                 "on-release"
                                                             ],
                                             "legalPrinciples":  {
@@ -5214,7 +5131,6 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "gang-related-activity",
                                                                 "on-release"
                                                             ],
                                             "legalPrinciples":  {
@@ -5249,7 +5165,6 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "gang-related-activity",
                                                                 "on-release"
                                                             ],
                                             "legalPrinciples":  {
@@ -5300,8 +5215,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Criminal sale of a Class A weapon focuses on unlawful transfer or attempted transfer of restricted melee or blunt weapons.",
@@ -5336,7 +5250,6 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "gang-related-activity",
                                                                 "on-release"
                                                             ],
                                             "legalPrinciples":  {
@@ -5372,7 +5285,6 @@
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense",
-                                                                "gang-related-activity",
                                                                 "on-release"
                                                             ],
                                             "legalPrinciples":  {
@@ -5408,8 +5320,7 @@
                                                                 "prior-conviction",
                                                                 "on-release",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Criminal sale of a Class D weapon focuses on unlawful transfer or attempted transfer of heavy weapons, explosives, or destructive devices.",
@@ -5545,8 +5456,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Possession of illegal firearm modifications focuses on firearms altered or equipped with prohibited functional features, separate from serial-number defects.",
@@ -5579,8 +5489,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Possession of firearms without serial numbers focuses on missing, removed, obliterated, unregistered, or untraceable firearm serial numbers.",
@@ -5628,8 +5537,7 @@
                                                                 "prior-conviction",
                                                                 "on-release",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Weapon trafficking focuses on large-scale movement or logistics involving illegal firearms or weapons intended for sale or distribution.",
@@ -5676,8 +5584,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Illegal manufacturing of firearms focuses on unauthorized firearm production, assembly, completion, conversion, modification, or serialization defects.",
@@ -5810,8 +5717,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Insurrection is reserved for organized violent resistance to lawful government authority, not ordinary protest or isolated disorder.",
@@ -6027,8 +5933,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Criminal possession of ammunition focuses on ammunition possessed by a person who is unlicensed or legally prohibited from possessing it.",
@@ -6489,8 +6394,7 @@
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Motor vehicle contest focuses on unauthorized racing or competitive driving on public roadways.",
@@ -7148,8 +7052,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Overhunting focuses on exceeding lawful harvest or possession limits for game and animal by-products.",
@@ -7183,8 +7086,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Animal poaching focuses on unlawful taking or trafficking of protected or endangered species.",
@@ -7280,8 +7182,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Fishing in an unauthorized zone focuses on fishing activity in waterways closed to sport or game fishing.",
@@ -7315,8 +7216,7 @@
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "gang-related-activity"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Illegal fishing focuses on prohibited gear, prohibited species, and fish outside lawful size limits.",
@@ -7347,8 +7247,7 @@
                                             "modifierIds":  [
                                                                 "organized-activity",
                                                                 "high-value-loss",
-                                                                "citation-discretion",
-                                                                "gang-related-activity"
+                                                                "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Overfishing focuses on exceeding the daily catch limit for fish.",
