@@ -4626,6 +4626,122 @@
                                     ]
                     },
                     {
+                        "id":  "ketamine-possession-and-distribution",
+                        "code":  "EF-PC-07-012",
+                        "title":  "Ketamine Possession and Distribution",
+                        "categoryId":  "offenses-against-health-and-morals",
+                        "description":  "Unlawful ketamine possession and possession with intent to distribute, including liquid, powder, tablets, or comparable preparations.",
+                        "sourceCodes":  [
+                                            "PC-7023",
+                                            "PC-7024",
+                                            "PC-7025"
+                                        ],
+                        "migrationNotes":  "",
+                        "degrees":  [
+                                        {
+                                            "id":  "misdemeanor-possession-of-ketamine",
+                                            "label":  "Misdemeanor Possession of Ketamine",
+                                            "sourceCode":  "PC-7023",
+                                            "sourceTitle":  "Misdemeanor Possession of Ketamine",
+                                            "description":  "A person commits Misdemeanor Possession of Ketamine when they knowingly possess any amount of ketamine, including liquid, powder, tablets, or comparable preparations, up to and including 10 kg without lawful authorization.",
+                                            "classification":  "misdemeanor",
+                                            "baseFine":  300,
+                                            "baseTime":  0,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "prior-conviction",
+                                                                "voluntary-surrender",
+                                                                "first-offense",
+                                                                "citation-discretion"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Misdemeanor possession of ketamine focuses on knowing possession of a smaller ketamine quantity without lawful authorization.",
+                                                                    "principles":  [
+                                                                                       "Possession may be actual or constructive, but officers must be able to connect the person to knowledge and control of the ketamine.",
+                                                                                       "This misdemeanor degree applies at or below 10 kg unless packaging, sales tools, communications, or transaction conduct support a distribution charge.",
+                                                                                       "Reports should document the ketamine form, weight, location, packaging, access or control facts, statements, and any distribution indicators."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "felony-possession-of-ketamine",
+                                            "label":  "Felony Possession of Ketamine",
+                                            "sourceCode":  "PC-7024",
+                                            "sourceTitle":  "Felony Possession of Ketamine",
+                                            "description":  "A person commits Felony Possession of Ketamine when they knowingly possess more than 10 kg but less than 100 kg of ketamine, including liquid, powder, tablets, or comparable preparations, without lawful authorization.",
+                                            "classification":  "felony",
+                                            "baseFine":  750,
+                                            "baseTime":  15,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "prior-conviction",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Felony possession of ketamine focuses on knowing possession of a higher ketamine quantity without lawful authorization.",
+                                                                    "principles":  [
+                                                                                       "The felony degree is based on the controlled substance type and weight, separate from any proof of intent to sell.",
+                                                                                       "Possession may be actual or constructive if the suspect knowingly controls the ketamine or the place where it is found.",
+                                                                                       "Reports should document weight, ketamine form, access or control facts, statements, and why the facts fit possession rather than sale or trafficking."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "possession-of-ketamine-with-intent-to-distribute",
+                                            "label":  "Possession of Ketamine with Intent to Distribute",
+                                            "sourceCode":  "PC-7025",
+                                            "sourceTitle":  "Possession of Ketamine with Intent to Distribute",
+                                            "description":  "A person commits Possession of Ketamine with Intent to Distribute when they knowingly possess 100 kg or more of ketamine, ketamine individually packaged for sale, or ketamine together with distribution materials such as scales, empty bags, ledgers, or packaging supplies where the controlled substance and distribution materials together exceed 50 kg.",
+                                            "classification":  "felony",
+                                            "baseFine":  1500,
+                                            "baseTime":  20,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "high-value-loss",
+                                                                "prior-conviction",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Possession of ketamine with intent to distribute focuses on knowing possession of distribution-level ketamine or ketamine accompanied by distribution indicators.",
+                                                                    "principles":  [
+                                                                                       "Intent to distribute may be inferred from quantity, individual packaging, sales tools, communications, or transaction conduct.",
+                                                                                       "A completed sale is not required if the facts show the ketamine was possessed for transfer, furnishing, or sale.",
+                                                                                       "Reports should document weight, packaging, scales or ledgers, cash, messages, observed handoffs, and the suspect's control over the ketamine."
+                                                                                   ]
+                                                                }
+                                        }
+                                    ]
+                    },
+                    {
                         "id":  "possession-of-drug-paraphernalia",
                         "code":  "EF-PC-07-005",
                         "title":  "Possession of Drug Paraphernalia",
