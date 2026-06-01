@@ -301,7 +301,10 @@
                                                             }
                                                         ]
                                         }
-                                    ]
+                                    ],
+                          "mutuallyExclusiveWith":  [
+                                                        "first-offense"
+                                                    ]
                       },
                       {
                           "id":  "minimal-participation",
@@ -335,7 +338,7 @@
                                           {
                                               "target":  "time",
                                               "operation":  "add",
-                                              "value":  2
+                                              "value":  5
                                           }
                                       ]
                       },
@@ -368,7 +371,10 @@
                                               "operation":  "multiply",
                                               "value":  0.75
                                           }
-                                      ]
+                                      ],
+                          "mutuallyExclusiveWith":  [
+                                                        "prior-conviction"
+                                                    ]
                       },
                       {
                           "id":  "citation-discretion",
@@ -457,7 +463,6 @@
                                             "modifierIds":  [
                                                                 "public-servant-victim",
                                                                 "cooperation",
-                                                                "weapon-used",
                                                                 "firearm-discharged",
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
@@ -679,8 +684,8 @@
                                             "sourceTitle":  "Second Degree Murder",
                                             "description":  "A person commits Second Degree Murder when they unlawfully kill another person with malice, intent to kill, or conscious reckless disregard for human life, without the premeditation required for first degree murder.",
                                             "classification":  "felony",
-                                            "baseFine":  1750,
-                                            "baseTime":  40,
+                                            "baseFine":  3000,
+                                            "baseTime":  50,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -707,8 +712,8 @@
                                                                      {
                                                                          "id":  "conspiracy",
                                                                          "label":  "Conspiracy",
-                                                                         "fineMultiplier":  0.5,
-                                                                         "timeMultiplier":  0.5,
+                                                                         "fineMultiplier":  0.65,
+                                                                         "timeMultiplier":  0.65,
                                                                          "sourceCode":  "PC-5013",
                                                                          "sourceTitle":  "Conspiracy"
                                                                      }
@@ -743,8 +748,8 @@
                                             "sourceTitle":  "First Degree Murder",
                                             "description":  "A person commits First Degree Murder when they unlawfully kill another person willfully, deliberately, and with premeditation, or when a killing occurs during a qualifying felony under circumstances supporting first degree murder.",
                                             "classification":  "felony",
-                                            "baseFine":  2500,
-                                            "baseTime":  50,
+                                            "baseFine":  4000,
+                                            "baseTime":  65,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -761,16 +766,16 @@
                                                                          "timeMultiplier":  0.7
                                                                      },
                                                                      {
-                                                                        "id": "attempted",
-                                                                        "label": "Attempted",
-                                                                        "fineMultiplier": 0.85,
-                                                                        "timeMultiplier": 0.75
+                                                                         "id":  "attempted",
+                                                                         "label":  "Attempted",
+                                                                         "fineMultiplier":  0.85,
+                                                                         "timeMultiplier":  0.75
                                                                      },
                                                                      {
                                                                          "id":  "conspiracy",
                                                                          "label":  "Conspiracy",
-                                                                         "fineMultiplier":  0.5,
-                                                                         "timeMultiplier":  0.5,
+                                                                         "fineMultiplier":  0.75,
+                                                                         "timeMultiplier":  0.75,
                                                                          "sourceCode":  "PC-5013",
                                                                          "sourceTitle":  "Conspiracy"
                                                                      }
@@ -839,8 +844,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Unlawful imprisonment focuses on intentional restriction of another person's movement without consent or lawful authority.",
@@ -875,8 +879,8 @@
                                             "sourceTitle":  "Kidnapping",
                                             "description":  "A person commits Kidnapping when they abduct, move, carry away, or confine another person against that person's will by force, threat, deception, or other unlawful means.",
                                             "classification":  "felony",
-                                            "baseFine":  500,
-                                            "baseTime":  15,
+                                            "baseFine":  1500,
+                                            "baseTime":  25,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -903,8 +907,8 @@
                                                                      {
                                                                          "id":  "conspiracy",
                                                                          "label":  "Conspiracy",
-                                                                         "fineMultiplier":  0.5,
-                                                                         "timeMultiplier":  0.5,
+                                                                         "fineMultiplier":  0.6,
+                                                                         "timeMultiplier":  0.65,
                                                                          "sourceCode":  "PC-5013",
                                                                          "sourceTitle":  "Conspiracy"
                                                                      }
@@ -937,8 +941,8 @@
                                             "sourceTitle":  "Hostage Taking",
                                             "description":  "A person commits Hostage Taking when they seize, confine, hold, or threaten a person to compel another person, group, business, or government entity to act, refrain from acting, provide value, or meet a demand.",
                                             "classification":  "felony",
-                                            "baseFine":  750,
-                                            "baseTime":  20,
+                                            "baseFine":  2250,
+                                            "baseTime":  35,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -965,8 +969,8 @@
                                                                      {
                                                                          "id":  "conspiracy",
                                                                          "label":  "Conspiracy",
-                                                                         "fineMultiplier":  0.5,
-                                                                         "timeMultiplier":  0.5,
+                                                                         "fineMultiplier":  0.6,
+                                                                         "timeMultiplier":  0.65,
                                                                          "sourceCode":  "PC-5013",
                                                                          "sourceTitle":  "Conspiracy"
                                                                      }
@@ -1025,12 +1029,10 @@
                                             "modifierIds":  [
                                                                 "public-servant-victim",
                                                                 "cooperation",
-                                                                "minor-injury",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Criminal threats focuses on communicated threats that create reasonable fear of harm or death.",
@@ -1157,8 +1159,8 @@
                                             "sourceTitle":  "Torture",
                                             "description":  "A person commits Torture when they intentionally cause extreme physical or mental pain or suffering to another person for punishment, coercion, interrogation, revenge, extortion, intimidation, or sadistic purpose.",
                                             "classification":  "felony",
-                                            "baseFine":  1500,
-                                            "baseTime":  20,
+                                            "baseFine":  3000,
+                                            "baseTime":  40,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -1206,7 +1208,7 @@
                                             "label":  "Petty Theft",
                                             "sourceCode":  "PC-2001",
                                             "sourceTitle":  "Petty Theft",
-                                            "description":  "A person commits Petty Theft when they knowingly take, steal, carry away, or exercise control over another person\u0027s personal property valued at $2,000 or less without consent and with intent to deprive the owner of its use or value.",
+                                            "description":  "A person commits Petty Theft when they knowingly take, steal, carry away, or exercise control over another person's personal property valued at $2,000 or less without consent and with intent to deprive the owner of its use or value.",
                                             "classification":  "infraction",
                                             "baseFine":  400,
                                             "baseTime":  0,
@@ -1236,7 +1238,7 @@
                                             "label":  "Grand Theft",
                                             "sourceCode":  "PC-2002",
                                             "sourceTitle":  "Grand Theft",
-                                            "description":  "A person commits Grand Theft when they knowingly take, steal, carry away, or exercise control over another person\u0027s personal property valued at more than $2,000 but less than $15,000, or a firearm of any value, without consent and with intent to deprive the owner of its use or value.",
+                                            "description":  "A person commits Grand Theft when they knowingly take, steal, carry away, or exercise control over another person's personal property valued at more than $2,000 but less than $15,000, or a firearm of any value, without consent and with intent to deprive the owner of its use or value.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  850,
                                             "baseTime":  10,
@@ -1269,10 +1271,10 @@
                                             "label":  "Grand Larceny",
                                             "sourceCode":  "PC-2013",
                                             "sourceTitle":  "Grand Larceny",
-                                            "description":  "A person commits Grand Larceny when they knowingly take, steal, carry away, or exercise control over another person\u0027s personal property valued at more than $15,000 without consent and with intent to deprive the owner of its use or value.",
+                                            "description":  "A person commits Grand Larceny when they knowingly take, steal, carry away, or exercise control over another person's personal property valued at more than $15,000 without consent and with intent to deprive the owner of its use or value.",
                                             "classification":  "felony",
                                             "baseFine":  1000,
-                                            "baseTime":  30,
+                                            "baseTime":  25,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -1319,7 +1321,7 @@
                                             "label":  "Grand Theft Auto A",
                                             "sourceCode":  "PC-2003",
                                             "sourceTitle":  "Grand Theft Auto A",
-                                            "description":  "A person commits Grand Theft Auto A when they knowingly take, drive, operate, move, or exercise control over another person\u0027s motor vehicle without consent and with intent to temporarily or permanently deprive the owner of possession or use.",
+                                            "description":  "A person commits Grand Theft Auto A when they knowingly take, drive, operate, move, or exercise control over another person's motor vehicle without consent and with intent to temporarily or permanently deprive the owner of possession or use.",
                                             "classification":  "felony",
                                             "baseFine":  120,
                                             "baseTime":  10,
@@ -1385,10 +1387,10 @@
                                             "label":  "Carjacking",
                                             "sourceCode":  "PC-2005",
                                             "sourceTitle":  "Carjacking",
-                                            "description":  "A person commits Carjacking when they unlawfully take or attempt to take a motor vehicle from another person or the person\u0027s immediate presence while the vehicle is occupied, controlled, or being operated.",
+                                            "description":  "A person commits Carjacking when they unlawfully take or attempt to take a motor vehicle from another person or the person's immediate presence while the vehicle is occupied, controlled, or being operated.",
                                             "classification":  "felony",
-                                            "baseFine":  400,
-                                            "baseTime":  20,
+                                            "baseFine":  1500,
+                                            "baseTime":  30,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -1427,7 +1429,7 @@
                                             "description":  "A person commits Theft of an Aircraft when they knowingly take, operate, move, or exercise control over an aircraft without consent of the owner or lawful operator and with intent to deprive the owner or operator of possession or use.",
                                             "classification":  "felony",
                                             "baseFine":  5000,
-                                            "baseTime":  40,
+                                            "baseTime":  35,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -1470,7 +1472,7 @@
                                             "description":  "A person commits Theft of a Law Enforcement Vehicle when they knowingly take, operate, move, or exercise control over a motor vehicle owned, assigned, or operated by a law enforcement agency without authorization.",
                                             "classification":  "felony",
                                             "baseFine":  10000,
-                                            "baseTime":  60,
+                                            "baseTime":  40,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -1577,10 +1579,10 @@
                                             "label":  "Robbery",
                                             "sourceCode":  "PC-2007",
                                             "sourceTitle":  "Robbery",
-                                            "description":  "A person commits Robbery when they unlawfully take or attempt to take personal property from another person, business, or the person\u0027s immediate presence against their will by force, intimidation, fear, or threat.",
+                                            "description":  "A person commits Robbery when they unlawfully take or attempt to take personal property from another person, business, or the person's immediate presence against their will by force, intimidation, fear, or threat.",
                                             "classification":  "felony",
                                             "baseFine":  1000,
-                                            "baseTime":  25,
+                                            "baseTime":  30,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -1607,8 +1609,8 @@
                                                                      {
                                                                          "id":  "conspiracy",
                                                                          "label":  "Conspiracy",
-                                                                         "fineMultiplier":  0.5,
-                                                                         "timeMultiplier":  0.5,
+                                                                         "fineMultiplier":  0.6,
+                                                                         "timeMultiplier":  0.65,
                                                                          "sourceCode":  "PC-5013",
                                                                          "sourceTitle":  "Conspiracy"
                                                                      }
@@ -1631,7 +1633,7 @@
                                             "legalPrinciples":  {
                                                                     "overview":  "Robbery is theft elevated by force, intimidation, fear, or taking from immediate presence.",
                                                                     "principles":  [
-                                                                                       "The property must be taken from a person, business, or immediate presence against the victim\u0027s will.",
+                                                                                       "The property must be taken from a person, business, or immediate presence against the victim's will.",
                                                                                        "Force or intimidation must be connected to the taking, escape, or retention of property.",
                                                                                        "If a weapon or dangerous instrument was used, apply the weapon-used modifier rather than creating a separate armed degree."
                                                                                    ]
@@ -2070,7 +2072,7 @@
                                             "description":  "A person commits Operating an Unlicensed Import/Export Business when they conduct commercial import or export activity without required licensing, permits, registration, or regulatory authorization, including repeated or high-value shipments, dedicated business infrastructure, or transport personnel knowingly participating in the operation.",
                                             "classification":  "felony",
                                             "baseFine":  20000,
-                                            "baseTime":  50,
+                                            "baseTime":  15,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -2116,10 +2118,10 @@
                                             "label":  "Impersonating",
                                             "sourceCode":  "PC-3001",
                                             "sourceTitle":  "Impersonating",
-                                            "description":  "A person commits Impersonating when they knowingly assume, use, or present another person\u0027s identity, name, credentials, or identifying information without permission in a manner reasonably likely to mislead another person, business, officer, or agency.",
+                                            "description":  "A person commits Impersonating when they knowingly assume, use, or present another person's identity, name, credentials, or identifying information without permission in a manner reasonably likely to mislead another person, business, officer, or agency.",
                                             "classification":  "misdemeanor",
-                                            "baseFine":  1250,
-                                            "baseTime":  25,
+                                            "baseFine":  750,
+                                            "baseTime":  15,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -2185,7 +2187,7 @@
                                             "description":  "A person commits Impersonating a Judge when they knowingly claim to be, act as, or issue purported authority from a judge or judicial officer without authorization, including false court orders, rulings, warrants, or judicial instructions.",
                                             "classification":  "felony",
                                             "baseFine":  3500,
-                                            "baseTime":  45,
+                                            "baseTime":  30,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -2248,7 +2250,7 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "This offense targets possession of another person\u0027s official identification where the circumstances show knowledge and lack of lawful authority.",
+                                                                    "overview":  "This offense targets possession of another person's official identification where the circumstances show knowledge and lack of lawful authority.",
                                                                     "principles":  [
                                                                                        "The item should be government-issued identification, credentials, or an access document that belongs to another person.",
                                                                                        "The suspect must know or reasonably understand that they are not authorized to possess it.",
@@ -2349,9 +2351,9 @@
                                             "legalPrinciples":  {
                                                                     "overview":  "Fraud turns on intentional deception about something important enough to influence a person, business, or agency decision.",
                                                                     "principles":  [
-                                                                                       "The false statement, omission, or deceptive act must be material, meaning it could reasonably affect the target\u0027s decision.",
-                                                                                       "The suspect must act with intent to deceive for a benefit, access, official action, or another person\u0027s loss.",
-                                                                                       "Reports should document the deception, the target\u0027s reliance or attempted reliance, the records involved, and the benefit or loss at issue."
+                                                                                       "The false statement, omission, or deceptive act must be material, meaning it could reasonably affect the target's decision.",
+                                                                                       "The suspect must act with intent to deceive for a benefit, access, official action, or another person's loss.",
+                                                                                       "Reports should document the deception, the target's reliance or attempted reliance, the records involved, and the benefit or loss at issue."
                                                                                    ]
                                                                 }
                                         },
@@ -2458,7 +2460,7 @@
                                             "label":  "Trespassing",
                                             "sourceCode":  "PC-4001",
                                             "sourceTitle":  "Trespassing",
-                                            "description":  "A person commits Trespassing when they knowingly enter, remain on, or return to property without consent after notice to leave, a prior trespass warning, posted or secured boundaries, or direction from the property owner, the owner\u0027s authorized agent, or a peace officer acting with lawful authority.",
+                                            "description":  "A person commits Trespassing when they knowingly enter, remain on, or return to property without consent after notice to leave, a prior trespass warning, posted or secured boundaries, or direction from the property owner, the owner's authorized agent, or a peace officer acting with lawful authority.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  455,
                                             "baseTime":  5,
@@ -2475,15 +2477,14 @@
                                                                 "cooperation",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Trespassing focuses on notice and lack of consent: the suspect must know or reasonably understand they are not allowed to be on the property.",
                                                                     "principles":  [
                                                                                        "The property owner, authorized agent, lawful occupant, or peace officer should have authority to exclude the suspect.",
                                                                                        "Notice can come from direct instruction, prior warning, posted signs, locked or secured boundaries, or other clear restricted-access facts.",
-                                                                                       "Reports should document who gave notice, what was said or posted, the suspect\u0027s opportunity to leave, and whether they remained or returned."
+                                                                                       "Reports should document who gave notice, what was said or posted, the suspect's opportunity to leave, and whether they remained or returned."
                                                                                    ]
                                                                 }
                                         },
@@ -2516,7 +2517,7 @@
                                                                     "principles":  [
                                                                                        "The location should be government-owned, government-managed, or clearly restricted for official operations.",
                                                                                        "The suspect must know or reasonably understand the area is secured or restricted and that they lack authorization.",
-                                                                                       "Reports should document fences, locks, keycards, guards, restricted signs, verbal warnings, bypassed barriers, and the suspect\u0027s purpose or conduct inside."
+                                                                                       "Reports should document fences, locks, keycards, guards, restricted signs, verbal warnings, bypassed barriers, and the suspect's purpose or conduct inside."
                                                                                    ]
                                                                 }
                                         }
@@ -2541,7 +2542,7 @@
                                             "description":  "A person commits Arson when they intentionally or maliciously set fire to, burn, cause incendiary or explosive fire damage to, or aid the burning of any structure, forest land, vehicle, or property without authorization.",
                                             "classification":  "felony",
                                             "baseFine":  2500,
-                                            "baseTime":  15,
+                                            "baseTime":  25,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -2781,7 +2782,7 @@
                                                                     "principles":  [
                                                                                        "For crime-related masking, the mask should reasonably conceal identity during or immediately connected to another offense.",
                                                                                        "For government facilities, there should be a lawful identification, safety, or security reason for the removal request and the suspect should be given a clear opportunity to comply.",
-                                                                                       "Reports should document the underlying offense or facility rule, the removal request, the suspect\u0027s response, surveillance, and why identification mattered."
+                                                                                       "Reports should document the underlying offense or facility rule, the removal request, the suspect's response, surveillance, and why identification mattered."
                                                                                    ]
                                                                 }
                                         }
@@ -2827,7 +2828,7 @@
                                                                     "principles":  [
                                                                                        "The location should be a government facility, detention area, courthouse, station, secured office, or controlled operational area.",
                                                                                        "The item should be illegal generally or prohibited by the facility because it creates safety, escape, evidence, or operational risks.",
-                                                                                       "Reports should document the item, where it was found, the suspect\u0027s possession or control, facility rules or signage, and any lawful authorization claim."
+                                                                                       "Reports should document the item, where it was found, the suspect's possession or control, facility rules or signage, and any lawful authorization claim."
                                                                                    ]
                                                                 }
                                         }
@@ -2928,7 +2929,7 @@
                                                                     "principles":  [
                                                                                        "The person being assisted should be under lawful detention, arrest, incarceration, transport, or official guard at the time.",
                                                                                        "The suspect must knowingly assist the escape or attempted escape, not merely be present or unaware of the custody status.",
-                                                                                       "Reports should document the assisted person\u0027s custody status, the suspect\u0027s role, tools or vehicles used, force or threats, communications, and the escape route."
+                                                                                       "Reports should document the assisted person's custody status, the suspect's role, tools or vehicles used, force or threats, communications, and the escape route."
                                                                                    ]
                                                                 }
                                         }
@@ -3002,7 +3003,7 @@
                                             "description":  "A person commits Violation of a Restraining Order when they knowingly and intentionally contact, approach, harass, threaten, surveil, enter a prohibited place, or otherwise violate a valid restraining order after receiving notice of its terms.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  525,
-                                            "baseTime":  20,
+                                            "baseTime":  15,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -3080,8 +3081,7 @@
                                                                 "cooperation",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Failure to Appear focuses on a missed required appearance after valid notice, not confusion, lack of service, or a continued hearing.",
@@ -3097,7 +3097,7 @@
                                             "label":  "Contempt of Court",
                                             "sourceCode":  "PC-5016",
                                             "sourceTitle":  "Contempt of Court",
-                                            "description":  "A person commits Contempt of Court when they knowingly disrupt court proceedings, refuse a lawful court command, refuse to be sworn when legally required, disobey courtroom rules after warning, or engage in conduct that obstructs the court\u0027s ability to conduct business.",
+                                            "description":  "A person commits Contempt of Court when they knowingly disrupt court proceedings, refuse a lawful court command, refuse to be sworn when legally required, disobey courtroom rules after warning, or engage in conduct that obstructs the court's ability to conduct business.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  300,
                                             "baseTime":  5,
@@ -3113,15 +3113,14 @@
                                                                 "cooperation",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Contempt protects the court process and should be based on obstruction or disobedience of a lawful court command, not mere frustration, criticism, or poor manners by itself.",
                                                                     "principles":  [
                                                                                        "The conduct should occur in or directly affect a court proceeding, court order, courtroom function, or judicial command.",
                                                                                        "When practical, the person should receive a clear warning or direct instruction before enforcement, unless the disruption or refusal is severe or immediate.",
-                                                                                       "Reports should document the judge\u0027s command, the warning given, the disruptive conduct, effect on proceedings, witnesses, and any repeated refusal to comply."
+                                                                                       "Reports should document the judge's command, the warning given, the disruptive conduct, effect on proceedings, witnesses, and any repeated refusal to comply."
                                                                                    ]
                                                                 }
                                         }
@@ -3146,7 +3145,7 @@
                                             "description":  "A person commits Embezzlement when they knowingly and fraudulently take, convert, use, transfer, or withhold money, property, funds, or assets entrusted to them through employment, office, agency, fiduciary duty, or another position of trust.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  1000,
-                                            "baseTime":  20,
+                                            "baseTime":  15,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -3307,7 +3306,7 @@
                                                                     "overview":  "Resisting Arrest focuses on knowing interference with a lawful detention or arrest, especially physical resistance or foot flight after a clear command.",
                                                                     "principles":  [
                                                                                        "The officer should be acting under lawful authority and should communicate a detention, arrest, command to stop, or custody instruction when practical.",
-                                                                                       "The suspect\u0027s conduct should materially delay, obstruct, or resist custody; mere questions, confusion, or passive verbal disagreement should be handled carefully.",
+                                                                                       "The suspect's conduct should materially delay, obstruct, or resist custody; mere questions, confusion, or passive verbal disagreement should be handled carefully.",
                                                                                        "Reports should document officer commands, suspect awareness, physical resistance or flight, use of force, injuries, witnesses, body camera details, and why the encounter was lawful."
                                                                                    ]
                                                                 }
@@ -3351,7 +3350,7 @@
                                                                     "principles":  [
                                                                                        "The order should be clear, lawful, and connected to an official duty such as safety, investigation, traffic control, detention, or scene management.",
                                                                                        "The suspect must have a reasonable opportunity to hear, understand, and comply with the order before enforcement when circumstances allow.",
-                                                                                       "Reports should document the exact command, who gave it, why it was lawful and necessary, the suspect\u0027s response, warnings, and any scene risk created."
+                                                                                       "Reports should document the exact command, who gave it, why it was lawful and necessary, the suspect's response, warnings, and any scene risk created."
                                                                                    ]
                                                                 }
                                         },
@@ -3376,15 +3375,14 @@
                                                                 "cooperation",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Failure to provide identification requires a lawful basis for the identification demand and a knowing refusal or materially false evasion.",
                                                                     "principles":  [
                                                                                        "The officer should have a lawful detention, arrest, citation, traffic stop, booking, or other legal basis requiring identification.",
                                                                                        "The suspect must refuse, conceal identity, provide materially incomplete identifying information, or otherwise prevent reasonable identification after a clear request.",
-                                                                                       "Reports should document the lawful basis, the identification request, warnings, the suspect\u0027s answer or refusal, and any later identification evidence."
+                                                                                       "Reports should document the lawful basis, the identification request, warnings, the suspect's answer or refusal, and any later identification evidence."
                                                                                    ]
                                                                 }
                                         }
@@ -3438,7 +3436,7 @@
                                             "label":  "Disturbing the Peace",
                                             "sourceCode":  "PC-6003",
                                             "sourceTitle":  "Disturbing the Peace",
-                                            "description":  "A person commits Disturbing the Peace when they knowingly create unreasonable noise, disruption, confrontation, or interference in a public or residential area after notice or under circumstances where the conduct substantially disturbs others\u0027 lawful peace, sleep, work, travel, or use of public space.",
+                                            "description":  "A person commits Disturbing the Peace when they knowingly create unreasonable noise, disruption, confrontation, or interference in a public or residential area after notice or under circumstances where the conduct substantially disturbs others' lawful peace, sleep, work, travel, or use of public space.",
                                             "classification":  "infraction",
                                             "baseFine":  100,
                                             "baseTime":  0,
@@ -3565,8 +3563,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "False reporting requires knowledge of falsity; mistaken reports made in good faith should not be charged.",
@@ -3611,12 +3608,10 @@
                                             "modifierIds":  [
                                                                 "public-servant-victim",
                                                                 "cooperation",
-                                                                "minor-injury",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Harassment is based on repeated unwanted targeted conduct, not a single rude interaction or ordinary disagreement.",
@@ -3647,7 +3642,6 @@
                                             "modifierIds":  [
                                                                 "public-servant-victim",
                                                                 "cooperation",
-                                                                "minor-injury",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
@@ -3657,7 +3651,7 @@
                                                                     "overview":  "Stalking is a more serious pattern offense because the conduct creates reasonable fear for safety, not merely annoyance.",
                                                                     "principles":  [
                                                                                        "There should be a pattern of following, surveillance, unwanted contact, threats, or repeated presence connected to the victim.",
-                                                                                       "The victim\u0027s fear must be reasonable under the circumstances, based on threats, persistence, proximity, prior incidents, weapons, or escalation.",
+                                                                                       "The victim's fear must be reasonable under the circumstances, based on threats, persistence, proximity, prior incidents, weapons, or escalation.",
                                                                                        "Reports should document timelines, locations, messages, witness observations, protective orders or warnings, victim fear, and evidence linking the suspect to the pattern."
                                                                                    ]
                                                                 }
@@ -3705,7 +3699,7 @@
                                                                     "principles":  [
                                                                                        "The officer should be performing a lawful duty or investigation, and the suspect should know or reasonably understand that fact.",
                                                                                        "The interference should materially delay, hinder, mislead, or obstruct official work; passive observation or verbal criticism alone should be handled cautiously.",
-                                                                                       "Reports should document the lawful duty, the suspect\u0027s specific interference, warnings, delay caused, false statements if any, and how the investigation or duty was affected."
+                                                                                       "Reports should document the lawful duty, the suspect's specific interference, warnings, delay caused, false statements if any, and how the investigation or duty was affected."
                                                                                    ]
                                                                 }
                                         },
@@ -3737,8 +3731,8 @@
                                                                     "overview":  "Felony obstruction is reserved for serious interference with formal justice-system processes, not ordinary interference with daily patrol duties or routine field investigations.",
                                                                     "principles":  [
                                                                                        "The obstructed function should be a court proceeding, judicial order, subpoena, warrant service, court-authorized search or seizure, prisoner transport, or similarly formal legal process.",
-                                                                                       "The suspect\u0027s conduct should substantially delay, compromise, corrupt, prevent, or endanger that formal process, not merely frustrate an officer during ordinary daily duties.",
-                                                                                       "Reports should document the legal process involved, the suspect\u0027s specific obstructive conduct, how the process was affected, warnings or commands given, witnesses, recordings, and any coordination with others."
+                                                                                       "The suspect's conduct should substantially delay, compromise, corrupt, prevent, or endanger that formal process, not merely frustrate an officer during ordinary daily duties.",
+                                                                                       "Reports should document the legal process involved, the suspect's specific obstructive conduct, how the process was affected, warnings or commands given, witnesses, recordings, and any coordination with others."
                                                                                    ]
                                                                 }
                                         }
@@ -3819,8 +3813,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Vehicle tampering addresses unauthorized interference with a vehicle that does not necessarily prove intent to permanently or substantially deprive the owner.",
@@ -4053,7 +4046,7 @@
                                                                     "principles":  [
                                                                                        "The suspect should know the criminal purpose or know they are helping someone evade consequences from a crime.",
                                                                                        "Assistance can include planning, lookout activity, tools, transport, information, distraction, shelter, or help during flight.",
-                                                                                       "Reports should document the underlying crime, the suspect\u0027s knowledge, specific assistance, timing, communications, and why the assistance was intentional."
+                                                                                       "Reports should document the underlying crime, the suspect's knowledge, specific assistance, timing, communications, and why the assistance was intentional."
                                                                                    ]
                                                                 }
                                         },
@@ -4065,7 +4058,7 @@
                                             "description":  "A person commits Harboring a Fugitive when they knowingly hide, shelter, transport, warn, financially support, conceal, or otherwise help a wanted felon avoid discovery, detention, arrest, or prosecution by law enforcement.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  375,
-                                            "baseTime":  20,
+                                            "baseTime":  15,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -4229,8 +4222,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Possession of marijuana focuses on knowing possession of an unlawful marijuana quantity above the misdemeanor threshold and below the distribution threshold.",
@@ -4312,8 +4304,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Misdemeanor possession of cocaine focuses on knowing possession of a smaller cocaine quantity without lawful authorization.",
@@ -4428,8 +4419,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Misdemeanor possession of amphetamines focuses on knowing possession of a smaller amphetamine quantity without lawful authorization.",
@@ -4544,8 +4534,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Misdemeanor possession of opioids focuses on knowing possession of a smaller opioid quantity without lawful authorization.",
@@ -4660,8 +4649,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Misdemeanor possession of ketamine focuses on knowing possession of a smaller ketamine quantity without lawful authorization.",
@@ -4773,8 +4761,7 @@
                                                                 "cooperation",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Possession of drug paraphernalia focuses on knowing possession of items connected to controlled-substance consumption.",
@@ -4851,9 +4838,9 @@
                                             "sourceCode":  "PC-7016",
                                             "sourceTitle":  "Sale of a controlled substance",
                                             "description":  "A person commits Sale of a Controlled Substance when they knowingly sell, offer to sell, furnish, give away, broker, or transport a controlled substance with intent to transfer it to another person.",
-                                            "classification":  "misdemeanor",
-                                            "baseFine":  800,
-                                            "baseTime":  10,
+                                            "classification":  "felony",
+                                            "baseFine":  1500,
+                                            "baseTime":  20,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -5071,9 +5058,9 @@
                                             "sourceCode":  "PC-7021",
                                             "sourceTitle":  "Unlawful Production of Moonshine",
                                             "description":  "A person commits Unlawful Production of Moonshine when they knowingly manufacture, distill, ferment, bottle, or operate equipment to produce alcoholic beverages without the license, permit, or lawful authorization required for that production.",
-                                            "classification":  "felony",
+                                            "classification":  "misdemeanor",
                                             "baseFine":  750,
-                                            "baseTime":  7,
+                                            "baseTime":  5,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -5121,8 +5108,7 @@
                                                                 "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Distribution of illegal moonshine focuses on distribution conduct involving unlicensed alcoholic beverages, not mere personal possession.",
@@ -5155,7 +5141,7 @@
                                             "sourceCode":  "PC-8001",
                                             "sourceTitle":  "Criminal Possession of Weapon Class A",
                                             "description":  "A person commits Criminal Possession of Weapon Class A when they knowingly possess a restricted Class A weapon without lawful authorization or while legally prohibited from possessing weapons. Class A weapons include switchblades, knives, brass knuckles, and other melee or blunt instruments designed or used to inflict injury.",
-                                            "classification":  "felony",
+                                            "classification":  "misdemeanor",
                                             "baseFine":  250,
                                             "baseTime":  5,
                                             "liabilityOptions":  [
@@ -5459,9 +5445,9 @@
                                             "sourceCode":  "PC-8009",
                                             "sourceTitle":  "Criminal Use of Weapon",
                                             "description":  "A person commits Criminal Use of Weapon when they knowingly use, display, fire, strike with, threaten with, or otherwise employ a weapon or firearm while committing another criminal offense.",
-                                            "classification":  "misdemeanor",
+                                            "classification":  "felony",
                                             "baseFine":  4000,
-                                            "baseTime":  15,
+                                            "baseTime":  22,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -5676,8 +5662,8 @@
                                             "sourceTitle":  "Illegal Manufacturing of Firearms",
                                             "description":  "A person commits Illegal Manufacturing of Firearms when they knowingly manufacture, assemble, complete, convert, modify, or serialize a firearm without lawful eligibility, required authorization, required safety compliance, or a unique serial number registered with the State of San Andreas. This offense also applies to manufacturing or assembling prohibited firearms, including assault weapons and machine guns.",
                                             "classification":  "felony",
-                                            "baseFine":  5000,
-                                            "baseTime":  10,
+                                            "baseFine":  6000,
+                                            "baseTime":  20,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -5742,8 +5728,7 @@
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Brandishing a weapon focuses on reckless or threatening public display of a non-firearm weapon.",
@@ -5810,7 +5795,7 @@
                                             "description":  "A person commits Insurrection when they knowingly incite, organize, assist, set in motion, or engage in an armed or forceful rebellion against lawful state or federal government authority.",
                                             "classification":  "felony",
                                             "baseFine":  20000,
-                                            "baseTime":  240,
+                                            "baseTime":  120,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -5960,8 +5945,7 @@
                                                                 "minor-injury",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Improper storage of a firearm focuses on unsafe storage that creates a realistic risk of unauthorized access.",
@@ -5994,8 +5978,7 @@
                                                                 "minor-injury",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Improper handling of a firearm focuses on irresponsible transfer, access, or reporting conduct by a person responsible for a firearm.",
@@ -6025,7 +6008,7 @@
                                             "sourceCode":  "PC-8022",
                                             "sourceTitle":  "Criminal Possession of Ammunition",
                                             "description":  "A person commits Criminal Possession of Ammunition when they knowingly possess ammunition without a valid firearms license or while legally prohibited from possessing ammunition because of criminal history, court order, or other disqualifying status.",
-                                            "classification":  "felony",
+                                            "classification":  "misdemeanor",
                                             "baseFine":  500,
                                             "baseTime":  5,
                                             "liabilityOptions":  [
@@ -6670,8 +6653,7 @@
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
-                                                                "first-offense",
-                                                                "citation-discretion"
+                                                                "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "Reckless speeding is the highest speeding tier and is based on extreme speed over the posted limit.",
@@ -6728,9 +6710,9 @@
                                         },
                                         {
                                             "id":  "failing-to-present-a-driver-s-license",
-                                            "label":  "Failing to Present a Driver\u0027s License",
+                                            "label":  "Failing to Present a Driver's License",
                                             "sourceCode":  "PC-9014",
-                                            "sourceTitle":  "Failing to Present a Driver\u0027s License",
+                                            "sourceTitle":  "Failing to Present a Driver's License",
                                             "description":  "A person commits Failing to Present a Driver's License when, while operating a motor vehicle on a public roadway, they fail or refuse to display a valid driver's license upon lawful request by an officer.",
                                             "classification":  "infraction",
                                             "baseFine":  200,
@@ -7309,7 +7291,7 @@
                                             "description":  "A person commits Illegal Fishing when they fish using illegal hooks or knowingly possess, transport, or sell fish of prohibited species or prohibited lengths. Prohibited species include whales, sharks, arapaima, giant snakehead, coelacanth, and golden trout, except when caught for sport and immediately released. Lawful possession, transport, or sale must comply with posted species and size limits.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  6250,
-                                            "baseTime":  15,
+                                            "baseTime":  5,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -7389,7 +7371,7 @@
                                             "description":  "A person commits Murder of a Police Working Dog when they willfully, deliberately, and with premeditation kill a police working dog while the dog is deployed, assigned, or acting in the execution of its duties.",
                                             "classification":  "felony",
                                             "baseFine":  4000,
-                                            "baseTime":  45,
+                                            "baseTime":  35,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
