@@ -5489,6 +5489,169 @@
                                     ]
                     },
                     {
+                        "id":  "unauthorized-medical-practice",
+                        "code":  "EF-PC-07-013",
+                        "title":  "Unauthorized Medical Practice",
+                        "categoryId":  "offenses-against-health-and-morals",
+                        "description":  "Unauthorized medical treatment, procedures, prescriptions, medical role claims, and scope-of-practice violations.",
+                        "sourceCodes":  [
+                                            "PC-7026",
+                                            "PC-7027",
+                                            "PC-7028",
+                                            "PC-7029"
+                                        ],
+                        "migrationNotes":  "Medical-specific expansion from general unlawful practice; preserves emergency-aid and good-faith stabilization carveouts.",
+                        "degrees":  [
+                                        {
+                                            "id":  "unauthorized-medical-practice",
+                                            "label":  "Unauthorized Medical Practice",
+                                            "sourceCode":  "PC-7026",
+                                            "sourceTitle":  "Unauthorized Medical Practice",
+                                            "description":  "A person commits Unauthorized Medical Practice when they knowingly provide medical treatment, patient care, medication instructions, medical orders, or similar healthcare services without the license, appointment, certification, employment status, or lawful authorization required for that act.",
+                                            "classification":  "misdemeanor",
+                                            "baseFine":  750,
+                                            "baseTime":  10,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "multiple-victims",
+                                                                "prior-conviction",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Unauthorized Medical Practice focuses on unapproved medical acts by someone who lacks the required medical authority for the care they provide.",
+                                                                    "principles":  [
+                                                                                       "The suspect must knowingly provide or direct medical care while lacking the required license, certification, appointment, employment status, or lawful authorization.",
+                                                                                       "Covered acts may include treatment, patient assessment, medical orders, medication instructions, procedure preparation, use of restricted medical areas, or other healthcare services requiring authorization.",
+                                                                                       "Good-faith emergency first aid, CPR, calling EMS, basic bleeding control, or life-saving stabilization should not be charged unless the suspect falsely claims medical authority or performs advanced care beyond immediate necessity.",
+                                                                                       "Reports should document the treatment or instruction given, the claimed role if any, how authorization was checked, patient reliance or impact, witnesses, records, and whether an emergency-aid context existed."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "medical-scope-of-practice-violation",
+                                            "label":  "Medical Scope-of-Practice Violation",
+                                            "sourceCode":  "PC-7027",
+                                            "sourceTitle":  "Medical Scope-of-Practice Violation",
+                                            "description":  "A person commits Medical Scope-of-Practice Violation when they hold a real medical or hospital role but knowingly perform treatment, procedures, prescriptions, patient orders, or medical decisions outside the authority, rank, department, certification, or assignment of that role.",
+                                            "classification":  "misdemeanor",
+                                            "baseFine":  1000,
+                                            "baseTime":  15,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "multiple-victims",
+                                                                "medical-aid-rendered",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Medical Scope-of-Practice Violation covers real medical personnel who exceed the authority of their actual role.",
+                                                                    "principles":  [
+                                                                                       "The suspect should have some lawful medical, EMS, hospital, pharmacy, or administrative role, but the charged act must fall outside that role's authorized scope.",
+                                                                                       "Examples include unauthorized surgery, prescriptions beyond role authority, treatment orders by trainees or administrators, use of restricted procedures without approval, or acting outside assigned department authority.",
+                                                                                       "Reasonable emergency escalation may be treated as mitigation or excluded when no authorized provider is available and the act is limited to necessary life-saving stabilization.",
+                                                                                       "Reports should document the suspect's actual role, the act performed, the applicable authorization limit, supervisor or policy information, patient impact, and why the act was outside scope."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "aggravated-unauthorized-medical-practice",
+                                            "label":  "Aggravated Unauthorized Medical Practice",
+                                            "sourceCode":  "PC-7028",
+                                            "sourceTitle":  "Aggravated Unauthorized Medical Practice",
+                                            "description":  "A person commits Aggravated Unauthorized Medical Practice when unauthorized medical practice or a scope-of-practice violation involves surgery, invasive procedures, controlled-substance prescriptions, serious injury risk, repeated or organized conduct, exploitation of a patient, or actual serious medical harm.",
+                                            "classification":  "felony",
+                                            "baseFine":  2000,
+                                            "baseTime":  25,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "high-value-loss",
+                                                                "multiple-victims",
+                                                                "medical-aid-rendered",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Aggravated Unauthorized Medical Practice is reserved for unauthorized medical conduct that creates elevated patient, public-health, or exploitation risk.",
+                                                                    "principles":  [
+                                                                                       "This degree should apply when unauthorized practice involves surgery, invasive procedures, prescriptions for controlled or dangerous medication, sedation, transfusion, experimental care, or comparable high-risk treatment.",
+                                                                                       "Aggravation may also be shown by repeated conduct, organized billing or patient recruitment, exploitation of vulnerable patients, concealment of medical harm, or actual serious injury.",
+                                                                                       "The emergency-aid carveout remains available only for immediate stabilization reasonably necessary to prevent death or serious injury and not for broader treatment, surgery, prescriptions, or deception.",
+                                                                                       "Reports should document the procedure or prescription, patient condition, medical risk, injury or deterioration, repeated or organized facts, records, communications, and any concealment or corrective aid."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "medical-credential-fraud",
+                                            "label":  "Medical Credential Fraud",
+                                            "sourceCode":  "PC-7029",
+                                            "sourceTitle":  "Medical Credential Fraud",
+                                            "description":  "A person commits Medical Credential Fraud when they knowingly claim, display, forge, use, or rely on a false medical title, license, rank, certification, hospital position, prescription authority, or clinical credential to obtain trust, access, employment, money, records, medication, or authority over patient care.",
+                                            "classification":  "felony",
+                                            "baseFine":  1500,
+                                            "baseTime":  20,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "high-value-loss",
+                                                                "multiple-victims",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Medical Credential Fraud targets false medical authority when the false role causes reliance, access, or control over medical decisions.",
+                                                                    "principles":  [
+                                                                                       "The false claim should involve a medical or hospital credential, such as doctor, surgeon, psychiatrist, pharmacist, nurse, EMS supervisor, hospital administrator, prescription authority, or comparable clinical role.",
+                                                                                       "The credential claim must matter to the incident by causing trust, access, employment, patient reliance, records access, medication access, billing, or authority over care.",
+                                                                                       "Use this degree instead of generic impersonation when the medical status itself is central to the conduct; use other impersonation or fraud charges when the medical role is incidental.",
+                                                                                       "Reports should document the false title or credential, how it was presented, who relied on it, access or benefit gained, records or badges used, and whether any patient care was affected."
+                                                                                   ]
+                                                                }
+                                        }
+                                    ]
+                    },
+                    {
                         "id":  "criminal-possession-of-weapons",
                         "code":  "EF-PC-08-001",
                         "title":  "Criminal Possession of Weapons",

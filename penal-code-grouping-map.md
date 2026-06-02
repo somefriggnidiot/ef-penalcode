@@ -540,7 +540,7 @@ Source charges being condensed: PC-6018 Aiding and Abetting; PC-6019 Harboring a
 
 ## 7. Offenses Against Health and Morals
 
-Source charges: 22. Mapped entries: 22.
+Source charges: 26. Mapped entries: 26.
 
 ### EF-PC-07-001 - Marijuana Offenses
 
@@ -640,6 +640,19 @@ Source charges being condensed: PC-7021 Unlawful Production of Moonshine; PC-702
 |---|---|---|---|---:|---:|---|
 | Degree | PC-7021 | Unlawful Production of Moonshine | felony | 750 | 7 | The act of manufacturing, distilling, or fermenting alcoholic beverages, such as moonshine, without proper licensing or permits as required by law. |
 | Degree | PC-7022 | Possession or Distribution of Illegal Moonshine | misdemeanor | 350 | 5 | The act of possessing, transporting, or distributing unlicensed alcoholic beverages, such as moonshine, with the intent to sell or consume. |
+
+### EF-PC-07-013 - Unauthorized Medical Practice
+
+Source charges being condensed: PC-7026 Unauthorized Medical Practice; PC-7027 Medical Scope-of-Practice Violation; PC-7028 Aggravated Unauthorized Medical Practice; PC-7029 Medical Credential Fraud
+
+| Role | Source Code | Source Title | Classification | Base Fine | Base Time | Source Description |
+|---|---|---|---|---:|---:|---|
+| Degree | PC-7026 | Unauthorized Medical Practice | misdemeanor | 750 | 10 | Unauthorized medical treatment, patient care, medication instructions, medical orders, or similar healthcare services without the required license, appointment, certification, employment status, or lawful authorization. |
+| Degree | PC-7027 | Medical Scope-of-Practice Violation | misdemeanor | 1000 | 15 | Medical, EMS, hospital, pharmacy, or administrative personnel knowingly performing treatment, procedures, prescriptions, patient orders, or medical decisions outside the authority of their actual role. |
+| Degree | PC-7028 | Aggravated Unauthorized Medical Practice | felony | 2000 | 25 | Unauthorized medical practice or scope violation involving surgery, invasive procedures, controlled-substance prescriptions, serious injury risk, repeated or organized conduct, patient exploitation, or serious medical harm. |
+| Degree | PC-7029 | Medical Credential Fraud | felony | 1500 | 20 | False medical title, license, rank, certification, hospital position, prescription authority, or clinical credential used to obtain trust, access, employment, money, records, medication, or authority over patient care. |
+
+Notes: Adds a hospital-facing medical-practice family while preserving emergency first aid and good-faith life-saving stabilization carveouts.
 
 ## 8. Offenses Against Public Safety
 
