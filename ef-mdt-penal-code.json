@@ -4207,8 +4207,8 @@
                                             "sourceTitle":  "Possession of Marijuana",
                                             "description":  "A person commits Possession of Marijuana when they knowingly possess more than 10 kg but less than 100 kg of unlawful marijuana without lawful authorization.",
                                             "classification":  "misdemeanor",
-                                            "baseFine":  200,
-                                            "baseTime":  15,
+                                            "baseFine":  250,
+                                            "baseTime":  0,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
