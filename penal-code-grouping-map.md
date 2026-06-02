@@ -235,7 +235,7 @@ Source charges being condensed: PC-2022 Smuggling of Contraband; PC-2023 Smuggli
 
 | Role | Source Code | Source Title | Classification | Base Fine | Base Time | Source Description |
 |---|---|---|---|---:|---:|---|
-| Degree | PC-2022 | Regulatory Smuggling | felony | 4000 | 7 | Fine-heavy economic, luxury, commercial, paperwork, or regulatory smuggling through customs or jurisdictional controls without dangerous contraband facts. |
+| Degree | PC-2022 | Regulatory Smuggling | misdemeanor | 2000 | 7 | Fine-heavy economic, luxury, commercial, paperwork, or regulatory smuggling through customs or jurisdictional controls without dangerous contraband facts. |
 | Degree | PC-2022 | Dangerous Contraband Smuggling | felony | 5000 | 25 | Smuggling weapons, firearms, controlled substances, explosives, escape tools, restricted security items, or comparable dangerous contraband through customs or jurisdictional controls. |
 | Degree | PC-2023 | Smuggling of Precious Gemstones | felony | 5000 | 10 | A person who, acting alone or in concert with others, unlawfully transports, imports, exports, or conceals precious gemstones including but not limited to diamonds, emeralds, rubies, sapphires, and other valuable stones across jurisdictional boundaries without proper documentation, licensing, or declaration to customs authorities is guilty under this code section. |
 | Degree | PC-2024 | Smuggling of Precious Metals | felony | 6000 | 15 | A person who, acting alone or in concert with others, unlawfully transports, imports, exports, or conceals precious metals including but not limited to gold, silver, platinum, and other valuable metals across jurisdictional boundaries without proper documentation, licensing, or declaration to customs authorities is guilty under this code section. |
@@ -410,7 +410,9 @@ Source charges being condensed: PC-5011 Unlawful Practice
 
 | Role | Source Code | Source Title | Classification | Base Fine | Base Time | Source Description |
 |---|---|---|---|---:|---:|---|
-| Degree | PC-5011 | Unlawful Practice | misdemeanor | 1500 | 15 | A person who practices medical procedures that they are not licenced or lawfully allowed to practice is guilty under this code section. |
+| Degree | PC-5011 | Unlawful Practice | misdemeanor | 1500 | 15 | Non-medical legal, emergency, trade, technical, or similarly regulated professional services performed, advertised, or offered without required authorization, license, certification, or lawful permission. |
+
+Notes: Medical treatment, prescriptions, surgery, medical scope, and medical credential facts should route to the Unauthorized Medical Practice family unless the medical reference is incidental to a broader non-medical regulated-service violation.
 
 ### EF-PC-05-009 - Misuse of Emergency Systems
 

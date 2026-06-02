@@ -2052,8 +2052,8 @@
                                             "sourceCode":  "PC-2022",
                                             "sourceTitle":  "Regulatory Smuggling",
                                             "description":  "A person commits Regulatory Smuggling when they knowingly transport, import, export, conceal, or move goods, valuable property, luxury items, electronics, art, or regulated materials across a jurisdictional boundary or customs-controlled area without required documentation, licensing, declaration, or authorization, where the goods do not create the elevated danger required for Dangerous Contraband Smuggling.",
-                                            "classification":  "felony",
-                                            "baseFine":  4000,
+                                            "classification":  "misdemeanor",
+                                            "baseFine":  2000,
                                             "baseTime":  7,
                                             "liabilityOptions":  [
                                                                      {
@@ -3547,7 +3547,7 @@
                         "code":  "EF-PC-05-008",
                         "title":  "Unlawful Practice",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Providing medical, legal, or similarly regulated professional services without required authorization, license, certification, or lawful permission.",
+                        "description":  "Providing non-medical legal, emergency, trade, or similarly regulated professional services without required authorization, license, certification, or lawful permission.",
                         "sourceCodes":  [
                                             "PC-5011"
                                         ],
@@ -3558,7 +3558,7 @@
                                             "label":  "Unlawful Practice",
                                             "sourceCode":  "PC-5011",
                                             "sourceTitle":  "Unlawful Practice",
-                                            "description":  "A person commits Unlawful Practice when they knowingly perform, advertise, or offer medical, legal, emergency, or similarly regulated professional services without the license, certification, authorization, or lawful permission required for that practice.",
+                                            "description":  "A person commits Unlawful Practice when they knowingly perform, advertise, or offer non-medical legal, emergency, trade, technical, or similarly regulated professional services without the license, certification, authorization, or lawful permission required for that practice.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  1500,
                                             "baseTime":  15,
@@ -3580,10 +3580,11 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Unlawful Practice targets regulated services where unlicensed work can expose others to medical, legal, safety, or official-process harm.",
+                                                                    "overview":  "Unlawful Practice targets non-medical regulated services where unlicensed work can expose others to legal, safety, financial, or official-process harm.",
                                                                     "principles":  [
-                                                                                       "The service should be one that reasonably requires a license, certification, government authorization, or official appointment in the simulation setting.",
+                                                                                       "The service should be one that reasonably requires a license, certification, government authorization, or official appointment in the simulation setting and is not primarily medical treatment, prescription authority, surgery, clinical scope, or medical credentialing.",
                                                                                        "The suspect must perform, offer, advertise, or hold themselves out as authorized to provide the regulated service without required authority.",
+                                                                                       "Use Unauthorized Medical Practice, Medical Scope-of-Practice Violation, Aggravated Unauthorized Medical Practice, or Medical Credential Fraud when the medical act or medical status is central; use Unlawful Practice only when any medical reference is incidental to a broader non-medical regulated-service violation.",
                                                                                        "Reports should document the service offered or performed, any claimed credential, victim reliance, payment or benefit, records, and verification that no valid authorization existed."
                                                                                    ]
                                                                 }
