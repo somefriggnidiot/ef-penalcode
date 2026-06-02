@@ -152,8 +152,8 @@ Source charges being condensed: PC-2003 Grand Theft Auto A; PC-2004 Grand Theft 
 
 | Role | Source Code | Source Title | Classification | Base Fine | Base Time | Source Description |
 |---|---|---|---|---:|---:|---|
-| Degree | PC-2003 | Grand Theft Auto A | felony | 120 | 10 | A person who commits the theft of any motor vehicle, no matter the value is guilty under this code section. |
-| Degree | PC-2004 | Grand Theft Auto B | felony | 400 | 15 | A person who commits the theft of any motor vehicle, no matter the value, while armed or committing another felony, is guilty under this code section. |
+| Degree | PC-2003 | Grand Theft Auto A | misdemeanor | 750 | 10 | Ordinary unattended or nonviolent theft of a motor vehicle without aggravating circumstances. |
+| Degree | PC-2004 | Grand Theft Auto B | felony | 1000 | 20 | Aggravated motor-vehicle theft while armed, while committing another felony, while using the stolen vehicle to facilitate another felony, or under elevated public-safety risk short of carjacking or protected vehicle theft. |
 | Degree | PC-2005 | Carjacking | felony | 400 | 20 | A person who commits the theft of a motor vehicle from another person while it is being operated is guilty under this code section. |
 | Degree | PC-2019 | Theft of an Aircraft | felony | 5000 | 40 | A person who commits the theft of an aircraft is guilty under this code section. |
 | Degree | PC-2021 | Theft of a Law Enforcement Vehicle | felony | 10000 | 60 | A person who commits the theft of any motor vehicle owned by a law enforcement agency is guilty under this code section. |
@@ -166,7 +166,8 @@ Source charges being condensed: PC-2006 Burglary
 
 | Role | Source Code | Source Title | Classification | Base Fine | Base Time | Source Description |
 |---|---|---|---|---:|---:|---|
-| Degree | PC-2006 | Burglary | misdemeanor | 500 | 10 | A person who enters a structure without the permission of the owner or agent of the owner, typically with the intention of committing a criminal offense, is guilty under this code section. |
+| Degree | PC-2006 | Burglary | misdemeanor | 500 | 10 | Ordinary unlawful entry or remaining with criminal intent where the entry does not create occupied, residential, forced-entry, weapon-related, or comparable high-risk burglary facts. |
+| Degree | PC-2006 | Aggravated Burglary | felony | 1000 | 25 | Unlawful entry or remaining with criminal intent involving residence, occupied structure or vehicle risk, forced entry, weapon use, high-value theft intent, multiple victims, or secured high-risk areas. |
 
 ### EF-PC-02-004 - Robbery
 
@@ -205,7 +206,8 @@ Source charges being condensed: PC-2016 Possession of Government-Issued Items
 
 | Role | Source Code | Source Title | Classification | Base Fine | Base Time | Source Description |
 |---|---|---|---|---:|---:|---|
-| Degree | PC-2016 | Possession of Government-Issued Items | misdemeanor | 1000 | 20 | A person who is unlawfully in possession of a goverment issued firearm, vehicle, or other item is guilty under this code section. |
+| Degree | PC-2016 | Minor Possession of Government-Issued Items | misdemeanor | 500 | 10 | Unauthorized possession of low-risk government-issued or government-owned property that does not enable official access, impersonation, weapons use, protected vehicle use, or serious operational compromise. |
+| Degree | PC-2016 | Restricted Government-Issued Items | felony | 1500 | 22 | Unauthorized possession of government-issued firearms, credentials, access cards, badges, radios, MDT-type systems, marked or protected vehicles, restricted keys, or comparable official items that enable access, impersonation, weapons use, or serious operational compromise. |
 
 ### EF-PC-02-008 - Items Used in the Commission of a Crime
 
@@ -224,7 +226,8 @@ Source charges being condensed: PC-2020 Criminal Possession of Stolen Property
 
 | Role | Source Code | Source Title | Classification | Base Fine | Base Time | Source Description |
 |---|---|---|---|---:|---:|---|
-| Degree | PC-2020 | Criminal Possession of Stolen Property | misdemeanor | 200 | 10 | A person who has possession of stolen items, with knowledge that the item is stolen, is guilty under this code section. |
+| Degree | PC-2020 | Criminal Possession of Stolen Property | misdemeanor | 300 | 7 | Knowing possession or control of ordinary stolen property without high-value, sale-transfer, organized, dangerous, vehicle, or government-property facts. |
+| Degree | PC-2020 | Aggravated Possession of Stolen Property | felony | 1000 | 20 | Knowing possession, receipt, concealment, transport, sale, or control of stolen property involving high value, sale or transfer, organized activity, vehicles, weapons, government property, repeated theft operations, or comparable elevated risk. |
 
 ### EF-PC-02-010 - Customs and Smuggling Offenses
 
@@ -232,7 +235,8 @@ Source charges being condensed: PC-2022 Smuggling of Contraband; PC-2023 Smuggli
 
 | Role | Source Code | Source Title | Classification | Base Fine | Base Time | Source Description |
 |---|---|---|---|---:|---:|---|
-| Degree | PC-2022 | Smuggling of Contraband | felony | 4000 | 5 | A person who, acting alone or in concert with others, unlawfully transports, imports, exports, or conceals valuable goods, luxury items, electronics, art, or other contraband materials across jurisdictional boundaries without proper documentation, licensing, or declaration to customs authorities is guilty under this code section. |
+| Degree | PC-2022 | Regulatory Smuggling | felony | 4000 | 7 | Fine-heavy economic, luxury, commercial, paperwork, or regulatory smuggling through customs or jurisdictional controls without dangerous contraband facts. |
+| Degree | PC-2022 | Dangerous Contraband Smuggling | felony | 5000 | 25 | Smuggling weapons, firearms, controlled substances, explosives, escape tools, restricted security items, or comparable dangerous contraband through customs or jurisdictional controls. |
 | Degree | PC-2023 | Smuggling of Precious Gemstones | felony | 5000 | 10 | A person who, acting alone or in concert with others, unlawfully transports, imports, exports, or conceals precious gemstones including but not limited to diamonds, emeralds, rubies, sapphires, and other valuable stones across jurisdictional boundaries without proper documentation, licensing, or declaration to customs authorities is guilty under this code section. |
 | Degree | PC-2024 | Smuggling of Precious Metals | felony | 6000 | 15 | A person who, acting alone or in concert with others, unlawfully transports, imports, exports, or conceals precious metals including but not limited to gold, silver, platinum, and other valuable metals across jurisdictional boundaries without proper documentation, licensing, or declaration to customs authorities is guilty under this code section. |
 | Degree | PC-2025 | Customs Fraud | misdemeanor | 1500 | 1 | A person who knowingly provides false information, false documentation, or misrepresents the nature, value, or quantity of goods to customs or other government authorities for the purpose of evading duties, taxes, or regulations is guilty under this code section. |

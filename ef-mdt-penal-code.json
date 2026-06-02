@@ -1321,9 +1321,9 @@
                                             "label":  "Grand Theft Auto A",
                                             "sourceCode":  "PC-2003",
                                             "sourceTitle":  "Grand Theft Auto A",
-                                            "description":  "A person commits Grand Theft Auto A when they knowingly take, drive, operate, move, or exercise control over another person's motor vehicle without consent and with intent to temporarily or permanently deprive the owner of possession or use.",
-                                            "classification":  "felony",
-                                            "baseFine":  120,
+                                            "description":  "A person commits Grand Theft Auto A when they knowingly take, drive, operate, move, or exercise control over another person's motor vehicle without consent and with intent to temporarily or permanently deprive the owner of possession or use, without the aggravating facts required for Grand Theft Auto B, Carjacking, aircraft theft, or protected vehicle theft.",
+                                            "classification":  "misdemeanor",
+                                            "baseFine":  750,
                                             "baseTime":  10,
                                             "liabilityOptions":  [
                                                                      {
@@ -1341,10 +1341,11 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Grand Theft Auto A covers unlawful taking or control of a motor vehicle without aggravating circumstances.",
+                                                                    "overview":  "Grand Theft Auto A covers ordinary unlawful taking or control of a motor vehicle without aggravating circumstances.",
                                                                     "principles":  [
                                                                                        "Vehicle value is not required for this degree.",
                                                                                        "The suspect must lack consent from the owner or lawful possessor.",
+                                                                                       "Use this degree for ordinary unattended or nonviolent vehicle theft; if the theft involves weapons, another felony, occupied taking, aircraft, or protected law-enforcement vehicles, evaluate the more specific degree.",
                                                                                        "Reports should document vehicle ownership, how control was taken, location recovered, damage, and any statements showing intent."
                                                                                    ]
                                                                 }
@@ -1354,10 +1355,10 @@
                                             "label":  "Grand Theft Auto B",
                                             "sourceCode":  "PC-2004",
                                             "sourceTitle":  "Grand Theft Auto B",
-                                            "description":  "A person commits Grand Theft Auto B when they commit motor vehicle theft while armed, while committing another felony, or while using the stolen vehicle to facilitate another felony offense.",
+                                            "description":  "A person commits Grand Theft Auto B when they commit motor vehicle theft while armed, while committing another felony, while using the stolen vehicle to facilitate another felony offense, or under circumstances creating elevated public-safety risk short of carjacking or protected vehicle theft.",
                                             "classification":  "felony",
-                                            "baseFine":  400,
-                                            "baseTime":  15,
+                                            "baseFine":  1000,
+                                            "baseTime":  20,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -1369,16 +1370,19 @@
                                             "modifierIds":  [
                                                                 "cooperation",
                                                                 "organized-activity",
+                                                                "weapon-used",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Grand Theft Auto B is the aggravated motor-vehicle theft tier.",
+                                                                    "overview":  "Grand Theft Auto B is the aggravated motor-vehicle theft tier for armed, felony-connected, or elevated-risk vehicle theft.",
                                                                     "principles":  [
                                                                                        "The vehicle theft elements must be satisfied first.",
-                                                                                       "The aggravating fact must be tied to the theft event, such as being armed or committing another felony.",
-                                                                                       "Reports should document the separate felony or weapon facts instead of relying only on the vehicle theft."
+                                                                                       "The aggravating fact must be tied to the theft event, such as being armed, committing another felony, using the vehicle to facilitate another felony, or creating a serious public-safety risk.",
+                                                                                       "Do not use this degree for theft of a law-enforcement vehicle; that protected vehicle degree remains separate.",
+                                                                                       "Reports should document the separate felony, weapon, pursuit, danger, or facilitation facts instead of relying only on the vehicle theft."
                                                                                    ]
                                                                 }
                                         },
@@ -1514,11 +1518,11 @@
                         "code":  "EF-PC-02-003",
                         "title":  "Burglary",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Unlawful entry into a structure with intent to commit a criminal offense or remain without permission.",
+                        "description":  "Unlawful entry into a structure with intent to commit a criminal offense or remain without permission, with felony treatment for occupied, residential, forced-entry, weapon-related, or high-risk burglary.",
                         "sourceCodes":  [
                                             "PC-2006"
                                         ],
-                        "migrationNotes":  "",
+                        "migrationNotes":  "Burglary split into ordinary misdemeanor burglary and aggravated felony burglary.",
                         "degrees":  [
                                         {
                                             "id":  "burglary",
@@ -1542,17 +1546,59 @@
                                                                 "restitution-made",
                                                                 "organized-activity",
                                                                 "high-value-loss",
-                                                                "occupied-structure-or-vehicle",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Burglary focuses on unlawful entry or remaining with criminal intent.",
+                                                                    "overview":  "Burglary focuses on unlawful entry or remaining with criminal intent where the entry does not create the elevated risk required for aggravated burglary.",
                                                                     "principles":  [
                                                                                        "Unlawful entry alone is not enough; document the intended or completed offense.",
                                                                                        "Permission may be limited by time, place, purpose, or revocation.",
+                                                                                       "Use this degree for ordinary commercial, unoccupied, storage, vehicle-yard, or secured-area entries without force, weapons, occupied-structure risk, or home-invasion facts.",
+                                                                                       "If the structure is occupied, residential, forcibly entered, weapon-related, or tied to high-value theft or serious danger, evaluate Aggravated Burglary.",
                                                                                        "Reports should document entry method, owner or agent statements, security footage, tools, stolen property, and suspect intent."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "aggravated-burglary",
+                                            "label":  "Aggravated Burglary",
+                                            "sourceCode":  "PC-2006",
+                                            "sourceTitle":  "Aggravated Burglary",
+                                            "description":  "A person commits Aggravated Burglary when they enter or remain in a residence, occupied structure, secured high-risk area, or other protected place without permission and with intent to commit a criminal offense inside, where the conduct involves forced entry, weapons, high-value theft, occupied-structure risk, or comparable danger.",
+                                            "classification":  "felony",
+                                            "baseFine":  1000,
+                                            "baseTime":  25,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "restitution-made",
+                                                                "organized-activity",
+                                                                "high-value-loss",
+                                                                "occupied-structure-or-vehicle",
+                                                                "weapon-used",
+                                                                "multiple-victims",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Aggravated Burglary applies when unlawful entry with criminal intent creates elevated danger through occupancy, residence, forced entry, weapons, high-value theft, or serious security risk.",
+                                                                    "principles":  [
+                                                                                       "The burglary elements must be satisfied first: unlawful entry or remaining plus intent to commit a criminal offense inside.",
+                                                                                       "Aggravation may be shown by residential entry, occupied structure or vehicle risk, forced entry, weapon use, high-value theft intent, multiple victims, or entry into a secured high-risk area.",
+                                                                                       "This degree should not be used merely because property was stolen from an unoccupied commercial or storage location.",
+                                                                                       "If force or fear is used against a person during the taking, evaluate Robbery or Carjacking as appropriate.",
+                                                                                       "Reports should document the location type, occupancy facts, entry method, tools or weapons, intended offense, property taken or targeted, victims endangered, and security footage or witness evidence."
                                                                                    ]
                                                                 }
                                         }
@@ -1735,21 +1781,21 @@
                         "code":  "EF-PC-02-007",
                         "title":  "Possession of Government-Issued Items",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Unauthorized possession of government-issued property, equipment, vehicles, weapons, or identification-like items.",
+                        "description":  "Unauthorized possession of government-issued property, equipment, credentials, weapons, vehicles, or restricted official items, with felony treatment reserved for restricted, dangerous, access-enabling, or impersonation-enabling items.",
                         "sourceCodes":  [
                                             "PC-2016"
                                         ],
-                        "migrationNotes":  "",
+                        "migrationNotes":  "Possession of Government-Issued Items split into minor government property possession and restricted government-issued items.",
                         "degrees":  [
                                         {
-                                            "id":  "possession-of-government-issued-items",
-                                            "label":  "Possession of Government-Issued Items",
+                                            "id":  "minor-possession-of-government-issued-items",
+                                            "label":  "Minor Possession of Government-Issued Items",
                                             "sourceCode":  "PC-2016",
-                                            "sourceTitle":  "Possession of Government-Issued Items",
-                                            "description":  "A person commits Possession of Government-Issued Items when they knowingly possess a government-issued firearm, vehicle, equipment item, credential, or other official property without lawful authority or permission.",
+                                            "sourceTitle":  "Minor Possession of Government-Issued Items",
+                                            "description":  "A person commits Minor Possession of Government-Issued Items when they knowingly possess low-risk government-issued or government-owned property without lawful authority or permission, where the item does not enable official access, impersonation, weapons use, protected vehicle use, or serious operational compromise.",
                                             "classification":  "misdemeanor",
-                                            "baseFine":  1000,
-                                            "baseTime":  20,
+                                            "baseFine":  500,
+                                            "baseTime":  10,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -1766,11 +1812,51 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "This degree covers unauthorized possession of official government property.",
+                                                                    "overview":  "Minor Possession of Government-Issued Items covers unauthorized possession of low-risk official property.",
                                                                     "principles":  [
                                                                                        "The item must be government-issued, government-owned, or restricted to official use.",
                                                                                        "The suspect must lack permission, assignment, or lawful authority to possess it.",
-                                                                                       "Reports should document the item type, issuing agency, how possession was discovered, and whether the item was recovered."
+                                                                                       "This degree should cover ordinary equipment, non-sensitive property, uniforms without deceptive use, or other low-risk official items.",
+                                                                                       "If the item is a firearm, credential, access card, marked or protected vehicle, radio, MDT-type system, badge, restricted key, or item enabling official access or impersonation, evaluate Restricted Government-Issued Items.",
+                                                                                       "Reports should document the item type, issuing agency, how possession was discovered, whether the item was recovered, and why the item did or did not create restricted-access risk."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "restricted-government-issued-items",
+                                            "label":  "Restricted Government-Issued Items",
+                                            "sourceCode":  "PC-2016",
+                                            "sourceTitle":  "Restricted Government-Issued Items",
+                                            "description":  "A person commits Restricted Government-Issued Items when they knowingly possess a government-issued firearm, credential, access card, badge, radio, MDT-type system, marked or protected vehicle, restricted key, or comparable official item without lawful authority where the item enables access, impersonation, weapons use, or serious operational compromise.",
+                                            "classification":  "felony",
+                                            "baseFine":  1500,
+                                            "baseTime":  22,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "weapon-used",
+                                                                "high-value-loss",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Restricted Government-Issued Items applies to unauthorized possession of official items that enable access, impersonation, weapons use, protected vehicle use, or serious operational compromise.",
+                                                                    "principles":  [
+                                                                                       "The item should be government-issued, government-owned, or restricted to official use and should create more than ordinary property-loss concern.",
+                                                                                       "Restricted items include firearms, credentials, badges, access cards, restricted keys, marked or protected vehicles, radios, MDT-type systems, and comparable items that can enable access, impersonation, or operational compromise.",
+                                                                                       "Weapon-used should apply only when the item or weapon is used, displayed, brandished, or carried for immediate use during the incident, not merely because a government firearm is possessed.",
+                                                                                       "If the facts show false official authority or commands, evaluate impersonation charges as well.",
+                                                                                       "Reports should document the item type, agency, access or authority enabled, how the suspect obtained it, authorization status, recovery, and any use or attempted use."
                                                                                    ]
                                                                 }
                                         }
@@ -1862,21 +1948,21 @@
                         "code":  "EF-PC-02-009",
                         "title":  "Criminal Possession of Stolen Property",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Possession or control of property known to be stolen.",
+                        "description":  "Possession or control of property known to be stolen, with felony treatment for high-value, organized, sale-transfer, dangerous, vehicle, or government-property cases.",
                         "sourceCodes":  [
                                             "PC-2020"
                                         ],
-                        "migrationNotes":  "",
+                        "migrationNotes":  "Criminal Possession of Stolen Property split into ordinary and aggravated degrees.",
                         "degrees":  [
                                         {
                                             "id":  "criminal-possession-of-stolen-property",
                                             "label":  "Criminal Possession of Stolen Property",
                                             "sourceCode":  "PC-2020",
                                             "sourceTitle":  "Criminal Possession of Stolen Property",
-                                            "description":  "A person commits Criminal Possession of Stolen Property when they knowingly possess, receive, conceal, transport, sell, or control property while knowing or reasonably believing the property was stolen.",
+                                            "description":  "A person commits Criminal Possession of Stolen Property when they knowingly possess, receive, conceal, or control ordinary stolen property while knowing or reasonably believing the property was stolen, without the high-value, sale-transfer, organized, dangerous, vehicle, or government-property facts required for aggravated possession.",
                                             "classification":  "misdemeanor",
-                                            "baseFine":  200,
-                                            "baseTime":  10,
+                                            "baseFine":  300,
+                                            "baseTime":  7,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -1893,11 +1979,52 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "This degree focuses on knowing possession or control of stolen property after the theft.",
+                                                                    "overview":  "Criminal Possession of Stolen Property focuses on knowing possession or control of ordinary stolen property after the theft.",
                                                                     "principles":  [
                                                                                        "The state must show the property was stolen and the suspect knew or should reasonably have known it.",
                                                                                        "Possession may be physical, constructive, shared, or through control over storage or transport.",
-                                                                                       "Reports should document theft reports, serial numbers, owner identification, recovery location, and suspect explanation."
+                                                                                       "Use this degree for ordinary stolen property possession without high value, organized activity, resale, transport-for-sale, vehicles, weapons, or government-property facts.",
+                                                                                       "If the property is high-value, transported or sold, connected to organized activity, a vehicle, weapon, government item, or repeated theft operation, evaluate Aggravated Possession of Stolen Property.",
+                                                                                       "Reports should document theft reports, serial numbers, owner identification, recovery location, value, and suspect explanation."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "aggravated-possession-of-stolen-property",
+                                            "label":  "Aggravated Possession of Stolen Property",
+                                            "sourceCode":  "PC-2020",
+                                            "sourceTitle":  "Aggravated Possession of Stolen Property",
+                                            "description":  "A person commits Aggravated Possession of Stolen Property when they knowingly possess, receive, conceal, transport, sell, or control stolen property involving high value, sale or transfer, organized activity, vehicles, weapons, government property, repeated theft operations, or comparable elevated risk.",
+                                            "classification":  "felony",
+                                            "baseFine":  1000,
+                                            "baseTime":  20,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "restitution-made",
+                                                                "organized-activity",
+                                                                "high-value-loss",
+                                                                "weapon-used",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Aggravated Possession of Stolen Property applies when stolen-property possession creates elevated economic, public-safety, government-property, or organized-crime concerns.",
+                                                                    "principles":  [
+                                                                                       "The state must show the property was stolen and the suspect knew or should reasonably have known it.",
+                                                                                       "Aggravating facts may include high value, resale or transfer, transport for sale, organized activity, repeated theft operations, stolen vehicles, weapons, government-issued items, or other property creating elevated danger or operational risk.",
+                                                                                       "This degree should not be used merely because ordinary stolen property is found in a suspect's possession.",
+                                                                                       "If the suspect personally committed the taking, evaluate the underlying theft, burglary, robbery, or vehicle-theft charge as well.",
+                                                                                       "Reports should document the stolen-property source, value, serial numbers, buyer or seller roles, transport or storage facts, government or weapon status, and suspect knowledge."
                                                                                    ]
                                                                 }
                                         }
@@ -1920,14 +2047,14 @@
                         "migrationNotes":  "Accessory to smuggling becomes a liability option; customs fraud and unlicensed import/export remain degrees in the same import/export family.",
                         "degrees":  [
                                         {
-                                            "id":  "smuggling-of-contraband",
-                                            "label":  "Smuggling of Contraband",
+                                            "id":  "regulatory-smuggling",
+                                            "label":  "Regulatory Smuggling",
                                             "sourceCode":  "PC-2022",
-                                            "sourceTitle":  "Smuggling of Contraband",
-                                            "description":  "A person commits Smuggling of Contraband when they knowingly transport, import, export, conceal, or move contraband goods across a jurisdictional boundary or customs-controlled area without required documentation, licensing, declaration, or authorization.",
+                                            "sourceTitle":  "Regulatory Smuggling",
+                                            "description":  "A person commits Regulatory Smuggling when they knowingly transport, import, export, conceal, or move goods, valuable property, luxury items, electronics, art, or regulated materials across a jurisdictional boundary or customs-controlled area without required documentation, licensing, declaration, or authorization, where the goods do not create the elevated danger required for Dangerous Contraband Smuggling.",
                                             "classification":  "felony",
                                             "baseFine":  4000,
-                                            "baseTime":  5,
+                                            "baseTime":  7,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -1954,11 +2081,62 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "This degree covers general contraband smuggling across customs or jurisdictional controls.",
+                                                                    "overview":  "Regulatory Smuggling covers fine-heavy import, export, transport, concealment, or movement of goods through customs or jurisdictional controls without required authorization.",
                                                                     "principles":  [
-                                                                                       "The goods must be contraband or otherwise subject to declaration, licensing, or customs control.",
+                                                                                       "The goods must be subject to declaration, licensing, customs control, import/export authorization, or comparable regulatory oversight.",
                                                                                        "The conduct must involve transport, import, export, concealment, or movement through a controlled boundary.",
-                                                                                       "Reports should document the goods, route, concealment method, missing paperwork, declarations made, and all involved parties."
+                                                                                       "Use this degree for economic, luxury, commercial, paperwork, or regulatory smuggling that does not involve weapons, controlled substances, escape tools, explosives, or comparable dangerous contraband.",
+                                                                                       "If the goods create public-safety, facility-security, weapons, controlled-substance, or escape-related risk, evaluate Dangerous Contraband Smuggling.",
+                                                                                       "Reports should document the goods, route, concealment method, missing paperwork, declarations made, value, and all involved parties."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "dangerous-contraband-smuggling",
+                                            "label":  "Dangerous Contraband Smuggling",
+                                            "sourceCode":  "PC-2022",
+                                            "sourceTitle":  "Dangerous Contraband Smuggling",
+                                            "description":  "A person commits Dangerous Contraband Smuggling when they knowingly transport, import, export, conceal, or move weapons, firearms, controlled substances, explosives, escape tools, restricted security items, or comparable dangerous contraband across a jurisdictional boundary or customs-controlled area without required authorization.",
+                                            "classification":  "felony",
+                                            "baseFine":  5000,
+                                            "baseTime":  25,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "accessory",
+                                                                         "label":  "Accessory",
+                                                                         "sourceCode":  "PC-2027",
+                                                                         "sourceTitle":  "Accessory to Smuggling",
+                                                                         "fineMultiplier":  0.25,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "weapon-used",
+                                                                "firearm-discharged",
+                                                                "high-value-loss",
+                                                                "multiple-victims",
+                                                                "prior-conviction",
+                                                                "minimal-participation",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Dangerous Contraband Smuggling applies when smuggled goods create elevated public-safety, weapon, controlled-substance, escape, or security risk.",
+                                                                    "principles":  [
+                                                                                       "Covered goods may include weapons, firearms, ammunition, controlled substances, explosives, escape tools, restricted security items, or comparable dangerous contraband.",
+                                                                                       "The conduct must involve transport, import, export, concealment, or movement through a controlled boundary or customs-controlled area.",
+                                                                                       "Weapon-used should apply only when a weapon is used, displayed, brandished, or carried for immediate use during the smuggling incident, not merely because a weapon is among the goods.",
+                                                                                       "If the contraband is introduced into a government facility, evaluate government-facility contraband charges as well.",
+                                                                                       "Reports should document the goods, quantity, route, concealment method, intended recipient, authorization status, security risk, communications, and all involved parties."
                                                                                    ]
                                                                 }
                                         },
