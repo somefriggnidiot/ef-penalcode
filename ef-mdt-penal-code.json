@@ -4202,10 +4202,10 @@
                                         },
                                         {
                                             "id":  "possession-of-marijuana",
-                                            "label":  "Possession of Marijuana",
+                                            "label":  "Misdemeanor Possession of Marijuana",
                                             "sourceCode":  "PC-7003",
-                                            "sourceTitle":  "Possession of Marijuana",
-                                            "description":  "A person commits Possession of Marijuana when they knowingly possess more than 10 kg but less than 100 kg of unlawful marijuana without lawful authorization.",
+                                            "sourceTitle":  "Misdemeanor Possession of Marijuana",
+                                            "description":  "A person commits Misdemeanor Possession of Marijuana when they knowingly possess more than 10 kg but less than 100 kg of unlawful marijuana without lawful authorization.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  250,
                                             "baseTime":  0,
@@ -4225,7 +4225,7 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Possession of marijuana focuses on knowing possession of an unlawful marijuana quantity above the misdemeanor threshold and below the distribution threshold.",
+                                                                    "overview":  "Misdemeanor possession of marijuana focuses on knowing possession of an unlawful marijuana quantity above the misdemeanor threshold and below the distribution threshold.",
                                                                     "principles":  [
                                                                                        "Possession may be actual or constructive, but officers must be able to connect the person to dominion or control over the marijuana.",
                                                                                        "The marijuana must meet the charged weight threshold and be unlawful or outside any permitted authorization.",
@@ -4834,9 +4834,9 @@
                         "degrees":  [
                                         {
                                             "id":  "sale-of-a-controlled-substance",
-                                            "label":  "Sale of a controlled substance",
+                                            "label":  "Sale of a Controlled Substance",
                                             "sourceCode":  "PC-7016",
-                                            "sourceTitle":  "Sale of a controlled substance",
+                                            "sourceTitle":  "Sale of a Controlled Substance",
                                             "description":  "A person commits Sale of a Controlled Substance when they knowingly sell, offer to sell, furnish, give away, broker, or transport a controlled substance with intent to transfer it to another person.",
                                             "classification":  "felony",
                                             "baseFine":  1500,
@@ -4859,7 +4859,7 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Sale of a controlled substance focuses on knowing participation in the sale, furnishing, brokering, or transfer of an unlawful controlled substance.",
+                                                                    "overview":  "Sale of a Controlled Substance focuses on knowing participation in the sale, furnishing, brokering, or transfer of an unlawful controlled substance.",
                                                                     "principles":  [
                                                                                        "The offense may be proven by an attempted or negotiated sale even if officers do not recover the full quantity.",
                                                                                        "There must be evidence the person knowingly participated in the transfer, furnishing, brokering, or sale of an unlawful controlled substance.",
