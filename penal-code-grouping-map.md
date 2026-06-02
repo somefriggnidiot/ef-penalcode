@@ -352,7 +352,9 @@ Source charges being condensed: PC-5003 Possession of Contraband in a Government
 
 | Role | Source Code | Source Title | Classification | Base Fine | Base Time | Source Description |
 |---|---|---|---|---:|---:|---|
-| Degree | PC-5003 | Possession of Contraband in a Government Facility | felony | 200 | 5 | A person who possesses a controlled substance, illegal firearm, or any other illegal item while on the premesis of a government facility is guilty under this code section. |
+| Degree | PC-5003 | Minor Facility Contraband | misdemeanor | 300 | 7 | Knowing possession of non-dangerous prohibited items inside a government facility or controlled government area without lawful authorization. |
+| Degree | PC-5003 | Dangerous Government-Facility Contraband | felony | 1000 | 18 | Knowing possession, delivery, concealment, or attempted introduction of weapons, controlled substances, escape tools, restraint keys, evidence-compromising items, or comparable dangerous contraband inside a government facility or controlled government area. |
+| Degree | PC-5003 | Aggravated Facility Contraband | felony | 2000 | 30 | Dangerous contraband connected to escape, jailbreak, violence, detainee delivery, coordinated smuggling, corruption, or serious compromise of a secure government function. |
 
 ### EF-PC-05-004 - Escape and Jailbreak
 
@@ -360,12 +362,14 @@ Source charges being condensed: PC-5004 Escaping; PC-5005 Jailbreak; PC-5006 Acc
 
 | Role | Source Code | Source Title | Classification | Base Fine | Base Time | Source Description |
 |---|---|---|---|---:|---:|---|
-| Degree | PC-5004 | Escaping | felony | 1005 | 10 | Any person arrested, detained, booked, charged, or convicted of any crime who thereafter escapes from a county or city jail, prison, community service, or custody of a Correctional or Parole Officer, Peace Officer, Police Officer, or Federal Agent is guilty under this code section. |
+| Degree | PC-5004 | Misdemeanor Escape from Detention | misdemeanor | 750 | 12 | Unlawful departure from temporary lawful detention, arrest, booking, transport, guard detail, or officer-controlled custody without force, weapons, coordinated assistance, secure-facility breach, or serious custody risk. |
+| Degree | PC-5004 | Felony Escape from Custody | felony | 1500 | 25 | Unlawful departure from jail, prison, courthouse holding, correctional transport, hospital guard detail, work detail, parole custody, or another formal secure detention arrangement. |
+| Degree | PC-5004 | Aggravated Escape | felony | 3000 | 40 | Escape or attempted escape involving violence, weapons, hostages, coordinated assistance, escape tools, injury, major security breach, or custody tied to a serious felony. |
 | Degree | PC-5005 | Jailbreak | felony | 2500 | 30 | A person who breaks out a prisoner from a correctional facility without authorization is guilty under this code section. |
 | Liability Option | PC-5006 | Accessory to Jailbreak | felony | 500 | 20 | A person who helps someone to break out a prisoner from a correctional facility without authorization is guilty under this code section. |
 | Liability Option | PC-5007 | Attempted Jailbreak | felony | 1000 | 20 | A person who attempts to break out a prisoner from a correctional facility without authorization is guilty under this code section. |
 
-Notes: Accessory/attempted jailbreak become liability options.
+Notes: Escaping is split by detention setting and aggravating facts. Accessory/attempted jailbreak remain liability options.
 
 ### EF-PC-05-005 - Perjury
 

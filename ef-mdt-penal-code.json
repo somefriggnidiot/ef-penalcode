@@ -2793,21 +2793,21 @@
                         "code":  "EF-PC-05-003",
                         "title":  "Possession of Contraband in a Government Facility",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Possession of prohibited weapons, controlled substances, escape tools, or other contraband inside a government facility or controlled government area.",
+                        "description":  "Possession of prohibited items inside a government facility or controlled government area, with felony treatment reserved for dangerous, escape-related, or coordinated contraband.",
                         "sourceCodes":  [
                                             "PC-5003"
                                         ],
                         "migrationNotes":  "",
                         "degrees":  [
                                         {
-                                            "id":  "possession-of-contraband-in-a-government-facility",
-                                            "label":  "Possession of Contraband in a Government Facility",
+                                            "id":  "minor-facility-contraband",
+                                            "label":  "Minor Facility Contraband",
                                             "sourceCode":  "PC-5003",
-                                            "sourceTitle":  "Possession of Contraband in a Government Facility",
-                                            "description":  "A person commits Possession of Contraband in a Government Facility when they knowingly possess a controlled substance, illegal weapon, unauthorized firearm, escape tool, stolen item, or other prohibited item inside a government facility or controlled government area without lawful authorization.",
-                                            "classification":  "felony",
-                                            "baseFine":  200,
-                                            "baseTime":  5,
+                                            "sourceTitle":  "Minor Facility Contraband",
+                                            "description":  "A person commits Minor Facility Contraband when they knowingly possess a non-dangerous prohibited item inside a government facility or controlled government area without lawful authorization, where the item creates rule, security, evidence, or operational concerns but does not create the elevated danger required for felony contraband.",
+                                            "classification":  "misdemeanor",
+                                            "baseFine":  300,
+                                            "baseTime":  7,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -2824,11 +2824,109 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "This offense protects secure government spaces by penalizing knowing possession of items that are illegal or prohibited in that setting.",
+                                                                    "overview":  "Minor Facility Contraband applies to knowing possession of non-dangerous prohibited items inside a government facility or controlled government area.",
                                                                     "principles":  [
                                                                                        "The location should be a government facility, detention area, courthouse, station, secured office, or controlled operational area.",
-                                                                                       "The item should be illegal generally or prohibited by the facility because it creates safety, escape, evidence, or operational risks.",
-                                                                                       "Reports should document the item, where it was found, the suspect's possession or control, facility rules or signage, and any lawful authorization claim."
+                                                                                       "The item should be prohibited by rule, posted notice, officer instruction, booking policy, or facility security practice.",
+                                                                                       "This degree should cover non-dangerous items such as unauthorized phones, recording devices, ordinary tools, restricted personal property, nuisance items, or other facility-banned items that are not weapons, controlled substances, escape tools, or evidence-compromising items.",
+                                                                                       "If the item is a weapon, firearm, controlled substance, restraint key, escape tool, or item intended for a detainee's escape or violence, evaluate Dangerous Government-Facility Contraband instead.",
+                                                                                       "Reports should document the facility, rule or security basis, item found, possession or control facts, suspect knowledge, warnings or signage, and any lawful authorization claim."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "dangerous-government-facility-contraband",
+                                            "label":  "Dangerous Government-Facility Contraband",
+                                            "sourceCode":  "PC-5003",
+                                            "sourceTitle":  "Dangerous Government-Facility Contraband",
+                                            "description":  "A person commits Dangerous Government-Facility Contraband when they knowingly possess, deliver, conceal, or attempt to introduce a weapon, firearm, controlled substance, restraint key, escape tool, evidence-compromising item, or comparable dangerous contraband inside a government facility or controlled government area without lawful authorization.",
+                                            "classification":  "felony",
+                                            "baseFine":  1000,
+                                            "baseTime":  18,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "attempted",
+                                                                         "label":  "Attempted",
+                                                                         "fineMultiplier":  0.4,
+                                                                         "timeMultiplier":  0.6667
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "weapon-used",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Dangerous Government-Facility Contraband applies to knowing possession or attempted introduction of items that materially threaten facility safety, custody security, evidence integrity, or government operations.",
+                                                                    "principles":  [
+                                                                                       "The item should be a weapon, firearm, controlled substance, restraint key, escape tool, evidence-compromising item, or comparable object that creates a serious safety or custody risk.",
+                                                                                       "The government-facility nexus should be clear, such as a jail, courthouse holding area, police station, secured government office, evidence area, transport detail, or controlled operational space.",
+                                                                                       "The suspect must know or reasonably understand they possess the item and lack lawful authorization in that setting.",
+                                                                                       "Weapon-used should apply only when the weapon is used, displayed, brandished, or carried for immediate use during the incident, not merely because the contraband item is a weapon.",
+                                                                                       "If the facts show coordinated smuggling for a detainee, escape planning, officer bribery, multiple dangerous items, or actual use during an escape or jailbreak, evaluate Aggravated Facility Contraband.",
+                                                                                       "Reports should document the item, location, security checkpoint or controlled area, possession facts, intended recipient if any, facility rule, authorization claim, and why the item created elevated risk."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "aggravated-facility-contraband",
+                                            "label":  "Aggravated Facility Contraband",
+                                            "sourceCode":  "PC-5003",
+                                            "sourceTitle":  "Aggravated Facility Contraband",
+                                            "description":  "A person commits Aggravated Facility Contraband when dangerous contraband is knowingly possessed, smuggled, delivered, concealed, planned, or coordinated in connection with escape, jailbreak, violence, detainee delivery, corruption, or serious compromise of a secure government function.",
+                                            "classification":  "felony",
+                                            "baseFine":  2000,
+                                            "baseTime":  30,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "attempted",
+                                                                         "label":  "Attempted",
+                                                                         "fineMultiplier":  0.4,
+                                                                         "timeMultiplier":  0.6667
+                                                                     },
+                                                                     {
+                                                                         "id":  "accessory",
+                                                                         "label":  "Accessory",
+                                                                         "fineMultiplier":  0.2,
+                                                                         "timeMultiplier":  0.6667
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "weapon-used",
+                                                                "firearm-discharged",
+                                                                "multiple-victims",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "minimal-participation",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Aggravated Facility Contraband applies when dangerous contraband is connected to escape, jailbreak, violence, detainee delivery, coordinated smuggling, corruption, or serious compromise of a secure government function.",
+                                                                    "principles":  [
+                                                                                       "The contraband should involve a serious institutional risk, such as weapons, firearms, drugs for detainee use, restraint keys, escape tools, explosives, or items used to defeat facility security.",
+                                                                                       "Aggravation should be based on facts such as planned delivery to a detainee, coordinated smuggling, officer bribery, multiple participants, multiple dangerous items, escape planning, violence, or actual breach of secure custody.",
+                                                                                       "This degree should not be used merely because ordinary facility contraband was found in a government building.",
+                                                                                       "If the contraband is actually used in an escape, assault, hostage-taking, or jailbreak, those charges should be evaluated separately.",
+                                                                                       "Reports should document the contraband, participants, communications, delivery route, intended recipient, facility vulnerability, security breach, use of force if any, and connection to escape, violence, or corruption."
                                                                                    ]
                                                                 }
                                         }
@@ -2839,24 +2937,60 @@
                         "code":  "EF-PC-05-004",
                         "title":  "Escape and Jailbreak",
                         "categoryId":  "offenses-against-public-administration",
-                        "description":  "Unlawful departure from lawful custody or assisting another person in escaping custody, detention, or a correctional facility.",
+                        "description":  "Unlawful departure from lawful detention or custody, with aggravated treatment for secure-custody breaches, weapons, violence, outside assistance, or major security risk.",
                         "sourceCodes":  [
                                             "PC-5004",
                                             "PC-5005",
                                             "PC-5006",
                                             "PC-5007"
                                         ],
-                        "migrationNotes":  "Accessory/attempted jailbreak become liability options.",
+                        "migrationNotes":  "Escaping split into misdemeanor detention escape, felony custody escape, and aggravated escape. Accessory/attempted jailbreak remain liability options.",
                         "degrees":  [
                                         {
-                                            "id":  "escaping",
-                                            "label":  "Escaping",
+                                            "id":  "misdemeanor-escape-from-detention",
+                                            "label":  "Misdemeanor Escape from Detention",
                                             "sourceCode":  "PC-5004",
-                                            "sourceTitle":  "Escaping",
-                                            "description":  "A person commits Escaping when they knowingly leave, flee, or remain absent from lawful custody, detention, arrest, booking, confinement, transport, work detail, community service custody, or supervision by a peace officer, correctional officer, parole officer, or authorized federal agent.",
+                                            "sourceTitle":  "Misdemeanor Escape from Detention",
+                                            "description":  "A person commits Misdemeanor Escape from Detention when they knowingly leave, flee, or remain absent from temporary lawful detention, arrest, booking, transport, guard detail, or officer-controlled custody without force, weapons, coordinated assistance, secure-facility breach, or serious custody risk.",
+                                            "classification":  "misdemeanor",
+                                            "baseFine":  750,
+                                            "baseTime":  12,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Misdemeanor Escape from Detention applies to unlawful departure from temporary lawful detention, arrest, booking, transport, or officer-controlled custody when the escape does not involve a secure facility breach, violence, weapons, coordinated assistance, or serious custody risk.",
+                                                                    "principles":  [
+                                                                                       "There must be lawful detention, arrest, booking, transport, guard detail, or other officer-controlled custody at the time of departure.",
+                                                                                       "The suspect must know or reasonably understand they are not free to leave.",
+                                                                                       "Mere departure from a traffic stop or consensual encounter should not qualify unless custody or detention was clearly established.",
+                                                                                       "This degree should not apply to routine failure to stop, ordinary evading, or leaving before officers establish lawful detention.",
+                                                                                       "If the suspect escapes from jail, courthouse holding, correctional transport, or secured custody, evaluate Felony Escape from Custody.",
+                                                                                       "Reports should document the custody status, officer authority, commands or warnings, restraints if any, method of departure, whether pursuit occurred, and how the suspect knew they were not free to leave."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "felony-escape-from-custody",
+                                            "label":  "Felony Escape from Custody",
+                                            "sourceCode":  "PC-5004",
+                                            "sourceTitle":  "Felony Escape from Custody",
+                                            "description":  "A person commits Felony Escape from Custody when they knowingly leave, flee, or remain absent from jail, prison, courthouse holding, correctional transport, hospital guard detail, work detail, parole custody, or another formal secure detention arrangement without the aggravating facts required for Aggravated Escape.",
                                             "classification":  "felony",
-                                            "baseFine":  1005,
-                                            "baseTime":  10,
+                                            "baseFine":  1500,
+                                            "baseTime":  25,
                                             "liabilityOptions":  [
                                                                      {
                                                                          "id":  "principal",
@@ -2869,15 +3003,70 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Escaping focuses on unlawful departure from lawful custody or detention after the suspect knows they are not free to leave.",
+                                                                    "overview":  "Felony Escape from Custody applies to unlawful departure from secure or formal custody where the escape compromises correctional, court, transport, or supervised detention operations.",
                                                                     "principles":  [
-                                                                                       "There must be lawful custody, detention, confinement, transport, or supervised placement at the time of departure or absence.",
-                                                                                       "The suspect must know or reasonably understand they are in custody or under official supervision and are not free to leave.",
-                                                                                       "Reports should document the custody status, officer or facility authority, warnings or restraints, method of escape, timeline, and recovery or continued absence."
+                                                                                       "The custody setting should be jail, prison, courthouse holding, correctional transport, hospital guard detail, work detail, parole custody, or another formal secure detention arrangement.",
+                                                                                       "The suspect must knowingly leave, flee, or remain absent from lawful custody after understanding they are not free to leave.",
+                                                                                       "This degree does not require violence or outside assistance, but the custody setting should be more serious than ordinary field detention.",
+                                                                                       "If force, weapons, hostages, coordinated assistance, escape tools, injury, or serious security breach are present, evaluate Aggravated Escape.",
+                                                                                       "Reports should document the custody authority, facility or transport status, restraints or guard conditions, timeline, method of escape, recovery or continued absence, and any security failure or assistance."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "aggravated-escape",
+                                            "label":  "Aggravated Escape",
+                                            "sourceCode":  "PC-5004",
+                                            "sourceTitle":  "Aggravated Escape",
+                                            "description":  "A person commits Aggravated Escape when an escape or attempted escape from lawful custody involves violence, weapons, hostages, coordinated assistance, escape tools, injury, major security breach, or custody tied to a serious felony.",
+                                            "classification":  "felony",
+                                            "baseFine":  3000,
+                                            "baseTime":  40,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "attempted",
+                                                                         "label":  "Attempted",
+                                                                         "fineMultiplier":  0.4,
+                                                                         "timeMultiplier":  0.6667
+                                                                     },
+                                                                     {
+                                                                         "id":  "accessory",
+                                                                         "label":  "Accessory",
+                                                                         "fineMultiplier":  0.2,
+                                                                         "timeMultiplier":  0.6667
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "weapon-used",
+                                                                "firearm-discharged",
+                                                                "multiple-victims",
+                                                                "medical-aid-rendered",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Aggravated Escape applies when an escape or attempted escape involves violence, weapons, hostages, coordinated assistance, escape tools, injury, major security breach, or custody tied to a serious felony.",
+                                                                    "principles":  [
+                                                                                       "The underlying custody must be lawful, and the suspect or participant must know the person is not free to leave.",
+                                                                                       "Aggravating facts may include force, threats, weapon use, firearm discharge, hostage-taking, escape tools, outside assistance, vehicle extraction, coordinated planning, injury, or breach of a secure facility.",
+                                                                                       "This degree may apply to the escaping person and to major participants who knowingly help accomplish the aggravated escape.",
+                                                                                       "If another person assists a detained person's escape as the main conduct, Jailbreak may also be appropriate or may be the better charge depending on local policy.",
+                                                                                       "Reports should document custody status, participants, planning, tools, vehicles, force or threats, victims endangered, injuries, communications, route, and whether the person remained at large."
                                                                                    ]
                                                                 }
                                         },
