@@ -332,7 +332,7 @@ Source charges being condensed: PC-4006 Littering
 
 ## 5. Offenses Against Public Administration
 
-Source charges: 17. Mapped entries: 17.
+Source charges: 18. Mapped entries: 18.
 
 ### EF-PC-05-001 - Bribery of a Government Official
 
@@ -438,6 +438,16 @@ Source charges being condensed: PC-5017 Resisting Arrest
 |---|---|---|---|---:|---:|---|
 | Degree | PC-5017 | Resisting Arrest | misdemeanor | 750 | 10 | A person who avoids apprehension from an officer by non-vehicular means or resists apprehension by any physical means is guilty under this code section is guilty under this code section. |
 
+### EF-PC-05-012 - Interference with Emergency Medical Services
+
+Source charges being condensed: PC-5018 Interference with Emergency Medical Services
+
+| Role | Source Code | Source Title | Classification | Base Fine | Base Time | Source Description |
+|---|---|---|---|---:|---:|---|
+| Degree | PC-5018 | Interference with Emergency Medical Services | misdemeanor | 1000 | 10 | Willful delay, obstruction, disruption, or interference with EMS, EMTs, paramedics, rescue personnel, ambulance crews, triage, treatment, patient access, patient transport, ambulance access, or lawful emergency-scene directions during an active emergency. |
+
+Notes: Modeled on California emergency-duty obstruction concepts; lawful observing, questions, criticism, or recording should not be charged by itself unless it materially interferes with emergency duties.
+
 ## 6. Offenses Against Public Order
 
 Source charges: 19. Mapped entries: 19.
@@ -542,7 +552,7 @@ Source charges being condensed: PC-6018 Aiding and Abetting; PC-6019 Harboring a
 
 ## 7. Offenses Against Health and Morals
 
-Source charges: 26. Mapped entries: 26.
+Source charges: 29. Mapped entries: 29.
 
 ### EF-PC-07-001 - Marijuana Offenses
 
@@ -643,18 +653,21 @@ Source charges being condensed: PC-7021 Unlawful Production of Moonshine; PC-702
 | Degree | PC-7021 | Unlawful Production of Moonshine | felony | 750 | 7 | The act of manufacturing, distilling, or fermenting alcoholic beverages, such as moonshine, without proper licensing or permits as required by law. |
 | Degree | PC-7022 | Possession or Distribution of Illegal Moonshine | misdemeanor | 350 | 5 | The act of possessing, transporting, or distributing unlicensed alcoholic beverages, such as moonshine, with the intent to sell or consume. |
 
-### EF-PC-07-013 - Unauthorized Medical Practice
+### EF-PC-07-013 - Medical Practice and Privacy Offenses
 
-Source charges being condensed: PC-7026 Unauthorized Medical Practice; PC-7027 Medical Scope-of-Practice Violation; PC-7028 Aggravated Unauthorized Medical Practice; PC-7029 Medical Credential Fraud
+Source charges being condensed: PC-7026 Unauthorized Medical Practice; PC-7027 Medical Scope-of-Practice Violation; PC-7028 Aggravated Unauthorized Medical Practice; PC-7029 Medical Title Misuse; PC-7030 Medical Credential Fraud; PC-7031 Prescription Fraud; PC-7032 Medical Information Privacy Violation
 
 | Role | Source Code | Source Title | Classification | Base Fine | Base Time | Source Description |
 |---|---|---|---|---:|---:|---|
-| Degree | PC-7026 | Unauthorized Medical Practice | misdemeanor | 750 | 10 | Unauthorized medical treatment, patient care, medication instructions, medical orders, or similar healthcare services without the required license, appointment, certification, employment status, or lawful authorization. |
+| Degree | PC-7026 | Unauthorized Medical Practice | misdemeanor | 750 | 10 | Unauthorized diagnosis, treatment, prescribing, attempted practice, advertising, holding out as practicing medicine, patient care, medication instructions, medical orders, or similar healthcare services without required authority. |
 | Degree | PC-7027 | Medical Scope-of-Practice Violation | misdemeanor | 1000 | 15 | Medical, EMS, hospital, pharmacy, or administrative personnel knowingly performing treatment, procedures, prescriptions, patient orders, or medical decisions outside the authority of their actual role. |
-| Degree | PC-7028 | Aggravated Unauthorized Medical Practice | felony | 2000 | 25 | Unauthorized medical practice or scope violation involving surgery, invasive procedures, controlled-substance prescriptions, serious injury risk, repeated or organized conduct, patient exploitation, or serious medical harm. |
-| Degree | PC-7029 | Medical Credential Fraud | felony | 1500 | 20 | False medical title, license, rank, certification, hospital position, prescription authority, or clinical credential used to obtain trust, access, employment, money, records, medication, or authority over patient care. |
+| Degree | PC-7028 | Aggravated Unauthorized Medical Practice | felony | 2000 | 25 | Unauthorized medical practice or scope violation involving surgery, invasive procedures, radiation procedures, setting fractures, controlled-substance or dangerous-drug prescriptions, directing discontinuance of prescribed medication, serious injury risk, repeated or organized conduct, patient exploitation, or serious medical harm. |
+| Degree | PC-7029 | Medical Title Misuse | misdemeanor | 500 | 5 | False or misleading use of a medical title, abbreviation, prefix, credential, badge, sign, uniform marking, advertisement, or similar representation implying medical authority without lawful authority to use that title. |
+| Degree | PC-7030 | Medical Credential Fraud | felony | 1500 | 20 | Forged, fabricated, revoked, suspended, borrowed, or materially misleading medical credential used to obtain trust, access, employment, money, records, medication, or authority over patient care. |
+| Degree | PC-7031 | Prescription Fraud | felony | 1500 | 20 | Forged, altered, false, or deceptive prescription conduct, including false medication records, false authorized roles, or fraud used to obtain medication, controlled substances, or prescription authority. |
+| Degree | PC-7032 | Medical Information Privacy Violation | misdemeanor | 1000 | 10 | Unauthorized access, use, disclosure, release, sale, sharing, abandonment, destruction, or mishandling of confidential medical information without lawful authorization, patient consent, duty-related need, or other legal permission. |
 
-Notes: Adds a hospital-facing medical-practice family while preserving emergency first aid and good-faith life-saving stabilization carveouts.
+Notes: Adds California-style hospital-facing concepts for unauthorized medical practice, title misuse, prescription fraud, and medical information privacy while preserving emergency first aid and good-faith life-saving stabilization carveouts.
 
 ## 8. Offenses Against Public Safety
 

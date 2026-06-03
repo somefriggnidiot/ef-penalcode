@@ -706,14 +706,14 @@
                                                                          "label":  "Attempted",
                                                                          "sourceCode":  "PC-1009",
                                                                          "sourceTitle":  "Attempted",
-                                                                         "fineMultiplier":  0.8571,
+                                                                         "fineMultiplier":  0.86,
                                                                          "timeMultiplier":  0.75
                                                                      },
                                                                      {
                                                                          "id":  "conspiracy",
                                                                          "label":  "Conspiracy",
-                                                                         "fineMultiplier":  0.65,
-                                                                         "timeMultiplier":  0.65,
+                                                                         "fineMultiplier":  0.9,
+                                                                         "timeMultiplier":  0.9,
                                                                          "sourceCode":  "PC-5013",
                                                                          "sourceTitle":  "Conspiracy"
                                                                      }
@@ -774,8 +774,8 @@
                                                                      {
                                                                          "id":  "conspiracy",
                                                                          "label":  "Conspiracy",
-                                                                         "fineMultiplier":  0.75,
-                                                                         "timeMultiplier":  0.75,
+                                                                         "fineMultiplier":  0.9,
+                                                                         "timeMultiplier":  0.9,
                                                                          "sourceCode":  "PC-5013",
                                                                          "sourceTitle":  "Conspiracy"
                                                                      }
@@ -893,8 +893,8 @@
                                                                          "label":  "Attempted",
                                                                          "sourceCode":  "PC-1020",
                                                                          "sourceTitle":  "Attempted Kidnapping",
-                                                                         "fineMultiplier":  0.3,
-                                                                         "timeMultiplier":  0.6667
+                                                                         "fineMultiplier":  0.6,
+                                                                         "timeMultiplier":  0.6
                                                                      },
                                                                      {
                                                                          "id":  "accessory",
@@ -907,8 +907,8 @@
                                                                      {
                                                                          "id":  "conspiracy",
                                                                          "label":  "Conspiracy",
-                                                                         "fineMultiplier":  0.6,
-                                                                         "timeMultiplier":  0.65,
+                                                                         "fineMultiplier":  0.9,
+                                                                         "timeMultiplier":  0.9,
                                                                          "sourceCode":  "PC-5013",
                                                                          "sourceTitle":  "Conspiracy"
                                                                      }
@@ -955,8 +955,8 @@
                                                                          "label":  "Attempted",
                                                                          "sourceCode":  "PC-1020",
                                                                          "sourceTitle":  "Attempted Hostage Taking",
-                                                                         "fineMultiplier":  0.3,
-                                                                         "timeMultiplier":  0.6667
+                                                                         "fineMultiplier":  0.6,
+                                                                         "timeMultiplier":  0.6
                                                                      },
                                                                      {
                                                                          "id":  "accessory",
@@ -969,8 +969,8 @@
                                                                      {
                                                                          "id":  "conspiracy",
                                                                          "label":  "Conspiracy",
-                                                                         "fineMultiplier":  0.6,
-                                                                         "timeMultiplier":  0.65,
+                                                                         "fineMultiplier":  0.9,
+                                                                         "timeMultiplier":  0.9,
                                                                          "sourceCode":  "PC-5013",
                                                                          "sourceTitle":  "Conspiracy"
                                                                      }
@@ -1446,7 +1446,7 @@
                                                                          "label":  "Attempted",
                                                                          "sourceCode":  "PC-2019A",
                                                                          "sourceTitle":  "Attempted Theft of an Aircraft",
-                                                                         "fineMultiplier":  0.75,
+                                                                         "fineMultiplier":  0.6,
                                                                          "timeMultiplier":  0.6
                                                                      }
                                                                  ],
@@ -1641,7 +1641,7 @@
                                                                          "label":  "Attempted",
                                                                          "sourceCode":  "PC-2009",
                                                                          "sourceTitle":  "Attempted Robbery",
-                                                                         "fineMultiplier":  0.3,
+                                                                         "fineMultiplier":  0.6,
                                                                          "timeMultiplier":  0.6
                                                                      },
                                                                      {
@@ -1655,8 +1655,8 @@
                                                                      {
                                                                          "id":  "conspiracy",
                                                                          "label":  "Conspiracy",
-                                                                         "fineMultiplier":  0.6,
-                                                                         "timeMultiplier":  0.65,
+                                                                         "fineMultiplier":  0.9,
+                                                                         "timeMultiplier":  0.9,
                                                                          "sourceCode":  "PC-5013",
                                                                          "sourceTitle":  "Conspiracy"
                                                                      }
@@ -3031,8 +3031,8 @@
                                                                      {
                                                                          "id":  "attempted",
                                                                          "label":  "Attempted",
-                                                                         "fineMultiplier":  0.4,
-                                                                         "timeMultiplier":  0.6667
+                                                                         "fineMultiplier":  0.6,
+                                                                         "timeMultiplier":  0.6
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -3075,14 +3075,14 @@
                                                                      {
                                                                          "id":  "attempted",
                                                                          "label":  "Attempted",
-                                                                         "fineMultiplier":  0.4,
-                                                                         "timeMultiplier":  0.6667
+                                                                         "fineMultiplier":  0.6,
+                                                                         "timeMultiplier":  0.6
                                                                      },
                                                                      {
                                                                          "id":  "accessory",
                                                                          "label":  "Accessory",
                                                                          "fineMultiplier":  0.2,
-                                                                         "timeMultiplier":  0.6667
+                                                                         "timeMultiplier":  0.67
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -3215,8 +3215,8 @@
                                                                      {
                                                                          "id":  "attempted",
                                                                          "label":  "Attempted",
-                                                                         "fineMultiplier":  0.4,
-                                                                         "timeMultiplier":  0.6667
+                                                                         "fineMultiplier":  0.6,
+                                                                         "timeMultiplier":  0.6
                                                                      },
                                                                      {
                                                                          "id":  "accessory",
@@ -3269,8 +3269,8 @@
                                                                          "label":  "Attempted",
                                                                          "sourceCode":  "PC-5007",
                                                                          "sourceTitle":  "Attempted",
-                                                                         "fineMultiplier":  0.4,
-                                                                         "timeMultiplier":  0.6667
+                                                                         "fineMultiplier":  0.6,
+                                                                         "timeMultiplier":  0.6
                                                                      },
                                                                      {
                                                                          "id":  "accessory",
@@ -3676,6 +3676,57 @@
                                                                                        "The officer should be acting under lawful authority and should communicate a detention, arrest, command to stop, or custody instruction when practical.",
                                                                                        "The suspect's conduct should materially delay, obstruct, or resist custody; mere questions, confusion, or passive verbal disagreement should be handled carefully.",
                                                                                        "Reports should document officer commands, suspect awareness, physical resistance or flight, use of force, injuries, witnesses, body camera details, and why the encounter was lawful."
+                                                                                   ]
+                                                                }
+                                        }
+                                    ]
+                    },
+                    {
+                        "id":  "interference-with-emergency-medical-services",
+                        "code":  "EF-PC-05-012",
+                        "title":  "Interference with Emergency Medical Services",
+                        "categoryId":  "offenses-against-public-administration",
+                        "description":  "Willful delay, obstruction, disruption, or interference with EMS, EMTs, paramedics, rescue personnel, or emergency medical scene operations during an active emergency.",
+                        "sourceCodes":  [
+                                            "PC-5018"
+                                        ],
+                        "migrationNotes":  "Modeled on California Penal Code 148(a)(1), 148.2, and emergency-scene obstruction principles.",
+                        "degrees":  [
+                                        {
+                                            "id":  "interference-with-emergency-medical-services",
+                                            "label":  "Interference with Emergency Medical Services",
+                                            "sourceCode":  "PC-5018",
+                                            "sourceTitle":  "Interference with Emergency Medical Services",
+                                            "description":  "A person commits Interference with Emergency Medical Services when they willfully resist, delay, obstruct, disrupt, impede, or otherwise interfere with EMS, EMTs, paramedics, emergency rescue personnel, ambulance crews, triage, treatment, patient access, patient transport, ambulance access, or lawful emergency-scene directions during an active emergency.",
+                                            "classification":  "misdemeanor",
+                                            "baseFine":  1000,
+                                            "baseTime":  10,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "multiple-victims",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Interference with Emergency Medical Services protects active emergency medical and rescue operations from willful obstruction that delays care or scene safety.",
+                                                                    "principles":  [
+                                                                                       "EMS, EMTs, paramedics, ambulance crews, hospital emergency personnel, firefighters, rescue personnel, or comparable responders should be discharging or attempting to discharge emergency duties.",
+                                                                                       "The suspect's conduct must willfully and materially delay, obstruct, disrupt, impede, or interfere with triage, treatment, patient access, patient transport, ambulance movement, rescue efforts, or lawful emergency-scene directions.",
+                                                                                       "Examples include blocking a stretcher or ambulance, entering a treatment area after warnings, refusing lawful scene-safety directions, disrupting triage, pulling responders away from patient care, or disorderly conduct that delays medical or rescue work.",
+                                                                                       "Mere presence, questions, verbal criticism, or recording from a lawful place should not be charged by itself unless it materially interferes with emergency duties after a clear opportunity to move or stop.",
+                                                                                       "Use assault, battery, kidnapping, reckless endangerment, or other applicable charges when the conduct includes violence, threats, patient seizure, or independent injury risk beyond obstruction.",
+                                                                                       "Reports should document the active emergency, responder duties, clear commands or warnings when practical, the specific obstruction, delay or safety impact, patient-care effect, witnesses, body camera or scene footage, and any related charges."
                                                                                    ]
                                                                 }
                                         }
@@ -5492,23 +5543,26 @@
                     {
                         "id":  "unauthorized-medical-practice",
                         "code":  "EF-PC-07-013",
-                        "title":  "Unauthorized Medical Practice",
+                        "title":  "Medical Practice and Privacy Offenses",
                         "categoryId":  "offenses-against-health-and-morals",
-                        "description":  "Unauthorized medical treatment, procedures, prescriptions, medical role claims, and scope-of-practice violations.",
+                        "description":  "Unauthorized medical practice, scope violations, medical title misuse, credential fraud, prescription fraud, and medical information privacy violations.",
                         "sourceCodes":  [
                                             "PC-7026",
                                             "PC-7027",
                                             "PC-7028",
-                                            "PC-7029"
+                                            "PC-7029",
+                                            "PC-7030",
+                                            "PC-7031",
+                                            "PC-7032"
                                         ],
-                        "migrationNotes":  "Medical-specific expansion from general unlawful practice; preserves emergency-aid and good-faith stabilization carveouts.",
+                        "migrationNotes":  "Medical-specific expansion from general unlawful practice, aligned to California-style unauthorized practice, title misuse, prescription fraud, and medical information privacy concepts; preserves emergency-aid and good-faith stabilization carveouts.",
                         "degrees":  [
                                         {
                                             "id":  "unauthorized-medical-practice",
                                             "label":  "Unauthorized Medical Practice",
                                             "sourceCode":  "PC-7026",
                                             "sourceTitle":  "Unauthorized Medical Practice",
-                                            "description":  "A person commits Unauthorized Medical Practice when they knowingly provide medical treatment, patient care, medication instructions, medical orders, or similar healthcare services without the license, appointment, certification, employment status, or lawful authorization required for that act.",
+                                            "description":  "A person commits Unauthorized Medical Practice when they knowingly diagnose, treat, operate on, prescribe for, attempt to practice medicine on, advertise medical services to, hold themselves out as practicing medicine to, or otherwise provide medical treatment, patient care, medication instructions, medical orders, or similar healthcare services without the license, appointment, certification, employment status, or lawful authorization required for that act.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  750,
                                             "baseTime":  10,
@@ -5529,12 +5583,12 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Unauthorized Medical Practice focuses on unapproved medical acts by someone who lacks the required medical authority for the care they provide.",
+                                                                    "overview":  "Unauthorized Medical Practice focuses on unapproved diagnosis, treatment, prescribing, advertising, or medical-service conduct by someone who lacks the required medical authority.",
                                                                     "principles":  [
-                                                                                       "The suspect must knowingly provide or direct medical care while lacking the required license, certification, appointment, employment status, or lawful authorization.",
-                                                                                       "Covered acts may include treatment, patient assessment, medical orders, medication instructions, procedure preparation, use of restricted medical areas, or other healthcare services requiring authorization.",
+                                                                                       "The suspect must knowingly diagnose, treat, prescribe for, attempt to practice medicine on, advertise medical services to, hold themselves out as practicing medicine to, or direct medical care for another person while lacking required authority.",
+                                                                                       "Covered acts may include patient assessment, treatment, medical orders, medication instructions, procedure preparation, use of restricted medical areas, or other healthcare services requiring authorization.",
                                                                                        "Good-faith emergency first aid, CPR, calling EMS, basic bleeding control, or life-saving stabilization should not be charged unless the suspect falsely claims medical authority or performs advanced care beyond immediate necessity.",
-                                                                                       "Reports should document the treatment or instruction given, the claimed role if any, how authorization was checked, patient reliance or impact, witnesses, records, and whether an emergency-aid context existed."
+                                                                                       "Reports should document the diagnosis, treatment, advertisement, representation, instruction, or medical service, the claimed role if any, how authorization was checked, patient reliance or impact, witnesses, records, and whether an emergency-aid context existed."
                                                                                    ]
                                                                 }
                                         },
@@ -5570,6 +5624,7 @@
                                                                     "principles":  [
                                                                                        "The suspect should have some lawful medical, EMS, hospital, pharmacy, or administrative role, but the charged act must fall outside that role's authorized scope.",
                                                                                        "Examples include unauthorized surgery, prescriptions beyond role authority, treatment orders by trainees or administrators, use of restricted procedures without approval, or acting outside assigned department authority.",
+                                                                                       "Ordinary negligence, a bad outcome, or a good-faith medical judgment error is not enough without proof that the suspect knowingly acted outside the authority of their role.",
                                                                                        "Reasonable emergency escalation may be treated as mitigation or excluded when no authorized provider is available and the act is limited to necessary life-saving stabilization.",
                                                                                        "Reports should document the suspect's actual role, the act performed, the applicable authorization limit, supervisor or policy information, patient impact, and why the act was outside scope."
                                                                                    ]
@@ -5580,7 +5635,7 @@
                                             "label":  "Aggravated Unauthorized Medical Practice",
                                             "sourceCode":  "PC-7028",
                                             "sourceTitle":  "Aggravated Unauthorized Medical Practice",
-                                            "description":  "A person commits Aggravated Unauthorized Medical Practice when unauthorized medical practice or a scope-of-practice violation involves surgery, invasive procedures, controlled-substance prescriptions, serious injury risk, repeated or organized conduct, exploitation of a patient, or actual serious medical harm.",
+                                            "description":  "A person commits Aggravated Unauthorized Medical Practice when unauthorized medical practice or a scope-of-practice violation involves surgery, invasive procedures, radiation procedures, setting fractures, controlled-substance or dangerous-drug prescriptions, directing discontinuance of prescribed medication, serious injury risk, repeated or organized conduct, exploitation of a patient, or actual serious medical harm.",
                                             "classification":  "felony",
                                             "baseFine":  2000,
                                             "baseTime":  25,
@@ -5606,7 +5661,8 @@
                                             "legalPrinciples":  {
                                                                     "overview":  "Aggravated Unauthorized Medical Practice is reserved for unauthorized medical conduct that creates elevated patient, public-health, or exploitation risk.",
                                                                     "principles":  [
-                                                                                       "This degree should apply when unauthorized practice involves surgery, invasive procedures, prescriptions for controlled or dangerous medication, sedation, transfusion, experimental care, or comparable high-risk treatment.",
+                                                                                       "This degree should apply when unauthorized practice involves surgery, procedures that puncture the skin or harmfully invade the body, radiation or X-ray procedures, setting fractures, sedation, transfusion, experimental care, or comparable high-risk treatment.",
+                                                                                       "This degree should also apply when the suspect prescribes or administers controlled substances or dangerous drugs, or directs a patient to discontinue medication prescribed by an authorized practitioner.",
                                                                                        "Aggravation may also be shown by repeated conduct, organized billing or patient recruitment, exploitation of vulnerable patients, concealment of medical harm, or actual serious injury.",
                                                                                        "The emergency-aid carveout remains available only for immediate stabilization reasonably necessary to prevent death or serious injury and not for broader treatment, surgery, prescriptions, or deception.",
                                                                                        "Reports should document the procedure or prescription, patient condition, medical risk, injury or deterioration, repeated or organized facts, records, communications, and any concealment or corrective aid."
@@ -5614,9 +5670,44 @@
                                                                 }
                                         },
                                         {
+                                            "id":  "medical-title-misuse",
+                                            "label":  "Medical Title Misuse",
+                                            "sourceCode":  "PC-7029",
+                                            "sourceTitle":  "Medical Title Misuse",
+                                            "description":  "A person commits Medical Title Misuse when they knowingly use or display a medical title, abbreviation, prefix, credential, badge, sign, uniform marking, advertisement, or other representation implying that they are a doctor, physician, surgeon, nurse, pharmacist, EMS provider, or comparable medical professional without holding the lawful authority to use that title.",
+                                            "classification":  "misdemeanor",
+                                            "baseFine":  500,
+                                            "baseTime":  5,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "multiple-victims",
+                                                                "prior-conviction",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Medical Title Misuse is the misdemeanor lane for false or misleading medical titles when the title claim itself is the misconduct.",
+                                                                    "principles":  [
+                                                                                       "The suspect must use a title, abbreviation, credential, badge, sign, advertisement, or other representation that would reasonably imply medical authority they do not possess.",
+                                                                                       "This degree does not require proof that the suspect actually treated a patient, accessed records, obtained medication, or gained money or employment.",
+                                                                                       "Use Medical Credential Fraud instead when the false title or credential is used to obtain trust, access, employment, money, records, medication, or authority over patient care.",
+                                                                                       "Reports should document the title or credential used, where and how it was displayed, why it was false or misleading, who saw or relied on it, and whether any further benefit or patient-care conduct occurred."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
                                             "id":  "medical-credential-fraud",
                                             "label":  "Medical Credential Fraud",
-                                            "sourceCode":  "PC-7029",
+                                            "sourceCode":  "PC-7030",
                                             "sourceTitle":  "Medical Credential Fraud",
                                             "description":  "A person commits Medical Credential Fraud when they knowingly claim, display, forge, use, or rely on a false medical title, license, rank, certification, hospital position, prescription authority, or clinical credential to obtain trust, access, employment, money, records, medication, or authority over patient care.",
                                             "classification":  "felony",
@@ -5643,10 +5734,84 @@
                                             "legalPrinciples":  {
                                                                     "overview":  "Medical Credential Fraud targets false medical authority when the false role causes reliance, access, or control over medical decisions.",
                                                                     "principles":  [
-                                                                                       "The false claim should involve a medical or hospital credential, such as doctor, surgeon, psychiatrist, pharmacist, nurse, EMS supervisor, hospital administrator, prescription authority, or comparable clinical role.",
+                                                                                       "The false claim should involve a forged, fabricated, revoked, suspended, borrowed, or materially misleading medical or hospital credential, such as doctor, surgeon, psychiatrist, pharmacist, nurse, EMS supervisor, hospital administrator, prescription authority, or comparable clinical role.",
                                                                                        "The credential claim must matter to the incident by causing trust, access, employment, patient reliance, records access, medication access, billing, or authority over care.",
-                                                                                       "Use this degree instead of generic impersonation when the medical status itself is central to the conduct; use other impersonation or fraud charges when the medical role is incidental.",
+                                                                                       "Use Medical Title Misuse for bare misuse of a title without further access, benefit, or patient-care authority; use this degree when the false credential produces a consequential benefit or operational risk.",
                                                                                        "Reports should document the false title or credential, how it was presented, who relied on it, access or benefit gained, records or badges used, and whether any patient care was affected."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "prescription-fraud",
+                                            "label":  "Prescription Fraud",
+                                            "sourceCode":  "PC-7031",
+                                            "sourceTitle":  "Prescription Fraud",
+                                            "description":  "A person commits Prescription Fraud when they knowingly forge, alter, utter, use, possess, or create a false prescription, make a false statement in a prescription or medication record, falsely assume an authorized medical or pharmacy role, or use fraud, deceit, misrepresentation, subterfuge, or concealment to obtain medication, controlled substances, or prescription authority.",
+                                            "classification":  "felony",
+                                            "baseFine":  1500,
+                                            "baseTime":  20,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "high-value-loss",
+                                                                "multiple-victims",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Prescription Fraud targets forged, altered, false, or deceptive prescription conduct, especially where medication or controlled substances are obtained or sought.",
+                                                                    "principles":  [
+                                                                                       "The suspect must knowingly forge, alter, use, issue, possess, or present a false prescription or medication order, or make a false statement in a medication-related record.",
+                                                                                       "The charge also applies when a person falsely assumes an authorized medical, pharmacy, manufacturer, wholesaler, or comparable role to obtain medication or prescription authority.",
+                                                                                       "A completed pickup is not required if the suspect attempts to obtain medication, controlled substances, administration, or prescription authority by fraud, deceit, misrepresentation, subterfuge, or concealment.",
+                                                                                       "Reports should document the prescription or order, the medication involved, false statement or forged authority, pharmacy or hospital records, attempted or completed pickup, and any claimed medical role."
+                                                                                   ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "medical-information-privacy-violation",
+                                            "label":  "Medical Information Privacy Violation",
+                                            "sourceCode":  "PC-7032",
+                                            "sourceTitle":  "Medical Information Privacy Violation",
+                                            "description":  "A person commits Medical Information Privacy Violation when they knowingly or willfully obtain, disclose, access, use, release, sell, share, abandon, destroy, or mishandle confidential medical information without lawful authorization, patient consent, duty-related need, or other legal permission.",
+                                            "classification":  "misdemeanor",
+                                            "baseFine":  1000,
+                                            "baseTime":  10,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "organized-activity",
+                                                                "high-value-loss",
+                                                                "multiple-victims",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Medical Information Privacy Violation covers unauthorized access, use, disclosure, or mishandling of confidential patient information.",
+                                                                    "principles":  [
+                                                                                       "The information should identify or reasonably relate to a patient's medical condition, treatment, diagnosis, prescriptions, provider, billing, or medical history.",
+                                                                                       "The suspect must lack lawful authorization, patient consent, duty-related need, or other legal permission to obtain, disclose, access, use, release, sell, share, abandon, destroy, or mishandle the information.",
+                                                                                       "High-value-loss, multiple-victims, organized-activity, or related modifiers should be considered when the disclosure is for financial gain, repeated, broad in scope, or causes economic loss, identity theft, or personal injury.",
+                                                                                       "Reports should document the information involved, access method, disclosure or use, authorization status, affected patients, harm or gain, corrective steps, and whether the release was accidental or willful."
                                                                                    ]
                                                                 }
                                         }
@@ -7916,7 +8081,7 @@
                                                                          "sourceCode":  "PC-10011",
                                                                          "sourceTitle":  "Attempted Murder of a Police Working Dog",
                                                                          "fineMultiplier":  0.75,
-                                                                         "timeMultiplier":  0.6667
+                                                                         "timeMultiplier":  0.67
                                                                      },
                                                                      {
                                                                          "id":  "accessory",
