@@ -7020,7 +7020,7 @@
                                             "label":  "Illegal Vehicle Modifications",
                                             "sourceCode":  "PC-9024",
                                             "sourceTitle":  "Illegal Vehicle Modifications",
-                                            "description":  "A person commits Illegal Vehicle Modifications when they own or operate a vehicle on a public street with modifications not lawful for street use, including Tier 4 or 5 engines, Transmission 3 or 4, nitrous systems, bulletproof tires, or comparable off-road or track-only upgrades.",
+                                            "description":  "A person commits Illegal Vehicle Modifications when they own or operate a vehicle on a public street with non-street-legal performance, nitrous, track, or off-road modifications.",
                                             "classification":  "infraction",
                                             "baseFine":  650,
                                             "baseTime":  0,
@@ -7039,7 +7039,7 @@
                                                                     "overview":  "Illegal vehicle modifications focuses on public-road use of vehicles with upgrades restricted to off-road, track, or non-street use.",
                                                                     "principles":  [
                                                                                        "The vehicle should be on a public street or roadway and have a modification prohibited for street use.",
-                                                                                       "Covered modifications include Tier 4 or 5 engines, Transmission 3 or 4, nitrous systems, bulletproof tires, or comparable performance or armor upgrades.",
+                                                                                       "Covered modifications include Tier 4 or 5 engines, Tier 3 or 4 transmissions, NOS, nitrous systems, or comparable performance upgrades.",
                                                                                        "Reports should document the vehicle, public-road location, observed or inspected modifications, owner or driver connection, photos, and any safety or enforcement basis."
                                                                                    ]
                                                                 }
