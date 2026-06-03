@@ -247,15 +247,15 @@
                       {
                           "id":  "prior-conviction",
                           "label":  "Prior Conviction",
-                          "description":  "Applies when verified records show prior convictions or comparable documented findings that are relevant to the current offense type, victim class, conduct pattern, or sentencing concern. Do not apply for arrests without disposition, rumors, sealed or expunged matters, unrelated minor history, or incidents already being charged as part of the same case.",
+                          "description":  "Applies when verified records show prior convictions or comparable documented findings for the same charge or directly corresponding predecessor charge being sentenced. Do not apply for arrests without disposition, rumors, sealed or expunged matters, unrelated history, loosely similar conduct, or incidents already being charged as part of the same case.",
                           "kind":  "aggravating",
                           "tiers":  [
                                         {
-                                            "id":  "one-prior",
-                                            "label":  "1 Prior Conviction",
-                                            "description":  "Use when verified records show exactly one prior relevant conviction or comparable documented finding. Do not use for unproven allegations or current-case conduct.",
+                                            "id":  "one-to-three-priors",
+                                            "label":  "1-3 Prior Convictions",
+                                            "description":  "Use when verified records show one to three prior convictions or comparable documented findings for the same charge or directly corresponding predecessor charge. Do not use for unproven allegations, unrelated offenses, or current-case conduct.",
                                             "minPriorSimilarIncidents":  1,
-                                            "maxPriorSimilarIncidents":  1,
+                                            "maxPriorSimilarIncidents":  3,
                                             "effects":  [
                                                             {
                                                                 "target":  "fine",
@@ -265,11 +265,11 @@
                                                         ]
                                         },
                                         {
-                                            "id":  "two-to-three-priors",
-                                            "label":  "2-3 Prior Convictions",
-                                            "description":  "Use when verified records show two or three prior relevant convictions or comparable documented findings forming a pattern. Do not use when the history is unrelated, unverified, or already reaches the four-plus tier.",
-                                            "minPriorSimilarIncidents":  2,
-                                            "maxPriorSimilarIncidents":  3,
+                                            "id":  "four-to-nine-priors",
+                                            "label":  "4-9 Prior Convictions",
+                                            "description":  "Use when verified records show four to nine prior convictions or comparable documented findings for the same charge or directly corresponding predecessor charge. Do not use when the history is unrelated, unverified, or already reaches the ten-plus tier.",
+                                            "minPriorSimilarIncidents":  4,
+                                            "maxPriorSimilarIncidents":  9,
                                             "effects":  [
                                                             {
                                                                 "target":  "fine",
@@ -278,26 +278,26 @@
                                                             },
                                                             {
                                                                 "target":  "time",
-                                                                "operation":  "multiply",
-                                                                "value":  1.1
+                                                                "operation":  "add",
+                                                                "value":  5
                                                             }
                                                         ]
                                         },
                                         {
-                                            "id":  "four-plus-priors",
-                                            "label":  "4+ Prior Convictions",
-                                            "description":  "Use when verified records show four or more prior relevant convictions or comparable documented findings establishing a repeated pattern. Do not count unproven allegations or duplicate records for the same incident.",
-                                            "minPriorSimilarIncidents":  4,
+                                            "id":  "ten-plus-priors",
+                                            "label":  "10+ Prior Convictions",
+                                            "description":  "Use when verified records show ten or more prior convictions or comparable documented findings for the same charge or directly corresponding predecessor charge, establishing a sustained repeat-offense pattern. Do not count unproven allegations, unrelated offenses, or duplicate records for the same incident.",
+                                            "minPriorSimilarIncidents":  10,
                                             "effects":  [
                                                             {
                                                                 "target":  "fine",
-                                                                "operation":  "add",
-                                                                "value":  1000
+                                                                "operation":  "multiply",
+                                                                "value":  1.75
                                                             },
                                                             {
                                                                 "target":  "time",
                                                                 "operation":  "multiply",
-                                                                "value":  1.25
+                                                                "value":  1.15
                                                             }
                                                         ]
                                         }
@@ -358,7 +358,7 @@
                       {
                           "id":  "first-offense",
                           "label":  "First Offense",
-                          "description":  "Applies when available records show the person has no relevant prior convictions, comparable documented findings, or recent similar criminal history for the current offense type. Do not apply when any prior-conviction tier applies, when history is unknown or unverified, or when the current case involves a repeated course of conduct.",
+                          "description":  "Applies when available records show the person has no prior convictions or comparable documented findings for the same charge or directly corresponding predecessor charge. Do not apply when any prior-conviction tier applies, when history is unknown or unverified, or when the current case involves a repeated course of conduct for that charge.",
                           "kind":  "mitigating",
                           "effects":  [
                                           {
