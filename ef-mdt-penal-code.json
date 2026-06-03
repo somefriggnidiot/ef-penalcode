@@ -1781,7 +1781,7 @@
                         "code":  "EF-PC-02-007",
                         "title":  "Possession of Government-Issued Items",
                         "categoryId":  "offenses-involving-theft",
-                        "description":  "Unauthorized possession of government-issued property, equipment, credentials, weapons, vehicles, or restricted official items, with felony treatment reserved for restricted, dangerous, access-enabling, or impersonation-enabling items.",
+                        "description":  "Unauthorized possession of government-issued property, equipment, credentials, weapons, MDTs, or restricted official items, with felony treatment reserved for specialized tactical, automatic-weapon, impersonation, sale-transfer, or serious operational-risk cases.",
                         "sourceCodes":  [
                                             "PC-2016"
                                         ],
@@ -1792,7 +1792,7 @@
                                             "label":  "Minor Possession of Government-Issued Items",
                                             "sourceCode":  "PC-2016",
                                             "sourceTitle":  "Minor Possession of Government-Issued Items",
-                                            "description":  "A person commits Minor Possession of Government-Issued Items when they knowingly possess low-risk government-issued or government-owned property without lawful authority or permission, where the item does not enable official access, impersonation, weapons use, protected vehicle use, or serious operational compromise.",
+                                            "description":  "A person commits Minor Possession of Government-Issued Items when they knowingly possess ordinary government-issued or government-owned property without lawful authority or permission, including routine issued equipment, non-specialized sidearms, less-lethal devices, MDTs, or field equipment, where the facts do not show impersonation, sale or transfer, specialized tactical equipment, automatic weapons, or serious operational compromise.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  500,
                                             "baseTime":  10,
@@ -1812,13 +1812,13 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Minor Possession of Government-Issued Items covers unauthorized possession of low-risk official property.",
+                                                                    "overview":  "Minor Possession of Government-Issued Items covers unauthorized possession of ordinary issued official property.",
                                                                     "principles":  [
                                                                                        "The item must be government-issued, government-owned, or restricted to official use.",
                                                                                        "The suspect must lack permission, assignment, or lawful authority to possess it.",
-                                                                                       "This degree should cover ordinary equipment, non-sensitive property, uniforms without deceptive use, or other low-risk official items.",
-                                                                                       "If the item is a firearm, credential, access card, marked or protected vehicle, radio, MDT-type system, badge, restricted key, or item enabling official access or impersonation, evaluate Restricted Government-Issued Items.",
-                                                                                       "Reports should document the item type, issuing agency, how possession was discovered, whether the item was recovered, and why the item did or did not create restricted-access risk."
+                                                                                       "This degree should cover ordinary issued equipment, non-sensitive property, uniforms without deceptive use, MDTs, non-specialized sidearms, less-lethal devices, field equipment, or other routine official items.",
+                                                                                       "Ordinary retention of issued equipment after separation, suspension, inactivity, or reassignment should ordinarily remain in this degree unless the facts show specialized tactical equipment, automatic weapons, sale or transfer, impersonation, concealment after a clear return demand, or serious operational compromise.",
+                                                                                       "Reports should document the item type, issuing agency, how possession was discovered, whether the item was recovered, and why the item did or did not create elevated operational risk."
                                                                                    ]
                                                                 }
                                         },
@@ -1827,7 +1827,7 @@
                                             "label":  "Restricted Government-Issued Items",
                                             "sourceCode":  "PC-2016",
                                             "sourceTitle":  "Restricted Government-Issued Items",
-                                            "description":  "A person commits Restricted Government-Issued Items when they knowingly possess a government-issued firearm, credential, access card, badge, radio, MDT-type system, marked or protected vehicle, restricted key, or comparable official item without lawful authority where the item enables access, impersonation, weapons use, or serious operational compromise.",
+                                            "description":  "A person commits Restricted Government-Issued Items when they knowingly possess automatic firearms, SWAT or specialized tactical equipment, breaching tools, explosive or high-risk devices, or comparable government-issued items without lawful authority where the item creates serious tactical, public-safety, impersonation, sale-transfer, or operational risk.",
                                             "classification":  "felony",
                                             "baseFine":  1500,
                                             "baseTime":  22,
@@ -1850,11 +1850,12 @@
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Restricted Government-Issued Items applies to unauthorized possession of official items that enable access, impersonation, weapons use, protected vehicle use, or serious operational compromise.",
+                                                                    "overview":  "Restricted Government-Issued Items applies to unauthorized possession of specialized official items or retained issued equipment where the facts create serious tactical, impersonation, sale-transfer, or operational risk.",
                                                                     "principles":  [
                                                                                        "The item should be government-issued, government-owned, or restricted to official use and should create more than ordinary property-loss concern.",
-                                                                                       "Restricted items include firearms, credentials, badges, access cards, restricted keys, marked or protected vehicles, radios, MDT-type systems, and comparable items that can enable access, impersonation, or operational compromise.",
-                                                                                       "Weapon-used should apply only when the item or weapon is used, displayed, brandished, or carried for immediate use during the incident, not merely because a government firearm is possessed.",
+                                                                                       "Restricted items include automatic firearms, SWAT or specialized tactical equipment, breaching tools, explosive or high-risk devices, or comparable official items that create serious public-safety or operational risk.",
+                                                                                       "Ordinary issued sidearms, less-lethal devices, MDTs, field equipment, and non-sensitive property should normally remain in Minor Possession unless the facts show use, sale or transfer, impersonation, concealment after a clear return demand, or comparable serious misuse.",
+                                                                                       "Weapon-used should apply only when the item or weapon is used, displayed, brandished, or carried for immediate use during the incident, not merely because ordinary issued equipment is possessed.",
                                                                                        "If the facts show false official authority or commands, evaluate impersonation charges as well.",
                                                                                        "Reports should document the item type, agency, access or authority enabled, how the suspect obtained it, authorization status, recovery, and any use or attempted use."
                                                                                    ]
@@ -2318,7 +2319,7 @@
                                             "legalPrinciples":  {
                                                                     "overview":  "Impersonating focuses on the knowing use of another identity in a way that would reasonably mislead someone or affect an official, business, or personal interaction.",
                                                                     "principles":  [
-                                                                                       "The conduct must involve a false or unauthorized identity claim, not merely a nickname, roleplay statement, or unclear misunderstanding.",
+                                                                                       "The conduct must involve a false or unauthorized identity claim, not merely a nickname, joke, casual statement, or unclear misunderstanding.",
                                                                                        "The suspect must know they lack permission or authority to use the identity or identifying information.",
                                                                                        "Reports should document the claimed identity, how it was presented, who was misled or targeted, and any benefit sought or accountability avoided."
                                                                                    ]
@@ -2353,7 +2354,7 @@
                                                                     "principles":  [
                                                                                        "The key issue is the false assertion or use of official authority, not merely wearing similar clothing without deceptive conduct.",
                                                                                        "Evidence should show the suspect knowingly lacked the claimed status or authority.",
-                                                                                       "Reports should document badges, uniforms, marked vehicles, commands, statements, credentials, victim reliance, and any access or compliance obtained."
+                                                                                       "Reports should document uniforms, marked vehicles, commands, statements, credentials, victim reliance, and any access or compliance obtained."
                                                                                    ]
                                                                 }
                                         },
@@ -3582,7 +3583,7 @@
                                             "legalPrinciples":  {
                                                                     "overview":  "Unlawful Practice targets non-medical regulated services where unlicensed work can expose others to legal, safety, financial, or official-process harm.",
                                                                     "principles":  [
-                                                                                       "The service should be one that reasonably requires a license, certification, government authorization, or official appointment in the simulation setting and is not primarily medical treatment, prescription authority, surgery, clinical scope, or medical credentialing.",
+                                                                                       "The service should be one that reasonably requires a license, certification, government authorization, or official appointment in this jurisdiction and is not primarily medical treatment, prescription authority, surgery, clinical scope, or medical credentialing.",
                                                                                        "The suspect must perform, offer, advertise, or hold themselves out as authorized to provide the regulated service without required authority.",
                                                                                        "Use Unauthorized Medical Practice, Medical Scope-of-Practice Violation, Aggravated Unauthorized Medical Practice, or Medical Credential Fraud when the medical act or medical status is central; use Unlawful Practice only when any medical reference is incidental to a broader non-medical regulated-service violation.",
                                                                                        "Reports should document the service offered or performed, any claimed credential, victim reliance, payment or benefit, records, and verification that no valid authorization existed."
@@ -5674,7 +5675,7 @@
                                             "label":  "Medical Title Misuse",
                                             "sourceCode":  "PC-7029",
                                             "sourceTitle":  "Medical Title Misuse",
-                                            "description":  "A person commits Medical Title Misuse when they knowingly use or display a medical title, abbreviation, prefix, credential, badge, sign, uniform marking, advertisement, or other representation implying that they are a doctor, physician, surgeon, nurse, pharmacist, EMS provider, or comparable medical professional without holding the lawful authority to use that title.",
+                                            "description":  "A person commits Medical Title Misuse when they knowingly use or display a medical title, abbreviation, prefix, credential, sign, uniform marking, advertisement, or other representation implying that they are a doctor, physician, surgeon, nurse, pharmacist, EMS provider, or comparable medical professional without holding the lawful authority to use that title.",
                                             "classification":  "misdemeanor",
                                             "baseFine":  500,
                                             "baseTime":  5,
@@ -5697,7 +5698,7 @@
                                             "legalPrinciples":  {
                                                                     "overview":  "Medical Title Misuse is the misdemeanor lane for false or misleading medical titles when the title claim itself is the misconduct.",
                                                                     "principles":  [
-                                                                                       "The suspect must use a title, abbreviation, credential, badge, sign, advertisement, or other representation that would reasonably imply medical authority they do not possess.",
+                                                                                       "The suspect must use a title, abbreviation, credential, sign, advertisement, or other representation that would reasonably imply medical authority they do not possess.",
                                                                                        "This degree does not require proof that the suspect actually treated a patient, accessed records, obtained medication, or gained money or employment.",
                                                                                        "Use Medical Credential Fraud instead when the false title or credential is used to obtain trust, access, employment, money, records, medication, or authority over patient care.",
                                                                                        "Reports should document the title or credential used, where and how it was displayed, why it was false or misleading, who saw or relied on it, and whether any further benefit or patient-care conduct occurred."
@@ -5737,7 +5738,7 @@
                                                                                        "The false claim should involve a forged, fabricated, revoked, suspended, borrowed, or materially misleading medical or hospital credential, such as doctor, surgeon, psychiatrist, pharmacist, nurse, EMS supervisor, hospital administrator, prescription authority, or comparable clinical role.",
                                                                                        "The credential claim must matter to the incident by causing trust, access, employment, patient reliance, records access, medication access, billing, or authority over care.",
                                                                                        "Use Medical Title Misuse for bare misuse of a title without further access, benefit, or patient-care authority; use this degree when the false credential produces a consequential benefit or operational risk.",
-                                                                                       "Reports should document the false title or credential, how it was presented, who relied on it, access or benefit gained, records or badges used, and whether any patient care was affected."
+                                                                                       "Reports should document the false title or credential, how it was presented, who relied on it, access or benefit gained, records or credentials used, and whether any patient care was affected."
                                                                                    ]
                                                                 }
                                         },
