@@ -420,6 +420,12 @@
                                                                          "label":  "Principal Actor",
                                                                          "fineMultiplier":  1,
                                                                          "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "accessory",
+                                                                         "label":  "Accessory",
+                                                                         "fineMultiplier":  0.4,
+                                                                         "timeMultiplier":  0.5
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -1196,6 +1202,7 @@
                                                                                        "The pain or suffering should be extreme and intentionally inflicted, not merely incidental to a lesser assault or battery.",
                                                                                        "Intentional and unlawful conduct causing permanent disability, disfigurement, or deprivation of a limb, organ, or other body part should be charged under torture when supported by the facts, including when the harm is inflicted for punishment, coercion, interrogation, revenge, extortion, intimidation, or sadistic gratification.",
                                                                                        "The purpose may include punishment, coercion, interrogation, revenge, extortion, intimidation, or sadistic gratification.",
+                                                                                       "Accessory liability should be used when a person knowingly assists, enables, conceals, transports, guards, or otherwise helps the torture without personally inflicting the extreme pain or suffering as the principal actor.",
                                                                                        "Reports should document the acts causing pain, duration, injuries, restraint or threats, statements showing purpose, medical evidence, and victim or witness accounts."
                                                                                    ]
                                                                 }
@@ -1403,7 +1410,7 @@
                                             "label":  "Carjacking",
                                             "sourceCode":  "PC-2005",
                                             "sourceTitle":  "Carjacking",
-                                            "description":  "A person commits Carjacking when they unlawfully take or attempt to take a motor vehicle from another person or the person's immediate presence while the vehicle is occupied, controlled, or being operated.",
+                                            "description":  "A person commits Carjacking when they unlawfully take a motor vehicle from another person or the person's immediate presence while the vehicle is occupied, controlled, or being operated.",
                                             "classification":  "felony",
                                             "baseFine":  1500,
                                             "baseTime":  30,
@@ -1413,6 +1420,12 @@
                                                                          "label":  "Principal Actor",
                                                                          "fineMultiplier":  1,
                                                                          "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "attempted",
+                                                                         "label":  "Attempted",
+                                                                         "fineMultiplier":  0.6,
+                                                                         "timeMultiplier":  0.6
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -1432,6 +1445,7 @@
                                                                     "overview":  "Carjacking focuses on vehicle theft from a person rather than unattended vehicle theft.",
                                                                     "principles":  [
                                                                                        "The vehicle must be taken from a person, their immediate presence, or while being operated.",
+                                                                                       "Attempted liability should be used when the suspect takes a direct step toward taking an occupied or controlled vehicle from a person or immediate presence, but the vehicle is not actually taken.",
                                                                                        "Force, intimidation, or threats should be documented when present, even if not required by the short title.",
                                                                                        "Reports should identify the occupant, driver, or person in immediate control of the vehicle."
                                                                                    ]
