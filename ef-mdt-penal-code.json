@@ -1128,6 +1128,58 @@
                                     ]
                     },
                     {
+                        "id":  "domestic-violence",
+                        "code":  "EF-PC-01-009",
+                        "title":  "Domestic Violence",
+                        "categoryId":  "offenses-against-persons",
+                        "description":  "Violence, force, threats, or coercive abuse committed against an intimate partner, family member, household member, co-parent, or comparable domestic relation.",
+                        "sourceCodes":  [
+                                            "PC-1030"
+                                        ],
+                        "migrationNotes":  "",
+                        "degrees":  [
+                                        {
+                                            "id":  "domestic-violence",
+                                            "degreeCode":  "EF-PC-01-009-A",
+                                            "label":  "Domestic Violence",
+                                            "sourceCode":  "PC-1030",
+                                            "sourceTitle":  "Domestic Violence",
+                                            "description":  "A person commits Domestic Violence when they intentionally, knowingly, or recklessly use unlawful force, make a credible threat of violence, or engage in coercive abusive conduct against an intimate partner, family member, household member, co-parent, or comparable domestic relation.",
+                                            "classification":  "misdemeanor",
+                                            "baseFine":  500,
+                                            "baseTime":  15,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "cooperation",
+                                                                "minor-injury",
+                                                                "weapon-used",
+                                                                "multiple-victims",
+                                                                "medical-aid-rendered",
+                                                                "prior-conviction",
+                                                                "on-release",
+                                                                "voluntary-surrender",
+                                                                "first-offense"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Domestic violence focuses on violence, threats, or coercive abuse within protected domestic relationships.",
+                                                                    "principles":  [
+                                                                                       "The protected relationship may include current or former intimate partners, spouses, dating partners, family members, household members, co-parents, or comparable domestic relations.",
+                                                                                       "The conduct may involve unlawful force, offensive contact, credible threats, intimidation, restraint, or coercive abusive conduct directed at the protected person.",
+                                                                                       "Use assault, battery, aggravated battery, kidnapping, criminal threats, or other specific offenses when the facts independently satisfy those charges, especially where injury, weapons, restraint, or repeated violence are present.",
+                                                                                       "Reports should document the relationship, victim statements, injuries or threats, witnesses, prior related incidents if known, protective orders, weapons, and any immediate safety needs."
+                                                                                   ]
+                                                                }
+                                        }
+                                    ]
+                    },
+                    {
                         "id":  "desecration-of-a-human-corpse",
                         "code":  "EF-PC-01-010",
                         "title":  "Desecration of a Human Corpse",
@@ -7131,7 +7183,8 @@
                                             "PC-9006",
                                             "PC-9021",
                                             "PC-9024",
-                                            "PC-9026"
+                                            "PC-9026",
+                                            "PC-9027"
                                         ],
                         "migrationNotes":  "",
                         "degrees":  [
@@ -7252,6 +7305,37 @@
                                                                                        "The vehicle should be used as a commercial vehicle or subject to commercial inspection requirements.",
                                                                                        "The violation may be based on failed inspection, unsafe condition, missing required documents, overweight load, or other commercial compliance defect.",
                                                                                        "Reports should document vehicle and business identifiers, driver or owner role, inspection results, specific defect, paperwork, load facts, and any out-of-service order."
+                                                                                  ]
+                                                                }
+                                        },
+                                        {
+                                            "id":  "operating-boat-without-required-safety-equipment",
+                                            "degreeCode":  "EF-PC-09-004-E",
+                                            "label":  "Operating Boat Without Required Safety Equipment",
+                                            "sourceCode":  "PC-9027",
+                                            "sourceTitle":  "Operating Boat Without Required Safety Equipment",
+                                            "description":  "A person commits Operating Boat Without Required Safety Equipment when they operate or permit operation of an occupied boat, vessel, or watercraft that lacks required marine safety equipment: one wearable life jacket for each occupant, one throwable life preserver ring, and a marine emergency kit.",
+                                            "classification":  "infraction",
+                                            "baseFine":  300,
+                                            "baseTime":  0,
+                                            "liabilityOptions":  [
+                                                                     {
+                                                                         "id":  "principal",
+                                                                         "label":  "Principal Actor",
+                                                                         "fineMultiplier":  1,
+                                                                         "timeMultiplier":  1
+                                                                     }
+                                                                 ],
+                                            "modifierIds":  [
+                                                                "citation-discretion"
+                                                            ],
+                                            "legalPrinciples":  {
+                                                                    "overview":  "Operating boat without required safety equipment focuses on required safety gear for occupied watercraft.",
+                                                                    "principles":  [
+                                                                                       "The vessel should be operated, launched, underway, or otherwise used on the water while one or more occupants are aboard.",
+                                                                                       "Required equipment includes one wearable life jacket for each occupant, one throwable life preserver ring, and a marine emergency kit.",
+                                                                                       "The required equipment should be onboard, accessible, and usable in an emergency; missing, locked-away, inaccessible, or unusable equipment may support the charge.",
+                                                                                       "Reports should document the vessel, operator, occupant count, missing or unusable equipment, location, photos or inspection notes, and any warning or citation discretion."
                                                                                    ]
                                                                 }
                                         }
