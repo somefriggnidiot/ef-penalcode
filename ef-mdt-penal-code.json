@@ -1999,7 +1999,6 @@
                                                                 "weapon-used",
                                                                 "firearm-discharged",
                                                                 "high-value-loss",
-                                                                "multiple-victims",
                                                                 "prior-conviction",
                                                                 "minimal-participation",
                                                                 "on-release",
@@ -2011,6 +2010,7 @@
                                                                     "principles":  [
                                                                                        "Covered goods may include weapons, firearms, ammunition, controlled substances, explosives, escape tools, restricted security items, or comparable dangerous contraband.",
                                                                                        "The conduct must involve transport, import, export, concealment, or movement through a controlled boundary or customs-controlled area.",
+                                                                                       "If the contraband involves more than 8 illegal firearms or weapons intended for sale or distribution, evaluate Weapon Trafficking as the more specific and more severe charge.",
                                                                                        "Weapon-used should apply only when a weapon is used, displayed, brandished, or carried for immediate use during the smuggling incident, not merely because a weapon is among the goods.",
                                                                                        "If the contraband is introduced into a government facility, evaluate government-facility contraband charges as well.",
                                                                                        "Reports should document the goods, quantity, route, concealment method, intended recipient, authorization status, security risk, communications, and all involved parties."
@@ -2031,6 +2031,12 @@
                                                                          "label":  "Principal Actor",
                                                                          "fineMultiplier":  1,
                                                                          "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "accessory",
+                                                                         "label":  "Accessory",
+                                                                         "fineMultiplier":  0.25,
+                                                                         "timeMultiplier":  1
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -2038,6 +2044,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -2064,6 +2071,12 @@
                                                                          "label":  "Principal Actor",
                                                                          "fineMultiplier":  1,
                                                                          "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "accessory",
+                                                                         "label":  "Accessory",
+                                                                         "fineMultiplier":  0.25,
+                                                                         "timeMultiplier":  1
                                                                      }
                                                                  ],
                                             "modifierIds":  [
@@ -2071,6 +2084,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -2130,20 +2144,28 @@
                                                                          "label":  "Principal Actor",
                                                                          "fineMultiplier":  1,
                                                                          "timeMultiplier":  1
+                                                                     },
+                                                                     {
+                                                                         "id":  "accessory",
+                                                                         "label":  "Accessory",
+                                                                         "fineMultiplier":  0.25,
+                                                                         "timeMultiplier":  1
                                                                      }
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
                                                                 "organized-activity",
-                                                                "high-value-loss",
                                                                 "prior-conviction",
+                                                                "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
                                             "legalPrinciples":  {
                                                                     "overview":  "This degree covers commercial-scale import/export activity conducted outside required licensing or regulatory oversight.",
                                                                     "principles":  [
-                                                                                       "Commercial scale may be shown by high-value goods, repeated transactions, large shipment weight, business infrastructure, or profit-driven operations.",
+                                                                                       "Commercial scale may be shown by three or more import/export shipments in 30 days, aggregate shipment value over $150,000, dedicated storage or storefront infrastructure, business records, paid transport personnel, or coordinated profit-driven operations.",
+                                                                                       "Use Regulatory Smuggling for an isolated unauthorized shipment or border movement that does not show an ongoing unlicensed business operation.",
+                                                                                       "Use Customs Fraud when the core misconduct is a false declaration, false invoice, false valuation, false quantity, or other material misrepresentation to customs or regulatory authorities.",
                                                                                        "Transportation personnel are included when they knowingly participate in the unlicensed operation.",
                                                                                        "Reports should document licenses checked, shipment values, transaction frequency, business records, transport roles, and regulatory notices."
                                                                                    ]
