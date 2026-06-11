@@ -1234,6 +1234,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -1396,6 +1397,7 @@
                                                                 "restitution-made",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -1435,6 +1437,7 @@
                                                                 "restitution-made",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -2044,6 +2047,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -2084,6 +2088,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -2156,6 +2161,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -2233,6 +2239,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -2265,6 +2272,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -2352,6 +2360,7 @@
                                                                 "high-value-loss",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -2472,6 +2481,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -2547,6 +2557,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -2751,6 +2762,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -3145,6 +3157,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -3663,6 +3676,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -3887,6 +3901,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4009,6 +4024,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4043,6 +4059,7 @@
                                                                 "organized-activity",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4132,6 +4149,7 @@
                                                                 "high-value-loss",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4281,6 +4299,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4313,6 +4332,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4379,6 +4399,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4453,6 +4474,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4486,6 +4508,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4560,6 +4583,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4593,6 +4617,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4667,6 +4692,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4700,6 +4726,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4774,6 +4801,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4807,6 +4835,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4890,6 +4919,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4933,6 +4963,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -5383,6 +5414,7 @@
                                                                 "high-value-loss",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -5598,6 +5630,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -5942,6 +5975,7 @@
                                                                 "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -6057,6 +6091,7 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "prior-conviction",
+                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
