@@ -4280,6 +4280,7 @@
                                             "modifierIds":  [
                                                                 "cooperation",
                                                                 "organized-activity",
+                                                                "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4311,7 +4312,7 @@
                                             "modifierIds":  [
                                                                 "cooperation",
                                                                 "organized-activity",
-                                                                "high-value-loss",
+                                                                "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -4931,7 +4932,6 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "high-value-loss",
-                                                                "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -4965,7 +4965,6 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "high-value-loss",
-                                                                "multiple-victims",
                                                                 "prior-conviction",
                                                                 "on-release",
                                                                 "voluntary-surrender",
@@ -5053,7 +5052,6 @@
                                                                      }
                                                                  ],
                                             "modifierIds":  [
-                                                                "minor-injury",
                                                                 "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
@@ -5165,6 +5163,7 @@
                                             "modifierIds":  [
                                                                 "cooperation",
                                                                 "organized-activity",
+                                                                "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -5240,11 +5239,9 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
-                                                                "organized-activity",
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
-                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -5277,12 +5274,10 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
-                                                                "organized-activity",
                                                                 "high-value-loss",
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
-                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -5315,7 +5310,6 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
-                                                                "organized-activity",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
@@ -5389,7 +5383,6 @@
                                                                 "high-value-loss",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
-                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -5421,11 +5414,9 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
-                                                                "organized-activity",
                                                                 "high-value-loss",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
-                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -5434,7 +5425,7 @@
                                                                     "principles":  [
                                                                                        "The information should identify or reasonably relate to a patient's medical condition, treatment, diagnosis, prescriptions, provider, billing, or medical history.",
                                                                                        "The suspect must lack lawful authorization, patient consent, duty-related need, or other legal permission to obtain, disclose, access, use, release, sell, share, abandon, destroy, or mishandle the information.",
-                                                                                       "High-value-loss, multiple-victims, organized-activity, or related modifiers should be considered when the disclosure is for financial gain, repeated, broad in scope, or causes economic loss, identity theft, or personal injury.",
+                                                                                       "High-value-loss, multiple-victims, or related modifiers should be considered when the disclosure is for financial gain, repeated, broad in scope, or causes economic loss, identity theft, or personal injury.",
                                                                                        "Reports should document the information involved, access method, disclosure or use, authorization status, affected patients, harm or gain, corrective steps, and whether the release was accidental or willful."
                                                                                    ]
                                                                 }
