@@ -373,7 +373,7 @@
                         "title":  "Assault",
                         "categoryId":  "offenses-against-persons",
                         "description":  "Unlawful attempts, threats, or acts done with present ability to apply force to another person, with aggravated treatment for deadly weapons or force likely to cause serious injury.",
-                        "migrationNotes":  "Simple Assault and Assault were condensed into Assault. Assault with a Deadly Weapon was converted into Aggravated Assault and weapon-used modifier eligibility; source PC-1004 is preserved on the modifier.",
+                        "migrationNotes":  "Simple Assault and Assault were condensed into Assault. Assault with a Deadly Weapon was converted into Aggravated Assault.",
                         "degrees":  [
                                         {
                                             "id":  "assault",
@@ -401,7 +401,6 @@
                                                                 "public-servant-victim",
                                                                 "cooperation",
                                                                 "minor-injury",
-                                                                "weapon-used",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
@@ -450,7 +449,7 @@
                                                                     "principles":  [
                                                                                        "Physical contact, injury, or Stage 1 incapacitation is not required if the suspect took a direct act with present ability to apply deadly or serious-injury force.",
                                                                                        "Shooting at, stabbing at, striking at, driving toward, or otherwise using a deadly weapon or force likely to cause serious bodily injury may support this degree even if the victim is not hit.",
-                                                                                       "Use of a weapon or dangerous instrument should be documented and may support the weapon-used modifier when the weapon materially elevated the risk of harm.",
+                                                                                       "Use of a weapon or dangerous instrument is built into this degree and should be documented as part of the Aggravated Assault facts.",
                                                                                        "If reports show a specific intent to kill plus a direct step toward killing, attempted murder may apply instead of or in addition to Aggravated Assault.",
                                                                                        "When a victim reaches Stage 1 incapacitation, officers should evaluate attempted murder, torture, aggravated battery, or homicide-stage charges based on intent, continued harm, and whether the victim later reaches Stage 2.",
                                                                                        "Reports should document the act, present ability, weapon or force used, range and direction, victim reaction, injuries if any, witness accounts, and any self-defense or consent claim."
@@ -689,7 +688,7 @@
                                                                                        "When a suspect intentionally or recklessly creates a life-threatening condition and then knowingly abandons the victim, fails to seek available aid, or allows Stage 2 to occur, officers should evaluate Second Degree Murder unless the facts show premeditation or deliberate use of delay as the killing method.",
                                                                                        "When one person causes Stage 1 and another person later causes Stage 2, charge each actor according to their own conduct, intent, and causal role; the first actor may face murder, attempted murder, or aggravated battery depending on whether their conduct remained a substantial cause of death.",
                                                                                        "Coordinated group violence that collectively causes Stage 2 may support principal, aiding-and-abetting, or conspiracy liability when the participants shared the violent purpose or knowingly assisted the life-threatening attack.",
-                                                                                       "Shooting at or otherwise attacking a person with a deadly weapon without causing Stage 1 should ordinarily be charged as Assault with the weapon-used modifier unless independent facts show a specific intent to kill and a direct step toward killing.",
+                                                                                       "Shooting at or otherwise attacking a person with a deadly weapon without causing Stage 1 should ordinarily be charged as Aggravated Assault unless independent facts show a specific intent to kill and a direct step toward killing.",
                                                                                        "Attempted murder and accessory liability should use the listed liability options when the facts support those roles.",
                                                                                        "Reports should document cause of death, suspect intent or reckless disregard, weapon or method, timeline, statements, witnesses, and why first degree premeditation is not established."
                                                                                    ]
