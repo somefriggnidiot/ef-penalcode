@@ -1026,7 +1026,7 @@
                                             "label":  "Domestic Violence",
                                             "description":  "A person commits Domestic Violence when they intentionally, knowingly, or recklessly use unlawful force, make a credible threat of violence, or engage in coercive abusive conduct against an intimate partner, family member, household member, co-parent, or comparable domestic relation.",
                                             "classification":  "misdemeanor",
-                                            "baseFine":  500,
+                                            "baseFine":  275,
                                             "baseTime":  15,
                                             "liabilityOptions":  [
                                                                      {
@@ -1043,7 +1043,6 @@
                                                                 "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
-                                                                "on-release",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
