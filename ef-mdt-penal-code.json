@@ -6294,7 +6294,6 @@
                                                                 "cooperation",
                                                                 "minor-injury",
                                                                 "multiple-victims",
-                                                                "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -6335,10 +6334,7 @@
                                                                      }
                                                                  ],
                                             "modifierIds":  [
-                                                                "public-servant-victim",
                                                                 "cooperation",
-                                                                "multiple-victims",
-                                                                "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -6369,10 +6365,7 @@
                                                                      }
                                                                  ],
                                             "modifierIds":  [
-                                                                "public-servant-victim",
                                                                 "cooperation",
-                                                                "multiple-victims",
-                                                                "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "on-release",
                                                                 "voluntary-surrender",
@@ -6415,8 +6408,6 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "minor-injury",
-                                                                "multiple-victims",
-                                                                "medical-aid-rendered",
                                                                 "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
@@ -6634,10 +6625,6 @@
                                                                      }
                                                                  ],
                                             "modifierIds":  [
-                                                                "public-servant-victim",
-                                                                "minor-injury",
-                                                                "multiple-victims",
-                                                                "medical-aid-rendered",
                                                                 "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
@@ -6703,8 +6690,6 @@
                                             "modifierIds":  [
                                                                 "cooperation",
                                                                 "organized-activity",
-                                                                "multiple-victims",
-                                                                "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -6735,7 +6720,6 @@
                                                                      }
                                                                  ],
                                             "modifierIds":  [
-                                                                "multiple-victims",
                                                                 "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
@@ -6859,9 +6843,6 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
-                                                                "minor-injury",
-                                                                "multiple-victims",
-                                                                "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -6959,8 +6940,6 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
-                                                                "multiple-victims",
-                                                                "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
