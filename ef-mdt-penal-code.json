@@ -1745,7 +1745,6 @@
                                             "modifierIds":  [
                                                                 "cooperation",
                                                                 "organized-activity",
-                                                                "weapon-used",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "on-release",
@@ -1758,7 +1757,6 @@
                                                                                        "The item should be government-issued, government-owned, or restricted to official use and should create more than ordinary property-loss concern.",
                                                                                        "Restricted items include automatic firearms, SWAT or specialized tactical equipment, breaching tools, explosive or high-risk devices, or comparable official items that create serious public-safety or operational risk.",
                                                                                        "Ordinary issued sidearms, less-lethal devices, MDTs, field equipment, and non-sensitive property should normally remain in Minor Possession unless the facts show use, sale or transfer, impersonation, concealment after a clear return demand, or comparable serious misuse.",
-                                                                                       "Weapon-used should apply only when the item or weapon is used, displayed, brandished, or carried for immediate use during the incident, not merely because ordinary issued equipment is possessed.",
                                                                                        "If the facts show false official authority or commands, evaluate impersonation charges as well.",
                                                                                        "Reports should document the item type, agency, access or authority enabled, how the suspect obtained it, authorization status, recovery, and any use or attempted use."
                                                                                    ]
