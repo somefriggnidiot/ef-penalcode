@@ -2305,7 +2305,6 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
-                                                                "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -2393,7 +2392,6 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
-                                                                "organized-activity",
                                                                 "high-value-loss",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
@@ -2428,7 +2426,6 @@
                                             "modifierIds":  [
                                                                 "cooperation",
                                                                 "restitution-made",
-                                                                "organized-activity",
                                                                 "high-value-loss",
                                                                 "multiple-victims",
                                                                 "prior-conviction",
@@ -2474,8 +2471,8 @@
                                                                 "cooperation",
                                                                 "organized-activity",
                                                                 "high-value-loss",
-                                                                "multiple-victims",
                                                                 "prior-conviction",
+                                                                "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
