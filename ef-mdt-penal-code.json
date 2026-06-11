@@ -407,6 +407,7 @@
                         "degrees":  [
                                         {
                                             "id":  "assault",
+                                            "degreeCode":  "EF-PC-01-001-A",
                                             "label":  "Assault",
                                             "sourceCode":  "PC-1001",
                                             "sourceTitle":  "Assault",
@@ -451,6 +452,7 @@
                                         },
                                         {
                                             "id":  "aggravated-assault",
+                                            "degreeCode":  "EF-PC-01-001-B",
                                             "label":  "Aggravated Assault",
                                             "sourceCode":  "PC-1003",
                                             "sourceTitle":  "Aggravated Assault",
@@ -506,6 +508,7 @@
                         "degrees":  [
                                         {
                                             "id":  "battery",
+                                            "degreeCode":  "EF-PC-01-002-A",
                                             "label":  "Battery",
                                             "sourceCode":  "PC-1005",
                                             "sourceTitle":  "Battery",
@@ -542,6 +545,7 @@
                                         },
                                         {
                                             "id":  "aggravated-battery",
+                                            "degreeCode":  "EF-PC-01-002-B",
                                             "label":  "Aggravated Battery",
                                             "sourceCode":  "PC-1006",
                                             "sourceTitle":  "Aggravated Battery",
@@ -595,6 +599,7 @@
                         "degrees":  [
                                         {
                                             "id":  "involuntary-manslaughter",
+                                            "degreeCode":  "EF-PC-01-003-A",
                                             "label":  "Involuntary Manslaughter",
                                             "sourceCode":  "PC-1007",
                                             "sourceTitle":  "Involuntary Manslaughter",
@@ -633,6 +638,7 @@
                                         },
                                         {
                                             "id":  "vehicular-manslaughter",
+                                            "degreeCode":  "EF-PC-01-003-B",
                                             "label":  "Vehicular Manslaughter",
                                             "sourceCode":  "PC-1008",
                                             "sourceTitle":  "Vehicular Manslaughter",
@@ -691,6 +697,7 @@
                         "degrees":  [
                                         {
                                             "id":  "second-degree-murder",
+                                            "degreeCode":  "EF-PC-01-004-A",
                                             "label":  "Second Degree Murder",
                                             "sourceCode":  "PC-1010",
                                             "sourceTitle":  "Second Degree Murder",
@@ -759,6 +766,7 @@
                                         },
                                         {
                                             "id":  "first-degree-murder",
+                                            "degreeCode":  "EF-PC-01-004-B",
                                             "label":  "First Degree Murder",
                                             "sourceCode":  "PC-1012",
                                             "sourceTitle":  "First Degree Murder",
@@ -841,6 +849,7 @@
                         "degrees":  [
                                         {
                                             "id":  "unlawful-imprisonment",
+                                            "degreeCode":  "EF-PC-01-005-A",
                                             "label":  "Unlawful Imprisonment",
                                             "sourceCode":  "PC-1017",
                                             "sourceTitle":  "Unlawful Imprisonment",
@@ -892,6 +901,7 @@
                         "degrees":  [
                                         {
                                             "id":  "kidnapping",
+                                            "degreeCode":  "EF-PC-01-006-A",
                                             "label":  "Kidnapping",
                                             "sourceCode":  "PC-1018",
                                             "sourceTitle":  "Kidnapping",
@@ -954,6 +964,7 @@
                                         },
                                         {
                                             "id":  "hostage-taking",
+                                            "degreeCode":  "EF-PC-01-006-B",
                                             "label":  "Hostage Taking",
                                             "sourceCode":  "PC-1021",
                                             "sourceTitle":  "Hostage Taking",
@@ -1029,6 +1040,7 @@
                         "degrees":  [
                                         {
                                             "id":  "criminal-threats",
+                                            "degreeCode":  "EF-PC-01-007-A",
                                             "label":  "Criminal Threats",
                                             "sourceCode":  "PC-1024",
                                             "sourceTitle":  "Criminal Threats",
@@ -1076,6 +1088,7 @@
                         "degrees":  [
                                         {
                                             "id":  "reckless-endangerment",
+                                            "degreeCode":  "EF-PC-01-008-A",
                                             "label":  "Reckless Endangerment",
                                             "sourceCode":  "PC-1025",
                                             "sourceTitle":  "Reckless Endangerment",
@@ -1127,6 +1140,7 @@
                         "degrees":  [
                                         {
                                             "id":  "desecration-of-a-human-corpse",
+                                            "degreeCode":  "EF-PC-01-010-A",
                                             "label":  "Desecration of a Human Corpse",
                                             "sourceCode":  "PC-1027",
                                             "sourceTitle":  "Desecration of a Human Corpse",
@@ -1172,6 +1186,7 @@
                         "degrees":  [
                                         {
                                             "id":  "torture",
+                                            "degreeCode":  "EF-PC-01-011-A",
                                             "label":  "Torture",
                                             "sourceCode":  "PC-1028",
                                             "sourceTitle":  "Torture",
@@ -1224,6 +1239,7 @@
                         "degrees":  [
                                         {
                                             "id":  "petty-theft",
+                                            "degreeCode":  "EF-PC-02-001-A",
                                             "label":  "Petty Theft",
                                             "sourceCode":  "PC-2001",
                                             "sourceTitle":  "Petty Theft",
@@ -1254,6 +1270,7 @@
                                         },
                                         {
                                             "id":  "grand-theft",
+                                            "degreeCode":  "EF-PC-02-001-B",
                                             "label":  "Grand Theft",
                                             "sourceCode":  "PC-2002",
                                             "sourceTitle":  "Grand Theft",
@@ -1287,6 +1304,7 @@
                                         },
                                         {
                                             "id":  "grand-larceny",
+                                            "degreeCode":  "EF-PC-02-001-C",
                                             "label":  "Grand Larceny",
                                             "sourceCode":  "PC-2013",
                                             "sourceTitle":  "Grand Larceny",
@@ -1337,6 +1355,7 @@
                         "degrees":  [
                                         {
                                             "id":  "grand-theft-auto-a",
+                                            "degreeCode":  "EF-PC-02-002-A",
                                             "label":  "Grand Theft Auto A",
                                             "sourceCode":  "PC-2003",
                                             "sourceTitle":  "Grand Theft Auto A",
@@ -1371,6 +1390,7 @@
                                         },
                                         {
                                             "id":  "grand-theft-auto-b",
+                                            "degreeCode":  "EF-PC-02-002-B",
                                             "label":  "Grand Theft Auto B",
                                             "sourceCode":  "PC-2004",
                                             "sourceTitle":  "Grand Theft Auto B",
@@ -1407,6 +1427,7 @@
                                         },
                                         {
                                             "id":  "carjacking",
+                                            "degreeCode":  "EF-PC-02-002-C",
                                             "label":  "Carjacking",
                                             "sourceCode":  "PC-2005",
                                             "sourceTitle":  "Carjacking",
@@ -1453,6 +1474,7 @@
                                         },
                                         {
                                             "id":  "theft-of-an-aircraft",
+                                            "degreeCode":  "EF-PC-02-002-D",
                                             "label":  "Theft of an Aircraft",
                                             "sourceCode":  "PC-2019",
                                             "sourceTitle":  "Theft of an Aircraft",
@@ -1496,6 +1518,7 @@
                                         },
                                         {
                                             "id":  "theft-of-a-law-enforcement-vehicle",
+                                            "degreeCode":  "EF-PC-02-002-E",
                                             "label":  "Theft of a Law Enforcement Vehicle",
                                             "sourceCode":  "PC-2021",
                                             "sourceTitle":  "Theft of a Law Enforcement Vehicle",
@@ -1552,6 +1575,7 @@
                         "degrees":  [
                                         {
                                             "id":  "burglary",
+                                            "degreeCode":  "EF-PC-02-003-A",
                                             "label":  "Burglary",
                                             "sourceCode":  "PC-2006",
                                             "sourceTitle":  "Burglary",
@@ -1589,6 +1613,7 @@
                                         },
                                         {
                                             "id":  "aggravated-burglary",
+                                            "degreeCode":  "EF-PC-02-003-B",
                                             "label":  "Aggravated Burglary",
                                             "sourceCode":  "PC-2006",
                                             "sourceTitle":  "Aggravated Burglary",
@@ -1648,6 +1673,7 @@
                         "degrees":  [
                                         {
                                             "id":  "robbery",
+                                            "degreeCode":  "EF-PC-02-004-A",
                                             "label":  "Robbery",
                                             "sourceCode":  "PC-2007",
                                             "sourceTitle":  "Robbery",
@@ -1726,6 +1752,7 @@
                         "degrees":  [
                                         {
                                             "id":  "leaving-without-paying",
+                                            "degreeCode":  "EF-PC-02-005-A",
                                             "label":  "Leaving Without Paying",
                                             "sourceCode":  "PC-2014",
                                             "sourceTitle":  "Leaving Without Paying",
@@ -1769,6 +1796,7 @@
                         "degrees":  [
                                         {
                                             "id":  "possession-of-nonlegal-currency",
+                                            "degreeCode":  "EF-PC-02-006-A",
                                             "label":  "Possession of Nonlegal Currency",
                                             "sourceCode":  "PC-2015",
                                             "sourceTitle":  "Possession of Nonlegal Currency",
@@ -1815,6 +1843,7 @@
                         "degrees":  [
                                         {
                                             "id":  "minor-possession-of-government-issued-items",
+                                            "degreeCode":  "EF-PC-02-007-A",
                                             "label":  "Minor Possession of Government-Issued Items",
                                             "sourceCode":  "PC-2016",
                                             "sourceTitle":  "Minor Possession of Government-Issued Items",
@@ -1850,6 +1879,7 @@
                                         },
                                         {
                                             "id":  "restricted-government-issued-items",
+                                            "degreeCode":  "EF-PC-02-007-B",
                                             "label":  "Restricted Government-Issued Items",
                                             "sourceCode":  "PC-2016",
                                             "sourceTitle":  "Restricted Government-Issued Items",
@@ -1903,6 +1933,7 @@
                         "degrees":  [
                                         {
                                             "id":  "possession-of-items-used-in-the-commission-of-a-crime",
+                                            "degreeCode":  "EF-PC-02-008-A",
                                             "label":  "Possession of Items Used in the Commission of a Crime",
                                             "sourceCode":  "PC-2017",
                                             "sourceTitle":  "Possession of Items Used in the Commission of a Crime",
@@ -1937,6 +1968,7 @@
                                         },
                                         {
                                             "id":  "sale-of-items-used-in-the-commission-of-a-crime",
+                                            "degreeCode":  "EF-PC-02-008-B",
                                             "label":  "Sale of Items Used in the Commission of a Crime",
                                             "sourceCode":  "PC-2018",
                                             "sourceTitle":  "Sale of Items Used in the Commission of a Crime",
@@ -1983,6 +2015,7 @@
                         "degrees":  [
                                         {
                                             "id":  "criminal-possession-of-stolen-property",
+                                            "degreeCode":  "EF-PC-02-009-A",
                                             "label":  "Criminal Possession of Stolen Property",
                                             "sourceCode":  "PC-2020",
                                             "sourceTitle":  "Criminal Possession of Stolen Property",
@@ -2018,6 +2051,7 @@
                                         },
                                         {
                                             "id":  "aggravated-possession-of-stolen-property",
+                                            "degreeCode":  "EF-PC-02-009-B",
                                             "label":  "Aggravated Possession of Stolen Property",
                                             "sourceCode":  "PC-2020",
                                             "sourceTitle":  "Aggravated Possession of Stolen Property",
@@ -2075,6 +2109,7 @@
                         "degrees":  [
                                         {
                                             "id":  "regulatory-smuggling",
+                                            "degreeCode":  "EF-PC-02-010-A",
                                             "label":  "Regulatory Smuggling",
                                             "sourceCode":  "PC-2022",
                                             "sourceTitle":  "Regulatory Smuggling",
@@ -2120,6 +2155,7 @@
                                         },
                                         {
                                             "id":  "dangerous-contraband-smuggling",
+                                            "degreeCode":  "EF-PC-02-010-B",
                                             "label":  "Dangerous Contraband Smuggling",
                                             "sourceCode":  "PC-2022",
                                             "sourceTitle":  "Dangerous Contraband Smuggling",
@@ -2169,6 +2205,7 @@
                                         },
                                         {
                                             "id":  "smuggling-of-precious-gemstones",
+                                            "degreeCode":  "EF-PC-02-010-C",
                                             "label":  "Smuggling of Precious Gemstones",
                                             "sourceCode":  "PC-2023",
                                             "sourceTitle":  "Smuggling of Precious Gemstones",
@@ -2203,6 +2240,7 @@
                                         },
                                         {
                                             "id":  "smuggling-of-precious-metals",
+                                            "degreeCode":  "EF-PC-02-010-D",
                                             "label":  "Smuggling of Precious Metals",
                                             "sourceCode":  "PC-2024",
                                             "sourceTitle":  "Smuggling of Precious Metals",
@@ -2237,6 +2275,7 @@
                                         },
                                         {
                                             "id":  "customs-fraud",
+                                            "degreeCode":  "EF-PC-02-010-E",
                                             "label":  "Customs Fraud",
                                             "sourceCode":  "PC-2025",
                                             "sourceTitle":  "Customs Fraud",
@@ -2271,6 +2310,7 @@
                                         },
                                         {
                                             "id":  "operating-an-unlicensed-import-export-business",
+                                            "degreeCode":  "EF-PC-02-010-F",
                                             "label":  "Operating an Unlicensed Import/Export Business",
                                             "sourceCode":  "PC-2026",
                                             "sourceTitle":  "Operating an Unlicensed Import/Export Business",
@@ -2320,6 +2360,7 @@
                         "degrees":  [
                                         {
                                             "id":  "impersonating",
+                                            "degreeCode":  "EF-PC-03-001-A",
                                             "label":  "Impersonating",
                                             "sourceCode":  "PC-3001",
                                             "sourceTitle":  "Impersonating",
@@ -2353,6 +2394,7 @@
                                         },
                                         {
                                             "id":  "impersonating-a-peace-officer-or-public-servant",
+                                            "degreeCode":  "EF-PC-03-001-B",
                                             "label":  "Impersonating a Peace Officer or Public Servant",
                                             "sourceCode":  "PC-3002",
                                             "sourceTitle":  "Impersonating a Peace Officer or Public Servant",
@@ -2386,6 +2428,7 @@
                                         },
                                         {
                                             "id":  "impersonating-a-judge",
+                                            "degreeCode":  "EF-PC-03-001-C",
                                             "label":  "Impersonating a Judge",
                                             "sourceCode":  "PC-3003",
                                             "sourceTitle":  "Impersonating a Judge",
@@ -2432,6 +2475,7 @@
                         "degrees":  [
                                         {
                                             "id":  "possession-of-stolen-government-identification",
+                                            "degreeCode":  "EF-PC-03-002-A",
                                             "label":  "Possession of Stolen Government Identification",
                                             "sourceCode":  "PC-3005",
                                             "sourceTitle":  "Possession of Stolen Government Identification",
@@ -2478,6 +2522,7 @@
                         "degrees":  [
                                         {
                                             "id":  "extortion",
+                                            "degreeCode":  "EF-PC-03-003-A",
                                             "label":  "Extortion",
                                             "sourceCode":  "PC-3006",
                                             "sourceTitle":  "Extortion",
@@ -2529,6 +2574,7 @@
                         "degrees":  [
                                         {
                                             "id":  "fraud",
+                                            "degreeCode":  "EF-PC-03-004-A",
                                             "label":  "Fraud",
                                             "sourceCode":  "PC-3007",
                                             "sourceTitle":  "Fraud",
@@ -2564,6 +2610,7 @@
                                         },
                                         {
                                             "id":  "forgery",
+                                            "degreeCode":  "EF-PC-03-004-B",
                                             "label":  "Forgery",
                                             "sourceCode":  "PC-3008",
                                             "sourceTitle":  "Forgery",
@@ -2613,6 +2660,7 @@
                         "degrees":  [
                                         {
                                             "id":  "money-laundering",
+                                            "degreeCode":  "EF-PC-03-005-A",
                                             "label":  "Money Laundering",
                                             "sourceCode":  "PC-3009",
                                             "sourceTitle":  "Money Laundering",
@@ -2662,6 +2710,7 @@
                         "degrees":  [
                                         {
                                             "id":  "trespassing",
+                                            "degreeCode":  "EF-PC-04-001-A",
                                             "label":  "Trespassing",
                                             "sourceCode":  "PC-4001",
                                             "sourceTitle":  "Trespassing",
@@ -2695,6 +2744,7 @@
                                         },
                                         {
                                             "id":  "felony-trespassing",
+                                            "degreeCode":  "EF-PC-04-001-B",
                                             "label":  "Felony Trespassing",
                                             "sourceCode":  "PC-4002",
                                             "sourceTitle":  "Felony Trespassing",
@@ -2741,6 +2791,7 @@
                         "degrees":  [
                                         {
                                             "id":  "arson",
+                                            "degreeCode":  "EF-PC-04-002-A",
                                             "label":  "Arson",
                                             "sourceCode":  "PC-4003",
                                             "sourceTitle":  "Arson",
@@ -2795,6 +2846,7 @@
                         "degrees":  [
                                         {
                                             "id":  "vandalism",
+                                            "degreeCode":  "EF-PC-04-003-A",
                                             "label":  "Vandalism",
                                             "sourceCode":  "PC-4004",
                                             "sourceTitle":  "Vandalism",
@@ -2826,6 +2878,7 @@
                                         },
                                         {
                                             "id":  "vandalism-of-government-property",
+                                            "degreeCode":  "EF-PC-04-003-B",
                                             "label":  "Vandalism of Government Property",
                                             "sourceCode":  "PC-4005",
                                             "sourceTitle":  "Vandalism of Government Property",
@@ -2875,6 +2928,7 @@
                         "degrees":  [
                                         {
                                             "id":  "littering",
+                                            "degreeCode":  "EF-PC-04-004-A",
                                             "label":  "Littering",
                                             "sourceCode":  "PC-4006",
                                             "sourceTitle":  "Littering",
@@ -2917,6 +2971,7 @@
                         "degrees":  [
                                         {
                                             "id":  "bribery-of-a-government-official",
+                                            "degreeCode":  "EF-PC-05-001-A",
                                             "label":  "Bribery of a Government Official",
                                             "sourceCode":  "PC-5001",
                                             "sourceTitle":  "Bribery of a Government Official",
@@ -2964,6 +3019,7 @@
                         "degrees":  [
                                         {
                                             "id":  "anti-mask-law",
+                                            "degreeCode":  "EF-PC-05-002-A",
                                             "label":  "Anti-Mask Law",
                                             "sourceCode":  "PC-5002",
                                             "sourceTitle":  "Anti-Mask Law",
@@ -3006,6 +3062,7 @@
                         "degrees":  [
                                         {
                                             "id":  "minor-facility-contraband",
+                                            "degreeCode":  "EF-PC-05-003-A",
                                             "label":  "Minor Facility Contraband",
                                             "sourceCode":  "PC-5003",
                                             "sourceTitle":  "Minor Facility Contraband",
@@ -3041,6 +3098,7 @@
                                         },
                                         {
                                             "id":  "dangerous-government-facility-contraband",
+                                            "degreeCode":  "EF-PC-05-003-B",
                                             "label":  "Dangerous Government-Facility Contraband",
                                             "sourceCode":  "PC-5003",
                                             "sourceTitle":  "Dangerous Government-Facility Contraband",
@@ -3085,6 +3143,7 @@
                                         },
                                         {
                                             "id":  "aggravated-facility-contraband",
+                                            "degreeCode":  "EF-PC-05-003-C",
                                             "label":  "Aggravated Facility Contraband",
                                             "sourceCode":  "PC-5003",
                                             "sourceTitle":  "Aggravated Facility Contraband",
@@ -3153,6 +3212,7 @@
                         "degrees":  [
                                         {
                                             "id":  "misdemeanor-escape-from-detention",
+                                            "degreeCode":  "EF-PC-05-004-A",
                                             "label":  "Misdemeanor Escape from Detention",
                                             "sourceCode":  "PC-5004",
                                             "sourceTitle":  "Misdemeanor Escape from Detention",
@@ -3189,6 +3249,7 @@
                                         },
                                         {
                                             "id":  "felony-escape-from-custody",
+                                            "degreeCode":  "EF-PC-05-004-B",
                                             "label":  "Felony Escape from Custody",
                                             "sourceCode":  "PC-5004",
                                             "sourceTitle":  "Felony Escape from Custody",
@@ -3225,6 +3286,7 @@
                                         },
                                         {
                                             "id":  "aggravated-escape",
+                                            "degreeCode":  "EF-PC-05-004-C",
                                             "label":  "Aggravated Escape",
                                             "sourceCode":  "PC-5004",
                                             "sourceTitle":  "Aggravated Escape",
@@ -3277,6 +3339,7 @@
                                         },
                                         {
                                             "id":  "jailbreak",
+                                            "degreeCode":  "EF-PC-05-004-D",
                                             "label":  "Jailbreak",
                                             "sourceCode":  "PC-5005",
                                             "sourceTitle":  "Jailbreak",
@@ -3342,6 +3405,7 @@
                         "degrees":  [
                                         {
                                             "id":  "perjury",
+                                            "degreeCode":  "EF-PC-05-005-A",
                                             "label":  "Perjury",
                                             "sourceCode":  "PC-5008",
                                             "sourceTitle":  "Perjury",
@@ -3391,6 +3455,7 @@
                         "degrees":  [
                                         {
                                             "id":  "violation-of-a-restraining-order",
+                                            "degreeCode":  "EF-PC-05-006-A",
                                             "label":  "Violation of a Restraining Order",
                                             "sourceCode":  "PC-5009",
                                             "sourceTitle":  "Violation of a Restraining Order",
@@ -3424,6 +3489,7 @@
                                         },
                                         {
                                             "id":  "violating-a-court-order",
+                                            "degreeCode":  "EF-PC-05-006-B",
                                             "label":  "Violating a Court Order",
                                             "sourceCode":  "PC-5014",
                                             "sourceTitle":  "Violating a Court Order",
@@ -3456,6 +3522,7 @@
                                         },
                                         {
                                             "id":  "failure-to-appear",
+                                            "degreeCode":  "EF-PC-05-006-C",
                                             "label":  "Failure to Appear",
                                             "sourceCode":  "PC-5015",
                                             "sourceTitle":  "Failure to Appear",
@@ -3488,6 +3555,7 @@
                                         },
                                         {
                                             "id":  "contempt-of-court",
+                                            "degreeCode":  "EF-PC-05-006-D",
                                             "label":  "Contempt of Court",
                                             "sourceCode":  "PC-5016",
                                             "sourceTitle":  "Contempt of Court",
@@ -3533,6 +3601,7 @@
                         "degrees":  [
                                         {
                                             "id":  "embezzlement",
+                                            "degreeCode":  "EF-PC-05-007-A",
                                             "label":  "Embezzlement",
                                             "sourceCode":  "PC-5010",
                                             "sourceTitle":  "Embezzlement",
@@ -3582,6 +3651,7 @@
                         "degrees":  [
                                         {
                                             "id":  "unlawful-practice",
+                                            "degreeCode":  "EF-PC-05-008-A",
                                             "label":  "Unlawful Practice",
                                             "sourceCode":  "PC-5011",
                                             "sourceTitle":  "Unlawful Practice",
@@ -3631,6 +3701,7 @@
                         "degrees":  [
                                         {
                                             "id":  "misuse-of-emergency-systems",
+                                            "degreeCode":  "EF-PC-05-009-A",
                                             "label":  "Misuse of Emergency Systems",
                                             "sourceCode":  "PC-5012",
                                             "sourceTitle":  "Misuse of Emergency Systems",
@@ -3674,6 +3745,7 @@
                         "degrees":  [
                                         {
                                             "id":  "resisting-arrest",
+                                            "degreeCode":  "EF-PC-05-011-A",
                                             "label":  "Resisting Arrest",
                                             "sourceCode":  "PC-5017",
                                             "sourceTitle":  "Resisting Arrest",
@@ -3721,6 +3793,7 @@
                         "degrees":  [
                                         {
                                             "id":  "interference-with-emergency-medical-services",
+                                            "degreeCode":  "EF-PC-05-012-A",
                                             "label":  "Interference with Emergency Medical Services",
                                             "sourceCode":  "PC-5018",
                                             "sourceTitle":  "Interference with Emergency Medical Services",
@@ -3773,6 +3846,7 @@
                         "degrees":  [
                                         {
                                             "id":  "disobeying-a-peace-officer",
+                                            "degreeCode":  "EF-PC-06-001-A",
                                             "label":  "Disobeying a Peace Officer",
                                             "sourceCode":  "PC-6001",
                                             "sourceTitle":  "Disobeying a Peace Officer",
@@ -3802,6 +3876,7 @@
                                         },
                                         {
                                             "id":  "failure-to-provide-identification",
+                                            "degreeCode":  "EF-PC-06-001-B",
                                             "label":  "Failure to Provide Identification",
                                             "sourceCode":  "PC-6013",
                                             "sourceTitle":  "Failure to Provide Identification",
@@ -3850,6 +3925,7 @@
                         "degrees":  [
                                         {
                                             "id":  "disorderly-conduct",
+                                            "degreeCode":  "EF-PC-06-002-A",
                                             "label":  "Disorderly Conduct",
                                             "sourceCode":  "PC-6002",
                                             "sourceTitle":  "Disorderly Conduct",
@@ -3879,6 +3955,7 @@
                                         },
                                         {
                                             "id":  "disturbing-the-peace",
+                                            "degreeCode":  "EF-PC-06-002-B",
                                             "label":  "Disturbing the Peace",
                                             "sourceCode":  "PC-6003",
                                             "sourceTitle":  "Disturbing the Peace",
@@ -3908,6 +3985,7 @@
                                         },
                                         {
                                             "id":  "inciting-a-riot",
+                                            "degreeCode":  "EF-PC-06-002-C",
                                             "label":  "Inciting a Riot",
                                             "sourceCode":  "PC-6008",
                                             "sourceTitle":  "Inciting a Riot",
@@ -3942,6 +4020,7 @@
                                         },
                                         {
                                             "id":  "unlawful-assembly",
+                                            "degreeCode":  "EF-PC-06-002-D",
                                             "label":  "Unlawful Assembly",
                                             "sourceCode":  "PC-6015",
                                             "sourceTitle":  "Unlawful Assembly",
@@ -3989,6 +4068,7 @@
                         "degrees":  [
                                         {
                                             "id":  "false-reporting",
+                                            "degreeCode":  "EF-PC-06-003-A",
                                             "label":  "False Reporting",
                                             "sourceCode":  "PC-6004",
                                             "sourceTitle":  "False Reporting",
@@ -4036,6 +4116,7 @@
                         "degrees":  [
                                         {
                                             "id":  "harassment",
+                                            "degreeCode":  "EF-PC-06-004-A",
                                             "label":  "Harassment",
                                             "sourceCode":  "PC-6005",
                                             "sourceTitle":  "Harassment",
@@ -4070,6 +4151,7 @@
                                         },
                                         {
                                             "id":  "stalking",
+                                            "degreeCode":  "EF-PC-06-004-B",
                                             "label":  "Stalking",
                                             "sourceCode":  "PC-6017",
                                             "sourceTitle":  "Stalking",
@@ -4118,6 +4200,7 @@
                         "degrees":  [
                                         {
                                             "id":  "misdemeanor-obstruction-of-justice",
+                                            "degreeCode":  "EF-PC-06-005-A",
                                             "label":  "Misdemeanor Obstruction of Justice",
                                             "sourceCode":  "PC-6006",
                                             "sourceTitle":  "Misdemeanor Obstruction of Justice",
@@ -4151,6 +4234,7 @@
                                         },
                                         {
                                             "id":  "felony-obstruction-of-justice",
+                                            "degreeCode":  "EF-PC-06-005-B",
                                             "label":  "Felony Obstruction of Justice",
                                             "sourceCode":  "PC-6007",
                                             "sourceTitle":  "Felony Obstruction of Justice",
@@ -4197,6 +4281,7 @@
                         "degrees":  [
                                         {
                                             "id":  "loitering-on-government-properties",
+                                            "degreeCode":  "EF-PC-06-006-A",
                                             "label":  "Loitering on Government Properties",
                                             "sourceCode":  "PC-6009",
                                             "sourceTitle":  "Loitering on Government Properties",
@@ -4239,6 +4324,7 @@
                         "degrees":  [
                                         {
                                             "id":  "vehicle-tampering",
+                                            "degreeCode":  "EF-PC-06-007-A",
                                             "label":  "Vehicle Tampering",
                                             "sourceCode":  "PC-6010",
                                             "sourceTitle":  "Vehicle Tampering",
@@ -4286,6 +4372,7 @@
                         "degrees":  [
                                         {
                                             "id":  "evidence-tampering",
+                                            "degreeCode":  "EF-PC-06-008-A",
                                             "label":  "Evidence Tampering",
                                             "sourceCode":  "PC-6011",
                                             "sourceTitle":  "Evidence Tampering",
@@ -4319,6 +4406,7 @@
                                         },
                                         {
                                             "id":  "witness-tampering",
+                                            "degreeCode":  "EF-PC-06-008-B",
                                             "label":  "Witness Tampering",
                                             "sourceCode":  "PC-6012",
                                             "sourceTitle":  "Witness Tampering",
@@ -4367,6 +4455,7 @@
                         "degrees":  [
                                         {
                                             "id":  "vigilantism",
+                                            "degreeCode":  "EF-PC-06-009-A",
                                             "label":  "Vigilantism",
                                             "sourceCode":  "PC-6014",
                                             "sourceTitle":  "Vigilantism",
@@ -4416,6 +4505,7 @@
                         "degrees":  [
                                         {
                                             "id":  "government-corruption",
+                                            "degreeCode":  "EF-PC-06-010-A",
                                             "label":  "Government Corruption",
                                             "sourceCode":  "PC-6016",
                                             "sourceTitle":  "Government Corruption",
@@ -4465,6 +4555,7 @@
                         "degrees":  [
                                         {
                                             "id":  "aiding-and-abetting",
+                                            "degreeCode":  "EF-PC-06-011-A",
                                             "label":  "Aiding and Abetting",
                                             "sourceCode":  "PC-6018",
                                             "sourceTitle":  "Aiding and Abetting",
@@ -4498,6 +4589,7 @@
                                         },
                                         {
                                             "id":  "harboring-a-fugitive",
+                                            "degreeCode":  "EF-PC-06-011-B",
                                             "label":  "Harboring a Fugitive",
                                             "sourceCode":  "PC-6019",
                                             "sourceTitle":  "Harboring a Fugitive",
@@ -4548,6 +4640,7 @@
                         "degrees":  [
                                         {
                                             "id":  "unauthorized-marijuana-cultivation",
+                                            "degreeCode":  "EF-PC-07-001-A",
                                             "label":  "Unauthorized Marijuana Cultivation",
                                             "sourceCode":  "PC-7001",
                                             "sourceTitle":  "Unauthorized Marijuana Cultivation",
@@ -4582,6 +4675,7 @@
                                         },
                                         {
                                             "id":  "commercial-marijuana-cultivation",
+                                            "degreeCode":  "EF-PC-07-001-B",
                                             "label":  "Commercial Marijuana Cultivation",
                                             "sourceCode":  "PC-7002",
                                             "sourceTitle":  "Commercial Marijuana Cultivation",
@@ -4614,6 +4708,7 @@
                                         },
                                         {
                                             "id":  "aggravated-marijuana-cultivation",
+                                            "degreeCode":  "EF-PC-07-001-C",
                                             "label":  "Aggravated Marijuana Cultivation",
                                             "sourceCode":  "PC-7005",
                                             "sourceTitle":  "Aggravated Marijuana Cultivation",
@@ -4648,6 +4743,7 @@
                                         },
                                         {
                                             "id":  "possession-of-marijuana",
+                                            "degreeCode":  "EF-PC-07-001-D",
                                             "label":  "Misdemeanor Possession of Marijuana",
                                             "sourceCode":  "PC-7003",
                                             "sourceTitle":  "Misdemeanor Possession of Marijuana",
@@ -4681,6 +4777,7 @@
                                         },
                                         {
                                             "id":  "possession-of-marijuana-with-intent-to-distribute",
+                                            "degreeCode":  "EF-PC-07-001-E",
                                             "label":  "Possession of Marijuana with Intent to Distribute",
                                             "sourceCode":  "PC-7004",
                                             "sourceTitle":  "Possession of Marijuana with Intent to Distribute",
@@ -4730,6 +4827,7 @@
                         "degrees":  [
                                         {
                                             "id":  "misdemeanor-possession-of-cocaine",
+                                            "degreeCode":  "EF-PC-07-002-A",
                                             "label":  "Misdemeanor Possession of Cocaine",
                                             "sourceCode":  "PC-7005",
                                             "sourceTitle":  "Misdemeanor Possession of Cocaine",
@@ -4763,6 +4861,7 @@
                                         },
                                         {
                                             "id":  "felony-possession-of-cocaine",
+                                            "degreeCode":  "EF-PC-07-002-B",
                                             "label":  "Felony Possession of Cocaine",
                                             "sourceCode":  "PC-7006",
                                             "sourceTitle":  "Felony Possession of Cocaine",
@@ -4796,6 +4895,7 @@
                                         },
                                         {
                                             "id":  "possession-of-cocaine-with-intent-to-distribute",
+                                            "degreeCode":  "EF-PC-07-002-C",
                                             "label":  "Possession of Cocaine with Intent to Distribute",
                                             "sourceCode":  "PC-7007",
                                             "sourceTitle":  "Possession of Cocaine with Intent to Distribute",
@@ -4845,6 +4945,7 @@
                         "degrees":  [
                                         {
                                             "id":  "misdemeanor-possession-of-amphetamines",
+                                            "degreeCode":  "EF-PC-07-003-A",
                                             "label":  "Misdemeanor Possession of Amphetamines",
                                             "sourceCode":  "PC-7008",
                                             "sourceTitle":  "Misdemeanor Possession of Amphetamines",
@@ -4878,6 +4979,7 @@
                                         },
                                         {
                                             "id":  "felony-possession-of-amphetamines",
+                                            "degreeCode":  "EF-PC-07-003-B",
                                             "label":  "Felony Possession of Amphetamines",
                                             "sourceCode":  "PC-7009",
                                             "sourceTitle":  "Felony Possession of Amphetamines",
@@ -4911,6 +5013,7 @@
                                         },
                                         {
                                             "id":  "possession-of-amphetamines-with-intent-to-distribute",
+                                            "degreeCode":  "EF-PC-07-003-C",
                                             "label":  "Possession of Amphetamines with Intent to Distribute",
                                             "sourceCode":  "PC-7010",
                                             "sourceTitle":  "Possession of Amphetamines with Intent to Distribute",
@@ -4960,6 +5063,7 @@
                         "degrees":  [
                                         {
                                             "id":  "misdemeanor-possession-of-opioids",
+                                            "degreeCode":  "EF-PC-07-004-A",
                                             "label":  "Misdemeanor Possession of Opioids",
                                             "sourceCode":  "PC-7011",
                                             "sourceTitle":  "Misdemeanor Possession of Opioids",
@@ -4993,6 +5097,7 @@
                                         },
                                         {
                                             "id":  "felony-possession-of-opioids",
+                                            "degreeCode":  "EF-PC-07-004-B",
                                             "label":  "Felony Possession of Opioids",
                                             "sourceCode":  "PC-7012",
                                             "sourceTitle":  "Felony Possession of Opioids",
@@ -5026,6 +5131,7 @@
                                         },
                                         {
                                             "id":  "possession-of-opioids-with-intent-to-distribute",
+                                            "degreeCode":  "EF-PC-07-004-C",
                                             "label":  "Possession of Opioids with Intent to Distribute",
                                             "sourceCode":  "PC-7013",
                                             "sourceTitle":  "Possession of Opioids with Intent to Distribute",
@@ -5075,6 +5181,7 @@
                         "degrees":  [
                                         {
                                             "id":  "misdemeanor-possession-of-ketamine",
+                                            "degreeCode":  "EF-PC-07-012-A",
                                             "label":  "Misdemeanor Possession of Ketamine",
                                             "sourceCode":  "PC-7023",
                                             "sourceTitle":  "Misdemeanor Possession of Ketamine",
@@ -5108,6 +5215,7 @@
                                         },
                                         {
                                             "id":  "felony-possession-of-ketamine",
+                                            "degreeCode":  "EF-PC-07-012-B",
                                             "label":  "Felony Possession of Ketamine",
                                             "sourceCode":  "PC-7024",
                                             "sourceTitle":  "Felony Possession of Ketamine",
@@ -5141,6 +5249,7 @@
                                         },
                                         {
                                             "id":  "possession-of-ketamine-with-intent-to-distribute",
+                                            "degreeCode":  "EF-PC-07-012-C",
                                             "label":  "Possession of Ketamine with Intent to Distribute",
                                             "sourceCode":  "PC-7025",
                                             "sourceTitle":  "Possession of Ketamine with Intent to Distribute",
@@ -5188,6 +5297,7 @@
                         "degrees":  [
                                         {
                                             "id":  "possession-of-drug-paraphernalia",
+                                            "degreeCode":  "EF-PC-07-005-A",
                                             "label":  "Possession of Drug Paraphernalia",
                                             "sourceCode":  "PC-7014",
                                             "sourceTitle":  "Possession of Drug Paraphernalia",
@@ -5233,6 +5343,7 @@
                         "degrees":  [
                                         {
                                             "id":  "possession-of-drug-manufacturing-materials",
+                                            "degreeCode":  "EF-PC-07-006-A",
                                             "label":  "Possession of Drug Manufacturing Materials",
                                             "sourceCode":  "PC-7015",
                                             "sourceTitle":  "Possession of Drug Manufacturing Materials",
@@ -5280,6 +5391,7 @@
                         "degrees":  [
                                         {
                                             "id":  "sale-of-a-controlled-substance",
+                                            "degreeCode":  "EF-PC-07-007-A",
                                             "label":  "Sale of a Controlled Substance",
                                             "sourceCode":  "PC-7016",
                                             "sourceTitle":  "Sale of a Controlled Substance",
@@ -5315,6 +5427,7 @@
                                         },
                                         {
                                             "id":  "drug-trafficking",
+                                            "degreeCode":  "EF-PC-07-007-B",
                                             "label":  "Drug Trafficking",
                                             "sourceCode":  "PC-7017",
                                             "sourceTitle":  "Drug Trafficking",
@@ -5364,6 +5477,7 @@
                         "degrees":  [
                                         {
                                             "id":  "driving-under-the-influence-of-narcotics",
+                                            "degreeCode":  "EF-PC-07-008-A",
                                             "label":  "Driving Under the Influence of Narcotics",
                                             "sourceCode":  "PC-7018",
                                             "sourceTitle":  "Driving Under the Influence of Narcotics",
@@ -5414,6 +5528,7 @@
                         "degrees":  [
                                         {
                                             "id":  "public-intoxication",
+                                            "degreeCode":  "EF-PC-07-009-A",
                                             "label":  "Public Intoxication",
                                             "sourceCode":  "PC-7019",
                                             "sourceTitle":  "Public Intoxication",
@@ -5457,6 +5572,7 @@
                         "degrees":  [
                                         {
                                             "id":  "public-indecency",
+                                            "degreeCode":  "EF-PC-07-010-A",
                                             "label":  "Public Indecency",
                                             "sourceCode":  "PC-7020",
                                             "sourceTitle":  "Public Indecency",
@@ -5500,6 +5616,7 @@
                         "degrees":  [
                                         {
                                             "id":  "unlawful-production-of-moonshine",
+                                            "degreeCode":  "EF-PC-07-011-A",
                                             "label":  "Unlawful Production of Moonshine",
                                             "sourceCode":  "PC-7021",
                                             "sourceTitle":  "Unlawful Production of Moonshine",
@@ -5534,6 +5651,7 @@
                                         },
                                         {
                                             "id":  "distribution-of-illegal-moonshine",
+                                            "degreeCode":  "EF-PC-07-011-B",
                                             "label":  "Distribution of Illegal Moonshine",
                                             "sourceCode":  "PC-7022",
                                             "sourceTitle":  "Distribution of Illegal Moonshine",
@@ -5586,6 +5704,7 @@
                         "degrees":  [
                                         {
                                             "id":  "unauthorized-medical-practice",
+                                            "degreeCode":  "EF-PC-07-013-A",
                                             "label":  "Unauthorized Medical Practice",
                                             "sourceCode":  "PC-7026",
                                             "sourceTitle":  "Unauthorized Medical Practice",
@@ -5621,6 +5740,7 @@
                                         },
                                         {
                                             "id":  "medical-scope-of-practice-violation",
+                                            "degreeCode":  "EF-PC-07-013-B",
                                             "label":  "Medical Scope-of-Practice Violation",
                                             "sourceCode":  "PC-7027",
                                             "sourceTitle":  "Medical Scope-of-Practice Violation",
@@ -5659,6 +5779,7 @@
                                         },
                                         {
                                             "id":  "aggravated-unauthorized-medical-practice",
+                                            "degreeCode":  "EF-PC-07-013-C",
                                             "label":  "Aggravated Unauthorized Medical Practice",
                                             "sourceCode":  "PC-7028",
                                             "sourceTitle":  "Aggravated Unauthorized Medical Practice",
@@ -5698,6 +5819,7 @@
                                         },
                                         {
                                             "id":  "medical-title-misuse",
+                                            "degreeCode":  "EF-PC-07-013-D",
                                             "label":  "Medical Title Misuse",
                                             "sourceCode":  "PC-7029",
                                             "sourceTitle":  "Medical Title Misuse",
@@ -5733,6 +5855,7 @@
                                         },
                                         {
                                             "id":  "medical-credential-fraud",
+                                            "degreeCode":  "EF-PC-07-013-E",
                                             "label":  "Medical Credential Fraud",
                                             "sourceCode":  "PC-7030",
                                             "sourceTitle":  "Medical Credential Fraud",
@@ -5770,6 +5893,7 @@
                                         },
                                         {
                                             "id":  "prescription-fraud",
+                                            "degreeCode":  "EF-PC-07-013-F",
                                             "label":  "Prescription Fraud",
                                             "sourceCode":  "PC-7031",
                                             "sourceTitle":  "Prescription Fraud",
@@ -5807,6 +5931,7 @@
                                         },
                                         {
                                             "id":  "medical-information-privacy-violation",
+                                            "degreeCode":  "EF-PC-07-013-G",
                                             "label":  "Medical Information Privacy Violation",
                                             "sourceCode":  "PC-7032",
                                             "sourceTitle":  "Medical Information Privacy Violation",
@@ -5860,6 +5985,7 @@
                         "degrees":  [
                                         {
                                             "id":  "criminal-possession-of-weapon-class-a",
+                                            "degreeCode":  "EF-PC-08-001-A",
                                             "label":  "Criminal Possession of Weapon Class A",
                                             "sourceCode":  "PC-8001",
                                             "sourceTitle":  "Criminal Possession of Weapon Class A",
@@ -5893,6 +6019,7 @@
                                         },
                                         {
                                             "id":  "criminal-possession-of-weapon-class-b",
+                                            "degreeCode":  "EF-PC-08-001-B",
                                             "label":  "Criminal Possession of Weapon Class B",
                                             "sourceCode":  "PC-8002",
                                             "sourceTitle":  "Criminal Possession of Weapon Class B",
@@ -5927,6 +6054,7 @@
                                         },
                                         {
                                             "id":  "criminal-possession-of-weapon-class-c",
+                                            "degreeCode":  "EF-PC-08-001-C",
                                             "label":  "Criminal Possession of Weapon Class C",
                                             "sourceCode":  "PC-8003",
                                             "sourceTitle":  "Criminal Possession of Weapon Class C",
@@ -5961,6 +6089,7 @@
                                         },
                                         {
                                             "id":  "criminal-possession-of-weapon-class-d",
+                                            "degreeCode":  "EF-PC-08-001-D",
                                             "label":  "Criminal Possession of Weapon Class D",
                                             "sourceCode":  "PC-8004",
                                             "sourceTitle":  "Criminal Possession of Weapon Class D",
@@ -6011,6 +6140,7 @@
                         "degrees":  [
                                         {
                                             "id":  "criminal-sale-of-weapon-class-a",
+                                            "degreeCode":  "EF-PC-08-002-A",
                                             "label":  "Criminal Sale of Weapon Class A",
                                             "sourceCode":  "PC-8005",
                                             "sourceTitle":  "Criminal Sale of Weapon Class A",
@@ -6045,6 +6175,7 @@
                                         },
                                         {
                                             "id":  "criminal-sale-of-weapon-class-b",
+                                            "degreeCode":  "EF-PC-08-002-B",
                                             "label":  "Criminal Sale of Weapon Class B",
                                             "sourceCode":  "PC-8006",
                                             "sourceTitle":  "Criminal Sale of Weapon Class B",
@@ -6080,6 +6211,7 @@
                                         },
                                         {
                                             "id":  "criminal-sale-of-weapon-class-c",
+                                            "degreeCode":  "EF-PC-08-002-C",
                                             "label":  "Criminal Sale of Weapon Class C",
                                             "sourceCode":  "PC-8007",
                                             "sourceTitle":  "Criminal Sale of Weapon Class C",
@@ -6115,6 +6247,7 @@
                                         },
                                         {
                                             "id":  "criminal-sale-of-weapon-class-d",
+                                            "degreeCode":  "EF-PC-08-002-D",
                                             "label":  "Criminal Sale of Weapon Class D",
                                             "sourceCode":  "PC-8008",
                                             "sourceTitle":  "Criminal Sale of Weapon Class D",
@@ -6164,6 +6297,7 @@
                         "degrees":  [
                                         {
                                             "id":  "criminal-use-of-weapon",
+                                            "degreeCode":  "EF-PC-08-003-A",
                                             "label":  "Criminal Use of Weapon",
                                             "sourceCode":  "PC-8009",
                                             "sourceTitle":  "Criminal Use of Weapon",
@@ -6201,6 +6335,7 @@
                                         },
                                         {
                                             "id":  "criminal-use-of-explosives",
+                                            "degreeCode":  "EF-PC-08-003-B",
                                             "label":  "Criminal Use of Explosives",
                                             "sourceCode":  "PC-8019",
                                             "sourceTitle":  "Criminal Use of Explosives",
@@ -6253,6 +6388,7 @@
                         "degrees":  [
                                         {
                                             "id":  "possession-of-illegal-firearm-modifications",
+                                            "degreeCode":  "EF-PC-08-004-A",
                                             "label":  "Possession of Illegal Firearm Modifications",
                                             "sourceCode":  "PC-8010",
                                             "sourceTitle":  "Possession of Illegal Firearm Modifications",
@@ -6286,6 +6422,7 @@
                                         },
                                         {
                                             "id":  "possession-of-firearms-without-serial-numbers",
+                                            "degreeCode":  "EF-PC-08-004-B",
                                             "label":  "Possession of Firearms Without Serial Numbers",
                                             "sourceCode":  "PC-8013",
                                             "sourceTitle":  "Possession of Firearms Without Serial Numbers",
@@ -6332,6 +6469,7 @@
                         "degrees":  [
                                         {
                                             "id":  "weapon-trafficking",
+                                            "degreeCode":  "EF-PC-08-005-A",
                                             "label":  "Weapon Trafficking",
                                             "sourceCode":  "PC-8011",
                                             "sourceTitle":  "Weapon Trafficking",
@@ -6380,6 +6518,7 @@
                         "degrees":  [
                                         {
                                             "id":  "illegal-manufacturing-of-firearms",
+                                            "degreeCode":  "EF-PC-08-006-A",
                                             "label":  "Illegal Manufacturing of Firearms",
                                             "sourceCode":  "PC-8012",
                                             "sourceTitle":  "Illegal Manufacturing of Firearms",
@@ -6429,6 +6568,7 @@
                         "degrees":  [
                                         {
                                             "id":  "brandishing-a-weapon",
+                                            "degreeCode":  "EF-PC-08-007-A",
                                             "label":  "Brandishing a Weapon",
                                             "sourceCode":  "PC-8014",
                                             "sourceTitle":  "Brandishing a Weapon",
@@ -6464,6 +6604,7 @@
                                         },
                                         {
                                             "id":  "brandishing-a-firearm",
+                                            "degreeCode":  "EF-PC-08-007-B",
                                             "label":  "Brandishing a Firearm",
                                             "sourceCode":  "PC-8015",
                                             "sourceTitle":  "Brandishing a Firearm",
@@ -6512,6 +6653,7 @@
                         "degrees":  [
                                         {
                                             "id":  "insurrection",
+                                            "degreeCode":  "EF-PC-08-008-A",
                                             "label":  "Insurrection",
                                             "sourceCode":  "PC-8016",
                                             "sourceTitle":  "Insurrection",
@@ -6559,6 +6701,7 @@
                         "degrees":  [
                                         {
                                             "id":  "flying-into-restricted-airspace",
+                                            "degreeCode":  "EF-PC-08-009-A",
                                             "label":  "Flying into Restricted Airspace",
                                             "sourceCode":  "PC-8017",
                                             "sourceTitle":  "Flying into Restricted Airspace",
@@ -6605,6 +6748,7 @@
                         "degrees":  [
                                         {
                                             "id":  "jaywalking",
+                                            "degreeCode":  "EF-PC-08-010-A",
                                             "label":  "Jaywalking",
                                             "sourceCode":  "PC-8018",
                                             "sourceTitle":  "Jaywalking",
@@ -6648,6 +6792,7 @@
                         "degrees":  [
                                         {
                                             "id":  "improper-storage-of-firearm",
+                                            "degreeCode":  "EF-PC-08-011-A",
                                             "label":  "Improper Storage of Firearm",
                                             "sourceCode":  "PC-8020",
                                             "sourceTitle":  "Improper Storage of Firearm",
@@ -6681,6 +6826,7 @@
                                         },
                                         {
                                             "id":  "improper-handling-of-firearm",
+                                            "degreeCode":  "EF-PC-08-011-B",
                                             "label":  "Improper Handling of Firearm",
                                             "sourceCode":  "PC-8021",
                                             "sourceTitle":  "Improper Handling of Firearm",
@@ -6727,6 +6873,7 @@
                         "degrees":  [
                                         {
                                             "id":  "criminal-possession-of-ammunition",
+                                            "degreeCode":  "EF-PC-08-012-A",
                                             "label":  "Criminal Possession of Ammunition",
                                             "sourceCode":  "PC-8022",
                                             "sourceTitle":  "Criminal Possession of Ammunition",
@@ -6773,6 +6920,7 @@
                         "degrees":  [
                                         {
                                             "id":  "driving-while-intoxicated",
+                                            "degreeCode":  "EF-PC-09-001-A",
                                             "label":  "Driving While Intoxicated",
                                             "sourceCode":  "PC-9001",
                                             "sourceTitle":  "Driving While Intoxicated",
@@ -6823,6 +6971,7 @@
                         "degrees":  [
                                         {
                                             "id":  "evading",
+                                            "degreeCode":  "EF-PC-09-002-A",
                                             "label":  "Evading",
                                             "sourceCode":  "PC-9002",
                                             "sourceTitle":  "Evading",
@@ -6858,6 +7007,7 @@
                                         },
                                         {
                                             "id":  "reckless-evading",
+                                            "degreeCode":  "EF-PC-09-002-B",
                                             "label":  "Reckless Evading",
                                             "sourceCode":  "PC-9003",
                                             "sourceTitle":  "Reckless Evading",
@@ -6908,6 +7058,7 @@
                         "degrees":  [
                                         {
                                             "id":  "failure-to-yield-to-emergency-vehicle",
+                                            "degreeCode":  "EF-PC-09-003-A",
                                             "label":  "Failure to Yield to Emergency Vehicle",
                                             "sourceCode":  "PC-9004",
                                             "sourceTitle":  "Failure to Yield to Emergency Vehicle",
@@ -6940,6 +7091,7 @@
                                         },
                                         {
                                             "id":  "failure-to-obey-traffic-control-device",
+                                            "degreeCode":  "EF-PC-09-003-B",
                                             "label":  "Failure to Obey Traffic Control Device",
                                             "sourceCode":  "PC-9005",
                                             "sourceTitle":  "Failure to Obey Traffic Control Device",
@@ -6985,6 +7137,7 @@
                         "degrees":  [
                                         {
                                             "id":  "unroadworthy-vehicle",
+                                            "degreeCode":  "EF-PC-09-004-A",
                                             "label":  "Unroadworthy Vehicle",
                                             "sourceCode":  "PC-9006",
                                             "sourceTitle":  "Unroadworthy Vehicle",
@@ -7014,6 +7167,7 @@
                                         },
                                         {
                                             "id":  "driving-without-headlights-or-signals",
+                                            "degreeCode":  "EF-PC-09-004-B",
                                             "label":  "Driving without Headlights or Signals",
                                             "sourceCode":  "PC-9021",
                                             "sourceTitle":  "Driving without Headlights or Signals",
@@ -7043,6 +7197,7 @@
                                         },
                                         {
                                             "id":  "illegal-vehicle-modifications",
+                                            "degreeCode":  "EF-PC-09-004-C",
                                             "label":  "Illegal Vehicle Modifications",
                                             "sourceCode":  "PC-9024",
                                             "sourceTitle":  "Illegal Vehicle Modifications",
@@ -7072,6 +7227,7 @@
                                         },
                                         {
                                             "id":  "commercial-vehicle-violation",
+                                            "degreeCode":  "EF-PC-09-004-D",
                                             "label":  "Commercial Vehicle Violation",
                                             "sourceCode":  "PC-9026",
                                             "sourceTitle":  "Commercial Vehicle Violation",
@@ -7117,6 +7273,7 @@
                         "degrees":  [
                                         {
                                             "id":  "negligent-driving",
+                                            "degreeCode":  "EF-PC-09-005-A",
                                             "label":  "Negligent Driving",
                                             "sourceCode":  "PC-9007",
                                             "sourceTitle":  "Negligent Driving",
@@ -7150,6 +7307,7 @@
                                         },
                                         {
                                             "id":  "reckless-driving",
+                                            "degreeCode":  "EF-PC-09-005-B",
                                             "label":  "Reckless Driving",
                                             "sourceCode":  "PC-9008",
                                             "sourceTitle":  "Reckless Driving",
@@ -7186,6 +7344,7 @@
                                         },
                                         {
                                             "id":  "motor-vehicle-contest",
+                                            "degreeCode":  "EF-PC-09-005-C",
                                             "label":  "Motor Vehicle Contest",
                                             "sourceCode":  "PC-9022",
                                             "sourceTitle":  "Motor Vehicle Contest",
@@ -7221,6 +7380,7 @@
                                         },
                                         {
                                             "id":  "public-disturbance-by-motor-vehicle",
+                                            "degreeCode":  "EF-PC-09-005-D",
                                             "label":  "Public Disturbance by Motor Vehicle",
                                             "sourceCode":  "PC-9025",
                                             "sourceTitle":  "Public Disturbance by Motor Vehicle",
@@ -7267,6 +7427,7 @@
                         "degrees":  [
                                         {
                                             "id":  "speeding-1-10",
+                                            "degreeCode":  "EF-PC-09-006-A",
                                             "label":  "Speeding 1-10",
                                             "sourceCode":  "PC-9009",
                                             "sourceTitle":  "Speeding 1-10",
@@ -7296,6 +7457,7 @@
                                         },
                                         {
                                             "id":  "speeding-11-25",
+                                            "degreeCode":  "EF-PC-09-006-B",
                                             "label":  "Speeding 11-25",
                                             "sourceCode":  "PC-9010",
                                             "sourceTitle":  "Speeding 11-25",
@@ -7325,6 +7487,7 @@
                                         },
                                         {
                                             "id":  "speeding-26-39",
+                                            "degreeCode":  "EF-PC-09-006-C",
                                             "label":  "Speeding 26-39",
                                             "sourceCode":  "PC-9011",
                                             "sourceTitle":  "Speeding 26-39",
@@ -7354,6 +7517,7 @@
                                         },
                                         {
                                             "id":  "reckless-speeding-40",
+                                            "degreeCode":  "EF-PC-09-006-D",
                                             "label":  "Reckless Speeding (40+)",
                                             "sourceCode":  "PC-9012",
                                             "sourceTitle":  "Reckless Speeding (40+)",
@@ -7404,6 +7568,7 @@
                         "degrees":  [
                                         {
                                             "id":  "unlicensed-operation-of-vehicle",
+                                            "degreeCode":  "EF-PC-09-007-A",
                                             "label":  "Unlicensed Operation of Vehicle",
                                             "sourceCode":  "PC-9013",
                                             "sourceTitle":  "Unlicensed Operation of Vehicle",
@@ -7433,6 +7598,7 @@
                                         },
                                         {
                                             "id":  "failing-to-present-a-driver-s-license",
+                                            "degreeCode":  "EF-PC-09-007-B",
                                             "label":  "Failing to Present a Driver's License",
                                             "sourceCode":  "PC-9014",
                                             "sourceTitle":  "Failing to Present a Driver's License",
@@ -7462,6 +7628,7 @@
                                         },
                                         {
                                             "id":  "piloting-without-proper-licensing",
+                                            "degreeCode":  "EF-PC-09-007-C",
                                             "label":  "Piloting without Proper Licensing",
                                             "sourceCode":  "PC-9023",
                                             "sourceTitle":  "Piloting without Proper Licensing",
@@ -7513,6 +7680,7 @@
                         "degrees":  [
                                         {
                                             "id":  "illegal-u-turn",
+                                            "degreeCode":  "EF-PC-09-008-A",
                                             "label":  "Illegal U-Turn",
                                             "sourceCode":  "PC-9015",
                                             "sourceTitle":  "Illegal U-Turn",
@@ -7542,6 +7710,7 @@
                                         },
                                         {
                                             "id":  "illegal-passing",
+                                            "degreeCode":  "EF-PC-09-008-B",
                                             "label":  "Illegal Passing",
                                             "sourceCode":  "PC-9016",
                                             "sourceTitle":  "Illegal Passing",
@@ -7571,6 +7740,7 @@
                                         },
                                         {
                                             "id":  "failure-to-maintain-lane",
+                                            "degreeCode":  "EF-PC-09-008-C",
                                             "label":  "Failure to Maintain Lane",
                                             "sourceCode":  "PC-9017",
                                             "sourceTitle":  "Failure to Maintain Lane",
@@ -7600,6 +7770,7 @@
                                         },
                                         {
                                             "id":  "illegal-turn",
+                                            "degreeCode":  "EF-PC-09-008-D",
                                             "label":  "Illegal Turn",
                                             "sourceCode":  "PC-9018",
                                             "sourceTitle":  "Illegal Turn",
@@ -7629,6 +7800,7 @@
                                         },
                                         {
                                             "id":  "unauthorized-parking",
+                                            "degreeCode":  "EF-PC-09-008-E",
                                             "label":  "Unauthorized Parking",
                                             "sourceCode":  "PC-9019",
                                             "sourceTitle":  "Unauthorized Parking",
@@ -7671,6 +7843,7 @@
                         "degrees":  [
                                         {
                                             "id":  "hit-and-run",
+                                            "degreeCode":  "EF-PC-09-009-A",
                                             "label":  "Hit and Run",
                                             "sourceCode":  "PC-9020",
                                             "sourceTitle":  "Hit and Run",
@@ -7726,6 +7899,7 @@
                         "degrees":  [
                                         {
                                             "id":  "hunting-in-restricted-areas",
+                                            "degreeCode":  "EF-PC-10-001-A",
                                             "label":  "Hunting in Restricted Areas",
                                             "sourceCode":  "PC-10001",
                                             "sourceTitle":  "Hunting in Restricted Areas",
@@ -7755,6 +7929,7 @@
                                         },
                                         {
                                             "id":  "unlicensed-hunting",
+                                            "degreeCode":  "EF-PC-10-001-B",
                                             "label":  "Unlicensed Hunting",
                                             "sourceCode":  "PC-10002",
                                             "sourceTitle":  "Unlicensed Hunting",
@@ -7784,6 +7959,7 @@
                                         },
                                         {
                                             "id":  "hunting-with-a-non-hunting-weapon",
+                                            "degreeCode":  "EF-PC-10-001-C",
                                             "label":  "Hunting with a Non-Hunting Weapon",
                                             "sourceCode":  "PC-10004",
                                             "sourceTitle":  "Hunting with a Non-Hunting Weapon",
@@ -7816,6 +7992,7 @@
                                         },
                                         {
                                             "id":  "hunting-outside-of-hunting-hours",
+                                            "degreeCode":  "EF-PC-10-001-D",
                                             "label":  "Hunting outside of Hunting Hours",
                                             "sourceCode":  "PC-10005",
                                             "sourceTitle":  "Hunting outside of Hunting Hours",
@@ -7845,6 +8022,7 @@
                                         },
                                         {
                                             "id":  "overhunting",
+                                            "degreeCode":  "EF-PC-10-001-E",
                                             "label":  "Overhunting",
                                             "sourceCode":  "PC-10006",
                                             "sourceTitle":  "Overhunting",
@@ -7878,6 +8056,7 @@
                                         },
                                         {
                                             "id":  "animal-poaching",
+                                            "degreeCode":  "EF-PC-10-001-F",
                                             "label":  "Animal Poaching",
                                             "sourceCode":  "PC-10007",
                                             "sourceTitle":  "Animal Poaching",
@@ -7925,6 +8104,7 @@
                         "degrees":  [
                                         {
                                             "id":  "animal-cruelty",
+                                            "degreeCode":  "EF-PC-10-002-A",
                                             "label":  "Animal Cruelty",
                                             "sourceCode":  "PC-10003",
                                             "sourceTitle":  "Animal Cruelty",
@@ -7975,6 +8155,7 @@
                         "degrees":  [
                                         {
                                             "id":  "fishing-in-an-unauthorized-zone",
+                                            "degreeCode":  "EF-PC-10-003-A",
                                             "label":  "Fishing in an Unauthorized Zone",
                                             "sourceCode":  "PC-10008",
                                             "sourceTitle":  "Fishing in an Unauthorized Zone",
@@ -8008,6 +8189,7 @@
                                         },
                                         {
                                             "id":  "illegal-fishing",
+                                            "degreeCode":  "EF-PC-10-003-B",
                                             "label":  "Illegal Fishing",
                                             "sourceCode":  "PC-10009",
                                             "sourceTitle":  "Illegal Fishing",
@@ -8042,6 +8224,7 @@
                                         },
                                         {
                                             "id":  "overfishing",
+                                            "degreeCode":  "EF-PC-10-003-C",
                                             "label":  "Overfishing",
                                             "sourceCode":  "PC-10010",
                                             "sourceTitle":  "Overfishing",
@@ -8088,6 +8271,7 @@
                         "degrees":  [
                                         {
                                             "id":  "murder-of-a-police-working-dog",
+                                            "degreeCode":  "EF-PC-10-004-A",
                                             "label":  "Murder of a Police Working Dog",
                                             "sourceCode":  "PC-10012",
                                             "sourceTitle":  "Murder of a Police Working Dog",
