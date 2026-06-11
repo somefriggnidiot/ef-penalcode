@@ -7488,7 +7488,7 @@
                     {
                         "id":  "police-working-dog-murder",
                         "code":  "EF-PC-10-004",
-                        "title":  "Police Working Dog Murder",
+                        "title":  "Killing of a Police Working Dog",
                         "categoryId":  "offenses-involving-the-well-being-of-wildlife",
                         "description":  "Intentional killing, attempted killing, or accessory conduct involving a police working dog acting in the line of duty.",
                         "migrationNotes":  "Attempt/accessory variants become liability options.",
@@ -7496,8 +7496,8 @@
                                         {
                                             "id":  "murder-of-a-police-working-dog",
                                             "degreeCode":  "EF-PC-10-004-A",
-                                            "label":  "Murder of a Police Working Dog",
-                                            "description":  "A person commits Murder of a Police Working Dog when they willfully, deliberately, and with premeditation kill a police working dog while the dog is deployed, assigned, or acting in the execution of its duties.",
+                                            "label":  "Killing of a Police Working Dog",
+                                            "description":  "A person commits Killing of a Police Working Dog when they willfully, deliberately, and with premeditation kill a police working dog while the dog is deployed, assigned, or acting in the execution of its duties.",
                                             "classification":  "felony",
                                             "baseFine":  4000,
                                             "baseTime":  35,
@@ -7533,7 +7533,7 @@
                                                                 "weapon-used"
                                                             ],
                                             "legalPrinciples":  {
-                                                                    "overview":  "Murder of a police working dog focuses on intentional and premeditated killing of a law-enforcement working dog in the line of duty.",
+                                                                    "overview":  "Killing of a police working dog focuses on intentional and premeditated killing of a law-enforcement working dog in the line of duty.",
                                                                     "principles":  [
                                                                                        "The dog should be a police working dog that is deployed, assigned, training, assisting officers, or otherwise acting under law-enforcement control.",
                                                                                        "The principal offense requires willful, deliberate, and premeditated killing; attempted and accessory conduct should use the listed liability options when appropriate.",
