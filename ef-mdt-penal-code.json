@@ -7292,7 +7292,6 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
-                                                                "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -7324,7 +7323,6 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
-                                                                "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
@@ -7411,7 +7409,6 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
-                                                                "organized-activity",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -7443,7 +7440,6 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
-                                                                "organized-activity",
                                                                 "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
@@ -7475,7 +7471,6 @@
                                                                      }
                                                                  ],
                                             "modifierIds":  [
-                                                                "organized-activity",
                                                                 "high-value-loss",
                                                                 "citation-discretion"
                                                             ],
