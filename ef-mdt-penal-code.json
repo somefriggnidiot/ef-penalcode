@@ -2750,7 +2750,6 @@
                                             "modifierIds":  [
                                                                 "cooperation",
                                                                 "organized-activity",
-                                                                "high-value-loss",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -3053,7 +3052,6 @@
                                                                 "organized-activity",
                                                                 "weapon-used",
                                                                 "firearm-discharged",
-                                                                "multiple-victims",
                                                                 "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "on-release",
@@ -3102,7 +3100,6 @@
                                             "modifierIds":  [
                                                                 "cooperation",
                                                                 "organized-activity",
-                                                                "multiple-victims",
                                                                 "prior-conviction",
                                                                 "on-release",
                                                                 "minimal-participation",
@@ -3412,7 +3409,6 @@
                                                                      }
                                                                  ],
                                             "modifierIds":  [
-                                                                "multiple-victims",
                                                                 "citation-discretion"
                                                             ],
                                             "legalPrinciples":  {
@@ -3452,8 +3448,6 @@
                                                                  ],
                                             "modifierIds":  [
                                                                 "cooperation",
-                                                                "minor-injury",
-                                                                "medical-aid-rendered",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
