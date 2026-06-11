@@ -3662,8 +3662,8 @@
                                             "modifierIds":  [
                                                                 "cooperation",
                                                                 "organized-activity",
-                                                                "multiple-victims",
                                                                 "prior-conviction",
+                                                                "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -3695,8 +3695,8 @@
                                             "modifierIds":  [
                                                                 "cooperation",
                                                                 "organized-activity",
-                                                                "multiple-victims",
                                                                 "prior-conviction",
+                                                                "minimal-participation",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
                                                             ],
@@ -3780,7 +3780,6 @@
                                             "modifierIds":  [
                                                                 "public-servant-victim",
                                                                 "cooperation",
-                                                                "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
@@ -3813,7 +3812,6 @@
                                             "modifierIds":  [
                                                                 "public-servant-victim",
                                                                 "cooperation",
-                                                                "multiple-victims",
                                                                 "prior-conviction",
                                                                 "voluntary-surrender",
                                                                 "first-offense"
